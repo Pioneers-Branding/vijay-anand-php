@@ -394,7 +394,7 @@
     $services = [
       [
         'id' => "pancreatic-cancer",
-        'link' => "/conditions/pancreatic-cancer-in-india",
+        'link' => "pancreatic-cancer.php",
         'icon' => 'activity',
         'title' => "Pancreatic Cancer",
         'description' => "Personalized treatments with expert team and unmatched experience for advanced pancreatic cancer care",
@@ -402,17 +402,17 @@
         'features' => ["Whipple Procedure", "Chemotherapy Protocols", "Precision Radiation", "Palliative Care"]
       ],
       [
-        'id' => "adrenal-cancer",
-        'link' => "/adrenal-cancer-treatment-in-india",
+        'id' => "kidney-cancer",
+        'link' => "kidney-cancer.php",
         'icon' => 'shield',
-        'title' => "Adrenal Cancer",
-        'description' => "Expert diagnosis and personalized treatment using latest medical advances for adrenal tumors",
+        'title' => "Kidney Cancer",
+        'description' => "Expert diagnosis and personalized treatment using latest medical advances for kidney cancer",
         'image' => "assets/services/Adrenal-Cancer.jpg",
-        'features' => ["Advanced Imaging", "Surgical Treatment", "Targeted Therapies", "Hormone Management"]
+        'features' => ["Advanced Imaging", "Surgical Treatment", "Targeted Therapies", "Immunotherapy"]
       ],
       [
         'id' => "proton-therapy",
-        'link' => "/treatment/proton-therapy-in-india",
+        'link' => "proton-therapy.php",
         'icon' => 'zap',
         'title' => "Proton Therapy",
         'description' => "Effective targeted cancer treatment with minimized side effects, especially for tumors near vital organs",
@@ -421,7 +421,7 @@
       ],
       [
         'id' => "radiation-oncology",
-        'link' => "/specialty/radiation-oncology-in-india",
+        'link' => "radiation-oncology.php",
         'icon' => 'target',
         'title' => "Radiation Oncology",
         'description' => "Precise, technologically advanced cancer treatment with expert clinical support in Hyderabad",
@@ -430,7 +430,7 @@
       ],
       [
         'id' => "throat-cancer",
-        'link' => "/conditions/head-and-neck-cancer-in-india",
+        'link' => "head-neck-oncology.php",
         'icon' => 'brain', // Assuming 'brain' maps to something visually approximate or use a custom one
         'title' => "Throat Cancer",
         'description' => "Expert diagnosis, advanced surgery and radiation, plus holistic support for optimal outcomes",
@@ -439,7 +439,7 @@
       ],
       [
         'id' => "eye-cancer",
-        'link' => "/conditions/eye-cancer-in-india",
+        'link' => "eye-cancer.php",
         'icon' => 'eye',
         'title' => "Eye Cancer",
         'description' => "Comprehensive diagnosis, precise surgical and medical care, and holistic support for eye cancer patients",
