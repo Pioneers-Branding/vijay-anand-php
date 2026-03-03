@@ -112,7 +112,7 @@
         <div class="relative w-full h-[300px] md:h-[500px] lg:h-[600px] group">
             <!-- Slide 1 -->
             <div class="banner-slide absolute inset-0 w-full h-full transition-opacity duration-500 opacity-100 z-10" data-index="0">
-                <img src="assets/banners/padma-shree-banner.jpeg" alt="Padma Shree Banner" class="w-full h-full object-contain">
+                <img src="assets/banners/tanmay-dr-vijay-anan-web-banner.webp" alt="Dr. Vijay Anand Banner" class="w-full h-full object-cover object-center">
             </div>
             <!-- Slide 2 -->
             <div class="banner-slide absolute inset-0 w-full h-full transition-opacity duration-500 opacity-0 z-0" data-index="1">
