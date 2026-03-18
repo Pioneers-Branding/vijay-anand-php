@@ -56,7 +56,7 @@ $textTestimonials = [
                 <div class="text-center lg:text-left">
                     <div class="relative inline-block mb-6">
                         <div class="w-32 h-32 rounded-full bg-gray-200 mx-auto lg:mx-0 shadow-lg flex items-center justify-center overflow-hidden">
-                            <img src="https://www.google.com/images/branding/googleg/1x/googleg_standard_color_128dp.webp" alt="Google Reviews" class="w-16 h-16 object-contain">
+                            <img src="https://www.google.com/images/branding/googleg/1x/googleg_standard_color_128dp.png" alt="Google Reviews" class="w-16 h-16 object-contain">
                         </div>
                         <div class="absolute -bottom-2 -right-2 bg-green-500 w-8 h-8 rounded-full flex items-center justify-center">
                             <i data-feather="heart" class="w-4 h-4 text-white"></i>

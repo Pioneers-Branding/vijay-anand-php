@@ -3,97 +3,97 @@ $youtubeTestimonials = array (
   0 => 
   array (
     'id' => 'UbJsIKeP1ps',
-    'thumbnail' => 'https://img.youtube.com/vi/UbJsIKeP1ps/hqdefault.webp',
+    'thumbnail' => 'https://img.youtube.com/vi/UbJsIKeP1ps/hqdefault.jpg',
     'title' => '10 ఏళ్లుగా క్యాన్సర్ లేకుండా జీవితం | Breast Cancer Survivor Story | Dr. Vijay Anand Reddy',
   ),
   1 => 
   array (
     'id' => 'ugvDtjZrXxE',
-    'thumbnail' => 'https://img.youtube.com/vi/ugvDtjZrXxE/hqdefault.webp',
+    'thumbnail' => 'https://img.youtube.com/vi/ugvDtjZrXxE/hqdefault.jpg',
     'title' => 'Talk by a cancer survivor | Happy Patient | Best Cancer/ Radiation oncology doctor in india',
   ),
   2 => 
   array (
     'id' => 'hefT59hk4Tk',
-    'thumbnail' => 'https://img.youtube.com/vi/hefT59hk4Tk/hqdefault.webp',
+    'thumbnail' => 'https://img.youtube.com/vi/hefT59hk4Tk/hqdefault.jpg',
     'title' => 'What do my patients think about my treatment?',
   ),
   3 => 
   array (
     'id' => '_fQ1-kAPh64',
-    'thumbnail' => 'https://img.youtube.com/vi/_fQ1-kAPh64/hqdefault.webp',
+    'thumbnail' => 'https://img.youtube.com/vi/_fQ1-kAPh64/hqdefault.jpg',
     'title' => 'Stage 3 Breast Cancer',
   ),
   4 => 
   array (
     'id' => 'MaWOvdr6RDw',
-    'thumbnail' => 'https://img.youtube.com/vi/MaWOvdr6RDw/hqdefault.webp',
+    'thumbnail' => 'https://img.youtube.com/vi/MaWOvdr6RDw/hqdefault.jpg',
     'title' => 'Cervical Cancer Treatment',
   ),
   5 => 
   array (
     'id' => '532AAKNrSb4',
-    'thumbnail' => 'https://img.youtube.com/vi/532AAKNrSb4/hqdefault.webp',
+    'thumbnail' => 'https://img.youtube.com/vi/532AAKNrSb4/hqdefault.jpg',
     'title' => 'Vocal Cord Radiation Treatment',
   ),
   6 => 
   array (
     'id' => 'C_qQ8O6LnS0',
-    'thumbnail' => 'https://img.youtube.com/vi/C_qQ8O6LnS0/hqdefault.webp',
+    'thumbnail' => 'https://img.youtube.com/vi/C_qQ8O6LnS0/hqdefault.jpg',
     'title' => 'I am a survivor',
   ),
   7 => 
   array (
     'id' => 'EpnMFGogu4g',
-    'thumbnail' => 'https://img.youtube.com/vi/EpnMFGogu4g/hqdefault.webp',
+    'thumbnail' => 'https://img.youtube.com/vi/EpnMFGogu4g/hqdefault.jpg',
     'title' => 'Mr Naresh Chand Goel recalls his experience with Breast Cancer & Esophagus Cancer.',
   ),
   8 => 
   array (
     'id' => '_O3k6TzS1NE',
-    'thumbnail' => 'https://img.youtube.com/vi/_O3k6TzS1NE/hqdefault.webp',
+    'thumbnail' => 'https://img.youtube.com/vi/_O3k6TzS1NE/hqdefault.jpg',
     'title' => 'Mr Gopal Rao talks about his experience with Oral Cancer.',
   ),
   9 => 
   array (
     'id' => 'Fctiw6Lqhd0',
-    'thumbnail' => 'https://img.youtube.com/vi/Fctiw6Lqhd0/hqdefault.webp',
+    'thumbnail' => 'https://img.youtube.com/vi/Fctiw6Lqhd0/hqdefault.jpg',
     'title' => 'Sunitha Kumari shares her experience with cancer.',
   ),
   10 => 
   array (
     'id' => '8DqwIx_2sek',
-    'thumbnail' => 'https://img.youtube.com/vi/8DqwIx_2sek/hqdefault.webp',
+    'thumbnail' => 'https://img.youtube.com/vi/8DqwIx_2sek/hqdefault.jpg',
     'title' => 'Ms. Sravanthy is full of praise for Dr. Reddy\'s treatment.',
   ),
   11 => 
   array (
     'id' => 'hvNsBe1vxUM',
-    'thumbnail' => 'https://img.youtube.com/vi/hvNsBe1vxUM/hqdefault.webp',
+    'thumbnail' => 'https://img.youtube.com/vi/hvNsBe1vxUM/hqdefault.jpg',
     'title' => 'Ms. Bramara speaks about her diagnosis of Breast Cancer.',
   ),
   12 => 
   array (
     'id' => 'WBs7btOnJt0',
-    'thumbnail' => 'https://img.youtube.com/vi/WBs7btOnJt0/hqdefault.webp',
+    'thumbnail' => 'https://img.youtube.com/vi/WBs7btOnJt0/hqdefault.jpg',
     'title' => 'A patient\'s brother talks about her cancer experience.',
   ),
   13 => 
   array (
     'id' => 'pbILSeAS32w',
-    'thumbnail' => 'https://img.youtube.com/vi/pbILSeAS32w/hqdefault.webp',
+    'thumbnail' => 'https://img.youtube.com/vi/pbILSeAS32w/hqdefault.jpg',
     'title' => 'B. C Jain, 64 years, Tongue Cancer',
   ),
   14 => 
   array (
     'id' => '0FGKF2_dWtY',
-    'thumbnail' => 'https://img.youtube.com/vi/0FGKF2_dWtY/hqdefault.webp',
+    'thumbnail' => 'https://img.youtube.com/vi/0FGKF2_dWtY/hqdefault.jpg',
     'title' => 'J. Nageswara Rao, 70 years, Ca Esophagus',
   ),
   15 => 
   array (
     'id' => 'dQBfT-0xEKU',
-    'thumbnail' => 'https://img.youtube.com/vi/dQBfT-0xEKU/hqdefault.webp',
+    'thumbnail' => 'https://img.youtube.com/vi/dQBfT-0xEKU/hqdefault.jpg',
     'title' => 'Keshav Rao P. Patve, Oral Cancer',
   ),
 );

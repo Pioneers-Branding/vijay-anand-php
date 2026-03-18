@@ -91,7 +91,7 @@ $VIDEOS_PER_PAGE = 3;
             <h2 class="text-3xl font-bold text-medical-dark mb-10 text-center">Patient Gallery</h2>
             <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4" id="gallery-grid">
                 <?php foreach ($patientGallery as $index => $item): 
-                    $imagePath = "../public/" . $item['image'];
+                    $imagePath = $item['image'];
                 ?>
                     <div 
                         class="relative cursor-pointer overflow-hidden rounded-lg gallery-item <?= $index >= $IMAGES_PER_PAGE ? 'hidden' : '' ?>"

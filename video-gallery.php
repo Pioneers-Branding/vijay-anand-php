@@ -69,7 +69,7 @@ include 'video_gallery_data.php';
                 >
                     <div class="relative aspect-video">
                         <img
-                            src="https://img.youtube.com/vi/<?= $video['id'] ?>/hqdefault.webp"
+                            src="https://img.youtube.com/vi/<?= $video['id'] ?>/hqdefault.jpg"
                             alt="<?= htmlspecialchars($video['title']) ?>"
                             class="object-cover w-full h-full group-hover:scale-105 transition-transform duration-300"
                             loading="lazy"
