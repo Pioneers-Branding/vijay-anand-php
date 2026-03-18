@@ -223,7 +223,7 @@ $hyderabadPages = [
                 </div>
 
                 <!-- Office Hours -->
-                <div class="bg-gradient-to-br from-gray-800/50 to-gray-700/30 backdrop-blur-sm p-4 rounded-xl border border-gray-700/50">
+                <div class="bg-gradient-to-br from-gray-800/50 to-gray-700/30 backdrop-blur-sm p-4 rounded-xl border border-gray-700/50 mb-4">
                     <div class="flex items-center space-x-2 mb-3">
                         <i data-feather="clock" class="w-5 h-5 text-medical-blue"></i>
                         <span class="font-semibold text-white text-sm">Office Hours</span>
@@ -234,6 +234,20 @@ $hyderabadPages = [
                             <span class="font-semibold text-white">9 AM - 6 PM</span>
                         </div>
                     </div>
+                </div>
+
+                <!-- Map -->
+                <div class="rounded-xl overflow-hidden border border-gray-700/50">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3806.3748019463!2d78.40773!3d17.43226!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb90d6f92eaaa3%3A0x89e5d8e92d34f2e2!2sApollo%20Cancer%20Centres%2C%20Jubilee%20Hills!5e0!3m2!1sen!2sin!4v1700000000000"
+                        width="100%"
+                        height="160"
+                        style="border:0;"
+                        allowfullscreen=""
+                        loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"
+                        title="Apollo Cancer Centre, Jubilee Hills">
+                    </iframe>
                 </div>
             </div>
         </div>

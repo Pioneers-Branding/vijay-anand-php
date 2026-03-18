@@ -1,5 +1,6 @@
 # Redirect .php URLs to .html
 /achievements.php    /achievements.html    301
+/awards.php    /awards.html    301
 /awareness-lectures.php    /awareness-lectures.html    301
 /biological-therapy.php    /biological-therapy.html    301
 /bone-cancer-osteosarcoma.php    /bone-cancer-osteosarcoma.html    301
