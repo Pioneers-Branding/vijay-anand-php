@@ -116,7 +116,7 @@
             </div> -->
             <!-- Slide 2 -->
             <div class="absolute inset-0 w-full h-full">
-                <img src="assets/banners/var-banner-review.jpg" alt="Review Banner" class="w-full h-full object-contain">
+                <img src="assets/banners/var-banner-review.webp" alt="Review Banner" class="w-full h-full object-contain">
             </div>
         </div>
     </section>
@@ -220,7 +220,7 @@
 
                 <div class="relative reveal delay-200">
                     <div class="relative z-10">
-                        <img src="assets/vijay-snand-hero.png" alt="Dr. Vijay Anand Reddy" class="w-full max-w-lg mx-auto rounded-2xl shadow-2xl object-cover">
+                        <img src="assets/vijay-snand-hero.webp" alt="Dr. Vijay Anand Reddy" class="w-full max-w-lg mx-auto rounded-2xl shadow-2xl object-cover">
                         
                         <div class="absolute -top-4 -left-4 bg-white p-4 rounded-xl shadow-lg hidden md:block animate-float">
                             <div class="flex items-center space-x-3">
@@ -260,7 +260,7 @@
                 <div class="flex flex-col md:flex-row items-center justify-center gap-8 text-center md:text-left">
                     <!-- Best Business Award Image -->
                     <div class="flex-shrink-0">
-                        <img src="assets/3-best-best-business-of-2023.png" alt="3 Best Rated Business of 2023" class="h-24 md:h-28 w-auto object-contain">
+                        <img src="assets/3-best-best-business-of-2023.webp" alt="3 Best Rated Business of 2023" class="h-24 md:h-28 w-auto object-contain">
                     </div>
 
                     <!-- Divider -->
@@ -337,7 +337,7 @@
             <div class="grid lg:grid-cols-2 gap-16 items-stretch">
                 <!-- Image -->
                 <div class="relative h-full reveal">
-                    <img src="assets/vijay-anand-about.jpg" alt="Dr. Vijay Anand Reddy" class="w-full h-full rounded-2xl shadow-2xl object-cover">
+                    <img src="assets/vijay-anand-about.webp" alt="Dr. Vijay Anand Reddy" class="w-full h-full rounded-2xl shadow-2xl object-cover">
                     <div class="hidden md:block absolute bottom-2 left-6 right-6 bg-white/95 backdrop-blur-sm p-6 rounded-xl shadow-lg">
                         <h3 class="text-xl font-bold text-medical-dark mb-2">"I Am A Survivor" Book Author</h3>
                         <p class="text-gray-600">Sharing hope through 108 inspiring cancer survivor stories</p>
@@ -384,7 +384,7 @@
         'icon' => 'activity',
         'title' => "Pancreatic Cancer",
         'description' => "Personalized treatments with expert team and unmatched experience for advanced pancreatic cancer care",
-        'image' => "assets/services/Pancreatic-Cancer.jpg",
+        'image' => "assets/services/Pancreatic-Cancer.webp",
         'features' => ["Whipple Procedure", "Chemotherapy Protocols", "Precision Radiation", "Palliative Care"]
       ],
       [
@@ -393,7 +393,7 @@
         'icon' => 'shield',
         'title' => "Kidney Cancer",
         'description' => "Expert diagnosis and personalized treatment using latest medical advances for kidney cancer",
-        'image' => "assets/services/Adrenal-Cancer.jpg",
+        'image' => "assets/services/Adrenal-Cancer.webp",
         'features' => ["Advanced Imaging", "Surgical Treatment", "Targeted Therapies", "Immunotherapy"]
       ],
       [
@@ -402,7 +402,7 @@
         'icon' => 'zap',
         'title' => "Proton Therapy",
         'description' => "Effective targeted cancer treatment with minimized side effects, especially for tumors near vital organs",
-        'image' => "assets/services/proton-therapy.jpeg",
+        'image' => "assets/services/proton-therapy.webp",
         'features' => ["High Precision Radiation", "Minimal Side Effects", "Pediatric Cancer Care", "Organ Preservation"]
       ],
       [
@@ -411,7 +411,7 @@
         'icon' => 'target',
         'title' => "Radiation Oncology",
         'description' => "Precise, technologically advanced cancer treatment with expert clinical support in Hyderabad",
-        'image' => "assets/services/radiation-vijay.jpg",
+        'image' => "assets/services/radiation-vijay.webp",
         'features' => ["IMRT/IGRT", "External Beam Therapy", "Brachytherapy", "Stereotactic Radiosurgery"]
       ],
       [
@@ -429,7 +429,7 @@
         'icon' => 'eye',
         'title' => "Eye Cancer",
         'description' => "Comprehensive diagnosis, precise surgical and medical care, and holistic support for eye cancer patients",
-        'image' => "assets/services/Eye-Cancer.png",
+        'image' => "assets/services/Eye-Cancer.webp",
         'features' => ["Advanced Imaging", "Vision-Preserving Surgery", "Targeted Therapy", "Immunotherapy"]
       ]
     ];
@@ -562,42 +562,42 @@
     <?php
     $awards = [
       [
-        'image' => "assets/awards/ISOO-2024-Oration.png",
+        'image' => "assets/awards/ISOO-2024-Oration.webp",
         'title' => "Clinical Pioneer Award",
         'year' => "2025",
         'description' => "Awarded on Apollo Founder's Day for outstanding patient care and dedication to Apollo mission.",
         'category' => "Clinical Excellence"
       ],
       [
-        'image' => "assets/awards/aerocon-2024.png",
+        'image' => "assets/awards/aerocon-2024.webp",
         'title' => "Gold Medal – Best Scientific Paper",
         'year' => "2024",
         'description' => "AROICON 2024 for prospective study on patient-reported toxicities & QOL in SBRT Prostate.",
         'category' => "Research Excellence"
       ],
       [
-        'image' => "assets/awards/AROICON-2024-Gold-Medal – Best-Scientific-Paper.png",
+        'image' => "assets/awards/AROICON-2024-Gold-Medal – Best-Scientific-Paper.webp",
         'title' => "ISOO 2024 Oration",
         'year' => "2024",
         'description' => "International Society of Ocular Oncology, Goa for contributions to ocular oncology.",
         'category' => "Ophthalmology"
       ],
       // [
-      //   'image' => "assets/awards/aerocon-2022.png",
+      //   'image' => "assets/awards/aerocon-2022.webp",
       //   'title' => "Gold Medal – Best Scientific Paper",
       //   'year' => "2022",
       //   'description' => "AROICON 2022 for feasibility study on extreme hypofractionation in post-operative breast cancer.",
       //   'category' => "Research Excellence"
       // ],
       // [
-      //   'image' => "assets/awards/dr-b.d-gupta.png",
+      //   'image' => "assets/awards/dr-b.d-gupta.webp",
       //   'title' => "Dr. B. D. Gupta Memorial Oration Award",
       //   'year' => "2019",
       //   'description' => "41st AROICON, Ahmedabad for outstanding contribution in Radiation Oncology.",
       //   'category' => "Oncology Excellence"
       // ],
       // [
-      //   'image' => "assets/awards/Lions-Club-International-Excellence-Award.png",
+      //   'image' => "assets/awards/Lions-Club-International-Excellence-Award.webp",
       //   'title' => "Excellence Award",
       //   'year' => "2019",
       //   'description' => "Lions Club International in association with Apollo Hospitals for extraordinary service in Oncology.",
@@ -609,42 +609,42 @@
     // Actually, user wants EXACT same. Let's include all.
     $awards = [
         [
-        'image' => "assets/awards/ISOO-2024-Oration.png",
+        'image' => "assets/awards/ISOO-2024-Oration.webp",
         'title' => "Clinical Pioneer Award",
         'year' => "2025",
         'description' => "Awarded on Apollo Founder's Day for outstanding patient care and dedication to Apollo mission.",
         'category' => "Clinical Excellence"
         ],
         [
-        'image' => "assets/awards/aerocon-2024.png",
+        'image' => "assets/awards/aerocon-2024.webp",
         'title' => "Gold Medal – Best Scientific Paper",
         'year' => "2024",
         'description' => "AROICON 2024 for prospective study on patient-reported toxicities & QOL in SBRT Prostate.",
         'category' => "Research Excellence"
         ],
         [
-        'image' => "assets/awards/AROICON-2024-Gold-Medal – Best-Scientific-Paper.png",
+        'image' => "assets/awards/AROICON-2024-Gold-Medal – Best-Scientific-Paper.webp",
         'title' => "ISOO 2024 Oration",
         'year' => "2024",
         'description' => "International Society of Ocular Oncology, Goa for contributions to ocular oncology.",
         'category' => "Ophthalmology"
         ],
         [
-        'image' => "assets/awards/aerocon-2022.png",
+        'image' => "assets/awards/aerocon-2022.webp",
         'title' => "Gold Medal – Best Scientific Paper",
         'year' => "2022",
         'description' => "AROICON 2022 for feasibility study on extreme hypofractionation in post-operative breast cancer.",
         'category' => "Research Excellence"
         ],
         [
-        'image' => "assets/awards/dr-b.d-gupta.png",
+        'image' => "assets/awards/dr-b.d-gupta.webp",
         'title' => "Dr. B. D. Gupta Memorial Oration Award",
         'year' => "2019",
         'description' => "41st AROICON, Ahmedabad for outstanding contribution in Radiation Oncology.",
         'category' => "Oncology Excellence"
         ],
         [
-        'image' => "assets/awards/Lions-Club-International-Excellence-Award.png",
+        'image' => "assets/awards/Lions-Club-International-Excellence-Award.webp",
         'title' => "Excellence Award",
         'year' => "2019",
         'description' => "Lions Club International in association with Apollo Hospitals for extraordinary service in Oncology.",
@@ -653,12 +653,12 @@
     ];
 
     $certifications = [
-        ['name' => "Stereotactic Radiosurgery Fellowship", 'year' => "2010", 'location' => "Klinikum Frankfurt (Oder) GmbH, Frankfurt, Germany", 'image' => "assets/journey/Stereotactic-Radiosurgery.png"],
-        ['name' => "Ocular Oncology Fellowship", 'year' => "2003", 'location' => "Will's Eye Hospital, Philadelphia, USA", 'image' => "assets/journey/Ocular-Oncology.png"],
-        ['name' => "Pediatric Oncology Fellowship", 'year' => "2003", 'location' => "Children's Hospital of Philadelphia, USA", 'image' => "assets/journey/Pediatric-Oncology.png"],
-        ['name' => "Head & Neck Oncology Fellowship", 'year' => "1998", 'location' => "Peter McCallum Cancer Institute, Melbourne, Australia", 'image' => "assets/journey/Head & Neck-Oncology.png"],
-        ['name' => "Nargis Dutt Memorial Cancer Foundation Fellowship", 'year' => "1995", 'location' => "New York Hospital, Medical Centre of Queens, NY, USA", 'image' => "assets/journey/The-Nargis-Dutt-Memorial.png"],
-        ['name' => "Clinical Oncology Fellowship", 'year' => "1992", 'location' => "Meyerstein Institute of Clinical Oncology, Middlesex Hospital, London", 'image' => "assets/journey/The-Clinical-Oncology.png"]
+        ['name' => "Stereotactic Radiosurgery Fellowship", 'year' => "2010", 'location' => "Klinikum Frankfurt (Oder) GmbH, Frankfurt, Germany", 'image' => "assets/journey/Stereotactic-Radiosurgery.webp"],
+        ['name' => "Ocular Oncology Fellowship", 'year' => "2003", 'location' => "Will's Eye Hospital, Philadelphia, USA", 'image' => "assets/journey/Ocular-Oncology.webp"],
+        ['name' => "Pediatric Oncology Fellowship", 'year' => "2003", 'location' => "Children's Hospital of Philadelphia, USA", 'image' => "assets/journey/Pediatric-Oncology.webp"],
+        ['name' => "Head & Neck Oncology Fellowship", 'year' => "1998", 'location' => "Peter McCallum Cancer Institute, Melbourne, Australia", 'image' => "assets/journey/Head & Neck-Oncology.webp"],
+        ['name' => "Nargis Dutt Memorial Cancer Foundation Fellowship", 'year' => "1995", 'location' => "New York Hospital, Medical Centre of Queens, NY, USA", 'image' => "assets/journey/The-Nargis-Dutt-Memorial.webp"],
+        ['name' => "Clinical Oncology Fellowship", 'year' => "1992", 'location' => "Meyerstein Institute of Clinical Oncology, Middlesex Hospital, London", 'image' => "assets/journey/The-Clinical-Oncology.webp"]
     ];
 
     $memberships = [
@@ -828,8 +828,8 @@
     <!-- PATIENT GALLERY SECTION (From PhotoTestimonials.jsx) -->
     <?php
     $patientGallery = [
-        ["image" => "assets/testimonials/test-new-1.jpg"],
-        ["image" => "assets/testimonials/test-new-2.jpg"],
+        ["image" => "assets/testimonials/test-new-1.webp"],
+        ["image" => "assets/testimonials/test-new-2.webp"],
         ["image" => "assets/testimonials/IMG_0638.webp"],
         ["image" => "assets/testimonials/IMG_0639.webp"],
         ["image" => "assets/testimonials/IMG_0640.webp"],
@@ -969,19 +969,19 @@
         [
             "title" => "How Is Cancer Caused? | Causes, Risk Factors & Prevention Guide",
             "excerpt" => "That is a question that cuts straight to the heart of what",
-            "image" => "assets/homepage/Radiation-Therapy.jpg",
+            "image" => "assets/homepage/Radiation-Therapy.webp",
             "url" => "https://drvijayanandreddy.com/blog/"
         ],
         [
             "title" => "Top 10 Cancer Specialist Doctor in India",
             "excerpt" => "Choosing the right cancer specialist is one of the most important decisions",
-            "image" => "assets/vijay-anand-about.jpg",
+            "image" => "assets/vijay-anand-about.webp",
             "url" => "https://drvijayanandreddy.com/blog/"
         ],
         [
             "title" => "Can Stage 2 Lung Cancer Be Cured {Expert Guide}",
             "excerpt" => "When faced with a Stage 2 lung cancer diagnosis, the immediate and",
-            "image" => "assets/homepage/Lung-Cancer-Treatment.jpg",
+            "image" => "assets/homepage/Lung-Cancer-Treatment.webp",
             "url" => "https://drvijayanandreddy.com/blog/"
         ]
     ];
@@ -1113,7 +1113,7 @@
                              let excerpt = post.excerpt.rendered.replace(/<[^>]*>/g, '').trim();
                              excerpt = excerpt.substring(0, 80) + (excerpt.length > 80 ? "" : "");
                              
-                             let imgUrl = 'assets/homepage/Radiation-Therapy.jpg';
+                             let imgUrl = 'assets/homepage/Radiation-Therapy.webp';
                              if (post._embedded && post._embedded['wp:featuredmedia'] && post._embedded['wp:featuredmedia'][0]) {
                                  imgUrl = post._embedded['wp:featuredmedia'][0].source_url;
                              }

@@ -2,20 +2,20 @@
 include 'navbar.php';
 
 // Data
-$familyPhoto = "assets/family/vijay-family.jpg";
+$familyPhoto = "assets/family/vijay-family.webp";
 $housePhotos = [
-    "assets/family/house-2.jpg",
-    "assets/family/house-3.jpg",
-    "assets/family/house-4.jpg",
-    "assets/family/house-5.jpg",
-    "assets/family/house-6.jpg",
-    "assets/family/house-7.jpg",
-    "assets/family/house-8.jpg",
-    "assets/family/house-9.jpg",
-    "assets/family/house-10.jpg",
-    "assets/family/house-11.jpg",
-    "assets/family/house-12.jpg",
-    "assets/family/house-13.jpg",
+    "assets/family/house-2.webp",
+    "assets/family/house-3.webp",
+    "assets/family/house-4.webp",
+    "assets/family/house-5.webp",
+    "assets/family/house-6.webp",
+    "assets/family/house-7.webp",
+    "assets/family/house-8.webp",
+    "assets/family/house-9.webp",
+    "assets/family/house-10.webp",
+    "assets/family/house-11.webp",
+    "assets/family/house-12.webp",
+    "assets/family/house-13.webp",
 ];
 ?>
 <!DOCTYPE html>
@@ -136,7 +136,7 @@ $housePhotos = [
                 <!-- Left side: Image -->
                 <div class="flex-shrink-0">
                     <img 
-                        src="assets/family/house-1.jpg" 
+                        src="assets/family/house-1.webp" 
                         alt="Residence" 
                         class="w-48 h-48 object-cover rounded-lg shadow-md"
                     >

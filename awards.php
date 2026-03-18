@@ -56,98 +56,98 @@
             'title' => 'Clinical Pioneer Award',
             'date' => '5th February 2025',
             'event' => 'Apollo Hospitals, Chennai',
-            'image' => 'assets/awards/ISOO-2024-Oration.png',
+            'image' => 'assets/awards/ISOO-2024-Oration.webp',
             'description' => "Deeply humbled and honoured to receive the Clinical Pioneer Award on Apollo Founder's Day. A heartfelt thanks to our Chairman Sir and the Reddy family for recognizing my patient care and Apollo mission dedication."
         ],
         [
             'title' => 'ISOO 2024 Oration',
             'date' => '6th December 2024',
             'event' => 'International Society of Ocular Oncology, Goa',
-            'image' => 'assets/awards/AROICON-2024-Gold-Medal – Best-Scientific-Paper.png',
+            'image' => 'assets/awards/AROICON-2024-Gold-Medal – Best-Scientific-Paper.webp',
             'description' => 'Awarded the prestigious ISOO 2024 Oration for contributions to ocular oncology.'
         ],
         [
             'title' => 'Gold Medal – Best Scientific Paper',
             'date' => '1st December 2024',
             'event' => 'AROICON 2024, Mangaluru, INDIA',
-            'image' => 'assets/awards/aerocon-2024.png',
+            'image' => 'assets/awards/aerocon-2024.webp',
             'description' => 'Prospective open-label study on patient-reported toxicities & QOL in SBRT Prostate for Non-Metastatic Prostate Cancer.'
         ],
         [
             'title' => 'Gold Medal – Best Scientific Paper',
             'date' => '4th December 2022',
             'event' => 'AROICON 2022, New Delhi, INDIA',
-            'image' => 'assets/awards/aerocon-2022.png',
+            'image' => 'assets/awards/aerocon-2022.webp',
             'description' => 'Feasibility study on extreme hypofractionation in post-operative breast cancer.'
         ],
         [
             'title' => 'Dr. B. D. Gupta Memorial Oration Award',
             'date' => '30th November 2019',
             'event' => '41st AROICON, Ahmedabad, INDIA',
-            'image' => 'assets/awards/dr-b.d-gupta.png',
+            'image' => 'assets/awards/dr-b.d-gupta.webp',
             'description' => 'For outstanding contribution in the field of Radiation Oncology.'
         ],
         [
             'title' => 'Excellence Award',
             'date' => '11th August 2019',
             'event' => 'Lions Club International in association with Apollo Hospitals',
-            'image' => 'assets/awards/Lions-Club-International-Excellence-Award.png',
+            'image' => 'assets/awards/Lions-Club-International-Excellence-Award.webp',
             'description' => 'For extraordinary service and contribution to the field of Oncology.'
         ],
         [
             'title' => 'AOS Achievement Award',
             'date' => 'January 2018',
             'event' => 'American Academy of Ophthalmology Society, CA, USA',
-            'image' => 'assets/awards/AOS-Achievement-Award.png',
+            'image' => 'assets/awards/AOS-Achievement-Award.webp',
             'description' => 'For long-term contributions to ophthalmic science.'
         ],
         [
             'title' => 'Legend in the Field of Oncology',
             'date' => '28th February 2017',
             'event' => 'Times Healthcare Achievers Awards, Hyderabad',
-            'image' => 'assets/awards/timesHealthcare-award.png',
+            'image' => 'assets/awards/timesHealthcare-award.webp',
             'description' => 'Recognized as "The Legend in the Field of Oncology" at the Times Healthcare Achievers Awards.'
         ],
         [
             'title' => 'Achievement Award',
             'date' => '2013',
             'event' => 'American Academy of Ophthalmology',
-            'image' => 'assets/awards/american.png',
+            'image' => 'assets/awards/american.webp',
             'description' => 'For many years of distinguished service in the programs of the society.'
         ],
         [
             'title' => 'Best Scientific Poster Award',
             'date' => '29th November 2009',
             'event' => 'AROICON 2009, Hyderabad, INDIA',
-            'image' => 'assets/awards/Young-Investigators-Award.png',
+            'image' => 'assets/awards/Young-Investigators-Award.webp',
             'description' => 'Histopathology of Retinoblastoma after primary Chemotherapy.'
         ],
         [
             'title' => 'Best Scientific Paper Award',
             'date' => '1996',
             'event' => 'AROICON 1996, Aurangabad, INDIA',
-            'image' => 'assets/awards/Best-Scientific-Paper.png',
+            'image' => 'assets/awards/Best-Scientific-Paper.webp',
             'description' => 'Awarded at the XVIII National Conference of AROI with Dr. K. A. Dinshaw.'
         ],
         [
             'title' => 'Young Scientist Award',
             'date' => '1996',
             'event' => 'Indo-American Cancer Congress, New York, USA',
-            'image' => 'assets/awards/Young-Scientist-Award.png',
+            'image' => 'assets/awards/Young-Scientist-Award.webp',
             'description' => 'Young Scientist Award with Dr. Kalluri Subrahmanyam & Dr. Chitti R. Moorthy.'
         ],
         [
             'title' => 'Nargis Dutt Memorial Foundation Award',
             'date' => '1995',
             'event' => 'Nargis Dutt Memorial Foundation, New York, USA',
-            'image' => 'assets/awards/Nargis-Dutt-Memorial-Foundation-Award.png',
+            'image' => 'assets/awards/Nargis-Dutt-Memorial-Foundation-Award.webp',
             'description' => 'Awarded with Dr. Dattetreyudu Nori at New York Hospital.'
         ],
         [
             'title' => 'International Cancer Research Technology Transfer Award',
             'date' => '1992',
             'event' => 'UICC, Geneva, Switzerland',
-            'image' => 'assets/awards/International-Cancer-Research-Technology-Transfer-Award.png',
+            'image' => 'assets/awards/International-Cancer-Research-Technology-Transfer-Award.webp',
             'description' => 'With Dr. Margarett Spittle at the Meyerstein Institute of Oncology.'
         ],
         // Awards without images
@@ -239,11 +239,11 @@
             <?php
             $felicitations = [
                 [
-                    'image' => 'assets/awards/felicitation1.png',
+                    'image' => 'assets/awards/felicitation1.webp',
                     'text' => "On Doctor's Day 2013, received special felicitation from Apollo Hospitals, Hyderabad, for extensive social service for poor and needy cancer patients via CURE Foundation."
                 ],
                 [
-                    'image' => 'assets/awards/felicitation2.png',
+                    'image' => 'assets/awards/felicitation2.webp',
                     'text' => 'A huge round of applause for Vijay Anand Reddy for his phenomenal oration on 31st August 2025 at the Karimnagar IMA branch — "The meaning of life is to give life a meaning". His masterful, deeply moving presentation captivated everyone and left the audience uplifted.'
                 ]
             ];

@@ -206,7 +206,7 @@
             'id' => 28,
             'title' => "Management of Retinoblastoma with Extraocular tumor Extension",
             'journal' => "Community Eye Health Journal, 2018; Vol. 31; No. 101; Pg. 18-19.",
-            'pdf' => "assets/Publications (Year wise)/Publications (Year wise)/2018/Management of RB with Extraocular Tumor Extension.jpg"
+            'pdf' => "assets/Publications (Year wise)/Publications (Year wise)/2018/Management of RB with Extraocular Tumor Extension.webp"
        ],
        [
             'id' => 29,

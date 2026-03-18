@@ -2,32 +2,32 @@
 $videos = [
     [
         "id" => "UbJsIKeP1ps",
-        "thumbnail" => "https://img.youtube.com/vi/UbJsIKeP1ps/hqdefault.jpg",
+        "thumbnail" => "https://img.youtube.com/vi/UbJsIKeP1ps/hqdefault.webp",
         "title" => "10 ఏళ్లుగా క్యాన్సర్ లేకుండా జీవితం | Breast Cancer Survivor Story | Dr. Vijay Anand Reddy",
     ],
     [
         "id" => "ugvDtjZrXxE",
-        "thumbnail" => "https://img.youtube.com/vi/ugvDtjZrXxE/hqdefault.jpg",
+        "thumbnail" => "https://img.youtube.com/vi/ugvDtjZrXxE/hqdefault.webp",
         "title" => "Talk by a cancer survivor | Happy Patient | Best Cancer/ Radiation oncology doctor in india",
     ],
     [
         "id" => "hefT59hk4Tk",
-        "thumbnail" => "https://img.youtube.com/vi/hefT59hk4Tk/hqdefault.jpg",
+        "thumbnail" => "https://img.youtube.com/vi/hefT59hk4Tk/hqdefault.webp",
         "title" => "What do my patients think about my treatment?",
     ],
     [
         "id" => "_fQ1-kAPh64",
-        "thumbnail" => "https://img.youtube.com/vi/_fQ1-kAPh64/hqdefault.jpg",
+        "thumbnail" => "https://img.youtube.com/vi/_fQ1-kAPh64/hqdefault.webp",
         "title" => "Stage 3 Breast Cancer",
     ],
     [
         "id" => "MaWOvdr6RDw",
-        "thumbnail" => "https://img.youtube.com/vi/MaWOvdr6RDw/hqdefault.jpg",
+        "thumbnail" => "https://img.youtube.com/vi/MaWOvdr6RDw/hqdefault.webp",
         "title" => "Cervical Cancer Treatment",
     ],
     [
         "id" => "532AAKNrSb4",
-        "thumbnail" => "https://img.youtube.com/vi/532AAKNrSb4/hqdefault.jpg",
+        "thumbnail" => "https://img.youtube.com/vi/532AAKNrSb4/hqdefault.webp",
         "title" => "Vocal Cord Radiation Treatment",
     ]
 ];

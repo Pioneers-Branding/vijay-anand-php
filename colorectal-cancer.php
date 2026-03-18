@@ -92,10 +92,10 @@ $stats = [
 ?>
 <?php
 $treatmentSteps = [
-    ['step' => "01", 'title' => "Consultation & Diagnosis", 'desc' => "Comprehensive evaluation and advanced diagnostic imaging.", 'image' => "https://img.freepik.com/free-photo/doctor-patient-discussing-medical-report_1421-66.jpg"],
-    ['step' => "02", 'title' => "Treatment Planning", 'desc' => "Multidisciplinary team creates personalized plan.", 'image' => "https://img.freepik.com/free-photo/doctor-analyzing-x-ray-scan_1421-67.jpg"],
-    ['step' => "03", 'title' => "Treatment Delivery", 'desc' => "Surgery, radiation, or chemotherapy with precision.", 'image' => "https://img.freepik.com/free-photo/medical-team-meeting_1421-68.jpg"],
-    ['step' => "04", 'title' => "Follow-up Care", 'desc' => "Regular monitoring and survivorship support.", 'image' => "https://img.freepik.com/free-photo/surgeons-operating-room_1421-69.jpg"],
+    ['step' => "01", 'title' => "Consultation & Diagnosis", 'desc' => "Comprehensive evaluation and advanced diagnostic imaging.", 'image' => "https://img.freepik.com/free-photo/doctor-patient-discussing-medical-report_1421-66.webp"],
+    ['step' => "02", 'title' => "Treatment Planning", 'desc' => "Multidisciplinary team creates personalized plan.", 'image' => "https://img.freepik.com/free-photo/doctor-analyzing-x-ray-scan_1421-67.webp"],
+    ['step' => "03", 'title' => "Treatment Delivery", 'desc' => "Surgery, radiation, or chemotherapy with precision.", 'image' => "https://img.freepik.com/free-photo/medical-team-meeting_1421-68.webp"],
+    ['step' => "04", 'title' => "Follow-up Care", 'desc' => "Regular monitoring and survivorship support.", 'image' => "https://img.freepik.com/free-photo/surgeons-operating-room_1421-69.webp"],
 ];
 ?>
 <?php
@@ -111,32 +111,32 @@ $subServices = [
 $videos = [
     [
         'id' => "UbJsIKeP1ps",
-        'thumbnail' => "https://img.youtube.com/vi/UbJsIKeP1ps/hqdefault.jpg",
+        'thumbnail' => "https://img.youtube.com/vi/UbJsIKeP1ps/hqdefault.webp",
         'title' => "10 ఏళ్లుగా క్యాన్సర్ లేకుండా జీవితం | Breast Cancer Survivor Story | Dr. Vijay Anand Reddy",
     ],
     [
         'id' => "ugvDtjZrXxE",
-        'thumbnail' => "https://img.youtube.com/vi/ugvDtjZrXxE/hqdefault.jpg",
+        'thumbnail' => "https://img.youtube.com/vi/ugvDtjZrXxE/hqdefault.webp",
         'title' => "Talk by a cancer survivor | Happy Patient | Best Cancer/ Radiation oncology doctor in india",
     ],
     [
         'id' => "hefT59hk4Tk",
-        'thumbnail' => "https://img.youtube.com/vi/hefT59hk4Tk/hqdefault.jpg",
+        'thumbnail' => "https://img.youtube.com/vi/hefT59hk4Tk/hqdefault.webp",
         'title' => "What do my patients think about my treatment?",
     ],
     [
         'id' => "_fQ1-kAPh64",
-        'thumbnail' => "https://img.youtube.com/vi/_fQ1-kAPh64/hqdefault.jpg",
+        'thumbnail' => "https://img.youtube.com/vi/_fQ1-kAPh64/hqdefault.webp",
         'title' => "Stage 3 Breast Cancer",
     ],
     [
         'id' => "MaWOvdr6RDw",
-        'thumbnail' => "https://img.youtube.com/vi/MaWOvdr6RDw/hqdefault.jpg",
+        'thumbnail' => "https://img.youtube.com/vi/MaWOvdr6RDw/hqdefault.webp",
         'title' => "Cervical Cancer Treatment",
     ],
     [
         'id' => "532AAKNrSb4",
-        'thumbnail' => "https://img.youtube.com/vi/532AAKNrSb4/hqdefault.jpg",
+        'thumbnail' => "https://img.youtube.com/vi/532AAKNrSb4/hqdefault.webp",
         'title' => "Vocal Cord Radiation Treatment",
     ]
 ];
@@ -231,7 +231,7 @@ $videos = [
                                 class="flex-shrink-0"
                             >
                                 <img
-                                    src="assets/3-best-best-business-of-2023.png"
+                                    src="assets/3-best-best-business-of-2023.webp"
                                     alt="3 Best Rated Business of 2023"
                                     class="h-24 md:h-28 w-auto object-contain"
                                     
@@ -459,7 +459,7 @@ $videos = [
                         >
                             <div class="relative rounded-2xl overflow-hidden shadow-2xl">
                                 <img
-                                    src="assets/vijay-anand-about.jpg"
+                                    src="assets/vijay-anand-about.webp"
                                     alt="Dr. Vijay Anand Reddy - Best Colorectal Cancer Treatment Doctor in India"
                                     class="w-full h-full object-cover"
                                 />
@@ -920,7 +920,7 @@ $videos = [
 
                     
 <div id="wid_1754467080840" class="my-10 container mx-auto"></div>
-<script defer src="https://dbwx2z9xa7qt9.cloudfront.net/bundle.js?cachebust=1754467080840" theme="light" footer="false" widget-type="carousel" token="687a20a3a7ee08492b66abfc" apiurl="https://server.onlinereviews.tech/api/v0.0.9" stats="true" addReview="true" profile-pic="true" review-name="true" positive-stars="false" wl="true" wlndig="https://go.meddyreviews.com/dr-vijay-anand-reddy" lang="us" brandStyle="%7B%22sidebar_background%22%3A%22%236CD79E%22%2C%22sidebar_text%22%3A%22black%22%2C%22brand_button_text_color%22%3A%22white%22%2C%22brand_main_color%22%3A%22%23676767%22%2C%22brand_button_border_radius%22%3A%2216px%22%2C%22brand_sidebar_text_color_opacity%22%3A%22%230000001a%22%2C%22brand_button_hover%22%3A%22rgb(118%2C%20118%2C%20118)%22%2C%22brand_button_active%22%3A%22rgb(88%2C%2088%2C%2088)%22%2C%22brand_main_color_opacity%22%3A%22%236767671a%22%2C%22brand_font%22%3A%22Montserrat%22%2C%22star_color%22%3A%22%23128c7e%22%2C%22brand_main_background%22%3A%22%23FBF8F6%22%2C%22brand_card_background%22%3A%22white%22%2C%22poweredByLink%22%3A%22https%3A%2F%2Fmeddyreviews.com%22%2C%22poweredicon%22%3A%22https%3A%2F%2Frecensioni-io-static-folder.s3.eu-central-1.amazonaws.com%2Fpublic_onlinereviews%2Fapp.meddyreviews.com%2Ftopbar.png%22%7D"></script>
+<script defer src="https://dbwx2z9xa7qt9.cloudfront.net/bundle.js?cachebust=1754467080840" theme="light" footer="false" widget-type="carousel" token="687a20a3a7ee08492b66abfc" apiurl="https://server.onlinereviews.tech/api/v0.0.9" stats="true" addReview="true" profile-pic="true" review-name="true" positive-stars="false" wl="true" wlndig="https://go.meddyreviews.com/dr-vijay-anand-reddy" lang="us" brandStyle="%7B%22sidebar_background%22%3A%22%236CD79E%22%2C%22sidebar_text%22%3A%22black%22%2C%22brand_button_text_color%22%3A%22white%22%2C%22brand_main_color%22%3A%22%23676767%22%2C%22brand_button_border_radius%22%3A%2216px%22%2C%22brand_sidebar_text_color_opacity%22%3A%22%230000001a%22%2C%22brand_button_hover%22%3A%22rgb(118%2C%20118%2C%20118)%22%2C%22brand_button_active%22%3A%22rgb(88%2C%2088%2C%2088)%22%2C%22brand_main_color_opacity%22%3A%22%236767671a%22%2C%22brand_font%22%3A%22Montserrat%22%2C%22star_color%22%3A%22%23128c7e%22%2C%22brand_main_background%22%3A%22%23FBF8F6%22%2C%22brand_card_background%22%3A%22white%22%2C%22poweredByLink%22%3A%22https%3A%2F%2Fmeddyreviews.com%22%2C%22poweredicon%22%3A%22https%3A%2F%2Frecensioni-io-static-folder.s3.eu-central-1.amazonaws.com%2Fpublic_onlinereviews%2Fapp.meddyreviews.com%2Ftopbar.webp%22%7D"></script>
 
                 </div>
             </section>

@@ -91,7 +91,7 @@ $YOUTUBE_CHANNEL_LINK = "https://www.youtube.com/channel/CHANNEL_ID";
                     onkeydown="if(event.key === 'Enter' || event.key === ' ') openModal('<?= $videoId ?>')"
                 >
                     <img 
-                        src="https://img.youtube.com/vi/<?= $videoId ?>/hqdefault.jpg" 
+                        src="https://img.youtube.com/vi/<?= $videoId ?>/hqdefault.webp" 
                         alt="Video thumbnail" 
                         loading="lazy" 
                         class="w-full aspect-video object-cover"

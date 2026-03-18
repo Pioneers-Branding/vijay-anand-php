@@ -10,7 +10,19 @@
       "Bash(grep -rn \"patients\" hyderabad-*.php)",
       "Bash(grep -rn \"10k+\\\\|10K+\\\\|10k +\\\\|10,000\" hyderabad-*.php)",
       "Bash(grep -rn \"10k+\\\\|10K+\" hyderabad-*.php)",
-      "Bash(xargs sed:*)"
+      "Bash(xargs sed:*)",
+      "Bash(cwebp -version)",
+      "Bash(magick -version)",
+      "Bash(convert -version)",
+      "Bash(python3 -c \"from PIL import Image; print\\(''pillow ok''\\)\")",
+      "Bash(node -e \"require\\(''sharp''\\); console.log\\(''sharp ok''\\)\")",
+      "Bash(magick --version)",
+      "Bash(convert --version)",
+      "Bash(pip install:*)",
+      "Bash(python3.12 -c \"from PIL import Image; print\\(''pillow ok''\\)\")",
+      "Bash(/usr/bin/python3 -c \"from PIL import Image; print\\(''pillow ok''\\)\")",
+      "Bash(py -3 -c \"from PIL import Image; print\\(''pillow ok''\\)\")",
+      "Bash(python3.12 /tmp/convert_webp.py)"
     ]
   }
 }
