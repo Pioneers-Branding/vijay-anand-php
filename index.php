@@ -110,27 +110,13 @@
     <!-- BANNERS SECTION -->
     <section id="banners" class="relative pt-24 md:pt-32 pb-8 bg-gray-50 overflow-hidden">
         <div class="relative w-full h-[45vw] sm:h-[300px] md:h-[500px] lg:h-[600px] group">
-            <!-- Slide 1 -->
-            <div class="banner-slide absolute inset-0 w-full h-full transition-opacity duration-500 opacity-100 z-10" data-index="0">
+            <!-- Slide 1 (Padma - hidden) -->
+            <!-- <div class="banner-slide absolute inset-0 w-full h-full transition-opacity duration-500 opacity-100 z-10" data-index="0">
                 <img src="assets/banners/tanmay-dr-vijay-anan-web-banner.webp" alt="Dr. Vijay Anand Banner" class="w-full h-full object-cover object-center">
-            </div>
+            </div> -->
             <!-- Slide 2 -->
-            <div class="banner-slide absolute inset-0 w-full h-full transition-opacity duration-500 opacity-0 z-0" data-index="1">
+            <div class="absolute inset-0 w-full h-full">
                 <img src="assets/banners/var-banner-review.jpg" alt="Review Banner" class="w-full h-full object-contain">
-            </div>
-
-            <!-- Navigation Buttons -->
-            <button onclick="prevSlide()" class="absolute left-4 top-1/2 -translate-y-1/2 bg-white/50 hover:bg-white/80 p-2 rounded-full backdrop-blur-sm transition-all z-20 text-medical-dark opacity-0 group-hover:opacity-100">
-                <i data-feather="chevron-left" class="w-6 h-6"></i>
-            </button>
-            <button onclick="nextSlide()" class="absolute right-4 top-1/2 -translate-y-1/2 bg-white/50 hover:bg-white/80 p-2 rounded-full backdrop-blur-sm transition-all z-20 text-medical-dark opacity-0 group-hover:opacity-100">
-                <i data-feather="chevron-right" class="w-6 h-6"></i>
-            </button>
-
-            <!-- Dots -->
-            <div class="absolute bottom-4 left-1/2 -translate-x-1/2 flex space-x-2 z-20">
-                <button onclick="goToSlide(0)" class="banner-dot w-6 h-3 rounded-full bg-medical-blue transition-all" data-index="0"></button>
-                <button onclick="goToSlide(1)" class="banner-dot w-3 h-3 rounded-full bg-gray-300 transition-all" data-index="1"></button>
             </div>
         </div>
     </section>
@@ -365,7 +351,7 @@
                         <div class="space-y-3">
                             <?php 
                             $quals = [
-                                "MD (Radiation Oncology)", "DNB (Radiation Oncology)", "European Certification (ESMO)",
+                                "MD (Radiation Oncology)", "DNB (Radiation Oncology)", "European Certification in Medical Oncology (ESMO)",
                                 "FUICC (UK), FNDM (USA), FUICC (AUS)", "Sr. Consultant Oncologist",
                                 "Prof. & Head, Dept. of Radiation Oncology", "Director, Apollo Cancer Center, Hyderabad"
                             ];
@@ -514,7 +500,7 @@
     <?php
     $reasons = [
       ['icon' => 'award', 'title' => "30+ Years Experience", 'description' => "Three decades of excellence in radiation oncology and cancer treatment"],
-      ['icon' => 'users', 'title' => "20,000+ Patients Treated", 'description' => "Successfully treated thousands of patients with various cancer types"],
+      ['icon' => 'users', 'title' => "25,000+ Patients Treated", 'description' => "Successfully treated thousands of patients with various cancer types"],
       ['icon' => 'trending-up', 'title' => "95% Success Rate", 'description' => "Exceptional treatment outcomes with industry-leading success rates"],
       ['icon' => 'heart', 'title' => "Compassionate Care", 'description' => "Patient-centered approach with emotional support throughout treatment"],
       ['icon' => 'globe', 'title' => "International Recognition", 'description' => "Global certifications and recognition from leading medical institutions"],

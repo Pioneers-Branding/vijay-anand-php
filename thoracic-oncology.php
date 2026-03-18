@@ -62,7 +62,7 @@ $faqs = [
     ],
     [
         'question' => "Why is Dr. Vijay Anand Reddy considered a top Thoracic Oncologist in India?",
-        'answer' => "Dr. Vijay Anand Reddy has over 30 years of experience and is the Director of Apollo Cancer Centres, Hyderabad. He has pioneered many advanced radiation techniques in India and treated over 10,000 patients. His expertise in precision oncology and organ preservation protocols makes him a leader in the field."
+        'answer' => "Dr. Vijay Anand Reddy has over 30 years of experience and is the Director of Apollo Cancer Centres, Hyderabad. He has pioneered many advanced radiation techniques in India and treated over 25,000+ patients. His expertise in precision oncology and organ preservation protocols makes him a leader in the field."
     ],
     [
         'question' => "Is radiation therapy painful?",
@@ -86,7 +86,7 @@ $faqs = [
 $stats = [
     ['label' => "Years of Experience", 'value' => "30+", 'icon' => "FiClock"],
     ['label' => "Successful Treatments", 'value' => "10000+", 'icon' => "FiActivity"],
-    ['label' => "Happy Patients", 'value' => "20000+", 'icon' => "FiUserCheck"],
+    ['label' => "Happy Patients", 'value' => "25000+", 'icon' => "FiUserCheck"],
     ['label' => "Awards Won", 'value' => "50+", 'icon' => "FiAward"],
 ];
 ?>
@@ -112,7 +112,7 @@ $whyChoose = [
     "Pioneered IMRT, IGRT, and Stereotactic Radiosurgery in the region",
     "Specially trained in Proton Therapy and CyberKnife",
     "President of Association of Thoracic Oncologists of India (Past)",
-    "Over 30 years of clinical excellence & 10000+ happy patients",
+    "Over 30 years of clinical excellence & 25000+ happy patients",
     "Affordable eye cancer treatment in India",
 ];
 ?>
@@ -743,7 +743,7 @@ $videos = [
                             </div>
                             <div class="bg-medical-blue/15 p-6 rounded-2xl text-center translate-y-8 shadow-md hover:shadow-xl transition border border-medical-blue/30">
                                 <div class="bg-white w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-3 text-medical-blue text-2xl font-bold shadow-md"><i class="fas fa-chart-line"></i></div>
-                                <div class="text-3xl font-bold text-medical-blue mb-1">10k+</div>
+                                <div class="text-3xl font-bold text-medical-blue mb-1">25k+</div>
                                 <h4 class="font-bold text-medical-dark text-sm">Cases Treated</h4>
                             </div>
                             <div class="bg-medical-blue/20 p-6 rounded-2xl text-center shadow-md hover:shadow-xl transition border border-medical-blue/40">

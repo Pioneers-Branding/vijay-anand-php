@@ -86,7 +86,7 @@ $faqs = [
 $stats = [
     ['label' => "Years of Experience", 'value' => "30+", 'icon' => "FiClock"],
     ['label' => "Successful Treatments", 'value' => "10000+", 'icon' => "FiActivity"],
-    ['label' => "Happy Patients", 'value' => "20000+", 'icon' => "FiUserCheck"],
+    ['label' => "Happy Patients", 'value' => "25000+", 'icon' => "FiUserCheck"],
     ['label' => "Awards Won", 'value' => "50+", 'icon' => "FiAward"],
 ];
 ?>
@@ -781,7 +781,7 @@ $videos = [
                             </div>
                             <div class="bg-medical-blue/15 p-6 rounded-2xl text-center translate-y-8 shadow-md hover:shadow-xl transition border border-medical-blue/30">
                                 <div class="bg-white w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-3 text-medical-blue text-2xl font-bold shadow-md"><i class="fas fa-chart-line"></i></div>
-                                <div class="text-3xl font-bold text-medical-blue mb-1">10k+</div>
+                                <div class="text-3xl font-bold text-medical-blue mb-1">25k+</div>
                                 <h4 class="font-bold text-medical-dark text-sm">Cases Treated</h4>
                             </div>
                             <div class="bg-medical-blue/20 p-6 rounded-2xl text-center shadow-md hover:shadow-xl transition border border-medical-blue/40">

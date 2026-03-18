@@ -16,7 +16,7 @@ $navItems = [
                     ['name' => 'Books', 'href' => 'books.php'],
                     ['name' => 'Publications', 'href' => 'publications.php'],
                     ['name' => 'Presentations', 'href' => 'professional-presentations.php'],
-                    ['name' => 'Cancer Clinics', 'href' => 'cancer-clinics.php'],
+                    ['name' => 'Cancer Cl', 'href' => 'cancer-clinics.php'],
                 ],
             ],
             ['name' => 'Conferences Organized', 'href' => 'conferences.php'],

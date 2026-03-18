@@ -154,7 +154,7 @@
                 </div>
                  <div class="text-center">
                     <div class="text-4xl mb-2 flex justify-center opacity-80"><i data-feather="users"></i></div>
-                    <div class="text-3xl md:text-4xl font-bold mb-1">20000+</div>
+                    <div class="text-3xl md:text-4xl font-bold mb-1">25000+</div>
                     <div class="text-blue-100 text-sm uppercase tracking-wide">Happy Patients</div>
                 </div>
                  <div class="text-center">
@@ -363,7 +363,7 @@
                     </div>
                     <div class="bg-blue-50/50 p-6 rounded-2xl text-center shadow-md border border-medical-blue/20 translate-y-8 hover:shadow-xl transition">
                         <div class="bg-white w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-3 text-medical-blue text-2xl font-bold shadow-md"><i data-feather="activity"></i></div>
-                        <div class="text-3xl font-bold text-medical-blue mb-1">10k+</div>
+                        <div class="text-3xl font-bold text-medical-blue mb-1">25k+</div>
                         <h4 class="font-bold text-medical-dark text-sm">Cases Treated</h4>
                     </div>
                     <div class="bg-blue-50/50 p-6 rounded-2xl text-center shadow-md border border-medical-blue/20 hover:shadow-xl transition">

@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(grep -v \"retinoblastoma\\\\|#\\\\|//\")",
+      "Bash(sed -i 's/treated over 10,000 cancer patients/treated over 25,000+ cancer patients/g' brain-cnstumors.php eye-cancer.php eyelid-cancer.php oral-cancer.php retinoblastoma.php uveal-melanoma.php)",
+      "Bash(sed -i 's/treated over 10,000 breast cancer patients/treated over 25,000+ breast cancer patients/g' breast-cancer.php)",
+      "Bash(sed -i 's/treated over 10,000 colorectal cancer patients/treated over 25,000+ colorectal cancer patients/g' colorectal-cancer.php)",
+      "Bash(sed -i 's/treated over 10,000 prostate cancer patients/treated over 25,000+ prostate cancer patients/g' prostate-cancer.php)",
+      "Bash(grep -rn \"10,000\\\\|20,000\\\\|10K\\\\|20K\" hyderabad-*.php)",
+      "Bash(grep -rn \"patients\" hyderabad-*.php)",
+      "Bash(grep -rn \"10k+\\\\|10K+\\\\|10k +\\\\|10,000\" hyderabad-*.php)",
+      "Bash(grep -rn \"10k+\\\\|10K+\" hyderabad-*.php)",
+      "Bash(xargs sed:*)"
+    ]
+  }
+}

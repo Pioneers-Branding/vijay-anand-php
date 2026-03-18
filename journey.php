@@ -57,7 +57,7 @@
         [
             'icon' => 'compass',
             'title' => "Early Life",
-            'content' => "Born in the humble hamlet of Palamuru, Mehboobnagar, Dr. Vijay Anand Reddy excelled in studies from a young age. Despite hardships, he topped his National Common and SSC exams, scored a perfect 100 in Mathematics, and was a school leader in social values as well as academics. Initially attracted to engineering, he pursued medicine after his father’s encouragement and was active in student leadership and social initiatives, even fundraising during national crises."
+            'content' => "Born in the humble hamlet of Palamuru, Mahabubnagar, Dr. Vijay Anand Reddy excelled in studies from a young age. Despite hardships, he topped his National Common and SSC exams, scored a perfect 100 in Mathematics, and was a school leader in social values as well as academics. Initially attracted to engineering, he pursued medicine after his father’s encouragement and was active in student leadership and social initiatives, even fundraising during national crises."
         ],
         [
             'icon' => 'book',
@@ -111,11 +111,11 @@
     <!-- Degrees Section -->
     <?php
     $degrees = [
-        ['title' => "M.B.B.S.", 'institution' => "Osmania Medical College, Hyderabad", 'year' => 1983],
-        ['title' => "M.D. (Radiation Therapy)", 'institution' => "Osmania Medical College, Hyderabad", 'year' => 1992],
-        ['title' => "D.N.B. (Oncology)", 'institution' => "Osmania Medical College, Hyderabad", 'year' => 1993],
-        ['title' => "European Certification in Medical Oncology (ESMO)", 'institution' => "Europe", 'year' => 2005],
-        ['title' => "Re-certification in European Certification in Medical Oncology (ESMO)", 'institution' => "Europe", 'year' => 2010]
+        ['title' => "M.B.B.S.", 'institution' => "Osmania University, Hyderabad", 'year' => 1983],
+        ['title' => "MD (Radiation Oncology)", 'institution' => "Osmania Medical College, Hyderabad", 'year' => 1992],
+        ['title' => "DNB (Radiation Oncology)", 'institution' => "Osmania Medical College, Hyderabad", 'year' => 1993],
+        ['title' => "European Certification in Medical Oncology (ESMO)", 'institution' => "", 'year' => 2005],
+        ['title' => "Re-certification in European Certification in Medical Oncology (ESMO)", 'institution' => "", 'year' => 2010]
     ];
     ?>
     <section class="py-10 bg-gray-50">
