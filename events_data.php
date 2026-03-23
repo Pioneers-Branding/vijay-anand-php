@@ -1,6 +1,31 @@
 <?php
 $events = array (
-  0 => 
+  0 =>
+  array (
+    'id' => 'ccgc-2026',
+    'category' => 'golf-championship',
+    'title' => 'Cancer Crusaders Golf Championship 2026',
+    'date' => '2026-01-30',
+    'author' => 'Dr. Vijay Anand Reddy',
+    'banners' =>
+    array (
+      0 => 'assets/Events/ccgc-2026/gallery-1.webp',
+    ),
+    'description' => 'The Cancer Crusaders Golf Championship (CCGC) 2026, presented by Aparna and organized by the CURE Foundation, is an exclusive biennial fundraiser held from January 30 to February 1, 2026, at Boulder Hills Golf & Country Club, Hyderabad. Played on a Peter Harradine-designed championship course spanning 235 acres (7,159 yards, par 72), the event features Stableford scoring with four rounds across three days. With 90 players per round, CCGC brings together accomplished golfers, corporate leaders, celebrities, and sports figures — including Jagapathi Babu and Samyuktha Menon — to raise awareness and funds for cancer treatment, prevention, early detection, and rehabilitation support for underserved communities. Partners include Apollo Cancer Centres, HICC, and Novotel.',
+    'photos' =>
+    array (
+      0 => 'assets/Events/ccgc-2026/gallery-1.webp',
+      1 => 'assets/Events/ccgc-2026/gallery-2.webp',
+      2 => 'assets/Events/ccgc-2026/gallery-3.webp',
+    ),
+    'gallery' =>
+    array (
+      0 => 'assets/Events/ccgc-2026/gallery-1.webp',
+      1 => 'assets/Events/ccgc-2026/gallery-2.webp',
+      2 => 'assets/Events/ccgc-2026/gallery-3.webp',
+    ),
+  ),
+  1 =>
   array (
     'id' => 'breast-cancer-awareness-flash-mob-gvk-one',
     'category' => 'breast-cancer-awareness',

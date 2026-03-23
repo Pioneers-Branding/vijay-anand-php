@@ -224,19 +224,10 @@ $videos = [
                     <div class="bg-white/60 backdrop-blur-xl rounded-2xl border border-white/50 shadow-xl p-6">
                         <div class="flex flex-col md:flex-row items-center justify-center gap-8 text-center md:text-left">
 
-                            <div
-                                
-                                whileInV
-                                
-                                
-                                class="flex-shrink-0"
-                            >
-                                <img
-                                    src="assets/3-best-best-business-of-2023.webp"
-                                    alt="3 Best Rated Business of 2023"
-                                    class="h-24 md:h-28 w-auto object-contain"
-                                    
-                                />
+                            <!-- 95% Success Rate -->
+                            <div class="text-center">
+                                <div class="text-4xl font-bold mb-1" style="background: linear-gradient(to right, #9B528F, #8B5CF6); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;">95%</div>
+                                <p class="text-gray-600 text-sm font-medium">Success Rate</p>
                             </div>
 
                             <!-- Divider -->

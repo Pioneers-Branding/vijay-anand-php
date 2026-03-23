@@ -135,7 +135,7 @@
                 <!-- Logo -->
                 <div class="flex items-center flex-shrink-0">
                     <a href="index.html" class="cursor-pointer">
-                        <img src="assets/logo/var-black.png" alt="Dr. Palkonda Vijay Anand Reddy - MD Radiation Oncology, Director Apollo Cancer Centres" class="h-16 w-auto object-contain sm:h-18 md:h-20 lg:h-24" style="max-width: 280px;">
+                        <img src="assets/logo/Var-proper-logo.png" alt="Dr. Palkonda Vijay Anand Reddy - MD Radiation Oncology, Director Apollo Cancer Centres" class="h-16 w-auto object-contain sm:h-18 md:h-20 lg:h-24" style="max-width: 280px;">
                     </a>
                 </div>
 
@@ -1140,13 +1140,27 @@
     <!-- BANNERS SECTION -->
     <section id="banners" class="relative pt-24 md:pt-32 pb-8 bg-gray-50 overflow-hidden">
         <div class="relative w-full h-[45vw] sm:h-[300px] md:h-[500px] lg:h-[600px] group">
-            <!-- Slide 1 (Padma - hidden) -->
-            <!-- <div class="banner-slide absolute inset-0 w-full h-full transition-opacity duration-500 opacity-100 z-10" data-index="0">
-                <img src="assets/banners/tanmay-dr-vijay-anan-web-banner.webp" alt="Dr. Vijay Anand Banner" class="w-full h-full object-cover object-center">
-            </div> -->
+            <!-- Slide 1 -->
+            <div class="banner-slide absolute inset-0 w-full h-full transition-opacity duration-500 opacity-100 z-10" data-index="0">
+                <img src="assets/banners/VAR-award-banner.webp" alt="Dr. Vijay Anand Reddy Award Banner" class="w-full h-full object-cover object-center">
+            </div>
             <!-- Slide 2 -->
-            <div class="absolute inset-0 w-full h-full">
+            <div class="banner-slide absolute inset-0 w-full h-full transition-opacity duration-500 opacity-0 z-0" data-index="1">
                 <img src="assets/banners/var-banner-review.webp" alt="Review Banner" class="w-full h-full object-contain">
+            </div>
+
+            <!-- Prev/Next Buttons -->
+            <button onclick="prevSlide()" class="absolute left-3 top-1/2 -translate-y-1/2 z-20 bg-white/70 hover:bg-white/90 text-gray-800 rounded-full w-10 h-10 flex items-center justify-center shadow-lg transition opacity-0 group-hover:opacity-100">
+                <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><polyline points="15 18 9 12 15 6"></polyline></svg>
+            </button>
+            <button onclick="nextSlide()" class="absolute right-3 top-1/2 -translate-y-1/2 z-20 bg-white/70 hover:bg-white/90 text-gray-800 rounded-full w-10 h-10 flex items-center justify-center shadow-lg transition opacity-0 group-hover:opacity-100">
+                <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><polyline points="9 18 15 12 9 6"></polyline></svg>
+            </button>
+
+            <!-- Dots -->
+            <div class="absolute bottom-4 left-1/2 -translate-x-1/2 z-20 flex gap-2">
+                <button onclick="goToSlide(0)" class="banner-dot h-3 w-6 rounded-full bg-medical-blue transition-all"></button>
+                <button onclick="goToSlide(1)" class="banner-dot h-3 w-3 rounded-full bg-gray-300 transition-all"></button>
             </div>
         </div>
     </section>
@@ -1288,9 +1302,19 @@
         <div class="container mx-auto px-4 relative z-10">
             <div class="bg-white/60 backdrop-blur-xl rounded-2xl border border-white/50 shadow-xl p-6">
                 <div class="flex flex-col md:flex-row items-center justify-center gap-8 text-center md:text-left">
-                    <!-- Best Business Award Image -->
-                    <div class="flex-shrink-0">
-                        <img src="assets/3-best-best-business-of-2023.webp" alt="3 Best Rated Business of 2023" class="h-24 md:h-28 w-auto object-contain">
+                    <!-- 3 Decades of Experience -->
+                    <div class="text-center">
+                        <div class="text-4xl font-bold mb-1" style="background: linear-gradient(to right, #9B528F, #8B5CF6); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;">30+</div>
+                        <p class="text-gray-600 text-sm font-medium">Years of Experience</p>
+                    </div>
+
+                    <!-- Divider -->
+                    <div class="hidden md:block w-px h-16 bg-gradient-to-b from-transparent via-gray-300 to-transparent"></div>
+
+                    <!-- 95% Success Rate -->
+                    <div class="text-center">
+                        <div class="text-4xl font-bold mb-1" style="background: linear-gradient(to right, #9B528F, #8B5CF6); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;">95%</div>
+                        <p class="text-gray-600 text-sm font-medium">Success Rate</p>
                     </div>
 
                     <!-- Divider -->
@@ -1470,7 +1494,40 @@
            <div class="flex md:contents gap-4 overflow-x-auto snap-x snap-mandatory scrollbar-hide pb-4 md:pb-0 -mx-4 pl-4 pr-8 md:mx-0 md:px-0">
                           <div class="bg-white rounded-2xl shadow-lg card-hover group overflow-hidden min-w-[80vw] md:min-w-0 snap-start reveal delay-0">
                <div class="relative h-48 overflow-hidden">
-                 <img src="assets/services/Pancreatic-Cancer.webp" alt="Pancreatic Cancer" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300">
+                 <img src="assets/services/radiation-vijay.webp" alt="Radiation Oncology" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300">
+                 <div class="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent"></div>
+                 <div class="absolute top-4 left-4 w-12 h-12 bg-white/90 rounded-xl flex items-center justify-center">
+                   <i data-feather="target" class="w-6 h-6 text-medical-blue"></i>
+                 </div>
+               </div>
+
+               <div class="p-6">
+                 <h3 class="text-xl font-bold text-medical-dark mb-3">Radiation Oncology</h3>
+                 <p class="text-gray-600 mb-4 leading-relaxed text-sm">Precise, technologically advanced cancer treatment with expert clinical support in Hyderabad</p>
+                 
+                 <ul class="space-y-2 mb-4">
+                                      <li class="flex items-center text-sm text-gray-700">
+                     <div class="w-1.5 h-1.5 bg-medical-blue rounded-full mr-3"></div>
+                     IMRT/IGRT                   </li>
+                                      <li class="flex items-center text-sm text-gray-700">
+                     <div class="w-1.5 h-1.5 bg-medical-blue rounded-full mr-3"></div>
+                     External Beam Therapy                   </li>
+                                      <li class="flex items-center text-sm text-gray-700">
+                     <div class="w-1.5 h-1.5 bg-medical-blue rounded-full mr-3"></div>
+                     Brachytherapy                   </li>
+                                      <li class="flex items-center text-sm text-gray-700">
+                     <div class="w-1.5 h-1.5 bg-medical-blue rounded-full mr-3"></div>
+                     Stereotactic Radiosurgery                   </li>
+                                    </ul>
+
+                 <a href="radiation-oncology.html" class="text-medical-blue font-semibold hover:text-medical-purple transition-colors duration-200 inline-block">
+                   Learn More →
+                 </a>
+               </div>
+             </div>
+                          <div class="bg-white rounded-2xl shadow-lg card-hover group overflow-hidden min-w-[80vw] md:min-w-0 snap-start reveal delay-100">
+               <div class="relative h-48 overflow-hidden">
+                 <img src="assets/services/Pancreatic-Cancer.webp" alt="Medical Oncology" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300">
                  <div class="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent"></div>
                  <div class="absolute top-4 left-4 w-12 h-12 bg-white/90 rounded-xl flex items-center justify-center">
                    <i data-feather="activity" class="w-6 h-6 text-medical-blue"></i>
@@ -1478,58 +1535,25 @@
                </div>
 
                <div class="p-6">
-                 <h3 class="text-xl font-bold text-medical-dark mb-3">Pancreatic Cancer</h3>
-                 <p class="text-gray-600 mb-4 leading-relaxed text-sm">Personalized treatments with expert team and unmatched experience for advanced pancreatic cancer care</p>
+                 <h3 class="text-xl font-bold text-medical-dark mb-3">Medical Oncology</h3>
+                 <p class="text-gray-600 mb-4 leading-relaxed text-sm">Advanced chemotherapy, immunotherapy and targeted drug therapies for comprehensive cancer management</p>
                  
                  <ul class="space-y-2 mb-4">
                                       <li class="flex items-center text-sm text-gray-700">
                      <div class="w-1.5 h-1.5 bg-medical-blue rounded-full mr-3"></div>
-                     Whipple Procedure                   </li>
-                                      <li class="flex items-center text-sm text-gray-700">
-                     <div class="w-1.5 h-1.5 bg-medical-blue rounded-full mr-3"></div>
-                     Chemotherapy Protocols                   </li>
-                                      <li class="flex items-center text-sm text-gray-700">
-                     <div class="w-1.5 h-1.5 bg-medical-blue rounded-full mr-3"></div>
-                     Precision Radiation                   </li>
-                                      <li class="flex items-center text-sm text-gray-700">
-                     <div class="w-1.5 h-1.5 bg-medical-blue rounded-full mr-3"></div>
-                     Palliative Care                   </li>
-                                    </ul>
-
-                 <a href="pancreatic-cancer.html" class="text-medical-blue font-semibold hover:text-medical-purple transition-colors duration-200 inline-block">
-                   Learn More →
-                 </a>
-               </div>
-             </div>
-                          <div class="bg-white rounded-2xl shadow-lg card-hover group overflow-hidden min-w-[80vw] md:min-w-0 snap-start reveal delay-100">
-               <div class="relative h-48 overflow-hidden">
-                 <img src="assets/services/Adrenal-Cancer.webp" alt="Kidney Cancer" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300">
-                 <div class="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent"></div>
-                 <div class="absolute top-4 left-4 w-12 h-12 bg-white/90 rounded-xl flex items-center justify-center">
-                   <i data-feather="shield" class="w-6 h-6 text-medical-blue"></i>
-                 </div>
-               </div>
-
-               <div class="p-6">
-                 <h3 class="text-xl font-bold text-medical-dark mb-3">Kidney Cancer</h3>
-                 <p class="text-gray-600 mb-4 leading-relaxed text-sm">Expert diagnosis and personalized treatment using latest medical advances for kidney cancer</p>
-                 
-                 <ul class="space-y-2 mb-4">
-                                      <li class="flex items-center text-sm text-gray-700">
-                     <div class="w-1.5 h-1.5 bg-medical-blue rounded-full mr-3"></div>
-                     Advanced Imaging                   </li>
-                                      <li class="flex items-center text-sm text-gray-700">
-                     <div class="w-1.5 h-1.5 bg-medical-blue rounded-full mr-3"></div>
-                     Surgical Treatment                   </li>
-                                      <li class="flex items-center text-sm text-gray-700">
-                     <div class="w-1.5 h-1.5 bg-medical-blue rounded-full mr-3"></div>
-                     Targeted Therapies                   </li>
+                     Chemotherapy                   </li>
                                       <li class="flex items-center text-sm text-gray-700">
                      <div class="w-1.5 h-1.5 bg-medical-blue rounded-full mr-3"></div>
                      Immunotherapy                   </li>
+                                      <li class="flex items-center text-sm text-gray-700">
+                     <div class="w-1.5 h-1.5 bg-medical-blue rounded-full mr-3"></div>
+                     Targeted Therapy                   </li>
+                                      <li class="flex items-center text-sm text-gray-700">
+                     <div class="w-1.5 h-1.5 bg-medical-blue rounded-full mr-3"></div>
+                     Hormonal Therapy                   </li>
                                     </ul>
 
-                 <a href="kidney-cancer.html" class="text-medical-blue font-semibold hover:text-medical-purple transition-colors duration-200 inline-block">
+                 <a href="medical-oncology.html" class="text-medical-blue font-semibold hover:text-medical-purple transition-colors duration-200 inline-block">
                    Learn More →
                  </a>
                </div>
@@ -1569,33 +1593,33 @@
              </div>
                           <div class="bg-white rounded-2xl shadow-lg card-hover group overflow-hidden min-w-[80vw] md:min-w-0 snap-start reveal delay-300">
                <div class="relative h-48 overflow-hidden">
-                 <img src="assets/services/radiation-vijay.webp" alt="Radiation Oncology" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300">
+                 <img src="assets/services/Adrenal-Cancer.webp" alt="Head & Neck Cancer" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300">
                  <div class="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent"></div>
                  <div class="absolute top-4 left-4 w-12 h-12 bg-white/90 rounded-xl flex items-center justify-center">
-                   <i data-feather="target" class="w-6 h-6 text-medical-blue"></i>
+                   <i data-feather="shield" class="w-6 h-6 text-medical-blue"></i>
                  </div>
                </div>
 
                <div class="p-6">
-                 <h3 class="text-xl font-bold text-medical-dark mb-3">Radiation Oncology</h3>
-                 <p class="text-gray-600 mb-4 leading-relaxed text-sm">Precise, technologically advanced cancer treatment with expert clinical support in Hyderabad</p>
+                 <h3 class="text-xl font-bold text-medical-dark mb-3">Head & Neck Cancer</h3>
+                 <p class="text-gray-600 mb-4 leading-relaxed text-sm">Specialized multidisciplinary care for cancers of the head and neck region with advanced treatment options</p>
                  
                  <ul class="space-y-2 mb-4">
                                       <li class="flex items-center text-sm text-gray-700">
                      <div class="w-1.5 h-1.5 bg-medical-blue rounded-full mr-3"></div>
-                     IMRT/IGRT                   </li>
+                     Multidisciplinary Approach                   </li>
                                       <li class="flex items-center text-sm text-gray-700">
                      <div class="w-1.5 h-1.5 bg-medical-blue rounded-full mr-3"></div>
-                     External Beam Therapy                   </li>
+                     Organ Preservation                   </li>
                                       <li class="flex items-center text-sm text-gray-700">
                      <div class="w-1.5 h-1.5 bg-medical-blue rounded-full mr-3"></div>
-                     Brachytherapy                   </li>
+                     Reconstructive Surgery                   </li>
                                       <li class="flex items-center text-sm text-gray-700">
                      <div class="w-1.5 h-1.5 bg-medical-blue rounded-full mr-3"></div>
-                     Stereotactic Radiosurgery                   </li>
+                     Rehabilitation Support                   </li>
                                     </ul>
 
-                 <a href="radiation-oncology.html" class="text-medical-blue font-semibold hover:text-medical-purple transition-colors duration-200 inline-block">
+                 <a href="head-neck-oncology.html" class="text-medical-blue font-semibold hover:text-medical-purple transition-colors duration-200 inline-block">
                    Learn More →
                  </a>
                </div>
@@ -2743,7 +2767,33 @@ function switchVideo(videoId, clickedEl) {
                 </div>
               </div>
             </div>
-                      <div class="bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 flex flex-col overflow-hidden reveal delay-100 cursor-pointer group" onclick="window.location.href='events.php?id=national-cancer-awareness-day-check-o-late'">
+                      <div class="bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 flex flex-col overflow-hidden reveal delay-100 cursor-pointer group" onclick="window.location.href='events.php?id=ccgc-2026'">
+              <div class="h-56 w-full relative overflow-hidden">
+                                  <img src="assets/Events/ccgc-2026/gallery-1.webp" alt="Cancer Crusaders Golf Championship 2026" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105">
+                                <div class="absolute top-4 left-4 bg-white/90 backdrop-blur text-medical-dark px-3 py-1.5 rounded-lg text-sm font-bold shadow-md">
+                                      30 Jan                                  </div>
+              </div>
+              <div class="p-6 md:p-8 flex flex-col flex-grow">
+                                  <div class="flex items-center text-sm text-medical-blue font-semibold mb-3">
+                    <i data-feather="calendar" class="w-4 h-4 mr-2"></i>
+                    January 30, 2026                  </div>
+                                
+                <h3 class="font-bold text-xl md:text-2xl mb-4 text-medical-dark line-clamp-2 group-hover:text-medical-blue transition-colors">
+                  Cancer Crusaders Golf Championship 2026                </h3>
+                
+                <p class="text-gray-600 line-clamp-3 mb-6 flex-grow text-sm leading-relaxed">
+                  The Cancer Crusaders Golf Championship (CCGC) 2026, presented by Aparna and organized by the CURE Foundation, is an exclusive biennial fundraiser held...
+                </p>
+                
+                <div class="mt-auto pt-4 border-t border-gray-100 flex justify-between items-center">
+                  <span class="inline-flex items-center text-medical-blue font-bold group-hover:text-medical-purple transition-colors">
+                    Read More 
+                    <i data-feather="arrow-right" class="w-4 h-4 ml-2 transition-transform group-hover:translate-x-1"></i>
+                  </span>
+                </div>
+              </div>
+            </div>
+                      <div class="bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 flex flex-col overflow-hidden reveal delay-200 cursor-pointer group" onclick="window.location.href='events.php?id=national-cancer-awareness-day-check-o-late'">
               <div class="h-56 w-full relative overflow-hidden">
                                   <img src="assets/Events/national-cancer-awareness-day-check-o-late/banner-2.webp" alt="National Cancer Awareness Day – &quot;Check O Late!&quot; Initiative" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105">
                                 <div class="absolute top-4 left-4 bg-white/90 backdrop-blur text-medical-dark px-3 py-1.5 rounded-lg text-sm font-bold shadow-md">
@@ -2759,34 +2809,6 @@ function switchVideo(videoId, clickedEl) {
                 
                 <p class="text-gray-600 line-clamp-3 mb-6 flex-grow text-sm leading-relaxed">
                   Apollo Cancer Centres, Hyderabad, in association with the CURE Foundation, marked National Cancer Awareness Day with the impactful &quot;Check O Late!&quot; ini...
-                </p>
-                
-                <div class="mt-auto pt-4 border-t border-gray-100 flex justify-between items-center">
-                  <span class="inline-flex items-center text-medical-blue font-bold group-hover:text-medical-purple transition-colors">
-                    Read More 
-                    <i data-feather="arrow-right" class="w-4 h-4 ml-2 transition-transform group-hover:translate-x-1"></i>
-                  </span>
-                </div>
-              </div>
-            </div>
-                      <div class="bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 flex flex-col overflow-hidden reveal delay-200 cursor-pointer group" onclick="window.location.href='events.php?id=breast-cancer-awareness-flash-mob-gvk-one'">
-              <div class="h-56 w-full relative overflow-hidden">
-                                  <img src="assets/Events/breast-cancer-awareness-flash-mob-gvk-one/banner-1.webp" alt="Breast Cancer Awareness Flash Mob at GVK One Mall" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105">
-                                <div class="absolute top-4 left-4 bg-white/90 backdrop-blur text-medical-dark px-3 py-1.5 rounded-lg text-sm font-bold shadow-md">
-                                      01 Nov                                  </div>
-              </div>
-              <div class="p-6 md:p-8 flex flex-col flex-grow">
-                                  <div class="flex items-center text-sm text-medical-blue font-semibold mb-3">
-                    <i data-feather="calendar" class="w-4 h-4 mr-2"></i>
-                    November 1, 2025                  </div>
-                                
-                <h3 class="font-bold text-xl md:text-2xl mb-4 text-medical-dark line-clamp-2 group-hover:text-medical-blue transition-colors">
-                  Breast Cancer Awareness Flash Mob at GVK One Mall                </h3>
-                
-                <p class="text-gray-600 line-clamp-3 mb-6 flex-grow text-sm leading-relaxed">
-                  Apollo Cancer Centers, in association with the CURE Foundation, created a vibrant wave of awareness with a spectacular flash mob at GVK One Mall.
-
-Doc...
                 </p>
                 
                 <div class="mt-auto pt-4 border-t border-gray-100 flex justify-between items-center">
@@ -2955,7 +2977,7 @@ Doc...
             <!-- About Section with Logo - Spans 2 columns -->
             <div class="lg:col-span-2">
                 <div class="mb-6">
-                    <img src="assets/logo/var-white.png" alt="Dr. Palkonda Vijay Anand Reddy" class="h-28 w-auto object-contain">
+                    <img src="assets/logo/var-dark logo.png" alt="Dr. Palkonda Vijay Anand Reddy" class="h-28 w-auto object-contain">
                 </div>
 
                 <p class="text-gray-300 mb-6 leading-relaxed text-base max-w-md">

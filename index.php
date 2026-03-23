@@ -110,13 +110,27 @@
     <!-- BANNERS SECTION -->
     <section id="banners" class="relative pt-24 md:pt-32 pb-8 bg-gray-50 overflow-hidden">
         <div class="relative w-full h-[45vw] sm:h-[300px] md:h-[500px] lg:h-[600px] group">
-            <!-- Slide 1 (Padma - hidden) -->
-            <!-- <div class="banner-slide absolute inset-0 w-full h-full transition-opacity duration-500 opacity-100 z-10" data-index="0">
-                <img src="assets/banners/tanmay-dr-vijay-anan-web-banner.webp" alt="Dr. Vijay Anand Banner" class="w-full h-full object-cover object-center">
-            </div> -->
+            <!-- Slide 1 -->
+            <div class="banner-slide absolute inset-0 w-full h-full transition-opacity duration-500 opacity-100 z-10" data-index="0">
+                <img src="assets/banners/VAR-award-banner.webp" alt="Dr. Vijay Anand Reddy Award Banner" class="w-full h-full object-cover object-center">
+            </div>
             <!-- Slide 2 -->
-            <div class="absolute inset-0 w-full h-full">
+            <div class="banner-slide absolute inset-0 w-full h-full transition-opacity duration-500 opacity-0 z-0" data-index="1">
                 <img src="assets/banners/var-banner-review.webp" alt="Review Banner" class="w-full h-full object-contain">
+            </div>
+
+            <!-- Prev/Next Buttons -->
+            <button onclick="prevSlide()" class="absolute left-3 top-1/2 -translate-y-1/2 z-20 bg-white/70 hover:bg-white/90 text-gray-800 rounded-full w-10 h-10 flex items-center justify-center shadow-lg transition opacity-0 group-hover:opacity-100">
+                <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><polyline points="15 18 9 12 15 6"></polyline></svg>
+            </button>
+            <button onclick="nextSlide()" class="absolute right-3 top-1/2 -translate-y-1/2 z-20 bg-white/70 hover:bg-white/90 text-gray-800 rounded-full w-10 h-10 flex items-center justify-center shadow-lg transition opacity-0 group-hover:opacity-100">
+                <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><polyline points="9 18 15 12 9 6"></polyline></svg>
+            </button>
+
+            <!-- Dots -->
+            <div class="absolute bottom-4 left-1/2 -translate-x-1/2 z-20 flex gap-2">
+                <button onclick="goToSlide(0)" class="banner-dot h-3 w-6 rounded-full bg-medical-blue transition-all"></button>
+                <button onclick="goToSlide(1)" class="banner-dot h-3 w-3 rounded-full bg-gray-300 transition-all"></button>
             </div>
         </div>
     </section>
@@ -258,9 +272,19 @@
         <div class="container mx-auto px-4 relative z-10">
             <div class="bg-white/60 backdrop-blur-xl rounded-2xl border border-white/50 shadow-xl p-6">
                 <div class="flex flex-col md:flex-row items-center justify-center gap-8 text-center md:text-left">
-                    <!-- Best Business Award Image -->
-                    <div class="flex-shrink-0">
-                        <img src="assets/3-best-best-business-of-2023.webp" alt="3 Best Rated Business of 2023" class="h-24 md:h-28 w-auto object-contain">
+                    <!-- 3 Decades of Experience -->
+                    <div class="text-center">
+                        <div class="text-4xl font-bold mb-1" style="background: linear-gradient(to right, #9B528F, #8B5CF6); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;">30+</div>
+                        <p class="text-gray-600 text-sm font-medium">Years of Experience</p>
+                    </div>
+
+                    <!-- Divider -->
+                    <div class="hidden md:block w-px h-16 bg-gradient-to-b from-transparent via-gray-300 to-transparent"></div>
+
+                    <!-- 95% Success Rate -->
+                    <div class="text-center">
+                        <div class="text-4xl font-bold mb-1" style="background: linear-gradient(to right, #9B528F, #8B5CF6); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;">95%</div>
+                        <p class="text-gray-600 text-sm font-medium">Success Rate</p>
                     </div>
 
                     <!-- Divider -->
@@ -379,22 +403,22 @@
     <?php
     $services = [
       [
-        'id' => "pancreatic-cancer",
-        'link' => "pancreatic-cancer.php",
-        'icon' => 'activity',
-        'title' => "Pancreatic Cancer",
-        'description' => "Personalized treatments with expert team and unmatched experience for advanced pancreatic cancer care",
-        'image' => "assets/services/Pancreatic-Cancer.webp",
-        'features' => ["Whipple Procedure", "Chemotherapy Protocols", "Precision Radiation", "Palliative Care"]
+        'id' => "radiation-oncology",
+        'link' => "radiation-oncology.php",
+        'icon' => 'target',
+        'title' => "Radiation Oncology",
+        'description' => "Precise, technologically advanced cancer treatment with expert clinical support in Hyderabad",
+        'image' => "assets/services/radiation-vijay.webp",
+        'features' => ["IMRT/IGRT", "External Beam Therapy", "Brachytherapy", "Stereotactic Radiosurgery"]
       ],
       [
-        'id' => "kidney-cancer",
-        'link' => "kidney-cancer.php",
-        'icon' => 'shield',
-        'title' => "Kidney Cancer",
-        'description' => "Expert diagnosis and personalized treatment using latest medical advances for kidney cancer",
-        'image' => "assets/services/Adrenal-Cancer.webp",
-        'features' => ["Advanced Imaging", "Surgical Treatment", "Targeted Therapies", "Immunotherapy"]
+        'id' => "medical-oncology",
+        'link' => "medical-oncology.php",
+        'icon' => 'activity',
+        'title' => "Medical Oncology",
+        'description' => "Advanced chemotherapy, immunotherapy and targeted drug therapies for comprehensive cancer management",
+        'image' => "assets/services/Pancreatic-Cancer.webp",
+        'features' => ["Chemotherapy", "Immunotherapy", "Targeted Therapy", "Hormonal Therapy"]
       ],
       [
         'id' => "proton-therapy",
@@ -406,18 +430,18 @@
         'features' => ["High Precision Radiation", "Minimal Side Effects", "Pediatric Cancer Care", "Organ Preservation"]
       ],
       [
-        'id' => "radiation-oncology",
-        'link' => "radiation-oncology.php",
-        'icon' => 'target',
-        'title' => "Radiation Oncology",
-        'description' => "Precise, technologically advanced cancer treatment with expert clinical support in Hyderabad",
-        'image' => "assets/services/radiation-vijay.webp",
-        'features' => ["IMRT/IGRT", "External Beam Therapy", "Brachytherapy", "Stereotactic Radiosurgery"]
+        'id' => "head-neck-cancer",
+        'link' => "head-neck-oncology.php",
+        'icon' => 'shield',
+        'title' => "Head & Neck Cancer",
+        'description' => "Specialized multidisciplinary care for cancers of the head and neck region with advanced treatment options",
+        'image' => "assets/services/Adrenal-Cancer.webp",
+        'features' => ["Multidisciplinary Approach", "Organ Preservation", "Reconstructive Surgery", "Rehabilitation Support"]
       ],
       [
         'id' => "throat-cancer",
         'link' => "head-neck-oncology.php",
-        'icon' => 'brain', // Assuming 'brain' maps to something visually approximate or use a custom one
+        'icon' => 'brain',
         'title' => "Throat Cancer",
         'description' => "Expert diagnosis, advanced surgery and radiation, plus holistic support for optimal outcomes",
         'image' => "assets/services/throat-cancer.webp",

@@ -23,7 +23,9 @@
       "Bash(/usr/bin/python3 -c \"from PIL import Image; print\\(''pillow ok''\\)\")",
       "Bash(py -3 -c \"from PIL import Image; print\\(''pillow ok''\\)\")",
       "Bash(python3.12 /tmp/convert_webp.py)",
-      "Bash(ls testimonial*.php)"
+      "Bash(ls testimonial*.php)",
+      "WebFetch(domain:www.cancercrusadersgolf.com)",
+      "Bash(curl -sL -o banner.png \"https://www.cancercrusadersgolf.com/img/logo/mobile-banner-ccgc.png\")"
     ]
   }
 }
