@@ -37,6 +37,9 @@
 <body class="bg-[#faf7fc] text-gray-800 flex flex-col min-h-screen font-sans">
 
     
+<style>body{opacity:0;transition:opacity .15s ease-in}body.loaded{opacity:1}</style>
+<script>document.addEventListener('DOMContentLoaded',function(){document.body.classList.add('loaded')})</script>
+
 <!-- Top Bar -->
 <div class="fixed top-0 w-full bg-medical-blue text-white py-2 px-4 text-sm" style="z-index: 9999;">
     <div class="max-w-7xl mx-auto flex flex-wrap justify-between items-center">
