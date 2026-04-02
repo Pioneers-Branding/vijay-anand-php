@@ -54,12 +54,12 @@ The event was a massive success, widely appreciated by the public, and received 
       2 => 'assets/Events/breast-cancer-awareness-flash-mob-gvk-one/image-1c.webp',
     ),
   ),
-  1 => 
+  48 =>
   array (
     'id' => 'national-cancer-awareness-day-check-o-late',
     'category' => 'cancer-awareness-day',
     'title' => 'National Cancer Awareness Day – "Check O Late!" Initiative',
-    'date' => '2025-11-07',
+    'date' => '2025-10-31',
     'author' => 'Dr. P. Vijay Anand Reddy',
     'banners' => 
     array (
@@ -782,11 +782,9 @@ Awareness is the panacea to prevention and early detection of cancer. Though the
     'category' => 'world-cancer-day',
     'title' => 'Apollo Cancer Centres Launches \'Unmask Cancer\' Initiative 2024',
     'date' => '2024-02-02',
-    'banners' => 
+    'banners' =>
     array (
-      0 => 'assets/Events/cancer-awareness-super-car/1.webp',
-      1 => 'assets/Events/cancer-awareness-super-car/2.webp',
-      2 => 'assets/Events/cancer-awareness-super-car/3.webp',
+      0 => 'assets/Events/unmask-cancer-2024/unmask-cancer.jpeg',
     ),
     'description' => 'Hyderabad, India – February 2nd, 2024 – Apollo Cancer Centres proudly introduces ‘Unmask Cancer,’ a groundbreaking campaign aimed at unravelling the truth about cancer, dispelling myths, and fostering empathy within society. As World Cancer Day approaches, ACCs takes a bold step to address the discrimination faced by cancer winners.
 
@@ -795,36 +793,9 @@ Awareness is the panacea to prevention and early detection of cancer. Though the
 ACCs takes the initiative to the corporate sector and society at large, including Cancer Sensitization Sessions led by oncologists and survivors, both online and offline. These sessions foster awareness, empathy, and equality.
 
 Dr. Vijay Anand Reddy said, “Our mission at ACC goes beyond providing world-class medical care. ‘Unmask Cancer’ is a testament to our dedication to creating a society that supports and uplifts cancer survivors.”',
-    'photos' => 
+    'photos' =>
     array (
-      0 => 'assets/Events/cancer-awareness-super-car/4.webp',
-      1 => 'assets/Events/cancer-awareness-super-car/5.webp',
-      2 => 'assets/Events/cancer-awareness-super-car/6.webp',
-      3 => 'assets/Events/cancer-awareness-super-car/7.webp',
-      4 => 'assets/Events/cancer-awareness-super-car/8.webp',
-      5 => 'assets/Events/cancer-awareness-super-car/9.webp',
-      6 => 'assets/Events/cancer-awareness-super-car/10.webp',
-      7 => 'assets/Events/cancer-awareness-super-car/11.webp',
-      8 => 'assets/Events/cancer-awareness-super-car/12.webp',
-      9 => 'assets/Events/cancer-awareness-super-car/13.webp',
-      10 => 'assets/Events/cancer-awareness-super-car/14.webp',
-      11 => 'assets/Events/cancer-awareness-super-car/15.webp',
-      12 => 'assets/Events/cancer-awareness-super-car/16.webp',
-      13 => 'assets/Events/cancer-awareness-super-car/17.webp',
-      14 => 'assets/Events/cancer-awareness-super-car/18.webp',
-      15 => 'assets/Events/cancer-awareness-super-car/19.webp',
-      16 => 'assets/Events/cancer-awareness-super-car/20.webp',
-      17 => 'assets/Events/cancer-awareness-super-car/21.webp',
-      18 => 'assets/Events/cancer-awareness-super-car/22.webp',
-      19 => 'assets/Events/cancer-awareness-super-car/23.webp',
-      20 => 'assets/Events/cancer-awareness-super-car/24.webp',
-      21 => 'assets/Events/cancer-awareness-super-car/25.webp',
-      22 => 'assets/Events/cancer-awareness-super-car/26.webp',
-      23 => 'assets/Events/cancer-awareness-super-car/27.webp',
-      24 => 'assets/Events/cancer-awareness-super-car/28.webp',
-      25 => 'assets/Events/cancer-awareness-super-car/29.webp',
-      26 => 'assets/Events/cancer-awareness-super-car/30.webp',
-      27 => 'assets/Events/cancer-awareness-super-car/31.webp',
+      0 => 'assets/Events/unmask-cancer-2024/unmask-cancer.jpeg',
     ),
   ),
   24 => 
@@ -1606,6 +1577,7 @@ The colorful vintage rally had super luxury cars like Mercedes e63, BMW m3, Ferr
   array (
     'id' => 'felicitation-chairman-apollo-hospitals-2026',
     'category' => 'events',
+    'homepage_only' => true,
     'title' => 'Felicitation by Chairman Apollo Hospitals Sri Pratap’s C Reddy on Founder’s Day @ Chennai 8/2/26',
     'date' => '2026-02-08',
     'author' => 'Dr. P. Vijay Anand Reddy',
@@ -1626,6 +1598,62 @@ This honour comes with a deeper sense of responsibility and a renewed commitment
       1 => 'assets/Events/2026-with-cm/with-cm-2.webp',
       2 => 'assets/Events/2026-with-cm/with-cm-3.webp',
       3 => 'assets/Events/2026-with-cm/with-cm-4.webp',
+    ),
+  ),
+  49 =>
+  array (
+    'id' => 'debates-in-uro-oncology-2023',
+    'category' => 'awareness-programmes',
+    'title' => 'Debates in Uro Oncology – Demystifying the Controversies',
+    'date' => '2023-11-25',
+    'author' => 'Dr. P. Vijay Anand Reddy',
+    'banners' =>
+    array (
+      0 => 'assets/Events/Debates in Uro Oncology 25-11-2023/MALI8328.webp',
+    ),
+    'description' => 'The Uro Oncology Workshop titled "Debates in Uro Oncology – Demystifying the Controversies" was successfully conducted on 25th November 2023 at the Apollo Medical College Auditorium, Apollo Hospitals, Hyderabad. The program brought together leading experts in uro-oncology to engage in dynamic, evidence-based debates on key clinical challenges, focusing on diagnostic approaches, evolving imaging modalities, genetic testing, and treatment strategies relevant to the Indian context. Organized under the leadership of Dr. P. Vijay Anand Reddy with an eminent scientific committee, the workshop featured interactive sessions, panel discussions, and case-based deliberations, enabling participants to gain practical insights and clarity on contemporary controversies in prostate, bladder, and renal cancers. The event served as a valuable academic platform fostering knowledge exchange and enhancing clinical decision-making in uro-oncology.',
+    'photos' =>
+    array (
+      0 => 'assets/Events/Debates in Uro Oncology 25-11-2023/MALI8328.webp',
+      1 => 'assets/Events/Debates in Uro Oncology 25-11-2023/MALI8329.webp',
+      2 => 'assets/Events/Debates in Uro Oncology 25-11-2023/MALI8344.webp',
+      3 => 'assets/Events/Debates in Uro Oncology 25-11-2023/MALI8349.webp',
+      4 => 'assets/Events/Debates in Uro Oncology 25-11-2023/MALI8384.webp',
+      5 => 'assets/Events/Debates in Uro Oncology 25-11-2023/MALI8388.webp',
+      6 => 'assets/Events/Debates in Uro Oncology 25-11-2023/MALI8393.webp',
+      7 => 'assets/Events/Debates in Uro Oncology 25-11-2023/MALI8394.webp',
+      8 => 'assets/Events/Debates in Uro Oncology 25-11-2023/MALI8408.webp',
+      9 => 'assets/Events/Debates in Uro Oncology 25-11-2023/MALI8420.webp',
+      10 => 'assets/Events/Debates in Uro Oncology 25-11-2023/MALI8431.webp',
+    ),
+  ),
+  50 =>
+  array (
+    'id' => 'aroi-estro-teaching-course-2023',
+    'category' => 'awareness-programmes',
+    'title' => '10th AROI–ESTRO Teaching Course on Advanced Technologies in Radiation Oncology',
+    'date' => '2023-11-30',
+    'author' => 'Dr. P. Vijay Anand Reddy',
+    'banners' =>
+    array (
+      0 => 'assets/Events/AROI-ESTRO Photos 30-11-2023/MALI8510.webp',
+    ),
+    'description' => 'The 10th AROI–ESTRO Teaching Course on Advanced Technologies in Radiation Oncology, held from 30th November to 3rd December 2023, was a highly enriching academic program that brought together leading experts, clinicians, and aspiring professionals in the field of radiation oncology. The course focused on the latest advancements, innovations, and best practices in modern radiation techniques, including precision therapy, imaging integration, and emerging technologies. Through a combination of lectures, interactive sessions, and case discussions, participants gained valuable insights and practical knowledge aimed at enhancing patient care and treatment outcomes. The event served as an excellent platform for knowledge exchange, skill development, and professional collaboration.',
+    'photos' =>
+    array (
+      0 => 'assets/Events/AROI-ESTRO Photos 30-11-2023/3E3A0123.webp',
+      1 => 'assets/Events/AROI-ESTRO Photos 30-11-2023/3E3A0269.webp',
+      2 => 'assets/Events/AROI-ESTRO Photos 30-11-2023/MALI8510.webp',
+      3 => 'assets/Events/AROI-ESTRO Photos 30-11-2023/MALI8516.webp',
+      4 => 'assets/Events/AROI-ESTRO Photos 30-11-2023/MALI8555.webp',
+      5 => 'assets/Events/AROI-ESTRO Photos 30-11-2023/MALI8585.webp',
+      6 => 'assets/Events/AROI-ESTRO Photos 30-11-2023/MALI8590.webp',
+      7 => 'assets/Events/AROI-ESTRO Photos 30-11-2023/MALI8592.webp',
+      8 => 'assets/Events/AROI-ESTRO Photos 30-11-2023/MALI8658.webp',
+      9 => 'assets/Events/AROI-ESTRO Photos 30-11-2023/MALI8897.webp',
+      10 => 'assets/Events/AROI-ESTRO Photos 30-11-2023/MALI8943.webp',
+      11 => 'assets/Events/AROI-ESTRO Photos 30-11-2023/MALI8979.webp',
+      12 => 'assets/Events/AROI-ESTRO Photos 30-11-2023/MALI9040.webp',
     ),
   ),
 );

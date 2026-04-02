@@ -25,7 +25,16 @@
       "Bash(python3.12 /tmp/convert_webp.py)",
       "Bash(ls testimonial*.php)",
       "WebFetch(domain:www.cancercrusadersgolf.com)",
-      "Bash(curl -sL -o banner.png \"https://www.cancercrusadersgolf.com/img/logo/mobile-banner-ccgc.png\")"
+      "Bash(curl -sL -o banner.png \"https://www.cancercrusadersgolf.com/img/logo/mobile-banner-ccgc.png\")",
+      "Bash(curl -L -o \"c:\\\\Users\\\\GCV\\\\Desktop\\\\vijay-anand-php\\\\assets\\\\Events\\\\unmask-cancer-2024\\\\unmask-cancer.jpeg\" \"https://drvijayanandreddy.com/wp-content/uploads/2024/02/MALI8171-2048x1365.jpeg\")",
+      "Bash(php -l events_data.php)",
+      "Bash(xxd events_data.php)",
+      "Bash(grep -o '\\\\$[a-zA-Z]')",
+      "WebFetch(domain:drvijayanandreddy.com)",
+      "Bash(php -r 'include '\\\\''events_data.php'\\\\''; echo count\\($events\\) . '\\\\'' events loaded\\\\n'\\\\''; $ids = array_column\\($events, '\\\\''id'\\\\''\\); echo in_array\\('\\\\''breast-cancer-awareness-flash-mob-gvk-one'\\\\'', $ids\\) ? '\\\\''Flash mob: FOUND'\\\\'' : '\\\\''Flash mob: MISSING'\\\\''; echo '\\\\''\\\\n'\\\\'';')",
+      "Bash(python -c ':*)",
+      "Bash(ls \"c:/Users/GCV/Desktop/vijay-anand-php/assets/Events/Debates in Uro Oncology 25-11-2023/\"*.webp)",
+      "Bash(ls \"c:/Users/GCV/Desktop/vijay-anand-php/assets/Events/AROI-ESTRO Photos 30-11-2023/\"*.webp)"
     ]
   }
 }

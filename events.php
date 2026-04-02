@@ -301,6 +301,7 @@ if ($eventId) {
             <?php else: ?>
                 <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
                      <?php foreach ($events as $event): ?>
+                        <?php if (!empty($event['homepage_only'])) continue; ?>
                         <div
                             class="bg-white rounded-xl shadow-md hover:shadow-xl cursor-pointer transition transform hover:-translate-y-1 flex flex-col overflow-hidden"
                             onclick="window.location.href='events.php?id=<?= $event['id'] ?>'"
