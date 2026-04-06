@@ -414,7 +414,7 @@
         'title' => "Radiation Oncology",
         'description' => "Precise, technologically advanced cancer treatment with expert clinical support in Hyderabad",
         'image' => "assets/services/radiation-vijay.webp",
-        'features' => ["IMRT/IGRT", "External Beam Therapy", "Brachytherapy", "Stereotactic Radiosurgery"]
+        'features' => ["IMRT/IGRT/SRS/SRT/RapidArc", "External Beam Therapy", "Brachytherapy", "Stereotactic Radiosurgery"]
       ],
       [
         'id' => "medical-oncology",
@@ -691,12 +691,12 @@
     ];
 
     $memberships = [
-        ['title' => "Advisory Committee Member", 'organization' => "Global Access to Cancer Care Foundation (GACCF), USA"],
-        ['title' => "Member", 'organization' => "International American Brachytherapy Society (ABS)"],
         ['title' => "Full Member", 'organization' => "American Society of Clinical Oncology (ASCO)"],
         ['title' => "Full Member", 'organization' => "American Society for Radiation Oncology (ASTRO)"],
         ['title' => "Permanent Member", 'organization' => "European Society of Medical Oncology (ESMO)"],
-        ['title' => "Permanent Member", 'organization' => "Union for International Cancer Control (UICC), Geneva"]
+        ['title' => "Member", 'organization' => "International American Brachytherapy Society (ABS)"],
+        ['title' => "Permanent Member", 'organization' => "Union for International Cancer Control (UICC), Geneva"],
+        ['title' => "Advisory Committee Member", 'organization' => "Global Access to Cancer Care Foundation (GACCF), USA"]
     ];
     ?>
 

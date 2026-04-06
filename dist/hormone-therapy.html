@@ -86,7 +86,7 @@
                 <!-- Logo -->
                 <div class="flex items-center flex-shrink-0">
                     <a href="index.html" class="cursor-pointer">
-                        <img src="assets/logo/Var-proper-logo.png" alt="Dr. Palkonda Vijay Anand Reddy - MD Radiation Oncology, Director Apollo Cancer Centres" class="h-16 w-auto object-contain sm:h-18 md:h-20 lg:h-24" style="max-width: 280px;">
+                        <img src="assets/logo/vAR-LOGO-NAV.png" alt="Dr. Palkonda Vijay Anand Reddy - MD Radiation Oncology, Director Apollo Cancer Centres" class="h-16 w-auto object-contain sm:h-18 md:h-20 lg:h-24" style="max-width: 280px;">
                     </a>
                 </div>
 
@@ -1511,9 +1511,9 @@
             </section>
 
             <!-- Quote Section -->
-            <section class="py-12 relative overflow-hidden bg-gradient-to-br from-slate-50 via-blue-50/30 to-purple-50/20">
+            <section class="py-12 relative overflow-hidden bg-gradient-to-br from-slate-50 via-blue-50/30 to-purple-50/20 shadow-inner">
     <div class="container mx-auto px-4 relative">
-        <div class="max-w-3xl mx-auto relative text-center">
+        <div class="max-w-4xl mx-auto relative text-center">
             <!-- Decorative Quote Marks -->
             <div class="hidden sm:block absolute -top-4 -left-6 text-medical-blue opacity-10 text-6xl font-serif leading-none select-none pointer-events-none">
                 "
@@ -1522,28 +1522,159 @@
                 "
             </div>
             
-            <blockquote class="text-center relative z-10">
-                <p class="text-xl md:text-2xl text-gray-800 font-light leading-relaxed mb-6 italic">
-                    Dr. Vijay Anand Reddy gave me a second chance at life. His expertise and the care at Apollo Hyderabad are unmatched.                </p>
+            <div id="quote-container" class="transition-opacity duration-500 opacity-100 flex flex-col justify-center min-h-[220px]">
+                <blockquote class="text-center relative z-10 my-auto cursor-grab active:cursor-grabbing">
+                    <p id="quote-text" class="text-xl md:text-2xl lg:text-3xl text-gray-800 font-light leading-relaxed mb-6 italic transition-all duration-300">
+                        <!-- Quote will go here -->
+                    </p>
 
-                <!-- Decorative Divider -->
-                <div class="flex items-center justify-center mb-4">
-                    <div class="h-px w-10 bg-gradient-to-r from-transparent via-medical-blue to-transparent"></div>
-                    <div class="mx-3 w-1.5 h-1.5 rounded-full bg-medical-blue"></div>
-                    <div class="h-px w-10 bg-gradient-to-l from-transparent via-medical-blue to-transparent"></div>
-                </div>
+                    <!-- Decorative Divider -->
+                    <div class="flex items-center justify-center mb-4 transition-all duration-300">
+                        <div class="h-px w-10 bg-gradient-to-r from-transparent via-medical-blue to-transparent"></div>
+                        <div class="mx-3 w-1.5 h-1.5 rounded-full bg-medical-blue"></div>
+                        <div class="h-px w-10 bg-gradient-to-l from-transparent via-medical-blue to-transparent"></div>
+                    </div>
 
-                <!-- Author Attribution -->
-                <footer>
-                    <cite class="text-medical-blue font-medium text-base not-italic block mb-1">
-                        Ramesh K.                    </cite>
-                    <p class="text-gray-500 text-sm font-light">
-                        Survivor                    </p>
-                </footer>
-            </blockquote>
+                    <!-- Author Attribution -->
+                    <footer>
+                        <cite id="quote-theme" class="text-medical-blue font-semibold text-lg not-italic block mb-1">
+                            <!-- Theme -->
+                        </cite>
+                        <p id="quote-name" class="text-gray-700 font-medium text-base mb-1">
+                            <!-- Name -->
+                        </p>
+                        <p id="quote-author" class="text-gray-500 text-sm font-light italic">
+                            <!-- Original Author if available -->
+                        </p>
+                    </footer>
+                </blockquote>
+            </div>
+
+            <!-- Controls -->
+            <div class="flex justify-center items-center mt-6 gap-4 opacity-50 hover:opacity-100 transition-opacity duration-300">
+                <button id="quote-prev" class="bg-white/80 hover:bg-medical-blue hover:text-white text-medical-blue border border-medical-blue/30 rounded-full w-10 h-10 flex items-center justify-center shadow-sm transition-all hover:scale-105" aria-label="Previous Quote">
+                    <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><polyline points="15 18 9 12 15 6"></polyline></svg>
+                </button>
+                <div class="text-sm text-gray-400 select-none">Swipe or Click</div>
+                <button id="quote-next" class="bg-white/80 hover:bg-medical-blue hover:text-white text-medical-blue border border-medical-blue/30 rounded-full w-10 h-10 flex items-center justify-center shadow-sm transition-all hover:scale-105" aria-label="Next Quote">
+                    <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><polyline points="9 18 15 12 9 6"></polyline></svg>
+                </button>
+            </div>
+            
         </div>
     </div>
 </section>
+
+<script type="module">
+    import survivorQuotes from './assets/quotes.js';
+
+    document.addEventListener('DOMContentLoaded', () => {
+        const initialQuoteId = 27;
+        
+        // Start randomly or with initial
+        let currentIndex = Math.floor(Math.random() * survivorQuotes.length);
+        if (initialQuoteId !== null) {
+            const foundIndex = survivorQuotes.findIndex(q => q.id === initialQuoteId);
+            if (foundIndex !== -1) currentIndex = foundIndex;
+        }
+
+        const quoteTextElement = document.getElementById('quote-text');
+        const quoteThemeElement = document.getElementById('quote-theme');
+        const quoteNameElement = document.getElementById('quote-name');
+        const quoteAuthorElement = document.getElementById('quote-author');
+        const quoteContainer = document.getElementById('quote-container');
+
+        let isAnimating = false;
+
+        function updateQuote(index) {
+            if (isAnimating) return;
+            isAnimating = true;
+            
+            const currentQuote = survivorQuotes[index];
+            quoteContainer.classList.remove('opacity-100');
+            quoteContainer.classList.add('opacity-0');
+
+            setTimeout(() => {
+                quoteTextElement.textContent = `"${currentQuote.quote}"`;
+                quoteThemeElement.textContent = currentQuote.theme ? currentQuote.theme : 'Survivor Quote';
+                quoteNameElement.textContent = currentQuote.name || '';
+                quoteAuthorElement.textContent = currentQuote.author ? `- ${currentQuote.author}` : '';
+                
+                quoteContainer.classList.remove('opacity-0');
+                quoteContainer.classList.add('opacity-100');
+                
+                setTimeout(() => {
+                    isAnimating = false;
+                }, 500);
+            }, 500); // Matches Tailwind's duration-500
+        }
+
+        // Initialize purely synchronously so it doesn't wait for fade if first time
+        const firstQuote = survivorQuotes[currentIndex];
+        quoteTextElement.textContent = `"${firstQuote.quote}"`;
+        quoteThemeElement.textContent = firstQuote.theme ? firstQuote.theme : 'Survivor Quote';
+        quoteNameElement.textContent = firstQuote.name || '';
+        quoteAuthorElement.textContent = firstQuote.author ? `- ${firstQuote.author}` : '';
+
+        // Next/Prev functionality
+        function nextQuote() {
+            currentIndex = (currentIndex + 1) % survivorQuotes.length;
+            updateQuote(currentIndex);
+        }
+
+        function prevQuote() {
+            currentIndex = (currentIndex - 1 + survivorQuotes.length) % survivorQuotes.length;
+            updateQuote(currentIndex);
+        }
+
+        document.getElementById('quote-next').addEventListener('click', () => {
+            nextQuote();
+            resetTimer();
+        });
+
+        document.getElementById('quote-prev').addEventListener('click', () => {
+            prevQuote();
+            resetTimer();
+        });
+
+        // Swipe Support
+        let touchStartX = 0;
+        let touchEndX = 0;
+        
+        quoteContainer.addEventListener('touchstart', e => {
+            touchStartX = e.changedTouches[0].screenX;
+        }, {passive: true});
+        
+        quoteContainer.addEventListener('touchend', e => {
+            touchEndX = e.changedTouches[0].screenX;
+            handleSwipe();
+        }, {passive: true});
+        
+        function handleSwipe() {
+            if (touchEndX < touchStartX - 50) {
+                nextQuote();
+                resetTimer();
+            }
+            if (touchEndX > touchStartX + 50) {
+                prevQuote();
+                resetTimer();
+            }
+        }
+
+        // Auto-play
+        let autoPlayTimer;
+        function startTimer() {
+            autoPlayTimer = setInterval(nextQuote, 6000);
+        }
+
+        function resetTimer() {
+            clearInterval(autoPlayTimer);
+            startTimer();
+        }
+
+        startTimer();
+    });
+</script>
 
             <!-- Treatment Process -->
             <section class="py-14 bg-medical-light">
@@ -2361,7 +2492,7 @@
             <!-- About Section with Logo - Spans 2 columns -->
             <div class="lg:col-span-2">
                 <div class="mb-6">
-                    <img src="assets/logo/var-dark logo.png" alt="Dr. Palkonda Vijay Anand Reddy" class="h-28 w-auto object-contain">
+                    <img src="assets/logo/VAR-LOGO-FOOTER.png" alt="Dr. Palkonda Vijay Anand Reddy" class="h-28 w-auto object-contain">
                 </div>
 
                 <p class="text-gray-300 mb-6 leading-relaxed text-base max-w-md">
