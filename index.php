@@ -1100,14 +1100,15 @@
                 </div>
 
                 <!-- Form -->
-                <form class="space-y-4 bg-white p-8 rounded-2xl shadow-xl border border-gray-100 reveal delay-200">
+                <form accept-charset="UTF-8" action="https://app.formester.com/forms/DNnLlSMbe/submissions" method="POST" class="space-y-4 bg-white p-8 rounded-2xl shadow-xl border border-gray-100 reveal delay-200">
+                    <input type="hidden" name="_redirect" value="thankyou.php">
                     <div class="grid grid-cols-2 gap-4">
-                        <input type="text" placeholder="Full Name" class="w-full p-3 border rounded-lg focus:ring-2 focus:ring-medical-blue outline-none">
-                        <input type="email" placeholder="Email" class="w-full p-3 border rounded-lg focus:ring-2 focus:ring-medical-blue outline-none">
+                        <input type="text" name="name" placeholder="Full Name" required class="w-full p-3 border rounded-lg focus:ring-2 focus:ring-medical-blue outline-none">
+                        <input type="email" name="email" placeholder="Email" required class="w-full p-3 border rounded-lg focus:ring-2 focus:ring-medical-blue outline-none">
                     </div>
-                    <input type="tel" placeholder="Phone Number" class="w-full p-3 border rounded-lg focus:ring-2 focus:ring-medical-blue outline-none">
-                    <textarea rows="4" placeholder="Message" class="w-full p-3 border rounded-lg focus:ring-2 focus:ring-medical-blue outline-none"></textarea>
-                    <button class="w-full bg-medical-blue text-white p-4 rounded-lg font-bold hover:bg-blue-700 transition">Send Message</button>
+                    <input type="tel" name="phone" placeholder="Phone Number" required class="w-full p-3 border rounded-lg focus:ring-2 focus:ring-medical-blue outline-none">
+                    <textarea rows="4" name="message" placeholder="Message" required class="w-full p-3 border rounded-lg focus:ring-2 focus:ring-medical-blue outline-none"></textarea>
+                    <button type="submit" class="w-full bg-medical-blue text-white p-4 rounded-lg font-bold hover:bg-blue-700 transition">Send Message</button>
                 </form>
             </div>
         </div>

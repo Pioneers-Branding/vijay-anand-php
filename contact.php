@@ -1,13 +1,6 @@
 <?php
 include 'navbar.php';
 
-$success = false;
-if ($_SERVER['REQUEST_METHOD'] === 'POST') {
-    // In a real application, you would process the form data (send email, save to DB, etc.)
-    // For this conversion, we'll simulate a successful submission.
-    $success = true;
-}
-
 $socialLinks = [
     ['icon' => 'facebook', 'href' => 'https://www.facebook.com/drvijayanandreddy', 'name' => 'Facebook'],
     ['icon' => 'instagram', 'href' => 'https://www.instagram.com/drvijayanandreddy', 'name' => 'Instagram'],
@@ -71,13 +64,8 @@ $socialLinks = [
 
             <!-- Form Side -->
             <div class="bg-gray-50 rounded-xl shadow-md p-8 flex flex-col justify-center">
-                <?php if ($success): ?>
-                    <div class="bg-green-100 border border-green-400 text-green-700 px-4 py-8 rounded relative text-center mb-6">
-                        <strong class="font-bold text-xl block mb-2">Thank you!</strong>
-                        <span class="block sm:inline">Your message has been sent successfully. We will contact you soon.</span>
-                    </div>
-                <?php else: ?>
-                    <form class="space-y-6" method="POST" action="">
+                    <form class="space-y-6" accept-charset="UTF-8" method="POST" action="https://app.formester.com/forms/DNnLlSMbe/submissions">
+                        <input type="hidden" name="_redirect" value="thankyou.php">
                         <div>
                             <label class="block text-medical-dark font-semibold mb-1" for="name">Name</label>
                             <input
@@ -132,7 +120,6 @@ $socialLinks = [
                         </button>
                         <p class="text-gray-500 text-xs pt-2 text-center">We respect your privacy. Your details are never shared.</p>
                     </form>
-                <?php endif; ?>
             </div>
 
             <!-- Right Side: Let's Connect + Map -->

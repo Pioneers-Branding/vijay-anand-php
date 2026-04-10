@@ -1037,26 +1037,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Us - Dr. Vijay Anand Reddy</title>
+    <title>Thank You - Dr. Vijay Anand Reddy</title>
+    <script src="https://unpkg.com/feather-icons"></script>
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
         tailwind.config = {
             theme: {
                 extend: {
                     colors: {
-                        primary: { 
-                            50: '#eff6ff', 
-                            100: '#dbeafe', 
-                            500: '#3b82f6', 
-                            600: '#2563eb', 
-                            700: '#1d4ed8', 
-                            900: '#1e3a8a' 
+                        primary: {
+                            50: '#eff6ff',
+                            100: '#dbeafe',
+                            500: '#3b82f6',
+                            600: '#2563eb',
+                            700: '#1d4ed8',
+                            900: '#1e3a8a'
                         },
-                        medical: { 
-                            blue: '#9B528F', 
-                            purple: '#8B5CF6', 
-                            light: '#F8FAFC', 
-                            dark: '#1E293B' 
+                        purple: {
+                            50: '#f5f3ff',
+                            100: '#ede9fe',
+                            500: '#8b5cf6',
+                            600: '#7c3aed',
+                            700: '#6d28d9'
+                        },
+                        medical: {
+                            blue: '#9B528F',
+                            purple: '#8B5CF6',
+                            light: '#F8FAFC',
+                            dark: '#1E293B'
                         }
                     },
                     fontFamily: {
@@ -1068,135 +1076,69 @@
         }
     </script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <script src="https://unpkg.com/feather-icons"></script>
     <style>
         body { font-family: 'Inter', sans-serif; }
     </style>
 </head>
-<body class="bg-white flex flex-col min-h-screen">
+<body class="bg-white min-h-screen flex flex-col">
 
-    <!-- Hero Section -->
-    <section class="pt-32 pb-8 bg-medical-blue/5 text-center">
-        <h1 class="text-4xl md:text-5xl font-bold text-medical-dark mb-3">Contact Us</h1>
-        <p class="max-w-xl mx-auto text-gray-700 text-lg">
-            We’re here to help you. Schedule a consultation, ask a question, or simply say hello.
-        </p>
-    </section>
+    <!-- Spacer for fixed navbar -->
+    <div class="h-28 md:h-32"></div>
 
     <!-- Main Content -->
-    <section class="flex-1 bg-white py-12">
-        <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 px-4">
-
-            <!-- Form Side -->
-            <div class="bg-gray-50 rounded-xl shadow-md p-8 flex flex-col justify-center">
-                    <form class="space-y-6" accept-charset="UTF-8" method="POST" action="https://app.formester.com/forms/DNnLlSMbe/submissions">
-                        <input type="hidden" name="_redirect" value="thankyou.php">
-                        <div>
-                            <label class="block text-medical-dark font-semibold mb-1" for="name">Name</label>
-                            <input
-                                id="name"
-                                name="name"
-                                type="text"
-                                required
-                                class="w-full border border-gray-300 rounded px-4 py-2 focus:outline-medical-blue bg-white focus:ring-2 focus:ring-medical-blue/20 transition"
-                                autocomplete="name"
-                            >
-                        </div>
-                        <div>
-                            <label class="block text-medical-dark font-semibold mb-1" for="email">Email</label>
-                            <input
-                                id="email"
-                                name="email"
-                                type="email"
-                                required
-                                class="w-full border border-gray-300 rounded px-4 py-2 focus:outline-medical-blue bg-white focus:ring-2 focus:ring-medical-blue/20 transition"
-                                autocomplete="email"
-                            >
-                        </div>
-                        <div>
-                            <label class="block text-medical-dark font-semibold mb-1" for="phone">Phone Number</label>
-                            <input
-                                id="phone"
-                                name="phone"
-                                type="tel"
-                                required
-                                class="w-full border border-gray-300 rounded px-4 py-2 focus:outline-medical-blue bg-white focus:ring-2 focus:ring-medical-blue/20 transition"
-                                autocomplete="tel"
-                                pattern="[0-9]{10,15}"
-                                placeholder="e.g., +91-9000080000"
-                            >
-                        </div>
-                        <div>
-                            <label class="block text-medical-dark font-semibold mb-1" for="message">Message</label>
-                            <textarea
-                                id="message"
-                                name="message"
-                                rows="5"
-                                required
-                                class="w-full border border-gray-300 rounded px-4 py-2 focus:outline-medical-blue bg-white focus:ring-2 focus:ring-medical-blue/20 transition"
-                                placeholder="How can we help you?"
-                            ></textarea>
-                        </div>
-                        <button
-                            type="submit"
-                            class="w-full py-3 rounded-lg bg-medical-blue text-white font-bold hover:bg-medical-dark transition shadow-md hover:shadow-lg transform active:scale-95"
-                        >
-                            Send Message
-                        </button>
-                        <p class="text-gray-500 text-xs pt-2 text-center">We respect your privacy. Your details are never shared.</p>
-                    </form>
-            </div>
-
-            <!-- Right Side: Let's Connect + Map -->
-            <div class="flex flex-col gap-8">
-                <!-- Let's Connect Box -->
-                <div class="rounded-xl bg-white shadow-md p-8 flex flex-col items-start mb-2">
-                    <h2 class="text-2xl font-bold mb-2 text-medical-dark">Let's Connect</h2>
-                    <p class="text-gray-700 mb-4 max-w-lg">
-                        Whether you’re an existing patient, a family member, or a healthcare professional — reach out, and our team will be delighted to assist you.
-                    </p>
-                    <div class="flex flex-col gap-3 text-medical-dark w-full">
-                        <a href="tel:+919676720002" class="flex items-center gap-2 hover:underline hover:text-medical-blue transition">
-                            <i data-feather="phone" class="w-5 h-5"></i> +91-9676720002
-                        </a>
-                        <a href="mailto:cancercare@drvijayanandreddy.com" class="flex items-center gap-2 hover:underline hover:text-medical-blue transition">
-                            <i data-feather="mail" class="w-5 h-5"></i> cancercare@drvijayanandreddy.com
-                        </a>
-                        <span class="flex items-center gap-2">
-                            <i data-feather="map-pin" class="w-5 h-5"></i> Apollo Cancer Center, Hyderabad, India
-                        </span>
-                    </div>
-                    <div class="flex gap-5 mt-5">
-                                                    <a href="https://www.facebook.com/drvijayanandreddy" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
-                                <i data-feather="facebook" class="w-6 h-6 text-medical-blue hover:text-blue-700 transition transform hover:scale-110"></i>
-                            </a>
-                                                    <a href="https://www.instagram.com/drvijayanandreddy" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
-                                <i data-feather="instagram" class="w-6 h-6 text-medical-blue hover:text-blue-700 transition transform hover:scale-110"></i>
-                            </a>
-                                                    <a href="https://www.linkedin.com/in/drvijayanandreddy" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
-                                <i data-feather="linkedin" class="w-6 h-6 text-medical-blue hover:text-blue-700 transition transform hover:scale-110"></i>
-                            </a>
-                                            </div>
+    <main class="flex-grow flex items-center justify-center px-4 py-16">
+        <div class="max-w-xl w-full text-center">
+            <div class="bg-white rounded-2xl shadow-xl border border-gray-100 p-10 md:p-14">
+                <!-- Success Icon -->
+                <div class="mx-auto w-20 h-20 bg-green-100 rounded-full flex items-center justify-center mb-6">
+                    <i data-feather="check-circle" class="w-10 h-10 text-green-500"></i>
                 </div>
 
-                <!-- Map Box -->
-                <div class="rounded-lg shadow-md w-full h-64 overflow-hidden border border-gray-100">
-                    <iframe
-                        title="Apollo Cancer Centre Location"
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3806.9362473193!2d78.41015217577959!3d17.41484690201227!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb96cf2ac35539%3A0x87682b53a99a8ea1!2sApollo%20Cancer%20Centre!5e0!3m2!1sen!2sin!4v1757494001423!5m2!1sen!2sin"
-                        width="100%"
-                        height="100%"
-                        style="border:0;"
-                        allowfullscreen=""
-                        loading="lazy"
-                        referrerpolicy="no-referrer-when-downgrade"
-                        class="w-full h-full"
-                    ></iframe>
+                <h1 class="text-3xl md:text-4xl font-bold text-gray-800 mb-4">Thank You!</h1>
+                <p class="text-gray-600 text-lg mb-3">Your message has been sent successfully.</p>
+                <p class="text-gray-500 mb-8">We appreciate you reaching out. Our team will review your message and get back to you as soon as possible.</p>
+
+                <div class="bg-purple-50 border border-purple-200 rounded-xl p-5 mb-8 text-left">
+                    <h3 class="font-semibold text-medical-blue mb-2 flex items-center gap-2">
+                        <i data-feather="info" class="w-4 h-4"></i>
+                        What happens next?
+                    </h3>
+                    <ul class="text-gray-600 text-sm space-y-2">
+                        <li class="flex items-start gap-2">
+                            <i data-feather="clock" class="w-4 h-4 text-medical-blue flex-shrink-0 mt-0.5"></i>
+                            Our team will review your inquiry within 24 hours.
+                        </li>
+                        <li class="flex items-start gap-2">
+                            <i data-feather="phone" class="w-4 h-4 text-medical-blue flex-shrink-0 mt-0.5"></i>
+                            You may receive a call or email from our office.
+                        </li>
+                        <li class="flex items-start gap-2">
+                            <i data-feather="calendar" class="w-4 h-4 text-medical-blue flex-shrink-0 mt-0.5"></i>
+                            If needed, we will help schedule your appointment.
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                    <a href="index.html" class="inline-flex items-center justify-center gap-2 bg-medical-blue text-white px-6 py-3 rounded-lg font-semibold hover:bg-medical-dark transition shadow-md hover:shadow-lg">
+                        <i data-feather="home" class="w-4 h-4"></i>
+                        Back to Home
+                    </a>
+                    <a href="contact.html" class="inline-flex items-center justify-center gap-2 border-2 border-medical-blue text-medical-blue px-6 py-3 rounded-lg font-semibold hover:bg-medical-blue hover:text-white transition">
+                        <i data-feather="message-circle" class="w-4 h-4"></i>
+                        Contact Again
+                    </a>
                 </div>
             </div>
 
+            <!-- Emergency Contact -->
+            <div class="mt-8 text-gray-500 text-sm">
+                <p>For urgent inquiries, call us directly at
+                    <a href="tel:+919676720002" class="text-medical-blue font-semibold hover:underline">+91-9676720002</a>
+                </p>
+            </div>
         </div>
-    </section>
+    </main>
 
     
 <footer class="relative bg-gradient-to-br from-gray-900 via-medical-dark to-gray-900 text-white overflow-hidden">
@@ -1670,7 +1612,11 @@ function toggleLocations() {
 </script>
 
     <script>
-        feather.replace();
+        document.addEventListener('DOMContentLoaded', function() {
+            if (typeof feather !== 'undefined') {
+                feather.replace();
+            }
+        });
     </script>
 </body>
 </html>
