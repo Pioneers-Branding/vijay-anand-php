@@ -112,7 +112,7 @@ foreach ($phpFiles as $phpFile) {
         continue;
     }
 
-    // Replace .php links with .html links
+    // Replace .php links with .html links (only in href attributes)
     $html = preg_replace('/href="([^"]*?)\.php(["#])/', 'href="$1.html$2', $html);
 
     // Write HTML file
@@ -189,9 +189,12 @@ echo "\nUpdating event links in events.html...\n";
 $eventsHtmlPath = $distDir . '/events.html';
 if (file_exists($eventsHtmlPath)) {
     $eventsHtml = file_get_contents($eventsHtmlPath);
-    $eventsHtml = str_replace("window.location.href='events.php?id=", "window.location.href='event-", $eventsHtml);
-    $eventsHtml = str_replace("'", ".html'", $eventsHtml);
-    $eventsHtml = str_replace("=.html'", "='", $eventsHtml);
+    // Fix event links: events.php?id=X -> event-X.html
+    $eventsHtml = preg_replace("/window\.location\.href='events\.php\?id=([^']+)'/", "window.location.href='event-$1.html'", $eventsHtml);
+    // Fix any corrupted toggleMobileDropdown('.html'xxx)
+    $eventsHtml = preg_replace("/toggleMobileDropdown\(\"\.html'|\toggleMobileDropdown\(\"\.html\"|\.html'\"\.html'\"/", "", $eventsHtml);
+    $eventsHtml = preg_replace("/\.html'\.html'/", ".html'", $eventsHtml);
+    $eventsHtml = str_replace("(.html'", "('", $eventsHtml);
     file_put_contents($eventsHtmlPath, $eventsHtml);
 }
 
@@ -199,9 +202,8 @@ echo "Updating survivor links in survivors.html...\n";
 $survivorsHtmlPath = $distDir . '/survivors.html';
 if (file_exists($survivorsHtmlPath)) {
     $survivorsHtml = file_get_contents($survivorsHtmlPath);
-    $survivorsHtml = str_replace("window.location.href='survivors.php?id=", "window.location.href='survivor-", $survivorsHtml);
-    $survivorsHtml = str_replace("'", ".html'", $survivorsHtml);
-    $survivorsHtml = str_replace("=.html'", "='", $survivorsHtml);
+    // Fix survivor links: survivors.php?id=X -> survivor-X.html
+    $survivorsHtml = preg_replace("/window\.location\.href='survivors\.php\?id=([^']+)'/", "window.location.href='survivor-$1.html'", $survivorsHtml);
     file_put_contents($survivorsHtmlPath, $survivorsHtml);
 }
 
