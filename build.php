@@ -67,6 +67,20 @@ if (is_dir($sourceDir . DIRECTORY_SEPARATOR . 'assets')) {
     echo "  Assets copied.\n";
 }
 
+// Load dynamic data
+$eventsData = [];
+$survivorsData = [];
+
+if (file_exists($sourceDir . '/events_data.php')) {
+    include $sourceDir . '/events_data.php';
+    $eventsData = $events;
+}
+
+if (file_exists($sourceDir . '/survivors_data.php')) {
+    include $sourceDir . '/survivors_data.php';
+    $survivorsData = $survivors;
+}
+
 // Find all page PHP files
 $phpFiles = glob($sourceDir . DIRECTORY_SEPARATOR . '*.php');
 $rendered = 0;
@@ -108,7 +122,57 @@ foreach ($phpFiles as $phpFile) {
     echo "  Rendered: $basename -> $htmlName\n";
 }
 
-// Create _redirects for Netlify (redirect old .php URLs to .html)
+// Generate static detail pages for events
+echo "\nGenerating event detail pages...\n";
+foreach ($eventsData as $event) {
+    $eventId = $event['id'];
+    $eventHtmlName = "event-$eventId.html";
+
+    // Create temp file to render with proper $_GET
+    $tempFile = $distDir . '/_temp_render.php';
+    file_put_contents($tempFile, "<?php \$_GET['id']='$eventId';include '" . addslashes($sourceDir) . "/events.php';");
+    $cmd = "php " . escapeshellarg($tempFile) . " 2>&1";
+    $html = shell_exec($cmd);
+    unlink($tempFile);
+
+    if ($html && strlen($html) > 1000) {
+        $html = preg_replace('/href="([^"]*?)\.php(["#])/', 'href="$1.html$2', $html);
+        $html = str_replace("Events & Awareness Programmes - Dr. Vijay Anand Reddy",
+            htmlspecialchars($event['title']) . " - Dr. Vijay Anand Reddy", $html);
+        $outPath = $distDir . DIRECTORY_SEPARATOR . $eventHtmlName;
+        file_put_contents($outPath, $html);
+        echo "  Generated: $eventHtmlName\n";
+        $rendered++;
+    } else {
+        echo "  Failed: $eventHtmlName\n";
+    }
+}
+
+// Generate static detail pages for survivors
+echo "\nGenerating survivor detail pages...\n";
+foreach ($survivorsData as $survivor) {
+    $survivorId = $survivor['id'];
+    $survivorHtmlName = "survivor-$survivorId.html";
+
+    // Create temp file to render with proper $_GET
+    $tempFile = $distDir . '/_temp_render.php';
+    file_put_contents($tempFile, "<?php \$_GET['id']='$survivorId';include '" . addslashes($sourceDir) . "/survivors.php';");
+    $cmd = "php " . escapeshellarg($tempFile) . " 2>&1";
+    $html = shell_exec($cmd);
+    unlink($tempFile);
+
+    if ($html && strlen($html) > 1000) {
+        $html = preg_replace('/href="([^"]*?)\.php(["#])/', 'href="$1.html$2', $html);
+        $outPath = $distDir . DIRECTORY_SEPARATOR . $survivorHtmlName;
+        file_put_contents($outPath, $html);
+        echo "  Generated: $survivorHtmlName\n";
+        $rendered++;
+    } else {
+        echo "  Failed: $survivorHtmlName\n";
+    }
+}
+
+// Create _redirects for Netlify
 $redirects = "# Redirect .php URLs to .html\n";
 foreach ($phpFiles as $phpFile) {
     $basename = basename($phpFile);
@@ -119,6 +183,27 @@ foreach ($phpFiles as $phpFile) {
 // SPA-style fallback for index
 $redirects .= "/    /index.html    200\n";
 file_put_contents($distDir . DIRECTORY_SEPARATOR . '_redirects', $redirects);
+
+// Update onclick links in list pages to point to static detail pages
+echo "\nUpdating event links in events.html...\n";
+$eventsHtmlPath = $distDir . '/events.html';
+if (file_exists($eventsHtmlPath)) {
+    $eventsHtml = file_get_contents($eventsHtmlPath);
+    $eventsHtml = str_replace("window.location.href='events.php?id=", "window.location.href='event-", $eventsHtml);
+    $eventsHtml = str_replace("'", ".html'", $eventsHtml);
+    $eventsHtml = str_replace("=.html'", "='", $eventsHtml);
+    file_put_contents($eventsHtmlPath, $eventsHtml);
+}
+
+echo "Updating survivor links in survivors.html...\n";
+$survivorsHtmlPath = $distDir . '/survivors.html';
+if (file_exists($survivorsHtmlPath)) {
+    $survivorsHtml = file_get_contents($survivorsHtmlPath);
+    $survivorsHtml = str_replace("window.location.href='survivors.php?id=", "window.location.href='survivor-", $survivorsHtml);
+    $survivorsHtml = str_replace("'", ".html'", $survivorsHtml);
+    $survivorsHtml = str_replace("=.html'", "='", $survivorsHtml);
+    file_put_contents($survivorsHtmlPath, $survivorsHtml);
+}
 
 echo "\n=== Build Complete ===\n";
 echo "Rendered: $rendered pages\n";
