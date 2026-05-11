@@ -2,6 +2,80 @@
 $events = array (
   0 =>
   array (
+    'id' => 'ida-2026',
+    'category' => 'award',
+    'title' => 'Indian Dental Association Felicitation',
+    'date' => '2026-05-09',
+    'author' => 'Dr. Vijay Anand Reddy',
+    'banners' =>
+    array (
+      0 => 'assets/Events/IDA-2026/WhatsApp Image 2026-05-09 at 2.16.47 PM.webp',
+    ),
+    'description' => 'Deeply humbled and honoured to be felicitated by the Indian Dental Association, Telangana State Branch.
+
+I was truly touched by the generous words of appreciation and the warmth with which the entire fraternity acknowledged my journey and contributions in oncology and cancer awareness.
+
+My heartfelt gratitude to the Dr Srikant, Dr Karunakar Reddy, Dr Sateesh Reddy and the office bearers and members of the IDA for this memorable recognition. Such gestures inspire me to continue serving patients and society with greater commitment and compassion.
+
+"Service is the highest duty."',
+    'photos' =>
+    array (
+      0 => 'assets/Events/IDA-2026/WhatsApp Image 2026-05-09 at 2.16.47 PM.webp',
+      1 => 'assets/Events/IDA-2026/WhatsApp Image 2026-05-09 at 2.16.47 PM (1).webp',
+      2 => 'assets/Events/IDA-2026/WhatsApp Image 2026-05-09 at 2.16.48 PM.webp',
+      3 => 'assets/Events/IDA-2026/WhatsApp Image 2026-05-09 at 2.16.48 PM (1).webp',
+      4 => 'assets/Events/IDA-2026/WhatsApp Image 2026-05-09 at 2.16.49 PM.webp',
+    ),
+    'gallery' =>
+    array (
+      0 => 'assets/Events/IDA-2026/WhatsApp Image 2026-05-09 at 2.16.47 PM.webp',
+      1 => 'assets/Events/IDA-2026/WhatsApp Image 2026-05-09 at 2.16.47 PM (1).webp',
+      2 => 'assets/Events/IDA-2026/WhatsApp Image 2026-05-09 at 2.16.48 PM.webp',
+      3 => 'assets/Events/IDA-2026/WhatsApp Image 2026-05-09 at 2.16.48 PM (1).webp',
+      4 => 'assets/Events/IDA-2026/WhatsApp Image 2026-05-09 at 2.16.49 PM.webp',
+    ),
+  ),
+  1 =>
+  array (
+    'id' => 'whitathon-2026-8th-edition',
+    'category' => 'eye-cancer-awareness',
+    'title' => '8th Edition of WHITATHON 2026',
+    'date' => '2026-05-10',
+    'author' => 'Dr. Vijay Anand Reddy',
+    'banners' =>
+    array (
+      0 => 'assets/Events/8th Edition of WHITATHON/WhatsApp Image 2026-05-10 at 5.08.12 PM.webp',
+    ),
+    'description' => 'Proud to share that the CURE Foundation was privileged to associate with and participate in the 8th Edition of WHITATHON, the flagship awareness run organized by L V Prasad Eye Institute on May 10, 2026, in Hyderabad.
+
+The event was held to mark World Retinoblastoma Awareness Week (May 10–16) and aimed to raise awareness about the early detection and treatment of Retinoblastoma, a rare but curable eye cancer affecting young children.
+
+WHITATHON continues to be a remarkable initiative promoting awareness about the importance of identifying early warning signs such as the "white reflex" in a child"' . "'" . 's eye, poor vision, redness, or squint — symptoms that require immediate medical attention. Early diagnosis can save both life and vision.
+
+The enthusiastic participation from the community, healthcare professionals, volunteers, and supporters made the event a grand success. Together, we can create greater awareness and ensure timely treatment for every child affected by Retinoblastoma.',
+    'photos' =>
+    array (
+      0 => 'assets/Events/8th Edition of WHITATHON/WhatsApp Image 2026-05-10 at 5.08.12 PM.webp',
+      1 => 'assets/Events/8th Edition of WHITATHON/WhatsApp Image 2026-05-10 at 5.08.13 PM.webp',
+      2 => 'assets/Events/8th Edition of WHITATHON/WhatsApp Image 2026-05-10 at 5.08.14 PM.webp',
+      3 => 'assets/Events/8th Edition of WHITATHON/WhatsApp Image 2026-05-10 at 5.08.14 PM (1).webp',
+      4 => 'assets/Events/8th Edition of WHITATHON/WhatsApp Image 2026-05-10 at 5.08.14 PM (2).webp',
+      5 => 'assets/Events/8th Edition of WHITATHON/WhatsApp Image 2026-05-10 at 5.08.15 PM.webp',
+      6 => 'assets/Events/8th Edition of WHITATHON/WhatsApp Image 2026-05-10 at 5.08.15 PM (1).webp',
+    ),
+    'gallery' =>
+    array (
+      0 => 'assets/Events/8th Edition of WHITATHON/WhatsApp Image 2026-05-10 at 5.08.12 PM.webp',
+      1 => 'assets/Events/8th Edition of WHITATHON/WhatsApp Image 2026-05-10 at 5.08.13 PM.webp',
+      2 => 'assets/Events/8th Edition of WHITATHON/WhatsApp Image 2026-05-10 at 5.08.14 PM.webp',
+      3 => 'assets/Events/8th Edition of WHITATHON/WhatsApp Image 2026-05-10 at 5.08.14 PM (1).webp',
+      4 => 'assets/Events/8th Edition of WHITATHON/WhatsApp Image 2026-05-10 at 5.08.14 PM (2).webp',
+      5 => 'assets/Events/8th Edition of WHITATHON/WhatsApp Image 2026-05-10 at 5.08.15 PM.webp',
+      6 => 'assets/Events/8th Edition of WHITATHON/WhatsApp Image 2026-05-10 at 5.08.15 PM (1).webp',
+    ),
+  ),
+  3 =>
+  array (
     'id' => 'ccgc-2026',
     'category' => 'golf-championship',
     'title' => 'Cancer Crusaders Golf Championship 2026',
@@ -25,7 +99,7 @@ $events = array (
       2 => 'assets/Events/ccgc-2026/gallery-3.webp',
     ),
   ),
-  1 =>
+  2 =>
   array (
     'id' => 'breast-cancer-awareness-flash-mob-gvk-one',
     'category' => 'breast-cancer-awareness',
@@ -121,7 +195,7 @@ This Hindi edition aims to reach and inspire a wider audience, spreading the mes
       1 => 'assets/Events/imseviour-hindi/i2.webp',
     ),
   ),
-  3 => 
+  4 =>
   array (
     'id' => 'whitathon-2025',
     'category' => 'children',
@@ -148,7 +222,7 @@ Thank you for joining us in making a meaningful difference! 💙👁️✨',
       2 => 'assets/Events/children-2/c3.webp',
     ),
   ),
-  4 => 
+  5 =>
   array (
     'id' => 'ocular-oncology-workshop-2023',
     'category' => 'awareness-programmes',
