@@ -279,7 +279,7 @@
                 <div class="flex flex-col md:flex-row items-center justify-center gap-8 text-center md:text-left">
                     <!-- 3 Decades of Experience -->
                     <div class="text-center">
-                        <div class="text-4xl font-bold mb-1" style="background: linear-gradient(to right, #9B528F, #8B5CF6); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;">30+</div>
+                        <div class="text-4xl font-bold mb-1" style="background: linear-gradient(to right, #9B528F, #8B5CF6); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;">34+</div>
                         <p class="text-gray-600 text-sm font-medium">Years of Experience</p>
                     </div>
 
@@ -288,7 +288,7 @@
 
                     <!-- 95% Success Rate -->
                     <div class="text-center">
-                        <div class="text-4xl font-bold mb-1" style="background: linear-gradient(to right, #9B528F, #8B5CF6); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;">95%</div>
+                        <div class="text-4xl font-bold mb-1" style="background: linear-gradient(to right, #9B528F, #8B5CF6); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;">85%</div>
                         <p class="text-gray-600 text-sm font-medium">Success Rate</p>
                     </div>
 
@@ -325,7 +325,7 @@
 
                     <!-- Reviews Count -->
                     <div class="text-medical-dark">
-                        <div class="text-4xl font-bold mb-1" style="background: linear-gradient(to right, #9B528F, #8B5CF6); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;">2,500+</div>
+                        <div class="text-4xl font-bold mb-1" style="background: linear-gradient(to right, #9B528F, #8B5CF6); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;">2,700+</div>
                         <p class="text-gray-600 text-sm font-medium">Verified Patient Reviews</p>
                     </div>
 

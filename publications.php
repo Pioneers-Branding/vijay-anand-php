@@ -72,12 +72,18 @@
        ],
        [
             'id' => 6,
+            'title' => "Salvage Intra-arterial Chemotherapy for Recurrent or Persistent Intraocular Retinoblastoma: A Study of 24 Eyes",
+            'journal' => "American Academy of Ophthalmology; March 2023; Vol. 7(3), Pg: 275-281.",
+            'pdf' => ""
+       ],
+       [
+            'id' => 7,
             'title' => "Retinoblastoma Associated with Total Exudative Retinal Detachment Treatment and Outcomes",
             'journal' => "The Journal of Retinal and Vitreous Diseases; May 2023; Vol. 43(5), Pg: 808-814.",
             'pdf' => "assets/Publications (Year wise)/Publications (Year wise)/2018/RB in younger versus older children Clinical features and outcom 06-07-2018/retinoblastoma based on age at presentation clinical features and outcome.docx"
        ],
        [
-            'id' => 7,
+            'id' => 8,
             'title' => "Brachytherapy training in India: Results from the GEC-ESTRO-India Survey",
             'journal' => "Research Article published in American Brachytherapy Society; May 2023; Vol. 16(2), Pg: 1-8.",
             'pdf' => "assets/Publications (Year wise)/Publications (Year wise)/2023/Brachytherapy training in India.pdf"

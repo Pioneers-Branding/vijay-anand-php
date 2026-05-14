@@ -181,7 +181,7 @@ $videos = [
                                     <p class="text-xs text-gray-600">Cost Savings vs USA</p>
                                 </div>
                                 <div class="bg-white p-4 rounded-lg border border-medical-blue/20 shadow-sm">
-                                    <div class="text-3xl font-bold text-medical-blue mb-1">30+</div>
+                                    <div class="text-3xl font-bold text-medical-blue mb-1">34+</div>
                                     <p class="text-xs text-gray-600">Years Experience</p>
                                 </div>
                             </div>
@@ -225,7 +225,7 @@ $videos = [
                             <!-- Best Business Award Image -->
                             <!-- 95% Success Rate -->
                             <div class="text-center">
-                                <div class="text-4xl font-bold mb-1" style="background: linear-gradient(to right, #9B528F, #8B5CF6); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;">95%</div>
+                                <div class="text-4xl font-bold mb-1" style="background: linear-gradient(to right, #9B528F, #8B5CF6); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;">85%</div>
                                 <p class="text-gray-600 text-sm font-medium">Success Rate</p>
                             </div>
 
@@ -276,7 +276,7 @@ $videos = [
                                 
                                 class="text-medical-dark"
                             >
-                                <div class="text-4xl font-bold mb-1 bg-gradient-to-r from-medical-blue to-medical-purple bg-clip-text text-transparent">2,500+</div>
+                                <div class="text-4xl font-bold mb-1 bg-gradient-to-r from-medical-blue to-medical-purple bg-clip-text text-transparent">2,700+</div>
                                 <p class="text-gray-600 text-sm font-medium">Verified Patient Reviews</p>
                             </div>
 
@@ -786,7 +786,7 @@ $videos = [
                         <div class="lg:w-1/2 grid grid-cols-2 gap-4">
                             <div class="bg-medical-blue/10 p-6 rounded-2xl text-center shadow-md hover:shadow-xl transition border border-medical-blue/20">
                                 <div class="bg-white w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-3 text-medical-blue text-2xl font-bold shadow-md"><i class="far fa-clock"></i></div>
-                                <div class="text-3xl font-bold text-medical-blue mb-1">30+</div>
+                                <div class="text-3xl font-bold text-medical-blue mb-1">34+</div>
                                 <h4 class="font-bold text-medical-dark text-sm">Years Experience</h4>
                             </div>
                             <div class="bg-medical-blue/15 p-6 rounded-2xl text-center translate-y-8 shadow-md hover:shadow-xl transition border border-medical-blue/30">
@@ -801,7 +801,7 @@ $videos = [
                             </div>
                             <div class="bg-medical-blue/25 p-6 rounded-2xl text-center translate-y-8 shadow-md hover:shadow-xl transition border border-medical-blue/50">
                                 <div class="bg-white w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-3 text-medical-blue text-2xl font-bold shadow-md"><i class="fas fa-users"></i></div>
-                                <div class="text-3xl font-bold text-medical-blue mb-1">95%</div>
+                                <div class="text-3xl font-bold text-medical-blue mb-1">85%</div>
                                 <h4 class="font-bold text-medical-dark text-sm">Success Rate</h4>
                             </div>
                         </div>
@@ -940,7 +940,7 @@ $videos = [
                         >
                             <div class="text-4xl font-bold text-medical-blue mb-2">4.9/5</div>
                             <p class="text-gray-600 font-semibold">Average Rating</p>
-                            <p class="text-xs text-gray-500 mt-1">Based on 2,500+ reviews</p>
+                            <p class="text-xs text-gray-500 mt-1">Based on 2,700+ reviews</p>
                         </div>
 
                         <div
@@ -950,7 +950,7 @@ $videos = [
                             
                             class="bg-white p-6 rounded-2xl shadow-lg hover:shadow-xl transition text-center border-t-4 border-medical-purple"
                         >
-                            <div class="text-4xl font-bold text-medical-purple mb-2">2,500+</div>
+                            <div class="text-4xl font-bold text-medical-purple mb-2">2,700+</div>
                             <p class="text-gray-600 font-semibold">Patient Reviews</p>
                             <p class="text-xs text-gray-500 mt-1">Verified testimonials</p>
                         </div>
