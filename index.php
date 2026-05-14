@@ -120,7 +120,7 @@
             </div>
             <!-- Slide 3 -->
             <div class="banner-slide absolute inset-0 w-full h-full transition-opacity duration-500 opacity-0 z-0" data-index="2">
-                <img src="assets/banners/var-test-banner.webp" alt="Dr. Vijay Anand Reddy Testimonial Banner" class="w-full h-full object-cover object-center">
+                <img src="assets/banners/dr-var-new-banner.webp" alt="Dr. Vijay Anand Reddy Testimonial Banner" class="w-full h-full object-cover object-center">
             </div>
 
             <!-- Prev/Next Buttons -->
@@ -906,90 +906,6 @@
     </section>
     
     <?php include 'video_testimonials.php'; ?>
-
-    <!-- RECENT EVENTS SECTION -->
-    <?php
-    include_once 'events_data.php';
-    
-    // Sort events by date (latest first)
-    $sortedEvents = $events ?? [];
-    usort($sortedEvents, function($a, $b) {
-        $dateA = isset($a['date']) ? strtotime($a['date']) : 0;
-        $dateB = isset($b['date']) ? strtotime($b['date']) : 0;
-        return $dateB - $dateA;
-    });
-    
-    $recentEvents = array_slice($sortedEvents, 0, 3);
-    ?>
-    <section id="recent-events" class="py-16 bg-medical-gradient relative overflow-hidden">
-      <!-- Decorative background element -->
-      <div class="absolute top-0 right-0 -mr-20 -mt-20 w-64 h-64 rounded-full bg-medical-blue opacity-5 blur-3xl"></div>
-      <div class="absolute bottom-0 left-0 -ml-20 -mb-20 w-80 h-80 rounded-full bg-medical-purple opacity-5 blur-3xl"></div>
-      
-      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-        <div class="text-center mb-16 reveal">
-          <h2 class="text-4xl md:text-5xl font-bold text-medical-dark mb-6">
-            Recent Events & Awareness
-          </h2>
-          <p class="text-xl text-gray-600 max-w-3xl mx-auto">
-            Stay updated with our latest healthcare initiatives, awareness programs, and community events.
-          </p>
-        </div>
-
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
-          <?php foreach ($recentEvents as $index => $event): ?>
-            <div class="bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 flex flex-col overflow-hidden reveal delay-<?= $index * 100 ?> cursor-pointer group" onclick="window.location.href='events.php?id=<?= $event['id'] ?>'">
-              <div class="h-56 w-full relative overflow-hidden">
-                <?php if (!empty($event['banners'])): ?>
-                  <img src="<?= htmlspecialchars($event['banners'][0]) ?>" alt="<?= htmlspecialchars($event['title']) ?>" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105">
-                <?php else: ?>
-                  <div class="w-full h-full bg-gradient-to-br from-medical-blue to-blue-700 flex items-center justify-center p-6 text-center">
-                    <h3 class="text-white text-2xl font-bold"><?= htmlspecialchars($event['title']) ?></h3>
-                  </div>
-                <?php endif; ?>
-                <div class="absolute top-4 left-4 bg-white/90 backdrop-blur text-medical-dark px-3 py-1.5 rounded-lg text-sm font-bold shadow-md">
-                  <?php if (!empty($event['date'])): ?>
-                    <?= date('d M', strtotime($event['date'])) ?>
-                  <?php else: ?>
-                    Latest
-                  <?php endif; ?>
-                </div>
-              </div>
-              <div class="p-6 md:p-8 flex flex-col flex-grow">
-                <?php if (!empty($event['date'])): ?>
-                  <div class="flex items-center text-sm text-medical-blue font-semibold mb-3">
-                    <i data-feather="calendar" class="w-4 h-4 mr-2"></i>
-                    <?= date('F j, Y', strtotime($event['date'])) ?>
-                  </div>
-                <?php endif; ?>
-                
-                <h3 class="font-bold text-xl md:text-2xl mb-4 text-medical-dark line-clamp-2 group-hover:text-medical-blue transition-colors">
-                  <?= htmlspecialchars($event['title']) ?>
-                </h3>
-                
-                <p class="text-gray-600 line-clamp-3 mb-6 flex-grow text-sm leading-relaxed">
-                  <?= htmlspecialchars(substr($event['description'], 0, 150)) ?>...
-                </p>
-                
-                <div class="mt-auto pt-4 border-t border-gray-100 flex justify-between items-center">
-                  <span class="inline-flex items-center text-medical-blue font-bold group-hover:text-medical-purple transition-colors">
-                    Read More 
-                    <i data-feather="arrow-right" class="w-4 h-4 ml-2 transition-transform group-hover:translate-x-1"></i>
-                  </span>
-                </div>
-              </div>
-            </div>
-          <?php endforeach; ?>
-        </div>
-
-        <div class="text-center reveal">
-          <a href="events.php" class="inline-flex items-center bg-medical-blue text-white px-8 py-4 rounded-xl font-bold hover:bg-medical-dark transition-all duration-300 shadow-xl hover:shadow-2xl hover:-translate-y-1">
-            <i data-feather="grid" class="w-5 h-5 mr-3"></i>
-            View All Events
-          </a>
-        </div>
-      </div>
-    </section>
 
     <!-- BLOG SECTION (From Blog.jsx) -->
     <?php

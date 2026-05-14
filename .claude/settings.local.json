@@ -34,7 +34,29 @@
       "Bash(php -r 'include '\\\\''events_data.php'\\\\''; echo count\\($events\\) . '\\\\'' events loaded\\\\n'\\\\''; $ids = array_column\\($events, '\\\\''id'\\\\''\\); echo in_array\\('\\\\''breast-cancer-awareness-flash-mob-gvk-one'\\\\'', $ids\\) ? '\\\\''Flash mob: FOUND'\\\\'' : '\\\\''Flash mob: MISSING'\\\\''; echo '\\\\''\\\\n'\\\\'';')",
       "Bash(python -c ':*)",
       "Bash(ls \"c:/Users/GCV/Desktop/vijay-anand-php/assets/Events/Debates in Uro Oncology 25-11-2023/\"*.webp)",
-      "Bash(ls \"c:/Users/GCV/Desktop/vijay-anand-php/assets/Events/AROI-ESTRO Photos 30-11-2023/\"*.webp)"
+      "Bash(ls \"c:/Users/GCV/Desktop/vijay-anand-php/assets/Events/AROI-ESTRO Photos 30-11-2023/\"*.webp)",
+      "Bash(antiword \"assets/Conditions/Conditions/01. Breast Cancer.doc\")",
+      "Bash(catdoc \"assets/Conditions/Conditions/01. Breast Cancer.doc\")",
+      "Bash(python3 -c ' *)",
+      "Bash(antiword \"assets/Conditions/Conditions/02. Cervical Cancer.doc\")",
+      "Bash(antiword \"assets/Conditions/Conditions/03. Liver Cancer.doc\")",
+      "Bash(antiword \"assets/Conditions/Conditions/04. Thyroid Cancer.doc\")",
+      "Bash(antiword \"assets/Conditions/Conditions/05. Uveal Melanoma.doc\")",
+      "Bash(antiword \"assets/Conditions/Conditions/06. Bone Cancer.doc\")",
+      "Bash(antiword \"assets/Conditions/Conditions/08. Lung Cancer.doc\")",
+      "Bash(antiword \"assets/Conditions/Conditions/09. Ovarian Cancer.doc\")",
+      "Bash(antiword \"assets/Conditions/Conditions/10. Kidney Cancer.doc\")",
+      "Bash(antiword \"assets/Conditions/Conditions/11. Eye Cancer.doc\")",
+      "Bash(antiword \"assets/Conditions/Conditions/12. Eyelid Cancer.doc\")",
+      "Bash(antiword \"assets/Conditions/Conditions/13. Soft Tissue Sarcoma.doc\")",
+      "Bash(antiword \"assets/Conditions/Conditions/14. Head & Neck.doc\")",
+      "Bash(antiword \"assets/Conditions/Conditions/15. Prostate Cancer.doc\")",
+      "Bash(antiword \"assets/Conditions/Conditions/16. Colorectal Cancer.doc\")",
+      "Bash(antiword \"assets/Conditions/Conditions/17. Pancreatic Cancer.doc\")",
+      "Bash(antiword \"assets/Conditions/Conditions/18. Retinoblastoma.doc\")",
+      "Bash(antiword \"assets/Conditions/Conditions/19. Brain CNS Tumors.doc\")",
+      "Bash(antiword \"assets/Conditions/Conditions/20. Paediatric Cancers.doc\")",
+      "Bash(antiword \"doc files/15. Uveal Melanoma.doc\")"
     ]
   }
 }

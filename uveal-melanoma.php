@@ -381,7 +381,7 @@ $videos = [
                                     <div class="bg-medical-blue/10 p-3 rounded-lg text-medical-blue mt-1"><i class="fas fa-bullseye"></i></div>
                                     <div>
                                         <h4 class="font-bold text-medical-dark">Precision Radiation</h4>
-                                        <p class="text-sm text-gray-500">Plaque Brachytherapy</p>
+                                        <p class="text-sm text-gray-500">Plaque Brachytherapy, SBRT, IMRT, IGRT</p>
                                     </div>
                                 </div>
                                 <div class="bg-medical-light p-4 rounded-lg border border-medical-blue/20 flex items-start gap-3 shadow-sm hover:shadow-lg transition">
@@ -659,7 +659,7 @@ $videos = [
                                 </div>
                                 <h4 class="font-bold text-medical-dark mb-3">Precision Radiation Therapy</h4>
                                 <p class="text-gray-600 text-sm leading-relaxed">
-                                    Plaque Brachytherapy, Proton Therapy, SRS, and stereotactic radiotherapy with real-time imaging for maximum precision and minimal side effects.
+                                    Plaque Brachytherapy, SBRT, IMRT, IGRT, Proton Therapy, and SRS with real-time imaging for maximum precision and minimal side effects.
                                 </p>
                             </div>
 

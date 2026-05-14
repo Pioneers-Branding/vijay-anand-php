@@ -669,7 +669,7 @@ $videos = [
                                 </div>
                                 <h4 class="font-bold text-medical-dark mb-3">Targeted Therapy</h4>
                                 <p class="text-gray-600 text-sm leading-relaxed">
-                                    Targeted therapies and immunotherapy for specific eye cancer subtypes, including advanced treatments for metastatic uveal melanoma.
+                                    Targeted therapies and immunotherapy for specific eye cancer subtypes, including advanced treatments for metastatic eye cancer.
                                 </p>
                             </div>
 
