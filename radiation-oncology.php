@@ -92,10 +92,10 @@ $stats = [
 ?>
 <?php
 $treatmentSteps = [
-    ['step' => "01", 'title' => "Simulation & Planning", 'desc' => "CT Simulation to map the tumor accurately.", 'image' => "https://img.freepik.com/free-photo/doctor-patient-discussing-medical-report_1421-66.webp"],
-    ['step' => "02", 'title' => "Dosimetry", 'desc' => "Physicists calculate the precise radiation dose.", 'image' => "https://img.freepik.com/free-photo/doctor-analyzing-x-ray-scan_1421-67.webp"],
-    ['step' => "03", 'title' => "Treatment Delivery", 'desc' => "Painless radiation delivery using advanced machines.", 'image' => "https://img.freepik.com/free-photo/medical-team-meeting_1421-68.webp"],
-    ['step' => "04", 'title' => "Weekly Review", 'desc' => "Regular monitoring by Dr. Reddy during treatment.", 'image' => "https://img.freepik.com/free-photo/surgeons-operating-room_1421-69.webp"],
+    ['step' => "01", 'title' => "Simulation & Planning", 'desc' => "CT Simulation to map the tumor accurately.", 'image' => "https://img.freepik.com/free-photo/doctor-patient-discussing-medical-report_1421-66.jpg"],
+    ['step' => "02", 'title' => "Dosimetry", 'desc' => "Physicists calculate the precise radiation dose.", 'image' => "https://img.freepik.com/free-photo/doctor-analyzing-x-ray-scan_1421-67.jpg"],
+    ['step' => "03", 'title' => "Treatment Delivery", 'desc' => "Painless radiation delivery using advanced machines.", 'image' => "https://img.freepik.com/free-photo/medical-team-meeting_1421-68.jpg"],
+    ['step' => "04", 'title' => "Weekly Review", 'desc' => "Regular monitoring by Dr. Reddy during treatment.", 'image' => "https://img.freepik.com/free-photo/surgeons-operating-room_1421-69.jpg"],
 ];
 ?>
 <?php

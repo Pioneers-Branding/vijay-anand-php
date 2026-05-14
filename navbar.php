@@ -212,7 +212,7 @@ function getMenuIcon($name) {
                 <!-- Logo -->
                 <div class="flex items-center flex-shrink-0">
                     <a href="index.php" class="cursor-pointer">
-                        <img src="assets/logo/vAR-LOGO-NAV.png" alt="Dr. Palkonda Vijay Anand Reddy - MD Radiation Oncology, Director Apollo Cancer Centres" class="h-16 w-auto object-contain sm:h-18 md:h-20 lg:h-24" style="max-width: 280px;">
+                        <img src="assets/logo/vAR-LOGO-NAV.png" alt="Dr. Palkonda Vijay Anand Reddy - MD Radiation Oncology, Director Apollo Cancer Centres" class="h-24 w-auto object-contain sm:h-28 md:h-32 lg:h-32" style="max-width: 320px;">
                     </a>
                 </div>
 

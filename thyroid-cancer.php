@@ -92,10 +92,10 @@ $stats = [
 ?>
 <?php
 $treatmentSteps = [
-    ['step' => "01", 'title' => "Consultation & Diagnosis", 'desc' => "Comprehensive evaluation and advanced diagnostic imaging.", 'image' => "https://img.freepik.com/free-photo/doctor-patient-discussing-medical-report_1421-66.webp"],
-    ['step' => "02", 'title' => "Treatment Planning", 'desc' => "Multidisciplinary team creates personalized plan.", 'image' => "https://img.freepik.com/free-photo/doctor-analyzing-x-ray-scan_1421-67.webp"],
-    ['step' => "03", 'title' => "Treatment Delivery", 'desc' => "Surgery, radiation, or therapy with precision.", 'image' => "https://img.freepik.com/free-photo/medical-team-meeting_1421-68.webp"],
-    ['step' => "04", 'title' => "Follow-up Care", 'desc' => "Regular monitoring and survivorship support.", 'image' => "https://img.freepik.com/free-photo/surgeons-operating-room_1421-69.webp"],
+    ['step' => "01", 'title' => "Consultation & Diagnosis", 'desc' => "Comprehensive evaluation and advanced diagnostic imaging.", 'image' => "https://img.freepik.com/free-photo/doctor-patient-discussing-medical-report_1421-66.jpg"],
+    ['step' => "02", 'title' => "Treatment Planning", 'desc' => "Multidisciplinary team creates personalized plan.", 'image' => "https://img.freepik.com/free-photo/doctor-analyzing-x-ray-scan_1421-67.jpg"],
+    ['step' => "03", 'title' => "Treatment Delivery", 'desc' => "Surgery, radiation, or therapy with precision.", 'image' => "https://img.freepik.com/free-photo/medical-team-meeting_1421-68.jpg"],
+    ['step' => "04", 'title' => "Follow-up Care", 'desc' => "Regular monitoring and survivorship support.", 'image' => "https://img.freepik.com/free-photo/surgeons-operating-room_1421-69.jpg"],
 ];
 ?>
 <?php
