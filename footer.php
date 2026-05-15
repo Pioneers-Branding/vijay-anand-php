@@ -16,7 +16,7 @@ $aboutLinks = [
     ['name' => 'Publications', 'href' => 'publications.php'],
     ['name' => 'Books', 'href' => 'books.php'],
     ['name' => 'Professional Associations', 'href' => 'professional-association.php'],
-    ['name' => 'Presentations', 'href' => 'presentations.php'],
+    ['name' => 'Presentations', 'href' => 'professional-presentations.php'],
     ['name' => 'Media Gallery', 'href' => 'print-gallery.php'],
     ['name' => 'My Family', 'href' => 'family.php']
 ];
@@ -34,7 +34,7 @@ $services = [
 $resources = [
     ['name' => 'Cancer Awareness Lectures', 'href' => 'awareness-lectures.php'],
     ['name' => 'Doctor Awareness Talks', 'href' => 'doctor-speaks.php'],
-    ['name' => 'Conferences & Seminars', 'href' => 'conference.php'],
+    ['name' => 'Conferences & Seminars', 'href' => 'conferences.php'],
     ['name' => 'Cancer Survivors Stories', 'href' => 'survivors.php'],
     ['name' => 'Cancer Clinics', 'href' => 'cancer-clinics.php'],
     ['name' => 'Events & Programs', 'href' => 'events.php'],
@@ -269,7 +269,7 @@ $hyderabadPages = [
                     <?php foreach ($hyderabadPages as $page): 
                         $slug = strtolower(str_replace(' ', '-', $page['pageName']));
                     ?>
-                        <a href="hyderabad-<?= $slug ?>-treatment.php" class="flex items-start space-x-2 text-gray-400 hover:text-medical-blue transition-colors duration-200 group text-sm">
+                        <a href="<?= strtolower(str_replace(' ', '-', $page['pageName'])) ?>-treatment-in-hyderabad.php" class="flex items-start space-x-2 text-gray-400 hover:text-medical-blue transition-colors duration-200 group text-sm">
                             <i data-feather="map-pin" class="w-4 h-4 text-medical-blue flex-shrink-0 mt-0.5"></i>
                             <span class="group-hover:translate-x-1 transition-transform duration-200">
                                 <?= $page['pageName'] ?> in Hyderabad

@@ -84,7 +84,7 @@ $faqs = [
 ?>
 <?php
 $stats = [
-    ['label' => "Years of Experience", 'value' => "30+", 'icon' => "FiClock"],
+    ['label' => "Years of Experience", 'value' => "34+", 'icon' => "FiClock"],
     ['label' => "Successful Treatments", 'value' => "10000+", 'icon' => "FiActivity"],
     ['label' => "Happy Patients", 'value' => "25000+", 'icon' => "FiUserCheck"],
     ['label' => "Awards Won", 'value' => "50+", 'icon' => "FiAward"],
@@ -1044,7 +1044,9 @@ $videos = [
 
             <!-- Video Modal -->
             
-            <?php include 'footer.php'; ?>
+            <?php include 'contact-section.php'; ?>
+
+    <?php include 'footer.php'; ?>
         </div>
 
 

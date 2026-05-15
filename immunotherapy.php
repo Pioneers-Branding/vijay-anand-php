@@ -84,7 +84,7 @@ $faqs = [
 ?>
 <?php
 $stats = [
-    ['label' => "Years of Experience", 'value' => "30+", 'icon' => "FiClock"],
+    ['label' => "Years of Experience", 'value' => "34+", 'icon' => "FiClock"],
     ['label' => "Successful Treatments", 'value' => "10000+", 'icon' => "FiActivity"],
     ['label' => "Happy Patients", 'value' => "25000+", 'icon' => "FiUserCheck"],
     ['label' => "Awards Won", 'value' => "50+", 'icon' => "FiAward"],
@@ -99,8 +99,16 @@ $treatmentSteps = [
 ];
 ?>
 <?php
+$subServices = [
+    ['icon' => "FiMessageSquare", 'title' => "Online Consultation", 'desc' => "Initial video consultation to discuss treatment options before travel."],
+    ['icon' => "FiFileText", 'title' => "Visa Assistance", 'desc' => "Medical visa invitation letters and complete travel documentation support."],
+    ['icon' => "FiHome", 'title' => "Accommodation", 'desc' => "Assistance with comfortable stay options near the hospital during treatment."],
+    ['icon' => "FiGlobe", 'title' => "Interpreter Services", 'desc' => "Language support to ensure clear communication throughout treatment journey."],
+];
+?>
+<?php
 $whyChoose = [
-    "Best immunotherapy doctor in India with 30+ years experience",
+    "Best immunotherapy doctor in India with 34+ years experience",
     "Expertise in latest checkpoint inhibitors and CAR-T therapy",
     "Access to cutting-edge biomarker testing technologies",
     "Multidisciplinary team for comprehensive care",
@@ -843,36 +851,24 @@ $videos = [
                     </div>
 
                     <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6 mb-12">
-                        {[
-                            {
-                                icon: <i class="far fa-comments"></i>,
-                                title: "Online Consultation",
-                                desc: "Initial video consultation to discuss immunotherapy options before travel."
-                            },
-                            {
-                                icon: <i class="far fa-file-alt"></i>,
-                                title: "Visa Assistance",
-                                desc: "Medical visa invitation letters and complete travel documentation support."
-                            },
-                            {
-                                icon: <i class="fas fa-home"></i>,
-                                title: "Accommodation",
-                                desc: "Assistance with comfortable stay options near the hospital during treatment."
-                            },
-                            {
-                                icon: <i class="fas fa-globe"></i>,
-                                title: "Interpreter Services",
-                                desc: "Language support to ensure clear communication throughout treatment journey."
-                            }
-                        ].map((service, idx) => (
-                            <div  class="bg-medical-light p-6 rounded-xl border border-medical-blue/20 hover:shadow-lg transition group">
-                                <div class="bg-white w-14 h-14 rounded-full flex items-center justify-center text-medical-blue mb-4 shadow-sm group-hover:scale-110 transition">
-                                    {service.icon}
-                                </div>
-                                <h3 class="text-xl font-bold text-medical-dark mb-2">{service.title}</h3>
-                                <p class="text-gray-600 text-sm">{service.desc}</p>
-                            </div>
-                        ))}
+
+    <?php foreach ($subServices as $service): ?>
+        <div class="bg-medical-light p-6 rounded-xl border border-medical-blue/20 hover:shadow-lg transition group">
+            <div class="bg-white w-14 h-14 rounded-full flex items-center justify-center text-medical-blue mb-4 shadow-sm group-hover:scale-110 transition">
+                <?php
+                    $iconClass = 'fas fa-star';
+                    if(strpos($service['icon'], 'FiMessageSquare') !== false) $iconClass = 'far fa-comments';
+                    elseif(strpos($service['icon'], 'FiFileText') !== false) $iconClass = 'far fa-file-alt';
+                    elseif(strpos($service['icon'], 'FiHome') !== false) $iconClass = 'fas fa-home';
+                    elseif(strpos($service['icon'], 'FiGlobe') !== false) $iconClass = 'fas fa-globe';
+                ?>
+                <i class="<?= $iconClass ?> fa-lg"></i>
+            </div>
+            <h3 class="text-xl font-bold text-medical-dark mb-2"><?= $service['title'] ?></h3>
+            <p class="text-gray-600 text-sm"><?= $service['desc'] ?></p>
+        </div>
+    <?php endforeach; ?>
+
                     </div>
 
                     <div class="bg-medical-blue rounded-2xl p-8 md:p-12 relative overflow-hidden">
@@ -1112,7 +1108,9 @@ $videos = [
 
             <!-- Video Modal -->
             
-            <?php include 'footer.php'; ?>
+            <?php include 'contact-section.php'; ?>
+
+    <?php include 'footer.php'; ?>
         </div>
 
 

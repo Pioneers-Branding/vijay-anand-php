@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dr. Vijay Anand Reddy - Leading Oncologist in Hyderabad | Apollo Cancer Centre</title>
-    <meta name="description" content="Dr. Vijay Anand Reddy, MD Radiation Oncology, Director at Apollo Cancer Centres Hyderabad. 30+ years experience in cancer treatment. Book consultation today.">
+    <meta name="description" content="Dr. Vijay Anand Reddy, MD Radiation Oncology, Director at Apollo Cancer Centres Hyderabad. 34+ years experience in cancer treatment. Book consultation today.">
     
     <!-- Feather Icons -->
     <script src="https://unpkg.com/feather-icons"></script>
@@ -214,7 +214,7 @@
                 <div class="text-center lg:text-left reveal">
                     <div class="inline-flex items-center bg-medical-blue/10 text-medical-blue px-4 py-2 rounded-full text-sm font-medium mb-6">
                         <i data-feather="award" class="w-4 h-4 mr-2"></i>
-                        30+ Years of Excellence in Oncology
+                        34+ years of Excellence in Oncology
                     </div>
 
                     <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold text-medical-dark mb-6 leading-tight text-shadow">
@@ -528,7 +528,7 @@
     <!-- WHY CHOOSE SECTION (From WhyChoose.jsx) -->
     <?php
     $reasons = [
-      ['icon' => 'award', 'title' => "30+ Years Experience", 'description' => "Three decades of excellence in radiation oncology and cancer treatment"],
+      ['icon' => 'award', 'title' => "34+ years Experience", 'description' => "Three decades of excellence in radiation oncology and cancer treatment"],
       ['icon' => 'users', 'title' => "25,000+ Patients Treated", 'description' => "Successfully treated thousands of patients with various cancer types"],
       ['icon' => 'trending-up', 'title' => "95% Success Rate", 'description' => "Exceptional treatment outcomes with industry-leading success rates"],
       ['icon' => 'heart', 'title' => "Compassionate Care", 'description' => "Patient-centered approach with emotional support throughout treatment"],

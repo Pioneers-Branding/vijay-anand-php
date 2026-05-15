@@ -56,7 +56,15 @@
       "Bash(antiword \"assets/Conditions/Conditions/18. Retinoblastoma.doc\")",
       "Bash(antiword \"assets/Conditions/Conditions/19. Brain CNS Tumors.doc\")",
       "Bash(antiword \"assets/Conditions/Conditions/20. Paediatric Cancers.doc\")",
-      "Bash(antiword \"doc files/15. Uveal Melanoma.doc\")"
+      "Bash(antiword \"doc files/15. Uveal Melanoma.doc\")",
+      "Bash(mv hyderabad-bone-cancer-treatment.php \"breast-cancer-treatment-in-hyderabad.php.bak\")",
+      "Bash(mv hyderabad-brain-tumor-treatment.php \"bone-cancer-treatment-in-hyderabad.php\")",
+      "Bash(mv hyderabad-breast-cancer-treatment.php \"brain-tumor-treatment-in-hyderabad.php\")",
+      "Bash(mv hyderabad-cervical-cancer-treatment.php \"breast-cancer-treatment-in-hyderabad.php\")",
+      "Bash(mv hyderabad-colorectal-cancer-treatment.php \"cervical-cancer-treatment-in-hyderabad.php\")",
+      "Bash(php -r ' *)",
+      "Bash(grep -iE \"^.*services.*\\\\.php$|^.*faq.*\\\\.php$\")",
+      "Bash(grep -v \"^$\")"
     ]
   }
 }
