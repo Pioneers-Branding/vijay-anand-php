@@ -39,7 +39,7 @@
     <?php include 'navbar.php'; ?>
 
     <!-- Hero Section -->
-    <section class="pt-32 pb-16 bg-medical-blue/5">
+    <section class="pt-40 pb-16 bg-medical-blue/5">
         <div class="max-w-5xl mx-auto px-4 text-center reveal">
             <div class="w-10 h-10 text-medical-blue mx-auto mb-3 flex items-center justify-center">
                 <i data-feather="compass" class="w-10 h-10"></i>
