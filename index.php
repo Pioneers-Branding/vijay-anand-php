@@ -101,13 +101,130 @@
             opacity: 1;
             transform: translateY(0);
         }
+        /* Banner image fix - show more content on mobile without cropping */
+        @media (max-width: 767px) {
+            .banner-slide img {
+                object-position: center 30% !important;
+            }
+        }
     </style>
 </head>
 <body class="bg-white text-gray-800">
 
     <?php include 'navbar.php'; ?>
 
+       <section id="banners" class="relative pt-[140px] md:pt-[172px] bg-gray-50 overflow-hidden w-full max-w-full">
+        <div class="relative w-full h-[330px] sm:h-[420px] md:h-[500px] lg:h-[560px] xl:h-[620px] group overflow-hidden max-w-full">
+            <!-- Slide 1 -->
+            <div class="banner-slide absolute inset-0 w-full h-full transition-opacity duration-700 ease-in-out opacity-100 z-10" data-index="0">
+                <picture class="w-full h-full block">
+                    <source media="(min-width: 768px)" srcset="assets/banners/Var-padma-banner.webp">
+                    <img src="assets/banners/padma.webp" alt="Dr. Vijay Anand Reddy - Padma Shri 2026" class="w-full h-full object-cover">
+                </picture>
+            </div>
+            <!-- Slide 2 -->
+            <div class="banner-slide absolute inset-0 w-full h-full transition-opacity duration-700 ease-in-out opacity-0 z-0" data-index="1">
+                <picture class="w-full h-full block">
+                    <source media="(min-width: 768px)" srcset="assets\banners\3-banner-img-1.webp">
+                    <img src="assets/banners/VAR.webp" alt="Dr. Vijay Anand Reddy - National Honour" class="w-full h-full object-cover">
+                </picture>
+            </div>
+            <!-- Slide 3 -->
+            <div class="banner-slide absolute inset-0 w-full h-full transition-opacity duration-700 ease-in-out opacity-0 z-0" data-index="2">
+                <picture class="w-full h-full block">
+                    <source media="(min-width: 768px)" srcset="assets\banners\dr-var-new-banner.webp">
+                    <img src="assets/banners/image.webp" alt="Dr. Vijay Anand Reddy - Patient Testimony" class="w-full h-full object-cover">
+                </picture>
+            </div>
+            <!-- Slide 4 -->
+            <div class="banner-slide absolute inset-0 w-full h-full transition-opacity duration-700 ease-in-out opacity-0 z-0" data-index="3">
+                <picture class="w-full h-full block">
+                    <source media="(min-width: 768px)" srcset="assets/banners/var-banner-review.webp">
+                    <img src="assets/banners/good.webp" alt="Dr. Vijay Anand Reddy - Google Reviews" class="w-full h-full object-cover">
+                </picture>
+            </div>
 
+            <!-- Prev/Next Buttons - Sleek Glassmorphism Controls -->
+            <button onclick="prevSlide()" class="absolute left-3 top-1/2 -translate-y-1/2 z-20 bg-white/40 hover:bg-white/70 border border-white/20 backdrop-blur-md text-gray-800 rounded-full w-8 h-8 sm:w-10 sm:h-10 flex items-center justify-center shadow-lg transition-all duration-300 hover:scale-110 md:opacity-0 md:group-hover:opacity-100">
+                <svg class="w-4 h-4 sm:w-5 sm:h-5" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><polyline points="15 18 9 12 15 6"></polyline></svg>
+            </button>
+            <button onclick="nextSlide()" class="absolute right-3 top-1/2 -translate-y-1/2 z-20 bg-white/40 hover:bg-white/70 border border-white/20 backdrop-blur-md text-gray-800 rounded-full w-8 h-8 sm:w-10 sm:h-10 flex items-center justify-center shadow-lg transition-all duration-300 hover:scale-110 md:opacity-0 md:group-hover:opacity-100">
+                <svg class="w-4 h-4 sm:w-5 sm:h-5" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><polyline points="9 18 15 12 9 6"></polyline></svg>
+            </button>
+
+            <!-- Dots - Sleek and modern active indicator -->
+            <div class="absolute bottom-4 left-1/2 -translate-x-1/2 z-20 flex gap-2.5 sm:gap-3">
+                <button onclick="goToSlide(0)" class="banner-dot h-2 w-5 sm:h-2.5 sm:w-6 rounded-full bg-medical-blue transition-all duration-300"></button>
+                <button onclick="goToSlide(1)" class="banner-dot h-2 w-2 sm:h-2.5 sm:w-2.5 rounded-full bg-white/60 hover:bg-white transition-all duration-300"></button>
+                <button onclick="goToSlide(2)" class="banner-dot h-2 w-2 sm:h-2.5 sm:w-2.5 rounded-full bg-white/60 hover:bg-white transition-all duration-300"></button>
+                <button onclick="goToSlide(3)" class="banner-dot h-2 w-2 sm:h-2.5 sm:w-2.5 rounded-full bg-white/60 hover:bg-white transition-all duration-300"></button>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        let currentSlide = 0;
+        const slides = document.querySelectorAll('.banner-slide');
+        const dots = document.querySelectorAll('.banner-dot');
+        const totalSlides = slides.length;
+        let slideInterval;
+
+        function updateSlides() {
+            slides.forEach((slide, index) => {
+                if (index === currentSlide) {
+                    slide.classList.remove('opacity-0', 'z-0');
+                    slide.classList.add('opacity-100', 'z-10');
+                } else {
+                    slide.classList.remove('opacity-100', 'z-10');
+                    slide.classList.add('opacity-0', 'z-0');
+                }
+            });
+
+            dots.forEach((dot, index) => {
+                if (index === currentSlide) {
+                    dot.classList.remove('bg-white/60', 'w-2', 'sm:w-2.5');
+                    dot.classList.add('bg-medical-blue', 'w-5', 'sm:w-6');
+                } else {
+                    dot.classList.remove('bg-medical-blue', 'w-5', 'sm:w-6');
+                    dot.classList.add('bg-white/60', 'w-2', 'sm:w-2.5');
+                }
+            });
+        }
+
+        function nextSlide() {
+            currentSlide = (currentSlide + 1) % totalSlides;
+            updateSlides();
+            resetTimer();
+        }
+
+        function prevSlide() {
+            currentSlide = (currentSlide - 1 + totalSlides) % totalSlides;
+            updateSlides();
+            resetTimer();
+        }
+
+        function goToSlide(index) {
+            currentSlide = index;
+            updateSlides();
+            resetTimer();
+        }
+
+        function startTimer() {
+            slideInterval = setInterval(nextSlide, 5000);
+        }
+
+        function resetTimer() {
+            clearInterval(slideInterval);
+            startTimer();
+        }
+
+        document.addEventListener('DOMContentLoaded', () => {
+            startTimer();
+             if (typeof feather !== 'undefined') {
+                feather.replace();
+            }
+        });
+    </script>
 
     <!-- HERO SECTION (Commented Out) -->
     <!--

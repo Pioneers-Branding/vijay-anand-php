@@ -79,7 +79,14 @@
       "Bash(curl -s -I \"http://localhost:8081/blog-post.php?id=3127\")",
       "Bash(xargs grep -l \"25000+\")",
       "Bash(php -l footer.php)",
-      "Bash(php -l felicitations.php)"
+      "Bash(php -l felicitations.php)",
+      "Bash(php download_blog_images.php)",
+      "Bash(curl -L -o \"test_image.png\" \"https://drvijayanandreddy.com/wp-content/uploads/2022/11/Gastric-Cancer.png\" -A \"Mozilla/5.0 \\(Windows NT 10.0; Win64; x64\\) AppleWebKit/537.36\" --connect-timeout 15)",
+      "Bash(ls -la test_image.png)",
+      "Bash(php update_content_urls.php)",
+      "Bash(php update_pipe_urls.php)",
+      "Bash(php fix_remaining_urls.php)",
+      "Bash(curl -L -o \"test_check.jpg\" \"https://drvijayanandreddy.com/wp-content/uploads/2022/11/Stomach-Or.webp\" -s)"
     ]
   }
 }

@@ -28,6 +28,7 @@
 /cookie-policy.php    /cookie-policy.html    301
 /cure-2.php    /cure-2.html    301
 /doctor-speaks.php    /doctor-speaks.html    301
+/download_blog_images.php    /download_blog_images.html    301
 /events.php    /events.html    301
 /external-beam-radiation.php    /external-beam-radiation.html    301
 /eye-cancer-treatment-in-hyderabad.php    /eye-cancer-treatment-in-hyderabad.html    301
@@ -37,6 +38,7 @@
 /family.php    /family.html    301
 /faq.php    /faq.html    301
 /felicitations.php    /felicitations.html    301
+/fix_remaining_urls.php    /fix_remaining_urls.html    301
 /gastrointestinal-oncology.php    /gastrointestinal-oncology.html    301
 /gynecologic-oncology.php    /gynecologic-oncology.html    301
 /head-neck-oncology.php    /head-neck-oncology.html    301
@@ -95,6 +97,8 @@
 /thyroid-cancer-treatment-in-hyderabad.php    /thyroid-cancer-treatment-in-hyderabad.html    301
 /thyroid-cancer.php    /thyroid-cancer.html    301
 /tomotherapy.php    /tomotherapy.html    301
+/update_content_urls.php    /update_content_urls.html    301
+/update_pipe_urls.php    /update_pipe_urls.html    301
 /uro-oncology.php    /uro-oncology.html    301
 /uveal-melanoma.php    /uveal-melanoma.html    301
 /video-gallery.php    /video-gallery.html    301
