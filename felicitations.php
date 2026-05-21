@@ -5,8 +5,6 @@ include 'events_data.php';
 // Filter events for felicitation page (only these specific events)
 $felicitationIds = [
     'ida-2026',
-    'whitathon-2026-8th-edition',
-    'ccgc-2026',
     'felicitation-chairman-apollo-hospitals-2026'
 ];
 
@@ -274,6 +272,45 @@ if ($eventId) {
             </div>
         </section>
 
+        <!-- Felicitations & Social Service Section -->
+        <?php
+        $felicitationsCards = [
+            [
+                'image' => 'assets/awards/felicitation1.webp',
+                'text' => "On Doctor's Day 2013, received special felicitation from Apollo Hospitals, Hyderabad, for extensive social service for poor and needy cancer patients via CURE Foundation."
+            ],
+            [
+                'image' => 'assets/awards/felicitation2.webp',
+                'text' => 'A huge round of applause for Vijay Anand Reddy for his phenomenal oration on 31st August 2025 at the Karimnagar IMA branch — "The meaning of life is to give life a meaning". His masterful, deeply moving presentation captivated everyone and left the audience uplifted.'
+            ]
+        ];
+        ?>
+        <section class="py-12 bg-gray-50">
+            <div class="max-w-7xl mx-auto px-4">
+                <div class="text-center mb-8">
+                    <h2 class="text-2xl md:text-3xl font-bold text-medical-dark mb-4">
+                        Felicitations & Social Service
+                    </h2>
+                    <p class="mt-2 text-gray-700 max-w-3xl mx-auto">
+                        Dr. Reddy's work has been spread across urban, semi urban and rural areas.
+                        He has been felicitated at various educational institutes, organizations and at
+                        Indian Medical Association at Hyderabad, Mahbubnagar, Karimnagar, Nizamabad, Vizag and Warangal.
+                    </p>
+                </div>
+
+                <div class="grid md:grid-cols-2 gap-8">
+                    <?php foreach ($felicitationsCards as $item): ?>
+                    <div class="bg-white rounded-2xl shadow-md overflow-hidden flex flex-col">
+                        <img src="<?= htmlspecialchars($item['image']) ?>" alt="Felicitation" class="w-full object-cover" style="height:18rem;" loading="lazy">
+                        <div class="p-6">
+                            <p class="text-gray-700 leading-relaxed"><?= htmlspecialchars($item['text']) ?></p>
+                        </div>
+                    </div>
+                    <?php endforeach; ?>
+                </div>
+            </div>
+        </section>
+
         <!-- List Grid -->
         <div class="max-w-6xl mt-10 mx-auto px-6 mb-20 flex-grow">
             <?php if (empty($felicitationEvents)): ?>
@@ -325,47 +362,6 @@ if ($eventId) {
             <?php endif; ?>
         </div>
 
-    <?php endif; ?>
-
-    <!-- Felicitations & Social Service Section (Only on list view) -->
-    <?php if (!$currentEvent): ?>
-        <?php
-        $felicitationsCards = [
-            [
-                'image' => 'assets/awards/felicitation1.webp',
-                'text' => "On Doctor's Day 2013, received special felicitation from Apollo Hospitals, Hyderabad, for extensive social service for poor and needy cancer patients via CURE Foundation."
-            ],
-            [
-                'image' => 'assets/awards/felicitation2.webp',
-                'text' => 'A huge round of applause for Vijay Anand Reddy for his phenomenal oration on 31st August 2025 at the Karimnagar IMA branch — "The meaning of life is to give life a meaning". His masterful, deeply moving presentation captivated everyone and left the audience uplifted.'
-            ]
-        ];
-        ?>
-        <section class="py-12 bg-gray-50">
-            <div class="max-w-7xl mx-auto px-4">
-                <div class="text-center mb-8">
-                    <h2 class="text-2xl md:text-3xl font-bold text-medical-dark mb-4">
-                        Felicitations & Social Service
-                    </h2>
-                    <p class="mt-2 text-gray-700 max-w-3xl mx-auto">
-                        Dr. Reddy's work has been spread across urban, semi urban and rural areas.
-                        He has been felicitated at various educational institutes, organizations and at
-                        Indian Medical Association at Hyderabad, Mahbubnagar, Karimnagar, Nizamabad, Vizag and Warangal.
-                    </p>
-                </div>
-
-                <div class="grid md:grid-cols-2 gap-8">
-                    <?php foreach ($felicitationsCards as $item): ?>
-                    <div class="bg-white rounded-2xl shadow-md overflow-hidden flex flex-col">
-                        <img src="<?= htmlspecialchars($item['image']) ?>" alt="Felicitation" class="w-full object-cover" style="height:18rem;" loading="lazy">
-                        <div class="p-6">
-                            <p class="text-gray-700 leading-relaxed"><?= htmlspecialchars($item['text']) ?></p>
-                        </div>
-                    </div>
-                    <?php endforeach; ?>
-                </div>
-            </div>
-        </section>
     <?php endif; ?>
 
     <?php include 'footer.php'; ?>

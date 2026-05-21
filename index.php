@@ -114,7 +114,7 @@
     <?php include 'navbar.php'; ?>
 
        <section id="banners" class="relative pt-[100px] md:pt-[100px] bg-gray-50 overflow-hidden w-full max-w-full">
-        <div class="relative w-full h-[520px] sm:h-[540px] md:h-[500px] lg:h-[560px] xl:h-[620px] group overflow-hidden max-w-full">
+        <div class="relative w-full h-[600px] sm:h-[620px] md:h-[500px] lg:h-[560px] xl:h-[620px] group overflow-hidden max-w-full">
             <!-- Slide 1 -->
             <div class="banner-slide absolute inset-0 w-full h-full transition-opacity duration-700 ease-in-out opacity-100 z-10" data-index="0">
                 <picture class="w-full h-full block">
@@ -126,13 +126,13 @@
             <div class="banner-slide absolute inset-0 w-full h-full transition-opacity duration-700 ease-in-out opacity-0 z-0" data-index="1">
                 <picture class="w-full h-full block">
                     <source media="(min-width: 768px)" srcset="assets\banners\3-banner-img-1.webp">
-                    <img src="assets/banners/VAR.webp" alt="Dr. Vijay Anand Reddy - National Honour" class="w-full h-full object-cover">
+                    <img src="assets\banners\fixed-mobile.webp" alt="Dr. Vijay Anand Reddy - National Honour" class="w-full h-full object-cover">
                 </picture>
             </div>
             <!-- Slide 3 -->
             <div class="banner-slide absolute inset-0 w-full h-full transition-opacity duration-700 ease-in-out opacity-0 z-0" data-index="2">
                 <picture class="w-full h-full block">
-                    <source media="(min-width: 768px)" srcset="assets\banners\dr-var-new-banner.webp">
+                    <source media="(min-width: 768px)" srcset="assets\banners\fixed-desk.webp">
                     <img src="assets/banners/image.webp" alt="Dr. Vijay Anand Reddy - Patient Testimony" class="w-full h-full object-cover">
                 </picture>
             </div>
@@ -835,7 +835,7 @@
     $googleStats = [
         ['number' => "4.9/5", 'label' => "Google Rating", 'description' => "Based on 2,847 reviews"],
         ['number' => "#1", 'label' => "Top Oncologist", 'description' => "In India"],
-        ['number' => "2,847", 'label' => "Google Reviews", 'description' => "Highest in India"],
+        ['number' => "2,700+", 'label' => "Google Reviews", 'description' => "Highest in India"],
         ['number' => "98.7%", 'label' => "5-Star Reviews", 'description' => "Exceptional satisfaction"]
     ];
     ?>

@@ -5,8 +5,6 @@ include 'events_data.php';
 // Filter out felicitation events (they're on the dedicated felicitations page)
 $felicitationIds = [
     'ida-2026',
-    'whitathon-2026-8th-edition',
-    'ccgc-2026',
     'felicitation-chairman-apollo-hospitals-2026'
 ];
 $events = array_filter($events, function($e) use ($felicitationIds) {
