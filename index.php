@@ -113,8 +113,8 @@
 
     <?php include 'navbar.php'; ?>
 
-       <section id="banners" class="relative pt-[140px] md:pt-[172px] bg-gray-50 overflow-hidden w-full max-w-full">
-        <div class="relative w-full h-[330px] sm:h-[420px] md:h-[500px] lg:h-[560px] xl:h-[620px] group overflow-hidden max-w-full">
+       <section id="banners" class="relative pt-[100px] md:pt-[100px] bg-gray-50 overflow-hidden w-full max-w-full">
+        <div class="relative w-full h-[520px] sm:h-[540px] md:h-[500px] lg:h-[560px] xl:h-[620px] group overflow-hidden max-w-full">
             <!-- Slide 1 -->
             <div class="banner-slide absolute inset-0 w-full h-full transition-opacity duration-700 ease-in-out opacity-100 z-10" data-index="0">
                 <picture class="w-full h-full block">
