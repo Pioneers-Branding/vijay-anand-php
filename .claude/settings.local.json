@@ -64,7 +64,22 @@
       "Bash(mv hyderabad-colorectal-cancer-treatment.php \"cervical-cancer-treatment-in-hyderabad.php\")",
       "Bash(php -r ' *)",
       "Bash(grep -iE \"^.*services.*\\\\.php$|^.*faq.*\\\\.php$\")",
-      "Bash(grep -v \"^$\")"
+      "Bash(grep -v \"^$\")",
+      "Bash(php download_images.php)",
+      "Bash(cp blog/index.php ./blog-listing.php)",
+      "Bash(cp blog/view.php ./blog-post.php)",
+      "Bash(cp blog/posts_data.json ./posts_data.json)",
+      "Bash(mkdir -p assets/blog-images)",
+      "Bash(cp -r blog/assets/images/* assets/blog-images/)",
+      "Bash(php -l blog-post.php)",
+      "Bash(php -r 'print_r\\(json_decode\\(file_get_contents\\(\"php://stdin\"\\), true\\)\\);')",
+      "Bash(php -S localhost:8080 blog-post.php)",
+      "Bash(curl -s \"http://localhost:8080/blog-post.php?id=3127\")",
+      "Bash(php -S localhost:8081)",
+      "Bash(curl -s -I \"http://localhost:8081/blog-post.php?id=3127\")",
+      "Bash(xargs grep -l \"25000+\")",
+      "Bash(php -l footer.php)",
+      "Bash(php -l felicitations.php)"
     ]
   }
 }

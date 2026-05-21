@@ -66,7 +66,7 @@ $faqs = [
     ],
     [
         'question' => "Why choose Dr. Vijay Anand Reddy for thyroid cancer treatment in India?",
-        'answer' => "With over 30 years of experience in radiation oncology, Dr. Vijay Anand Reddy offers world-class thyroid cancer treatment in India. He utilizes cutting-edge technology, personalized treatment plans, and a multidisciplinary approach to ensure the best outcomes for thyroid cancer patients. His expertise in IMRT and advanced radiation therapies makes him one of India's leading oncologists."
+        'answer' => "With over 34 years of experience in radiation oncology, Dr. Vijay Anand Reddy offers world-class thyroid cancer treatment in India. He utilizes cutting-edge technology, personalized treatment plans, and a multidisciplinary approach to ensure the best outcomes for thyroid cancer patients. His expertise in IMRT and advanced radiation therapies makes him one of India's leading oncologists."
     ],
     [
         'question' => "What is the cost of thyroid cancer treatment in India?",
@@ -78,7 +78,7 @@ $faqs = [
     ],
     [
         'question' => "What is the success rate of thyroid cancer treatment in India?",
-        'answer' => "Thyroid cancer treatment in India has excellent success rates, with early-stage thyroid cancer having a 95%+ survival rate. Dr. Vijay Anand Reddy has successfully treated thousands of thyroid cancer patients with advanced radiation oncology techniques and personalized care, achieving outstanding outcomes comparable to global standards."
+        'answer' => "Thyroid cancer treatment in India has excellent success rates, with early-stage thyroid cancer having a 85% survival rate. Dr. Vijay Anand Reddy has successfully treated thousands of thyroid cancer patients with advanced radiation oncology techniques and personalized care, achieving outstanding outcomes comparable to global standards."
     ],
 ];
 ?>
@@ -86,7 +86,7 @@ $faqs = [
 $stats = [
     ['label' => "Years of Experience", 'value' => "34+", 'icon' => "FiClock"],
     ['label' => "Successful Treatments", 'value' => "10000+", 'icon' => "FiActivity"],
-    ['label' => "Happy Patients", 'value' => "25000+", 'icon' => "FiUserCheck"],
+    ['label' => "Happy Patients", 'value' => "2 Lakh+", 'icon' => "FiUserCheck"],
     ['label' => "Awards Won", 'value' => "50+", 'icon' => "FiAward"],
 ];
 ?>
@@ -177,7 +177,7 @@ $videos = [
 
                             <div class="grid grid-cols-2 gap-4 mb-8">
                                 <div class="bg-white p-4 rounded-lg border border-medical-blue/20 shadow-sm">
-                                    <div class="text-3xl font-bold text-medical-blue mb-1">95%+</div>
+                                    <div class="text-3xl font-bold text-medical-blue mb-1">85%</div>
                                     <p class="text-xs text-gray-600">Early Detection Success</p>
                                 </div>
                                 <div class="bg-white p-4 rounded-lg border border-medical-blue/20 shadow-sm">
@@ -223,7 +223,7 @@ $videos = [
                     <div class="bg-white/60 backdrop-blur-xl rounded-2xl border border-white/50 shadow-xl p-6">
                         <div class="flex flex-col md:flex-row items-center justify-center gap-8 text-center md:text-left">
                             <!-- Best Business Award Image -->
-                            <!-- 95% Success Rate -->
+                            <!-- 85% Success Rate -->
                             <div class="text-center">
                                 <div class="text-4xl font-bold mb-1" style="background: linear-gradient(to right, #9B528F, #8B5CF6); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;">85%</div>
                                 <p class="text-gray-600 text-sm font-medium">Success Rate</p>
@@ -469,7 +469,7 @@ $videos = [
                                 About Dr. Vijay Anand Reddy
                             </h2>
                             <p class="text-gray-600 text-lg mb-6 leading-relaxed">
-                                Dr. Vijay Anand Reddy is a distinguished radiation oncologist with over 30 years of experience providing world-class <strong>thyroid cancer treatment in India</strong>. As the Director of Apollo Cancer Centres, Hyderabad, he has pioneered advanced radiation oncology techniques and personalized treatment approaches for thyroid cancer patients.
+                                Dr. Vijay Anand Reddy is a distinguished radiation oncologist with over 34 years of experience providing world-class <strong>thyroid cancer treatment in India</strong>. As the Director of Apollo Cancer Centres, Hyderabad, he has pioneered advanced radiation oncology techniques and personalized treatment approaches for thyroid cancer patients.
                             </p>
                             <p class="text-gray-600 mb-8 leading-relaxed">
                                 He is renowned for his expertise in IMRT and advanced radiation therapies. His commitment to personalized patient care, use of cutting-edge technology, and evidence-based medicine has earned him recognition as one of India's leading thyroid cancer specialists.
@@ -714,7 +714,7 @@ $videos = [
                                     "Expertise in advanced radiation therapy (IMRT) and radioactive iodine therapy",
                                     "Personalized treatment plans for every patient",
                                     "Multidisciplinary team for comprehensive care",
-                                    "Proven track record with 95%+ early detection success",
+                                    "Proven track record with 85% early detection success",
                                     "Affordable thyroid cancer treatment in India"
                                 ].map((reason, idx) => (
                                     <li  class="flex items-center gap-3 text-gray-700 font-medium">

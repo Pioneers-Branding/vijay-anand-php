@@ -108,11 +108,11 @@
     <?php include 'navbar.php'; ?>
 
     <!-- BANNERS SECTION -->
-    <section id="banners" class="relative pt-40 md:pt-32 pb-8 bg-gray-50 overflow-hidden">
-        <div class="relative w-full h-[45vw] sm:h-[300px] md:h-[500px] lg:h-[600px] group">
+    <section id="banners" class="relative pt-32 md:pt-40 pb-4 md:pb-8 bg-gray-50 overflow-hidden">
+        <div class="relative w-full max-w-7xl mx-auto h-[45vh] sm:h-[280px] md:h-[400px] lg:h-[500px] xl:h-[600px] group">
             <!-- Slide 1 -->
             <div class="banner-slide absolute inset-0 w-full h-full transition-opacity duration-500 opacity-100 z-10" data-index="0">
-                <img src="assets/banners/VAR-award-banner.webp" alt="Dr. Vijay Anand Reddy Award Banner" class="w-full h-full object-cover object-center">
+                <img src="assets/banners/VAR-award-banner.webp" alt="Dr. Vijay Anand Reddy Award Banner" class="w-full h-full object-contain">
             </div>
             <!-- Slide 2 -->
             <div class="banner-slide absolute inset-0 w-full h-full transition-opacity duration-500 opacity-0 z-0" data-index="1">
@@ -120,22 +120,27 @@
             </div>
             <!-- Slide 3 -->
             <div class="banner-slide absolute inset-0 w-full h-full transition-opacity duration-500 opacity-0 z-0" data-index="2">
-                <img src="assets/banners/dr-var-new-banner.webp" alt="Dr. Vijay Anand Reddy Testimonial Banner" class="w-full h-full object-cover object-center">
+                <img src="assets/banners/dr-var-new-banner.webp" alt="Dr. Vijay Anand Reddy Testimonial Banner" class="w-full h-full object-contain">
+            </div>
+            <!-- Slide 4 -->
+            <div class="banner-slide absolute inset-0 w-full h-full transition-opacity duration-500 opacity-0 z-0" data-index="3">
+                <img src="assets/banners/3-banner-img-1.webp" alt="Dr. Vijay Anand Reddy Banner" class="w-full h-full object-contain">
             </div>
 
-            <!-- Prev/Next Buttons -->
-            <button onclick="prevSlide()" class="absolute left-3 top-1/2 -translate-y-1/2 z-20 bg-white/70 hover:bg-white/90 text-gray-800 rounded-full w-10 h-10 flex items-center justify-center shadow-lg transition opacity-0 group-hover:opacity-100">
-                <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><polyline points="15 18 9 12 15 6"></polyline></svg>
+            <!-- Prev/Next Buttons - Always visible on mobile, hover on desktop -->
+            <button onclick="prevSlide()" class="absolute left-2 sm:left-3 top-1/2 -translate-y-1/2 z-20 bg-white/80 hover:bg-white text-gray-800 rounded-full w-8 h-8 sm:w-10 sm:h-10 flex items-center justify-center shadow-lg transition-all duration-200 hover:scale-110 md:opacity-0 md:group-hover:opacity-100">
+                <svg class="w-4 h-4 sm:w-5 sm:h-5" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><polyline points="15 18 9 12 15 6"></polyline></svg>
             </button>
-            <button onclick="nextSlide()" class="absolute right-3 top-1/2 -translate-y-1/2 z-20 bg-white/70 hover:bg-white/90 text-gray-800 rounded-full w-10 h-10 flex items-center justify-center shadow-lg transition opacity-0 group-hover:opacity-100">
-                <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><polyline points="9 18 15 12 9 6"></polyline></svg>
+            <button onclick="nextSlide()" class="absolute right-2 sm:right-3 top-1/2 -translate-y-1/2 z-20 bg-white/80 hover:bg-white text-gray-800 rounded-full w-8 h-8 sm:w-10 sm:h-10 flex items-center justify-center shadow-lg transition-all duration-200 hover:scale-110 md:opacity-0 md:group-hover:opacity-100">
+                <svg class="w-4 h-4 sm:w-5 sm:h-5" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><polyline points="9 18 15 12 9 6"></polyline></svg>
             </button>
 
-            <!-- Dots -->
-            <div class="absolute bottom-4 left-1/2 -translate-x-1/2 z-20 flex gap-2">
-                <button onclick="goToSlide(0)" class="banner-dot h-3 w-6 rounded-full bg-medical-blue transition-all"></button>
-                <button onclick="goToSlide(1)" class="banner-dot h-3 w-3 rounded-full bg-gray-300 transition-all"></button>
-                <button onclick="goToSlide(2)" class="banner-dot h-3 w-3 rounded-full bg-gray-300 transition-all"></button>
+            <!-- Dots - Larger touch targets on mobile -->
+            <div class="absolute bottom-3 sm:bottom-4 left-1/2 -translate-x-1/2 z-20 flex gap-2 sm:gap-3">
+                <button onclick="goToSlide(0)" class="banner-dot h-2.5 w-5 sm:h-3 sm:w-3 rounded-full bg-medical-blue transition-all"></button>
+                <button onclick="goToSlide(1)" class="banner-dot h-2.5 w-2.5 sm:h-3 sm:w-3 rounded-full bg-white/60 hover:bg-white transition-all"></button>
+                <button onclick="goToSlide(2)" class="banner-dot h-2.5 w-2.5 sm:h-3 sm:w-3 rounded-full bg-white/60 hover:bg-white transition-all"></button>
+                <button onclick="goToSlide(3)" class="banner-dot h-2.5 w-2.5 sm:h-3 sm:w-3 rounded-full bg-white/60 hover:bg-white transition-all"></button>
             </div>
         </div>
     </section>
@@ -286,7 +291,7 @@
                     <!-- Divider -->
                     <div class="hidden md:block w-px h-16 bg-gradient-to-b from-transparent via-gray-300 to-transparent"></div>
 
-                    <!-- 95% Success Rate -->
+                    <!-- 85% Success Rate -->
                     <div class="text-center">
                         <div class="text-4xl font-bold mb-1" style="background: linear-gradient(to right, #9B528F, #8B5CF6); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;">85%</div>
                         <p class="text-gray-600 text-sm font-medium">Success Rate</p>
@@ -529,8 +534,8 @@
     <?php
     $reasons = [
       ['icon' => 'award', 'title' => "34+ years Experience", 'description' => "Three decades of excellence in radiation oncology and cancer treatment"],
-      ['icon' => 'users', 'title' => "25,000+ Patients Treated", 'description' => "Successfully treated thousands of patients with various cancer types"],
-      ['icon' => 'trending-up', 'title' => "95% Success Rate", 'description' => "Exceptional treatment outcomes with industry-leading success rates"],
+      ['icon' => 'users', 'title' => "2 Lakh+ Patients Treated", 'description' => "Successfully treated thousands of patients with various cancer types"],
+      ['icon' => 'trending-up', 'title' => "85% Success Rate", 'description' => "Exceptional treatment outcomes with industry-leading success rates"],
       ['icon' => 'heart', 'title' => "Compassionate Care", 'description' => "Patient-centered approach with emotional support throughout treatment"],
       ['icon' => 'globe', 'title' => "International Recognition", 'description' => "Global certifications and recognition from leading medical institutions"],
       ['icon' => 'shield', 'title' => "Advanced Technology", 'description' => "State-of-the-art equipment and cutting-edge treatment modalities"]
@@ -923,8 +928,8 @@
     ?>
     <section id="recent-events" class="py-16 bg-medical-gradient relative overflow-hidden">
       <!-- Decorative background element -->
-      <div class="absolute top-0 right-0 -mr-20 -mt-20 w-64 h-64 rounded-full bg-medical-blue opacity-5 blur-3xl"></div>
-      <div class="absolute bottom-0 left-0 -ml-20 -mb-20 w-80 h-80 rounded-full bg-medical-purple opacity-5 blur-3xl"></div>
+      <!-- <div class="absolute top-0 right-0 -mr-20 -mt-20 w-64 h-64 rounded-full bg-medical-blue opacity-5 blur-3xl"></div> -->
+      <!-- <div class="absolute bottom-0 left-0 -ml-20 -mb-20 w-80 h-80 rounded-full bg-medical-purple opacity-5 blur-3xl"></div> -->
       
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div class="text-center mb-16 reveal">
@@ -993,21 +998,15 @@
 
     <!-- BLOG SECTION (From Blog.jsx) -->
     <?php
-    // Static fallback blogs as fetched in React initially
-    $blogPosts = [
-        [
-            "title" => "Top 10 Cancer Specialist Doctor in India",
-            "excerpt" => "Choosing the right cancer specialist is one of the most important decisions",
-            "image" => "assets/vijay-anand-about.webp",
-            "url" => "https://drvijayanandreddy.com/blog/"
-        ],
-        [
-            "title" => "Can Stage 2 Lung Cancer Be Cured {Expert Guide}",
-            "excerpt" => "When faced with a Stage 2 lung cancer diagnosis, the immediate and",
-            "image" => "assets/homepage/Lung-Cancer-Treatment.webp",
-            "url" => "https://drvijayanandreddy.com/blog/"
-        ]
-    ];
+    // Fetch blogs dynamically from posts_data.json
+    $postsJson = file_get_contents('posts_data.json');
+    $allPosts = json_decode($postsJson, true) ?: [];
+
+    // Sort by id descending (newest first) and take first 3
+    usort($allPosts, function($a, $b) {
+        return intval($b['id']) - intval($a['id']);
+    });
+    $homepagePosts = array_slice($allPosts, 0, 3);
     ?>
     <section id="blog" class="py-6 sm:py-8 bg-white">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -1021,21 +1020,29 @@
         <!-- Blog Cards -->
         <div class="md:grid md:grid-cols-2 lg:grid-cols-3 md:gap-6 sm:md:gap-8">
           <div id="blog-posts-container" class="flex md:contents gap-4 overflow-x-auto snap-x snap-mandatory scrollbar-hide pb-4 md:pb-0 -mx-4 pl-4 pr-8 md:mx-0 md:px-0">
-            <?php foreach($blogPosts as $index => $post): ?>
+            <?php foreach($homepagePosts as $index => $post):
+              $slug = preg_replace("/[^a-z0-9]+/", "-", strtolower($post['title']));
+              $slug = trim($slug, "-");
+              $slug = substr($slug, 0, 50);
+              $excerpt = strip_tags($post['content']);
+              $excerpt = preg_replace('/\s+/', ' ', trim($excerpt));
+              $excerpt = strlen($excerpt) > 100 ? substr($excerpt, 0, 100) . '...' : $excerpt;
+              $postImage = !empty($post['images'][0]) ? $post['images'][0] : 'assets/vijay-anand-about.webp';
+            ?>
               <div class="group min-w-[80vw] md:min-w-0 snap-start reveal delay-<?= $index * 100 ?>">
-              <a href="<?= $post['url'] ?>" target="_blank" rel="noopener noreferrer" class="block bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300">
+              <a href="blog-post.php?id=<?= $post['id'] ?>&slug=<?= urlencode($slug) ?>" class="block bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300">
                 <!-- Image Container -->
                 <div class="relative h-56 sm:h-64 overflow-hidden">
-                  <img src="<?= $post['image'] ?>" alt="<?= $post['title'] ?>" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+                  <img src="<?= htmlspecialchars($postImage) ?>" alt="<?= htmlspecialchars($post['title']) ?>" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
                 </div>
 
                 <!-- Content Container -->
                 <div class="bg-white p-5 sm:p-6">
                   <h4 class="text-lg sm:text-xl font-bold text-gray-800 mb-2 line-clamp-2 group-hover:text-medical-blue transition-colors duration-200">
-                    <?= $post['title'] ?>
+                    <?= htmlspecialchars($post['title']) ?>
                   </h4>
                   <p class="text-gray-600 text-sm sm:text-base line-clamp-2 mb-4">
-                    <?= $post['excerpt'] ?>
+                    <?= htmlspecialchars($excerpt) ?>
                   </p>
                   <span class="inline-block text-medical-blue font-semibold text-sm hover:text-medical-purple">
                     Read More
@@ -1049,7 +1056,7 @@
 
         <!-- View All Button -->
         <div class="text-center mt-12 reveal">
-          <a href="https://drvijayanandreddy.com/blog/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center px-8 py-4 bg-medical-blue text-white font-semibold rounded-lg shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300">
+          <a href="blog-listing.php" class="inline-flex items-center px-8 py-4 bg-medical-blue text-white font-semibold rounded-lg shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300">
             <span>View All Blogs</span>
             <svg class="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
@@ -1127,49 +1134,7 @@
 
             document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
 
-            // Fetch dynamic blogs (skip first post which is an event)
-            const blogContainer = document.getElementById('blog-posts-container');
-            if (blogContainer) {
-                fetch('https://drvijayanandreddy.com/wp-json/wp/v2/posts?per_page=4&_embed')
-                    .then(response => response.json())
-                    .then(posts => {
-                        // Skip the first post (it's an event, not a blog)
-                        const filteredPosts = posts.slice(1, 4);
-                        const newContent = filteredPosts.map((post, index) => {
-                             let excerpt = post.excerpt.rendered.replace(/<[^>]*>/g, '').trim();
-                             excerpt = excerpt.substring(0, 80) + (excerpt.length > 80 ? "" : "");
-                             
-                             let imgUrl = 'assets/homepage/Radiation-Therapy.webp';
-                             if (post._embedded && post._embedded['wp:featuredmedia'] && post._embedded['wp:featuredmedia'][0]) {
-                                 imgUrl = post._embedded['wp:featuredmedia'][0].source_url;
-                             }
-
-                             return `
-                              <div class="group min-w-[80vw] md:min-w-0 snap-start reveal">
-                                <a href="${post.link}" target="_blank" rel="noopener noreferrer" class="block bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300">
-                                  <div class="relative h-56 sm:h-64 overflow-hidden">
-                                    <img src="${imgUrl}" alt="${post.title.rendered}" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
-                                  </div>
-                                  <div class="bg-white p-5 sm:p-6">
-                                    <h4 class="text-lg sm:text-xl font-bold text-gray-800 mb-2 line-clamp-2 group-hover:text-medical-blue transition-colors duration-200">
-                                      ${post.title.rendered}
-                                    </h4>
-                                    <p class="text-gray-600 text-sm sm:text-base line-clamp-2 mb-4">
-                                      ${excerpt}
-                                    </p>
-                                    <span class="inline-block text-medical-blue font-semibold text-sm hover:text-medical-purple">
-                                      Read More
-                                    </span>
-                                  </div>
-                                </a>
-                              </div>
-                             `; 
-                        }).join('');
-                        blogContainer.innerHTML = newContent;
-                        blogContainer.querySelectorAll('.reveal').forEach(el => observer.observe(el));
-                    })
-                    .catch(err => console.error('Failed to fetch blogs', err));
-            }
+            // Blog posts are rendered via PHP from posts_data.json - no JS fetch needed
         });
     </script>
 </body>

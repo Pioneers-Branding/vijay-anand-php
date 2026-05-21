@@ -222,51 +222,6 @@
         </div>
     </section>
 
-    <!-- Felicitations & Social Service -->
-    <section class="py-12 bg-gray-50">
-        <div class="max-w-7xl mx-auto px-4">
-            <div class="text-center mb-8 reveal">
-                <h2 class="text-2xl md:text-3xl font-bold text-medical-dark mb-6">
-                    Felicitations & Social Service
-                </h2>
-                <p class="mt-2 text-gray-700 max-w-3xl mx-auto">
-                    Dr. Reddy's work has been spread across urban, semi urban and rural areas.
-                    He has been felicitated at various educational institutes, organizations and at
-                    Indian Medical Association at Hyderabad, Mahbubnagar, Karimnagar, Nizamabad, Vizag and Warangal.
-                </p>
-            </div>
-
-            <?php
-            $felicitations = [
-                [
-                    'image' => 'assets/awards/felicitation1.webp',
-                    'text' => "On Doctor's Day 2013, received special felicitation from Apollo Hospitals, Hyderabad, for extensive social service for poor and needy cancer patients via CURE Foundation."
-                ],
-                [
-                    'image' => 'assets/awards/felicitation2.webp',
-                    'text' => 'A huge round of applause for Vijay Anand Reddy for his phenomenal oration on 31st August 2025 at the Karimnagar IMA branch — "The meaning of life is to give life a meaning". His masterful, deeply moving presentation captivated everyone and left the audience uplifted.'
-                ]
-            ];
-            ?>
-            <div class="grid md:grid-cols-2 gap-8 reveal">
-                <?php foreach ($felicitations as $item): ?>
-                <div class="bg-white rounded-2xl shadow-md overflow-hidden flex flex-col">
-                    <img
-                        src="<?= htmlspecialchars($item['image']) ?>"
-                        alt="Felicitation"
-                        class="w-full object-cover"
-                        style="height:18rem;"
-                        loading="lazy"
-                    />
-                    <div class="p-6">
-                        <p class="text-gray-700 leading-relaxed"><?= htmlspecialchars($item['text']) ?></p>
-                    </div>
-                </div>
-                <?php endforeach; ?>
-            </div>
-        </div>
-    </section>
-
     <!-- Quote Section -->
     <?php $quoteId = 57; include 'quote_section.php'; ?>
 

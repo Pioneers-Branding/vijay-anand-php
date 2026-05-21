@@ -74,7 +74,7 @@ $faqs = [
     ],
     [
         'question' => "Who is the best immunotherapy doctor in India?",
-        'answer' => "Dr. Vijay Anand Reddy is recognized as one of the best immunotherapy doctors in India, with over 30 years of experience in medical oncology. His expertise in checkpoint inhibitors, CAR-T cell therapy, and personalized immunotherapy protocols makes him the preferred choice for cancer immunotherapy treatment."
+        'answer' => "Dr. Vijay Anand Reddy is recognized as one of the best immunotherapy doctors in India, with over 34 years of experience in medical oncology. His expertise in checkpoint inhibitors, CAR-T cell therapy, and personalized immunotherapy protocols makes him the preferred choice for cancer immunotherapy treatment."
     ],
     [
         'question' => "Can immunotherapy cure cancer?",
@@ -86,7 +86,7 @@ $faqs = [
 $stats = [
     ['label' => "Years of Experience", 'value' => "34+", 'icon' => "FiClock"],
     ['label' => "Successful Treatments", 'value' => "10000+", 'icon' => "FiActivity"],
-    ['label' => "Happy Patients", 'value' => "25000+", 'icon' => "FiUserCheck"],
+    ['label' => "Happy Patients", 'value' => "2 Lakh+", 'icon' => "FiUserCheck"],
     ['label' => "Awards Won", 'value' => "50+", 'icon' => "FiAward"],
 ];
 ?>
@@ -492,7 +492,7 @@ $videos = [
                                 About Dr. Vijay Anand Reddy
                             </h2>
                             <p class="text-gray-600 text-lg mb-6 leading-relaxed">
-                                Dr. Vijay Anand Reddy is a distinguished oncologist with over 30 years of experience in providing world-class cancer care. As the Director of Apollo Cancer Centres, Hyderabad, he has pioneered advanced immunotherapy protocols and personalized cancer treatment approaches in India.
+                                Dr. Vijay Anand Reddy is a distinguished oncologist with over 34 years of experience in providing world-class cancer care. As the Director of Apollo Cancer Centres, Hyderabad, he has pioneered advanced immunotherapy protocols and personalized cancer treatment approaches in India.
                             </p>
                             <p class="text-gray-600 mb-8 leading-relaxed">
                                 He is renowned for his expertise in immunotherapy, checkpoint inhibitors, and CAR-T cell therapy. His commitment to personalized patient care, use of latest immunotherapy drugs, and evidence-based medicine has earned him recognition as one of India's leading immunotherapy specialists.

@@ -92,7 +92,7 @@
         <div class="container mx-auto px-4 relative z-10">
             <div class="bg-white/60 backdrop-blur-xl rounded-2xl border border-white/50 shadow-xl p-6">
                 <div class="flex flex-col md:flex-row items-center justify-center gap-8 text-center md:text-left">
-                    <!-- 95% Success Rate -->
+                    <!-- 85% Success Rate -->
                     <div class="text-center">
                         <div class="text-4xl font-bold mb-1" style="background: linear-gradient(to right, #9B528F, #8B5CF6); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;">85%</div>
                         <p class="text-gray-600 text-sm font-medium">Success Rate</p>
@@ -156,7 +156,7 @@
                 </div>
                  <div class="text-center">
                     <div class="text-4xl mb-2 flex justify-center opacity-80"><i data-feather="users"></i></div>
-                    <div class="text-3xl md:text-4xl font-bold mb-1">25000+</div>
+                    <div class="text-3xl md:text-4xl font-bold mb-1">2 Lakh+</div>
                     <div class="text-blue-100 text-sm uppercase tracking-wide">Happy Patients</div>
                 </div>
                  <div class="text-center">
@@ -186,7 +186,7 @@
                         <i data-feather="users" class="text-medical-blue"></i> Overview
                     </h3>
                     <p class="text-gray-600 mb-6 leading-relaxed">
-                        Dr. Vijay Anand Reddy is a leading expert in Prostate Cancer treatment in Hyderabad. With over 30 years of experience, he provides comprehensive care using state-of-the-art technology and personalized treatment plans designed to achieve the best possible outcomes for patients.
+                        Dr. Vijay Anand Reddy is a leading expert in Prostate Cancer treatment in Hyderabad. With over 34 years of experience, he provides comprehensive care using state-of-the-art technology and personalized treatment plans designed to achieve the best possible outcomes for patients.
                     </p>
 
                     <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-8">
@@ -267,7 +267,7 @@
                         About Dr. Vijay Anand Reddy
                     </h2>
                     <p class="text-gray-600 text-lg mb-6 leading-relaxed">
-                        Dr. Vijay Anand Reddy is Hyderabad's most trusted radiation oncologist with over 30 years of experience providing world-class cancer treatment. As the Director of Apollo Cancer Centres, Hyderabad, he has pioneered advanced oncology techniques in the city.
+                        Dr. Vijay Anand Reddy is Hyderabad's most trusted radiation oncologist with over 34 years of experience providing world-class cancer treatment. As the Director of Apollo Cancer Centres, Hyderabad, he has pioneered advanced oncology techniques in the city.
                     </p>
                     <p class="text-gray-600 mb-8 leading-relaxed">
                          Based in Jubilee Hills, Hyderabad, Dr. Reddy's clinic offers comprehensive cancer care with cutting-edge technology, making him the first choice for patients seeking the best prostate cancer treatment in hyderabad.

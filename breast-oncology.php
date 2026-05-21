@@ -62,7 +62,7 @@ $faqs = [
     ],
     [
         'question' => "Why is Dr. Vijay Anand Reddy considered a top Breast Oncologist in India?",
-        'answer' => "Dr. Vijay Anand Reddy has over 30 years of experience and is the Director of Apollo Cancer Centres, Hyderabad. He has pioneered many advanced radiation techniques in India and treated over 25,000+ patients. His expertise in precision oncology and organ preservation protocols makes him a leader in the field."
+        'answer' => "Dr. Vijay Anand Reddy has over 34 years of experience and is the Director of Apollo Cancer Centres, Hyderabad. He has pioneered many advanced radiation techniques in India and treated over 25,000+ patients. His expertise in precision oncology and organ preservation protocols makes him a leader in the field."
     ],
     [
         'question' => "Is radiation therapy painful?",
@@ -86,7 +86,7 @@ $faqs = [
 $stats = [
     ['label' => "Years of Experience", 'value' => "34+", 'icon' => "FiClock"],
     ['label' => "Successful Treatments", 'value' => "10000+", 'icon' => "FiActivity"],
-    ['label' => "Happy Patients", 'value' => "25000+", 'icon' => "FiUserCheck"],
+    ['label' => "Happy Patients", 'value' => "2 Lakh+", 'icon' => "FiUserCheck"],
     ['label' => "Awards Won", 'value' => "50+", 'icon' => "FiAward"],
 ];
 ?>
@@ -112,7 +112,7 @@ $whyChoose = [
     "Pioneered IMRT, IGRT, and Stereotactic Radiosurgery in the region",
     "Specially trained in Proton Therapy and CyberKnife",
     "President of Association of Breast Oncologists of India (Past)",
-    "Over 30 years of clinical excellence & 25000+ happy patients",
+    "Over 34 years of clinical excellence & 2 Lakh+ happy patients",
     "Affordable eye cancer treatment in India",
 ];
 ?>
@@ -231,7 +231,7 @@ $videos = [
                     <div class="bg-white/60 backdrop-blur-xl rounded-2xl border border-white/50 shadow-xl p-6">
                         <div class="flex flex-col md:flex-row items-center justify-center gap-8 text-center md:text-left">
                             <!-- Best Business Award Image -->
-                            <!-- 95% Success Rate -->
+                            <!-- 85% Success Rate -->
                             <div class="text-center">
                                 <div class="text-4xl font-bold mb-1" style="background: linear-gradient(to right, #9B528F, #8B5CF6); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;">85%</div>
                                 <p class="text-gray-600 text-sm font-medium">Success Rate</p>
@@ -477,7 +477,7 @@ $videos = [
                                 About Dr. Vijay Anand Reddy
                             </h2>
                             <p class="text-gray-600 text-lg mb-6 leading-relaxed">
-                                Dr. Vijay Anand Reddy is a distinguished <strong>Breast Oncologist</strong> with over 30 years of experience. As the Director of Apollo Cancer Centres, Hyderabad, he has been instrumental in establishing the most comprehensive facility for <strong>Breast Oncology in India</strong>.
+                                Dr. Vijay Anand Reddy is a distinguished <strong>Breast Oncologist</strong> with over 34 years of experience. As the Director of Apollo Cancer Centres, Hyderabad, he has been instrumental in establishing the most comprehensive facility for <strong>Breast Oncology in India</strong>.
                             </p>
                             <p class="text-gray-600 mb-8 leading-relaxed">
                                 He is renowned for his expertise in Proton Therapy, CyberKnife, Tomotherapy, and Brachytherapy. His commitment to bringing the latest global technology to India has saved countless lives and preserved the quality of life for thousands of cancer survivors.

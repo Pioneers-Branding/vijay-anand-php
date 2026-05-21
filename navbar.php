@@ -8,6 +8,7 @@ $navItems = [
             ['name' => 'Journey', 'href' => 'journey.php'],
             ['name' => 'Achievements', 'href' => 'achievements.php'],
             ['name' => 'Awards', 'href' => 'awards.php'],
+            ['name' => 'Felicitations', 'href' => 'felicitations.php'],
             ['name' => 'Professional Association', 'href' => 'professional-association.php'],
             [
                 'name' => 'Research',
@@ -114,7 +115,7 @@ $navItems = [
         'name' => 'Media',
         'href' => '#',
         'dropdown' => [
-            ['name' => 'Blog & Newsletter', 'href' => 'https://drvijayanandreddy.com/blog/'],
+            ['name' => 'Blog & Newsletter', 'href' => 'blog-listing.php'],
             ['name' => 'Print & Digital Gallery', 'href' => 'print-gallery.php'],
             ['name' => 'Video Gallery', 'href' => 'video-gallery.php'],
         ],

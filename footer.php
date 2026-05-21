@@ -98,7 +98,7 @@ $hyderabadPages = [
                 </div>
 
                 <p class="text-gray-300 mb-6 leading-relaxed text-base max-w-md">
-                    Leading cancer care with over 30 years of experience in radiation oncology.
+                    Leading cancer care with over 34 years of experience in radiation oncology.
                     Providing compassionate, evidence-based treatment and hope to thousands of
                     patients through advanced technologies like Proton Therapy and Brachytherapy.
                 </p>

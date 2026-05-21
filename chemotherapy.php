@@ -54,7 +54,7 @@
 $faqs = [
     [
         'question' => "Who is the best chemotherapy doctor in India?",
-        'answer' => "Dr. Vijay Anand Reddy is widely recognized as one of the best chemotherapy doctors in India, with over 30 years of experience in medical oncology. His expertise in advanced chemotherapy protocols, personalized treatment plans, and compassionate patient care makes him the preferred choice for cancer patients across India and internationally."
+        'answer' => "Dr. Vijay Anand Reddy is widely recognized as one of the best chemotherapy doctors in India, with over 34 years of experience in medical oncology. His expertise in advanced chemotherapy protocols, personalized treatment plans, and compassionate patient care makes him the preferred choice for cancer patients across India and internationally."
     ],
     [
         'question' => "What types of cancer can be treated with chemotherapy in India?",
@@ -86,7 +86,7 @@ $faqs = [
 $stats = [
     ['label' => "Years of Experience", 'value' => "34+", 'icon' => "FiClock"],
     ['label' => "Successful Treatments", 'value' => "10000+", 'icon' => "FiActivity"],
-    ['label' => "Happy Patients", 'value' => "25000+", 'icon' => "FiUserCheck"],
+    ['label' => "Happy Patients", 'value' => "2 Lakh+", 'icon' => "FiUserCheck"],
     ['label' => "Awards Won", 'value' => "50+", 'icon' => "FiAward"],
 ];
 ?>
@@ -232,7 +232,7 @@ $videos = [
                     <div class="bg-white/60 backdrop-blur-xl rounded-2xl border border-white/50 shadow-xl p-6">
                         <div class="flex flex-col md:flex-row items-center justify-center gap-8 text-center md:text-left">
 
-                            <!-- 95% Success Rate -->
+                            <!-- 85% Success Rate -->
                             <div class="text-center">
                                 <div class="text-4xl font-bold mb-1" style="background: linear-gradient(to right, #9B528F, #8B5CF6); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;">85%</div>
                                 <p class="text-gray-600 text-sm font-medium">Success Rate</p>
@@ -478,7 +478,7 @@ $videos = [
                                 About Dr. Vijay Anand Reddy
                             </h2>
                             <p class="text-gray-600 text-lg mb-6 leading-relaxed">
-                                Dr. Vijay Anand Reddy is a distinguished oncologist with over 30 years of experience in providing world-class cancer care. As the Director of Apollo Cancer Centres, Hyderabad, he has pioneered advanced chemotherapy protocols and multimodal cancer treatment approaches in India.
+                                Dr. Vijay Anand Reddy is a distinguished oncologist with over 34 years of experience in providing world-class cancer care. As the Director of Apollo Cancer Centres, Hyderabad, he has pioneered advanced chemotherapy protocols and multimodal cancer treatment approaches in India.
                             </p>
                             <p class="text-gray-600 mb-8 leading-relaxed">
                                 He is renowned for his expertise in chemotherapy treatment and has successfully treated thousands of patients with various cancers. His commitment to personalized patient care, use of latest chemotherapy drugs, and evidence-based medicine has earned him recognition as one of India's leading oncologists.
