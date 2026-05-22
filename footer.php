@@ -5,7 +5,6 @@ $quickLinks = [
     ['name' => "Doctor's Awareness Talks", 'href' => 'doctor-speaks.php'],
     ['name' => 'Patient Testimonials', 'href' => 'testimonials.php'],
     ['name' => 'Community Services', 'href' => 'cure-2.php'],
-    ['name' => 'FAQ', 'href' => 'faq.php'],
     ['name' => 'Contact Us', 'href' => 'contact.php']
 ];
 
@@ -27,8 +26,7 @@ $services = [
     ['name' => 'Proton Therapy', 'href' => 'services.php?type=proton-therapy'],
     ['name' => 'Radiation Oncology', 'href' => 'services.php?type=radiation-oncology'],
     ['name' => 'Throat Cancer', 'href' => 'services.php?type=throat-cancer'],
-    ['name' => 'Eye Cancer', 'href' => 'services.php?type=eye-cancer'],
-    ['name' => 'View All Services', 'href' => 'services.php']
+    ['name' => 'Eye Cancer', 'href' => 'services.php?type=eye-cancer']
 ];
 
 $resources = [
