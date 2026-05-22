@@ -1,5 +1,6 @@
 # Redirect .php URLs to .html
 /achievements.php    /achievements.html    301
+/add_branding.php    /add_branding.html    301
 /awards.php    /awards.html    301
 /awareness-lectures.php    /awareness-lectures.html    301
 /biological-therapy.php    /biological-therapy.html    301

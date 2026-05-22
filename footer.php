@@ -39,7 +39,7 @@ $resources = [
     ['name' => 'Video Gallery', 'href' => 'video-gallery.php'],
     ['name' => 'Photo Gallery', 'href' => 'print-gallery.php'],
     ['name' => 'Patient Testimonials', 'href' => 'testimonials.php'],
-    ['name' => 'FAQ', 'href' => 'faq.php']
+    // ['name' => 'FAQ', 'href' => 'faq.php']
 ];
 
 $legalLinks = [
@@ -305,7 +305,7 @@ $hyderabadPages = [
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
             <div class="flex flex-col md:flex-row justify-between items-center gap-4">
                 <div class="text-gray-400 text-sm text-center md:text-left">
-                    © 2025 Dr. Palkonda Vijay Anand Reddy. All rights reserved. | Built with care for cancer patients.
+                    © 2026 Dr. Palkonda Vijay Anand Reddy. All rights reserved. | Built with care for cancer patients. | Made & designed by <a href="https://brandingpioneers.com/" target="_blank" rel="noopener noreferrer" class="hover:text-medical-blue transition-colors duration-200">Branding Pioneers</a>.
                 </div>
                 <div class="flex flex-wrap justify-center gap-6">
                     <?php foreach ($legalLinks as $link): ?>

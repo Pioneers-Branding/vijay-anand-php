@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" class="scroll-smooth">
 <head>
+    <link rel="icon" href="assets/logo/var-favicon.png" type="image/png">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dr. Vijay Anand Reddy - Leading Oncologist in Hyderabad | Apollo Cancer Centre</title>
@@ -155,13 +156,13 @@
             <div class="banner-slide absolute inset-0 w-full h-full transition-opacity duration-700 ease-in-out opacity-0 z-0" data-index="1">
                 <picture class="w-full h-full block">
                     <source media="(min-width: 768px)" srcset="assets\banners\3-banner-img-1.webp">
-                    <img src="assets\banners\fixed-mobile.webp" alt="Dr. Vijay Anand Reddy - National Honour" class="w-full h-full object-cover ">
+                    <img src="assets\banners\VAR-75-mobile.webp" alt="Dr. Vijay Anand Reddy - National Honour" class="w-full h-full object-cover ">
                 </picture>
             </div>
             <!-- Slide 3 -->
             <div class="banner-slide absolute inset-0 w-full h-full transition-opacity duration-700 ease-in-out opacity-0 z-0" data-index="2">
                 <picture class="w-full h-full block">
-                    <source media="(min-width: 768px)" srcset="assets\banners\fixed-desk.webp">
+                    <source media="(min-width: 768px)" srcset="assets\banners\VAR-web75banner.webp">
                     <img src="assets/banners/image.webp" alt="Dr. Vijay Anand Reddy - Patient Testimony" class="w-full h-full object-cover ">
                 </picture>
             </div>
