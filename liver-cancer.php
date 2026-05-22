@@ -86,7 +86,7 @@ $faqs = [
 $stats = [
     ['label' => "Years of Experience", 'value' => "34+", 'icon' => "FiClock"],
     ['label' => "Successful Treatments", 'value' => "10000+", 'icon' => "FiActivity"],
-    ['label' => "Happy Patients", 'value' => "2 Lakh+", 'icon' => "FiUserCheck"],
+    ['label' => "Happy Patients", 'value' => "75k+", 'icon' => "FiUserCheck"],
     ['label' => "Awards Won", 'value' => "50+", 'icon' => "FiAward"],
 ];
 ?>

@@ -116,18 +116,17 @@
         .banner-inner {
             position: relative;
             width: 100%;
-            aspect-ratio: 16/9;
-            min-height: 250px;
+            aspect-ratio: 390/506; /* Exact aspect ratio of mobile portrait banners (390x506) */
         }
-        @media (min-width: 640px) {
+        @media (min-width: 768px) {
             .banner-inner {
-                aspect-ratio: 16/10;
+                aspect-ratio: 12/5; /* Exact aspect ratio of desktop landscape banners (1920x800, 3840x1600) */
                 min-height: 300px;
+                max-height: 620px;
             }
         }
         @media (min-width: 1024px) {
             .banner-inner {
-                aspect-ratio: 16/9;
                 max-height: 560px;
             }
         }
@@ -142,7 +141,7 @@
 
     <?php include 'navbar.php'; ?>
 
-       <section id="banners" class="relative pt-[100px] sm:pt-[100px] bg-gray-50 overflow-hidden w-full">
+       <section id="banners" class="relative pt-[135px] sm:pt-[100px] bg-gray-50 overflow-hidden w-full">
         <div class="banner-wrapper">
             <div class="banner-inner group">
             <!-- Slide 1 -->
@@ -582,7 +581,7 @@
     <?php
     $reasons = [
       ['icon' => 'award', 'title' => "34+ years Experience", 'description' => "Three decades of excellence in radiation oncology and cancer treatment"],
-      ['icon' => 'users', 'title' => "2 Lakh+ Patients Treated", 'description' => "Successfully treated thousands of patients with various cancer types"],
+      ['icon' => 'users', 'title' => "75k+ Patients Treated", 'description' => "Successfully treated thousands of patients with various cancer types"],
       ['icon' => 'trending-up', 'title' => "85% Success Rate", 'description' => "Exceptional treatment outcomes with industry-leading success rates"],
       ['icon' => 'heart', 'title' => "Compassionate Care", 'description' => "Patient-centered approach with emotional support throughout treatment"],
       ['icon' => 'globe', 'title' => "International Recognition", 'description' => "Global certifications and recognition from leading medical institutions"],

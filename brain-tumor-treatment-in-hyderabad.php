@@ -156,7 +156,7 @@
                 </div>
                  <div class="text-center">
                     <div class="text-4xl mb-2 flex justify-center opacity-80"><i data-feather="users"></i></div>
-                    <div class="text-3xl md:text-4xl font-bold mb-1">2 Lakh+</div>
+                    <div class="text-3xl md:text-4xl font-bold mb-1">75k+</div>
                     <div class="text-blue-100 text-sm uppercase tracking-wide">Happy Patients</div>
                 </div>
                  <div class="text-center">
