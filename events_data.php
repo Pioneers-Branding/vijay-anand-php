@@ -2,6 +2,41 @@
 $events = array (
   0 =>
   array (
+    'id' => 'padma-shri-felicitation-cm-naidu-2026',
+    'category' => 'award',
+    'title' => "HON'BLE CHIEF MINISTER SHRI NARA CHANDRABABU NAIDU GARU, FELICITATES PADMA SHRI AWARDEE DR VIJAY ANAND REDDY!",
+    'date' => '2026-02-07',
+    'author' => 'Dr. P. Vijay Anand Reddy',
+    'banners' =>
+    array (
+      0 => 'assets/Events/cm-feci-2026/WhatsApp Image 2026-05-22 at 3.23.09 PM.webp',
+    ),
+    'description' => "Amaravati, February 7th, 2026: Hon'ble Chief Minister of Andhra Pradesh, Shri Nara Chandrababu Naidu garu, felicitated Dr P. Vijay Anand Reddy, Founder of CURE Foundation and Director, Apollo Cancer Centres, Hyderabad; on being conferred the coveted Padma Shri Award, at his residence today.
+
+Expressing his gratitude, Dr P. Vijay Anand Reddy said, \"I feel truly blessed and deeply honoured to be felicitated by the Hon'ble Chief Minister of Andhra Pradesh, Shri Nara Chandrababu Naidu garu, a legendary and visionary leader, on receiving the Padma Shri. This recognition strengthens my resolve to continue serving society with greater commitment, compassion, and purpose.\"",
+    'photos' =>
+    array (
+      0 => 'assets/Events/cm-feci-2026/WhatsApp Image 2026-05-22 at 3.23.09 PM.webp',
+      1 => 'assets/Events/cm-feci-2026/WhatsApp Image 2026-05-22 at 3.23.09 PM (1).webp',
+      2 => 'assets/Events/cm-feci-2026/WhatsApp Image 2026-05-22 at 3.23.09 PM (2).webp',
+      3 => 'assets/Events/cm-feci-2026/WhatsApp Image 2026-05-22 at 3.23.09 PM (3).webp',
+      4 => 'assets/Events/cm-feci-2026/WhatsApp Image 2026-05-22 at 3.23.30 PM.webp',
+      5 => 'assets/Events/cm-feci-2026/WhatsApp Image 2026-05-22 at 3.23.31 PM.webp',
+      6 => 'assets/Events/cm-feci-2026/WhatsApp Image 2026-05-22 at 3.23.31 PM (1).webp',
+    ),
+    'gallery' =>
+    array (
+      0 => 'assets/Events/cm-feci-2026/WhatsApp Image 2026-05-22 at 3.23.09 PM.webp',
+      1 => 'assets/Events/cm-feci-2026/WhatsApp Image 2026-05-22 at 3.23.09 PM (1).webp',
+      2 => 'assets/Events/cm-feci-2026/WhatsApp Image 2026-05-22 at 3.23.09 PM (2).webp',
+      3 => 'assets/Events/cm-feci-2026/WhatsApp Image 2026-05-22 at 3.23.09 PM (3).webp',
+      4 => 'assets/Events/cm-feci-2026/WhatsApp Image 2026-05-22 at 3.23.30 PM.webp',
+      5 => 'assets/Events/cm-feci-2026/WhatsApp Image 2026-05-22 at 3.23.31 PM.webp',
+      6 => 'assets/Events/cm-feci-2026/WhatsApp Image 2026-05-22 at 3.23.31 PM (1).webp',
+    ),
+  ),
+  1 =>
+  array (
     'id' => 'ida-2026',
     'category' => 'award',
     'title' => 'Indian Dental Association Felicitation',
@@ -11,13 +46,7 @@ $events = array (
     array (
       0 => 'assets/Events/IDA-2026/WhatsApp Image 2026-05-09 at 2.16.47 PM.webp',
     ),
-    'description' => 'Deeply humbled and honoured to be felicitated by the Indian Dental Association, Telangana State Branch.
-
-I was truly touched by the generous words of appreciation and the warmth with which the entire fraternity acknowledged my journey and contributions in oncology and cancer awareness.
-
-My heartfelt gratitude to the Dr Srikant, Dr Karunakar Reddy, Dr Sateesh Reddy and the office bearers and members of the IDA for this memorable recognition. Such gestures inspire me to continue serving patients and society with greater commitment and compassion.
-
-"Service is the highest duty."',
+    'description' => 'Deeply humbled and honoured to be felicitated by the Indian Dental Association, Telangana State Branch.',
     'photos' =>
     array (
       0 => 'assets/Events/IDA-2026/WhatsApp Image 2026-05-09 at 2.16.47 PM.webp',
@@ -35,7 +64,7 @@ My heartfelt gratitude to the Dr Srikant, Dr Karunakar Reddy, Dr Sateesh Reddy a
       4 => 'assets/Events/IDA-2026/WhatsApp Image 2026-05-09 at 2.16.49 PM.webp',
     ),
   ),
-  1 =>
+  2 =>
   array (
     'id' => 'whitathon-2026-8th-edition',
     'category' => 'eye-cancer-awareness',
@@ -46,13 +75,13 @@ My heartfelt gratitude to the Dr Srikant, Dr Karunakar Reddy, Dr Sateesh Reddy a
     array (
       0 => 'assets/Events/8th Edition of WHITATHON/WhatsApp Image 2026-05-10 at 5.08.12 PM.webp',
     ),
-    'description' => 'Proud to share that the CURE Foundation was privileged to associate with and participate in the 8th Edition of WHITATHON, the flagship awareness run organized by L V Prasad Eye Institute on May 10, 2026, in Hyderabad.
+    'description' => "Proud to share that the CURE Foundation was privileged to associate with and participate in the 8th Edition of WHITATHON, the flagship awareness run organized by L V Prasad Eye Institute on May 10, 2026, in Hyderabad.
 
-The event was held to mark World Retinoblastoma Awareness Week (May 10–16) and aimed to raise awareness about the early detection and treatment of Retinoblastoma, a rare but curable eye cancer affecting young children.
+The event was held to mark World Retinoblastoma Awareness Week (May 10-16) and aimed to raise awareness about the early detection and treatment of Retinoblastoma, a rare but curable eye cancer affecting young children.
 
-WHITATHON continues to be a remarkable initiative promoting awareness about the importance of identifying early warning signs such as the "white reflex" in a child"' . "'" . 's eye, poor vision, redness, or squint — symptoms that require immediate medical attention. Early diagnosis can save both life and vision.
+WHITATHON continues to be a remarkable initiative promoting awareness about the importance of identifying early warning signs such as the \"white reflex\" in a child's eye, poor vision, redness, or squint — symptoms that require immediate medical attention. Early diagnosis can save both life and vision.
 
-The enthusiastic participation from the community, healthcare professionals, volunteers, and supporters made the event a grand success. Together, we can create greater awareness and ensure timely treatment for every child affected by Retinoblastoma.',
+The enthusiastic participation from the community, healthcare professionals, volunteers, and supporters made the event a grand success. Together, we can create greater awareness and ensure timely treatment for every child affected by Retinoblastoma.",
     'photos' =>
     array (
       0 => 'assets/Events/8th Edition of WHITATHON/WhatsApp Image 2026-05-10 at 5.08.12 PM.webp',
@@ -99,7 +128,7 @@ The enthusiastic participation from the community, healthcare professionals, vol
       2 => 'assets/Events/ccgc-2026/gallery-3.webp',
     ),
   ),
-  2 =>
+  4 =>
   array (
     'id' => 'breast-cancer-awareness-flash-mob-gvk-one',
     'category' => 'breast-cancer-awareness',
@@ -128,7 +157,7 @@ The event was a massive success, widely appreciated by the public, and received 
       2 => 'assets/Events/breast-cancer-awareness-flash-mob-gvk-one/image-1c.webp',
     ),
   ),
-  48 =>
+  5 =>
   array (
     'id' => 'national-cancer-awareness-day-check-o-late',
     'category' => 'cancer-awareness-day',
@@ -163,7 +192,7 @@ Let\'s pledge to "Check O Late" — check before it is late, because early detec
       2 => 'assets/Events/national-cancer-awareness-day-check-o-late/image-2c.webp',
     ),
   ),
-  2 => 
+  6 =>
   array (
     'id' => 'i-am-a-survivor-hindi-version-book-launch',
     'category' => 'cancer-survivor-day',
@@ -195,7 +224,7 @@ This Hindi edition aims to reach and inspire a wider audience, spreading the mes
       1 => 'assets/Events/imseviour-hindi/i2.webp',
     ),
   ),
-  4 =>
+  7 =>
   array (
     'id' => 'whitathon-2025',
     'category' => 'children',
@@ -222,7 +251,7 @@ Thank you for joining us in making a meaningful difference! 💙👁️✨',
       2 => 'assets/Events/children-2/c3.webp',
     ),
   ),
-  5 =>
+  8 =>
   array (
     'id' => 'ocular-oncology-workshop-2023',
     'category' => 'awareness-programmes',
@@ -255,7 +284,7 @@ Dr Prashant Garg, Chairman LVPEI, inaugurated the workshop in the presence of Dr
       8 => 'assets/Events/ocular-oncology-workshop-2023/3.webp',
     ),
   ),
-  5 => 
+  9 =>
   array (
     'id' => 'whitathon-marathon-for-eye-cancer-child-24',
     'category' => 'children',
@@ -284,7 +313,7 @@ Retinoblastoma – a cancer of the retina (the so-called screen of the eye) – 
       4 => 'assets/Events/whitathon-marathon-for-eye-cancer-child/m5.webp',
     ),
   ),
-  6 => 
+  10 =>
   array (
     'id' => 'anti-tobacco',
     'category' => 'anti-tobacco',
@@ -314,11 +343,11 @@ Retinoblastoma – a cancer of the retina (the so-called screen of the eye) – 
       0 => 'assets/Events/anti-1.webp',
     ),
   ),
-  7 => 
+  11 =>
   array (
     'id' => 'anti-tobacco-Smoke-Win',
     'category' => 'anti-tobacco',
-    'title' => 'Apollo Cancer Hospital Launches “Smoke & Win” Campaign',
+    'title' => "Apollo Cancer Hospital Launches 'Smoke & Win' Campaign",
     'date' => '2015-05-31',
     'author' => 'Dr. P. Vijay Anand Reddy',
     'banners' => 
@@ -327,13 +356,13 @@ Retinoblastoma – a cancer of the retina (the so-called screen of the eye) – 
       1 => 'assets/Events/Smoke-Win/1.webp',
       2 => 'assets/Events/Smoke-Win/2.webp',
     ),
-    'description' => 'Launched on the eve of World No Tobacco Day 2015, “Smoke & Win” aimed to educate youth about the dangers of smoking.  
+    'description' => "Launched on the eve of World No Tobacco Day 2015, 'Smoke & Win' aimed to educate youth about the dangers of smoking.
 
 Highlights:
-• Launch by Padma Bhushan Sri Pullela Gopichand, Ms. Pradnya Gadre, and Dr. Vijay Anand Reddy.  
-• Featured a Wheel of Misery highlighting diseases caused by smoking (throat cancer, lung cancer, heart disease, impotency, etc.).  
-• Smokers spinning the wheel were educated by specialists and offered free consultations.  
-• The campaign combined fun and education to engage IT employees and youth, emphasizing the long-term risks of smoking.',
+- Launch by Padma Bhushan Sri Pullela Gopichand, Ms. Pradnya Gadre, and Dr. Vijay Anand Reddy.
+- Featured a Wheel of Misery highlighting diseases caused by smoking (throat cancer, lung cancer, heart disease, impotency, etc.).
+- Smokers spinning the wheel were educated by specialists and offered free consultations.
+- The campaign combined fun and education to engage IT employees and youth, emphasizing the long-term risks of smoking.",
     'photos' => 
     array (
       0 => 'assets/Events/Smoke-Win/1.webp',
@@ -348,11 +377,11 @@ Highlights:
       9 => 'assets/Events/Smoke-Win/10.webp',
     ),
   ),
-  8 => 
+  12 =>
   array (
     'id' => 'anti-tobacco-health-cost-study-ap',
     'category' => 'anti-tobacco',
-    'title' => 'Release Of “Health Cost Study – A.P”',
+    'title' => "Release Of Health Cost Study - A.P",
     'date' => '2014-07-19',
     'author' => 'Dr. P. Vijay Anand Reddy',
     'banners' => 
@@ -380,7 +409,7 @@ Highlights:
       6 => 'assets/Events/health-cost/5.webp',
     ),
   ),
-  9 => 
+  13 =>
   array (
     'id' => 'No-Tobacco-Program',
     'category' => 'anti-tobacco',
@@ -392,12 +421,12 @@ Highlights:
       0 => 'assets/Events/No-Tobacco-Program/1.webp',
       1 => 'assets/Events/No-Tobacco-Program/2.webp',
     ),
-    'description' => 'Apollo Cancer Hospitals organized a Harley Davidson Motorbike Rally on 30 May 2013 to educate the public on tobacco hazards.  
+    'description' => "Apollo Cancer Hospitals organized a Harley Davidson Motorbike Rally on 30 May 2013 to educate the public on tobacco hazards.
 
 Highlights:
-• Supported by Harley Davidson Owners’ Group, rally from People’s Plaza, Necklace Road to Apollo Cancer Hospital.  
-• Ace shuttler Ms. Jwala Gutta administered a pledge to quit smoking and become “Anti Tobacco Crusaders”.  
-• Dr. Vijay Anand Reddy emphasized youth engagement, early prevention, and lifestyle changes to reduce tobacco consumption.',
+• Supported by Harley Davidson Owners Group, rally from Peoples Plaza, Necklace Road to Apollo Cancer Hospital.
+• Ace shuttler Ms. Jwala Gutta administered a pledge to quit smoking and become Anti Tobacco Crusaders'.
+• Dr. Vijay Anand Reddy emphasized youth engagement, early prevention, and lifestyle changes to reduce tobacco consumption.",
     'photos' => 
     array (
       0 => 'assets/Events/No-Tobacco-Program/1.webp',
@@ -414,11 +443,11 @@ Highlights:
       11 => 'assets/Events/No-Tobacco-Program/12.webp',
     ),
   ),
-  10 => 
+  14 =>
   array (
     'id' => 'Protest-Against',
     'category' => 'anti-tobacco',
-    'title' => 'Protest Against “Rebel” For COPTA Violation',
+    'title' => "Protest Against 'Rebel' For COPTA Violation",
     'date' => '2012-10-02',
     'author' => 'Dr. P. Vijay Anand Reddy',
     'banners' => 
@@ -446,11 +475,11 @@ Highlights:
       7 => 'assets/Events/Protest-Against/8.webp',
     ),
   ),
-  11 => 
+  15 =>
   array (
     'id' => 'Tobacco–Free-AP',
     'category' => 'anti-tobacco',
-    'title' => 'Let’s Make Tobacco–Free AP – VOTV',
+    'title' => "Let's Make Tobacco–Free AP – VOTV",
     'date' => '2012-08-22',
     'author' => 'Dr. P. Vijay Anand Reddy',
     'banners' => 
@@ -483,7 +512,7 @@ Highlights:
       11 => 'assets/Events/Tobacco–Free-AP/12.webp',
     ),
   ),
-  12 => 
+  16 =>
   array (
     'id' => 'say-no-to-tobacco-2012',
     'category' => 'anti-tobacco',
@@ -516,7 +545,7 @@ Highlights:
       8 => 'assets/Events/No-Tobaco-2012/9.webp',
     ),
   ),
-  13 => 
+  17 =>
   array (
     'id' => 'pledge-for-no-tobacco',
     'category' => 'anti-tobacco',
@@ -546,7 +575,7 @@ Highlights:
       4 => 'assets/Events/pledge-for-no-tobacco/5.webp',
     ),
   ),
-  14 => 
+  18 =>
   array (
     'id' => 'sarcoma-awareness-month-2025',
     'category' => 'cancer-survivor-day',
@@ -564,7 +593,7 @@ Highlights:
       1 => 'assets/Events/sarcoma-awareness-28/s2.webp',
     ),
   ),
-  15 => 
+  19 =>
   array (
     'id' => 'jaago-re-world-cancer-day-2009',
     'category' => 'world-cancer-day',
@@ -577,9 +606,9 @@ Highlights:
       1 => 'assets/Events/Jaago-re/1.webp',
       2 => 'assets/Events/Jaago-re/2.webp',
     ),
-    'description' => 'Popular Cine Actress Ms. Madhu Shalini was invited for the program as a Chief Guest. Free Cancer Check Cards were distributed on this occasion.
+    'description' => "Popular Cine Actress Ms. Madhu Shalini was invited for the program as a Chief Guest. Free Cancer Check Cards were distributed on this occasion.
 
-“Jaago Re” Cancer Awareness Programme was conducted to encourage the prevention, early detection, and treatment of cancer by all the women organizations — Breast Cancer Support Group & Cure Foundation of Apollo Cancer Institute — with the support of various organizations like Make a Wish Foundation, Astha, Aga Khan Health Service India, WIN, Deloitte, Accenture, Reddy’s Labs, Jubilee Club, Inner Wheel Club, Roshini, etc., on 4th February 2009 at Apollo Cancer Institute Lawns.',
+\"Jaago Re\" Cancer Awareness Programme was conducted to encourage the prevention, early detection, and treatment of cancer by all the women organizations — Breast Cancer Support Group & Cure Foundation of Apollo Cancer Institute — with the support of various organizations like Make a Wish Foundation, Astha, Aga Khan Health Service India, WIN, Deloitte, Accenture, Reddy's Labs, Jubilee Club, Inner Wheel Club, Roshini, etc., on 4th February 2009 at Apollo Cancer Institute Lawns.",
     'photos' => 
     array (
       0 => 'assets/Events/Jaago-re/1-2.webp',
@@ -601,7 +630,7 @@ Highlights:
       16 => 'assets/Events/Jaago-re/p5.webp',
     ),
   ),
-  16 => 
+  20 =>
   array (
     'id' => 'world-cancer-day-2011',
     'category' => 'world-cancer-day',
@@ -615,9 +644,9 @@ Highlights:
       2 => 'assets/Events/world-cancer-day-2011/7.webp',
       3 => 'assets/Events/world-cancer-day-2011/8.webp',
     ),
-    'description' => 'The Cancer Awareness Program held by Apollo Hospital was highly appreciated and extensively covered by the media.
+    'description' => "The Cancer Awareness Program held by Apollo Hospital was highly appreciated and extensively covered by the media.
 
-While addressing the media during the event, Dr. Vijay Reddy said, “I think we need to form committees with like-minded, dedicated members who can take these ideas forward on a long-term basis in coordination with existing National Bodies.”',
+While addressing the media during the event, Dr. Vijay Reddy said, \"I think we need to form committees with like-minded, dedicated members who can take these ideas forward on a long-term basis in coordination with existing National Bodies.\"",
     'photos' => 
     array (
       0 => 'assets/Events/world-cancer-day-2011/1.webp',
@@ -633,11 +662,11 @@ While addressing the media during the event, Dr. Vijay Reddy said, “I think we
       10 => 'assets/Events/world-cancer-day-2011/11.webp',
     ),
   ),
-  17 => 
+  21 =>
   array (
     'id' => 'world-cancer-day-2012-smart-mob',
     'category' => 'world-cancer-day',
-    'title' => 'Smart Mob – Cancer Awareness Flash Mob at Prasad’s',
+    'title' => "Smart Mob – Cancer Awareness Flash Mob at Prasad's",
     'date' => '2012-02-04',
     'author' => 'Dr. Vijay Anand Reddy',
     'banners' => 
@@ -645,9 +674,9 @@ While addressing the media during the event, Dr. Vijay Reddy said, “I think we
       0 => 'assets/Events/smart-mob/1.webp',
       1 => 'assets/Events/smart-mob/2.webp',
     ),
-    'description' => 'Apollo Cancer Hospital and CURE Foundation organised a ‘Smart Mob’ at Prasad’s IMAX Theatre to spread cancer awareness among youngsters on World Cancer Day, 4th February 2012.
+    'description' => "Apollo Cancer Hospital and CURE Foundation organised a \"Smart Mob\" at Prasad's IMAX Theatre to spread cancer awareness among youngsters on World Cancer Day, 4th February 2012.
 
-The slogan “Cancer is preventable, detectable early and curable” was coined to encourage regular health checkups. Several doctors and nurses from Apollo Cancer Hospital participated in the impromptu dance session. Leading the mob were Shilpa Reddy, Dinaz Vevatwala, and Navdeep. Dr. Vijay Anand Reddy, Director, Apollo Cancer Hospital, Hyderabad, joined them as well. Bookmarks containing information about symptoms and prevention of cancer were distributed to the audience.',
+The slogan \"Cancer is preventable, detectable early and curable\" was coined to encourage regular health checkups. Several doctors and nurses from Apollo Cancer Hospital participated in the impromptu dance session. Leading the mob were Shilpa Reddy, Dinaz Vevatwala, and Navdeep. Dr. Vijay Anand Reddy, Director, Apollo Cancer Hospital, Hyderabad, joined them as well. Bookmarks containing information about symptoms and prevention of cancer were distributed to the audience.",
     'photos' => 
     array (
       0 => 'assets/Events/smart-mob/1.webp',
@@ -664,7 +693,7 @@ The slogan “Cancer is preventable, detectable early and curable” was coined 
       11 => 'assets/Events/smart-mob/12.webp',
     ),
   ),
-  18 => 
+  22 =>
   array (
     'id' => 'cancer-awareness-fashion-show-2013',
     'category' => 'world-cancer-day',
@@ -677,13 +706,13 @@ The slogan “Cancer is preventable, detectable early and curable” was coined 
       1 => 'assets/Events/Fashion-Show/2.webp',
       2 => 'assets/Events/Fashion-Show/3.webp',
     ),
-    'description' => '“Smoking Thrills – But it Kills” were well-coordinated with equally stimulating costumes. The energy-packed show kept the audiences engrossed. Eight-year-old cancer survivor Aleem entertained the audiences by dancing to a track from Gabbar Singh.
+    'description' => "\"Smoking Thrills – But it Kills\" were well-coordinated with equally stimulating costumes. The energy-packed show kept the audiences engrossed. Eight-year-old cancer survivor Aleem entertained the audiences by dancing to a track from Gabbar Singh.
 
-On the occasion of World Cancer Day, Apollo Cancer Hospital and CURE Foundation organized a “Cancer Awareness Fashion Show Program” on February 4, 2013, at Apollo Cancer Hospital, Jubilee Hills, Hyderabad. The dazzling show, with the theme of cancer prevention, included students from top fashion institutes in the city — National Institute of Fashion Design (NIFD), National Institute of Fashion Technology (NIFT), Hamstech Institute of Fashion & Interior Designing, Lakhotia Institute of Design, and Raffles Millennium International — vying to present the best design themes conveying the message of cancer prevention effectively.
+On the occasion of World Cancer Day, Apollo Cancer Hospital and CURE Foundation organized a \"Cancer Awareness Fashion Show Program\" on February 4, 2013, at Apollo Cancer Hospital, Jubilee Hills, Hyderabad. The dazzling show, with the theme of cancer prevention, included students from top fashion institutes in the city — National Institute of Fashion Design (NIFD), National Institute of Fashion Technology (NIFT), Hamstech Institute of Fashion & Interior Designing, Lakhotia Institute of Design, and Raffles Millennium International — vying to present the best design themes conveying the message of cancer prevention effectively.
 
-The fashion show demonstrated cancer prevention through five creative themes: ‘No Smoking or Chewing Tobacco,’ ‘Moderation in Alcohol Consumption,’ ‘Enhancing Vegetables and Fruits Component in Diet,’ ‘Avoiding Fried and Non-Veg Foods,’ and ‘Making Adequate Exercise a Lifetime Affair.’ Models sashayed the ramp to raise awareness, and creative captions like “Don’t Drink Death” amplified the message.
+The fashion show demonstrated cancer prevention through five creative themes: \"No Smoking or Chewing Tobacco,\" \"Moderation in Alcohol Consumption,\" \"Enhancing Vegetables and Fruits Component in Diet,\" \"Avoiding Fried and Non-Veg Foods,\" and \"Making Adequate Exercise a Lifetime Affair.\" Models sashayed the ramp to raise awareness, and creative captions like \"Don't Drink Death\" amplified the message.
 
-The designs were judged by an eminent panel comprising Cine Actress Ms. Shriya Saran, Fashion Designer & Former Mrs. India Ms. Shilpa Reddy, Fashion Designer Ms. Asmita Marwah, and Dr. Vijay Anand Reddy, Director, Apollo Cancer Hospital.',
+The designs were judged by an eminent panel comprising Cine Actress Ms. Shriya Saran, Fashion Designer & Former Mrs. India Ms. Shilpa Reddy, Fashion Designer Ms. Asmita Marwah, and Dr. Vijay Anand Reddy, Director, Apollo Cancer Hospital.",
     'photos' => 
     array (
       0 => 'assets/Events/Fashion-Show/1.webp',
@@ -707,7 +736,7 @@ The designs were judged by an eminent panel comprising Cine Actress Ms. Shriya S
       18 => 'assets/Events/Fashion-Show/19.webp',
     ),
   ),
-  19 => 
+  23 =>
   array (
     'id' => 'we-can',
     'category' => 'world-cancer-day',
@@ -720,7 +749,7 @@ The designs were judged by an eminent panel comprising Cine Actress Ms. Shriya S
       1 => 'assets/Events/smart-mob/2.webp',
       2 => 'assets/Events/smart-mob/3.webp',
     ),
-    'description' => 'Aiming to raise awareness among people about cancer and ways to combat the disease, Apollo Cancer Hospital conducted a flash mob with the theme “We Can. I Can” on the observance of World Cancer Day – 2016.
+    'description' => 'Aiming to raise awareness among people about cancer and ways to combat the disease, Apollo Cancer Hospital conducted a flash mob with the theme "We Can. I Can" on the observance of World Cancer Day – 2016.
 
 Led by Dr. Vijay Anand Reddy, Director, Apollo Cancer Hospital, and Bharath Reddy (Actor and Cardiologist), along with students of medicine at Sujana Forum Mall, participants took a pledge to work towards creating awareness about cancer prevention, early detection, and adopting a healthy lifestyle. The initiative emphasized early detection, access to treatment for all, and maximizing quality of life. Experts highlighted the need for a two-pronged approach to reduce the cancer burden, focusing on both prevention and treatment.',
     'photos' => 
@@ -741,7 +770,7 @@ Led by Dr. Vijay Anand Reddy, Director, Apollo Cancer Hospital, and Bharath Redd
       13 => 'assets/Events/smart-mob/17.webp',
     ),
   ),
-  20 => 
+  24 =>
   array (
     'id' => 'celebration-of-life-world-cancer-survivors-day-2016',
     'category' => 'World Cancer Survivor\'s Day',
@@ -753,13 +782,13 @@ Led by Dr. Vijay Anand Reddy, Director, Apollo Cancer Hospital, and Bharath Redd
       1 => 'assets/Events/celebration-of-life-world-cancer-survivors-day-2016/2.webp',
       2 => 'assets/Events/celebration-of-life-world-cancer-survivors-day-2016/3.webp',
     ),
-    'description' => 'Apollo Cancer Hospitals, Hyderabad and CURE Foundation organized ‘Celebration of Life’ on the eve of Cancer Survivors’ Day (June 5, 2016), on Saturday at Apollo Hospitals, Jubilee Hills. Chief Guest Ms. Regina Cassandra, Film Actress; Ms. Sangita Reddy, Jt. M.D., Apollo Hospitals; Dr. Hari Prasad, President, Apollo Hospitals; and Dr. Vijay Anand Reddy, Director, Apollo Cancer Hospital, joined cancer survivors and patients to appreciate the courage of brave cancer survivors and boost the morale of patients undergoing treatment. Survivors shared their experiences, responded to questions from patients, and celebrated the occasion by singing and dancing.
+    'description' => 'Apollo Cancer Hospitals, Hyderabad and CURE Foundation organized "Celebration of Life" on the eve of Cancer Survivors Day (June 5, 2016), on Saturday at Apollo Hospitals, Jubilee Hills. Chief Guest Ms. Regina Cassandra, Film Actress; Ms. Sangita Reddy, Jt. M.D., Apollo Hospitals; Dr. Hari Prasad, President, Apollo Hospitals; and Dr. Vijay Anand Reddy, Director, Apollo Cancer Hospital, joined cancer survivors and patients to appreciate the courage of brave cancer survivors and boost the morale of patients undergoing treatment. Survivors shared their experiences, responded to questions from patients, and celebrated the occasion by singing and dancing.
 
-On this occasion, Ms. Regina Cassandra unveiled the ‘Symbol of Resilience’ – a plant symbolizing life, enduring strength, and the resilient will to survive.
+On this occasion, Ms. Regina Cassandra unveiled the "Symbol of Resilience" – a plant symbolizing life, enduring strength, and the resilient will to survive.
 
-Speaking to the gathering, she said, “Today is a positive day. Cancer Survivors’ Day is a big milestone in creating positive vibes among cancer patients. There are several people involved behind the scenes in conquering cancer — the doctors, nurses, and social workers. Cancer is not just a physical pain, but an emotional one too. I had family and friends with cancer, so I know the pain associated with it, and in such a scenario, the message of Cancer Survivors’ Day — that cancer can be cured — is a huge boost to patients. Therefore, we need to spread the message that cancer is curable, and I will do my bit.” She appreciated Apollo Cancer Hospitals for the amazing work they are doing. “We look at all our problems through a magnifying glass, but they are minute in comparison to the trauma cancer patients endure,” she added.
+Speaking to the gathering, she said, "Today is a positive day. Cancer Survivors Day is a big milestone in creating positive vibes among cancer patients. There are several people involved behind the scenes in conquering cancer — the doctors, nurses, and social workers. Cancer is not just a physical pain, but an emotional one too. I had family and friends with cancer, so I know the pain associated with it, and in such a scenario, the message of Cancer Survivors Day — that cancer can be cured — is a huge boost to patients. Therefore, we need to spread the message that cancer is curable, and I will do my bit." She appreciated Apollo Cancer Hospitals for the amazing work they are doing. "We look at all our problems through a magnifying glass, but they are minute in comparison to the trauma cancer patients endure," she added.
 
-Dr. Vijay Anand Reddy advised, “Even if you are diagnosed with cancer, maintain a positive attitude and follow your doctor’s advice. Don’t worry about side effects of cancer treatment — they are temporary, and you will emerge a winner.” He encouraged survivors to proudly proclaim themselves as survivors, emphasizing that surviving cancer is no longer a stigma.',
+Dr.Vijay Anand Reddy advised, "Even if you are diagnosed with cancer, maintain a positive attitude and follow your doctors advice. Don\'t worry about side effects of cancer treatment — they are temporary, and you will emerge a winner." He encouraged survivors to proudly proclaim themselves as survivors, emphasizing that surviving cancer is no longer a stigma.',
     'photos' => 
     array (
       0 => 'assets/Events/celebration-of-life-world-cancer-survivors-day-2016/4.webp',
@@ -786,7 +815,7 @@ Dr. Vijay Anand Reddy advised, “Even if you are diagnosed with cancer, maintai
       21 => 'assets/Events/celebration-of-life-world-cancer-survivors-day-2016/25.webp',
     ),
   ),
-  21 => 
+  25 =>
   array (
     'id' => 'cancer-is-conquerable-debate-world-cancer-day-2017',
     'category' => 'world-cancer-day',
@@ -806,11 +835,11 @@ Dr. Vijay Anand Reddy advised, “Even if you are diagnosed with cancer, maintai
       2 => 'assets/Events/cancer-is-conquerable/6.webp',
     ),
   ),
-  22 => 
+  26 =>
   array (
     'id' => 'pedal-to-battle-cyclothon-world-cancer-day-2023',
     'category' => 'world-cancer-day',
-    'title' => '"Pedal to Battle" Cyclothon on World Cancer Day 2023',
+    'title' => 'Pedal to Battle Cyclothon on World Cancer Day 2023',
     'date' => '2023-02-04',
     'author' => 'Dr. Vijay Anand Reddy',
     'banners' => 
@@ -819,15 +848,7 @@ Dr. Vijay Anand Reddy advised, “Even if you are diagnosed with cancer, maintai
       1 => 'assets/Events/Pedal-to-Battle/2.webp',
       2 => 'assets/Events/Pedal-to-Battle/3.webp',
     ),
-    'description' => 'It’s a plea for all of us to raise our voices against cancer with a united force and take things into our own hands.
-
-Apollo Cancer Centres & Cure Foundation host ‘Pedal to Battle’ cyclothon on World Cancer Day 2023. ‘Unite our Voices and Take Action’ was the theme of the cyclothon.
-
-Hyderabad, February 4th, 2023: Apollo Cancer Centres and Cure Foundation hosted the ‘Pedal to Battle’ cyclothon to commemorate World Cancer Day 2023, with the theme ‘Unite our Voices and Take Action,’ as part of the campaign by the Union for International Cancer Control (UICC), held at Apollo Cancer Centres, Jubilee Hills. The riders were felicitated by Dr. Sangita Reddy, Jt. Managing Director, Apollo Hospitals Group; Tollywood Diva Sreeleela; and Dr. Vijay Anand Reddy, Director, Apollo Cancer Centre, Hyderabad. The cyclothon was flagged off at Apollo Cancer Centres, Jubilee Hills, and the cyclists rode up to Whisper Valley before returning. Participants sensitized the public on cancer prevention and early detection. Dr. Vijay Karan Reddy, Consultant Oncologist, Apollo Cancer Centres, anchored the show.
-
-Every year 4th Feb is dedicated to spreading cancer awareness and marked as World Cancer Day. The theme this year is to unite our voices and take action, part of a 3-year campaign started by UICC called Close the Care Gap.
-
-Awareness is the panacea to prevention and early detection of cancer. Though the rising incidence of cancer is alarming, cancer is curable. Minor lifestyle modifications — healthy diet, no smoking, waking up early, and regular exercise — can reduce the risk of cancer and other major diseases. Adults should get screened regularly, as early detection can cure 90–95% of cancers. Ms. Sreeleela emphasized awareness among youth and the importance of cervical and liver cancer vaccines. Dr. Vijay Karan Reddy highlighted the strength of collective action against cancer.',
+    'description' => 'It\'s a plea for all of us to raise our voices against cancer with a united force and take things into our own hands.',
     'photos' => 
     array (
       0 => 'assets/Events/Pedal-to-Battle/4.webp',
@@ -850,7 +871,7 @@ Awareness is the panacea to prevention and early detection of cancer. Though the
       17 => 'assets/Events/Pedal-to-Battle/21.webp',
     ),
   ),
-  23 => 
+  27 =>
   array (
     'id' => 'apollo-cancer-centres-launches-unmask-cancer-initiative-2024',
     'category' => 'world-cancer-day',
@@ -860,19 +881,19 @@ Awareness is the panacea to prevention and early detection of cancer. Though the
     array (
       0 => 'assets/Events/unmask-cancer-2024/unmask-cancer.jpeg',
     ),
-    'description' => 'Hyderabad, India – February 2nd, 2024 – Apollo Cancer Centres proudly introduces ‘Unmask Cancer,’ a groundbreaking campaign aimed at unravelling the truth about cancer, dispelling myths, and fostering empathy within society. As World Cancer Day approaches, ACCs takes a bold step to address the discrimination faced by cancer winners.
+    'description' => "Hyderabad, India – February 2nd, 2024 – Apollo Cancer Centres proudly introduces Unmask Cancer, a groundbreaking campaign aimed at unravelling the truth about cancer, dispelling myths, and fostering empathy within society. As World Cancer Day approaches, ACCs takes a bold step to address the discrimination faced by cancer winners.
 
-‘Unmask Cancer’ shares the journey of cancer winners who, despite exceptional skills, grapple with societal biases stemming from their cancer history. The campaign includes a thought-provoking social experiment video highlighting consequences of discrimination across societal, corporate, and appearance-related biases. Only a few brave survivors unmask themselves, supported by family and friends.
+Unmask Cancer shares the journey of cancer winners who, despite exceptional skills, grapple with societal biases stemming from their cancer history. The campaign includes a thought-provoking social experiment video highlighting consequences of discrimination across societal, corporate, and appearance-related biases. Only a few brave survivors unmask themselves, supported by family and friends.
 
 ACCs takes the initiative to the corporate sector and society at large, including Cancer Sensitization Sessions led by oncologists and survivors, both online and offline. These sessions foster awareness, empathy, and equality.
 
-Dr. Vijay Anand Reddy said, “Our mission at ACC goes beyond providing world-class medical care. ‘Unmask Cancer’ is a testament to our dedication to creating a society that supports and uplifts cancer survivors.”',
+Dr. Vijay Anand Reddy said, \"Our mission at ACC goes beyond providing world-class medical care. Unmask Cancer is a testament to our dedication to creating a society that supports and uplifts cancer survivors. He added, \"By unmasking the truth about cancer, we aim to break down barriers and build a more inclusive and compassionate world for all.\"",
     'photos' =>
     array (
       0 => 'assets/Events/unmask-cancer-2024/unmask-cancer.jpeg',
     ),
   ),
-  24 => 
+  28 =>
   array (
     'id' => 'hope-in-a-shot-world-cancer-day-2025',
     'category' => 'world-cancer-day',
@@ -882,7 +903,7 @@ Dr. Vijay Anand Reddy said, “Our mission at ACC goes beyond providing world-cl
     array (
       0 => 'assets/Events/world-cancer-day-1/main.webp',
     ),
-    'description' => 'Apollo Cancer Hospitals, Jubilee Hills, in collaboration with Cure Foundation, successfully administered free cervical cancer vaccinations to 200 girl children on the eve of World Cancer Day 2025. This initiative, graced by Ms. Meenakshi Choudary, marks a significant step in the fight against cervical cancer. With the vision of eliminating cervical cancer as a public health issue, Dr. Vijay Anand Reddy, Director of Apollo Cancer Centres, Hyderabad, emphasized the importance of early vaccination and awareness. This milestone aligns with the WHO’s goal of 90% HPV vaccination coverage by 2030. Together, let’s continue to Protect. Prevent. Prevail.',
+    'description' => "Apollo Cancer Hospitals, Jubilee Hills, in collaboration with Cure Foundation, successfully administered free cervical cancer vaccinations to 200 girl children on the eve of World Cancer Day 2025. This initiative, graced by Ms. Meenakshi Choudary, marks a significant step in the fight against cervical cancer. With the vision of eliminating cervical cancer as a public health issue, Dr. Vijay Anand Reddy, Director of Apollo Cancer Centres, Hyderabad, emphasized the importance of early vaccination and awareness. This milestone aligns with the WHO's goal of 90% HPV vaccination coverage by 2030. Together, let's continue to Protect. Prevent. Prevail.",
     'photos' => 
     array (
       0 => 'assets/Events/world-cancer-day-1/c1.webp',
@@ -890,7 +911,7 @@ Dr. Vijay Anand Reddy said, “Our mission at ACC goes beyond providing world-cl
       2 => 'assets/Events/world-cancer-day-1/c3.webp',
     ),
   ),
-  25 => 
+  29 =>
   array (
     'id' => 'victory-bell-launch-world-cancer-day-2024',
     'category' => 'world-cancer-day',
@@ -902,9 +923,9 @@ Dr. Vijay Anand Reddy said, “Our mission at ACC goes beyond providing world-cl
       1 => 'assets/Events/victory-bell-launch/2.webp',
       2 => 'assets/Events/victory-bell-launch/3.webp',
     ),
-    'description' => 'Hyderabad, February 3, 2024: Apollo Cancer Hospital in Hyderabad proudly installed a “Victory Bell” to commemorate World Cancer Day. Inaugurated by Shri. D. Sridhar Babu, Hon’ble Minister for Industries and IT, Telangana, the bell honors the strength and triumph of cancer survivors.
+    'description' => "Hyderabad, February 3, 2024: Apollo Cancer Hospital in Hyderabad proudly installed a 'Victory Bell' to commemorate World Cancer Day. Inaugurated by Shri. D. Sridhar Babu, Hon'ble Minister for Industries and IT, Telangana, the bell honors the strength and triumph of cancer survivors.
 
-The Victory Bell symbolizes victories within the hospital’s oncology units and the spirit of perseverance defining every cancer patient’s journey. Patients completing treatment ring the bell, echoing their personal victory and inspiring others. The initiative reflects Apollo’s commitment to nurturing hope and celebrating milestones in the cancer journey, emphasizing a holistic approach to care.',
+The Victory Bell symbolizes victories within the hospital's oncology units and the spirit of perseverance defining every cancer patient's journey. Patients completing treatment ring the bell, echoing their personal victory and inspiring others. The initiative reflects Apollo's commitment to nurturing hope and celebrating milestones in the cancer journey, emphasizing a holistic approach to care.",
     'photos' => 
     array (
       0 => 'assets/Events/victory-bell-launch/4.webp',
@@ -918,7 +939,7 @@ The Victory Bell symbolizes victories within the hospital’s oncology units and
       8 => 'assets/Events/victory-bell-launch/12.webp',
     ),
   ),
-  26 => 
+  30 =>
   array (
     'id' => 'together-for-her-campaign-2024',
     'category' => 'awareness-programmes',
@@ -929,11 +950,11 @@ The Victory Bell symbolizes victories within the hospital’s oncology units and
     array (
       0 => 'assets/Events/together-for-her-campaign/Main-Picture.webp',
     ),
-    'description' => 'Apollo Cancer Centre, Hyderabad, has officially launched the “Together for Her” campaign, today at Hotel Taj Deccan, a movement dedicated to empowering women to take charge of their health. This initiative commenced by introducing India’s pioneering Purple Clip Champions Brigade.
+    'description' => "Apollo Cancer Centre, Hyderabad, has officially launched the 'Together for Her' campaign, today at Hotel Taj Deccan, a movement dedicated to empowering women to take charge of their health. This initiative commenced by introducing India's pioneering Purple Clip Champions Brigade.
 
-Speaking on this occasion Dr. P. Vijay Anand Reddy, Director, Apollo Cancer Centre said “As we honour the strength and resilience of women today, let us remember that self-care is not selfish; it is essential. Let us prioritize our health, both physical and mental, knowing that by nurturing ourselves, we empower ourselves and pave the way for a brighter, healthier future for all”.
+Speaking on this occasion Dr. P. Vijay Anand Reddy, Director, Apollo Cancer Centre said 'As we honour the strength and resilience of women today, let us remember that self-care is not selfish; it is essential. Let us prioritize our health, both physical and mental, knowing that by nurturing ourselves, we empower ourselves and pave the way for a brighter, healthier future for all'.
 
-Dignitaries who participated in the discussion were Dr. Christina Z. Chongthu, IAS, Secretary to Government, Health, Medical & Family Welfare, Dr. Vijay Kumar, IPS, ADG (Operations) Greyhounds & OCTOPUS, Telangana Police, Ms. Ananda Shankar Jayant, Indian Classical Dancer, Choreographer & Padmashree Awardee and Apollo team of doctors.',
+Dignitaries who participated in the discussion were Dr. Christina Z. Chongthu, IAS, Secretary to Government, Health, Medical & Family Welfare, Dr. Vijay Kumar, IPS, ADG (Operations) Greyhounds & OCTOPUS, Telangana Police, Ms. Ananda Shankar Jayant, Indian Classical Dancer, Choreographer & Padmashree Awardee and Apollo team of doctors.",
     'photos' => 
     array (
       0 => 'assets/Events/together-for-her-campaign/h1.webp',
@@ -952,24 +973,24 @@ Dignitaries who participated in the discussion were Dr. Christina Z. Chongthu, I
       13 => 'assets/Events/together-for-her-campaign/h14.webp',
     ),
   ),
-  27 => 
+  31 =>
   array (
     'id' => 'artcan-breast-cancer-awareness-2022',
     'category' => 'awareness-programmes',
-    'title' => 'Apollo Cancer Centre launches “ArtCan” to bring awareness about Breast Cancer',
+    'title' => "Apollo Cancer Centre launches 'ArtCan' to bring awareness about Breast Cancer",
     'date' => '2022-11-29',
     'author' => 'Anuraj',
     'banners' => 
     array (
       0 => 'assets/Events/artcan-breast-cancer-awareness/a11.webp',
     ),
-    'description' => 'In keeping with our vision of being at the forefront of cancer research, we have launched the ‘ArtCan’ breast cancer awareness campaign.
+    'description' => "In keeping with our vision of being at the forefront of cancer research, we have launched the 'ArtCan' breast cancer awareness campaign.
 
-Hyderabad, October 31, 2022: The Apollo Cancer Centres (ACC), ranked among the world’s best cancer hospitals, launches – ArtCan, the Self-Breast Examination Steps via Kerala Mural Art. A unique initiative by Apollo Cancer Centres, (ArtCan) uses art as a medium to spread cancer awareness. Apollo Cancer Centres joined hands with mural artists and survivors to curate art that educates and empowers every woman about the importance of regular self-breast examination.
+Hyderabad, October 31, 2022: The Apollo Cancer Centres (ACC), ranked among the world's best cancer hospitals, launches – ArtCan, the Self-Breast Examination Steps via Kerala Mural Art. A unique initiative by Apollo Cancer Centres, (ArtCan) uses art as a medium to spread cancer awareness. Apollo Cancer Centres joined hands with mural artists and survivors to curate art that educates and empowers every woman about the importance of regular self-breast examination.
 
-Through Kerala Mural Art, 8 steps bring attention to the issue of breast cancer. Each frame reflects the story of a woman who discovered this condition while performing a self-breast examination, acted on time and defeated cancer. These eight steps have also been depicted in a book format called ‘Chitra Sutra’. It’s a popular belief that life imitates art and hence, art has the power to transcend languages and cultural barriers. Our initiative, ArtCan, will create a silent conversation and leave a deep impression on the audience. Breast cancer is the most diagnosed cancer globally and accounts for 25% of all cancer cases in women. So, early detection is the key to better outcomes. We believe Kerala mural art is a unique medium to create awareness about breast cancer and the importance of self-breast examination (SBE).
+Through Kerala Mural Art, 8 steps bring attention to the issue of breast cancer. Each frame reflects the story of a woman who discovered this condition while performing a self-breast examination, acted on time and defeated cancer. These eight steps have also been depicted in a book format called 'Chitra Sutra'. It's a popular belief that life imitates art and hence, art has the power to transcend languages and cultural barriers. Our initiative, ArtCan, will create a silent conversation and leave a deep impression on the audience. Breast cancer is the most diagnosed cancer globally and accounts for 25% of all cancer cases in women. So, early detection is the key to better outcomes. We believe Kerala mural art is a unique medium to create awareness about breast cancer and the importance of self-breast examination (SBE).
 
-The Mural Arts were unveiled today at Apollo Cancer Centres, Jubilee Hills. This unique initiative was inaugurated by eminent painter Padmashree Kalal Laxma Goud in presence of Dr. Sangita Reddy - Joint Managing Director of Apollo Hospitals Enterprise Ltd, breast cancer experts from ACC, Hyderabad, breast cancer winner and MeMeraki (artist).',
+The Mural Arts were unveiled today at Apollo Cancer Centres, Jubilee Hills. This unique initiative was inaugurated by eminent painter Padmashree Kalal Laxma Goud in presence of Dr. Sangita Reddy - Joint Managing Director of Apollo Hospitals Enterprise Ltd, breast cancer experts from ACC, Hyderabad, breast cancer winner and MeMeraki (artist).",
     'photos' => 
     array (
       0 => 'assets/Events/artcan-breast-cancer-awareness/a1.webp',
@@ -994,7 +1015,7 @@ The Mural Arts were unveiled today at Apollo Cancer Centres, Jubilee Hills. This
       19 => 'assets/Events/artcan-breast-cancer-awareness/a20.webp',
     ),
   ),
-  28 => 
+  32 =>
   array (
     'id' => 'prevention-detection-breast-cancer-2022',
     'category' => 'awareness-programmes',
@@ -1026,7 +1047,7 @@ Breast cancer accounts for nearly 30% of all cancers in women in India, with ear
       9 => 'assets/Events/Prevention-and-detection-of-Breast-Cancer/13.webp',
     ),
   ),
-  29 => 
+  33 =>
   array (
     'id' => 'anaika-health-awareness-fashion-show-2019',
     'category' => 'awareness-programmes',
@@ -1039,11 +1060,11 @@ Breast cancer accounts for nearly 30% of all cancers in women in India, with ear
       1 => 'assets/Events/anaika-health-awareness/2.webp',
       2 => 'assets/Events/anaika-health-awareness/3.webp',
     ),
-    'description' => 'ANAIKA means “Complete” and “Powerful.” Models depicted woman as all powerful and invincible.
+    'description' => "ANAIKA means 'Complete' and 'Powerful.' Models depicted woman as all powerful and invincible.
 
 Speaking on the occasion Dr. Vijay Anand Reddy said, women are the most important part of the family, society and the nation. They should not neglect their health. Be cautious of warning symptoms.
 
-Hyderabad, International Women’s Day, March 8th, 2019: Cure Foundation and Apollo Cancer Hospital hosted a fashion show – ‘ANAIKA’, to create awareness on Women health & empowerment at Taj Krishna, Hyderabad.
+Hyderabad, International Women's Day, March 8th, 2019: Cure Foundation and Apollo Cancer Hospital hosted a fashion show – 'ANAIKA', to create awareness on Women health & empowerment at Taj Krishna, Hyderabad.
 
 The Fashion show had four sequences based on different themes to depict womanhood, their wellness and women empowerment.
 
@@ -1055,7 +1076,7 @@ Women Achievers had prominent women achievers who are role models and inspiratio
 
 A fourteen-year-old brave Cancer survivor was crowned on the occasion for her indomitable spirit in combating the disease.
 
-Cancer in women is highly curable, and their survival from cancer is much higher than in men. Dr. Reddy emphasized adopting a healthy lifestyle and food habits, besides undergoing regular cancer screening.',
+Cancer in women is highly curable, and their survival from cancer is much higher than in men. Dr. Reddy emphasized adopting a healthy lifestyle and food habits, besides undergoing regular cancer screening.",
     'photos' => 
     array (
       0 => 'assets/Events/anaika-health-awareness/4.webp',
@@ -1080,7 +1101,7 @@ Cancer in women is highly curable, and their survival from cancer is much higher
       19 => 'assets/Events/anaika-health-awareness/23.webp',
     ),
   ),
-  30 => 
+  34 =>
   array (
     'id' => 'pink-of-health-fight-cancer-breast-cancer-awareness-program-2014',
     'category' => 'awareness-programmes',
@@ -1093,13 +1114,13 @@ Cancer in women is highly curable, and their survival from cancer is much higher
       1 => 'assets/Events/pink-of-health/2.webp',
       2 => 'assets/Events/pink-of-health/3.webp',
     ),
-    'description' => 'Today more and more young women are being diagnosed with breast cancer according to most oncologists. This necessitates spreading awareness on prevention from a young age, on war footing.
+    'description' => "Today more and more young women are being diagnosed with breast cancer according to most oncologists. This necessitates spreading awareness on prevention from a young age, on war footing.
 
-Apollo Cancer Hospital hosted a unique campaign “Let’s be in Pink of Health- fight Cancer” to spread awareness among the youth about the dreaded breast cancer and how simple it can be to nip this disease in the bud stage, on Tuesday at Apollo Hospitals, Jubilee Hills. Tollywood star actress Poonam Kaur, Asian Games 2014 Badminton medalists N. Siki Reddy and Pradnya Gadre, Dr. Vijay Anand Reddy, Director, Apollo Cancer Hospital, and a large number of students from St. Ann’s College for Women, Loyola Academy Degree and PG College and Wesley Degree College for Women took part, along with small kids dressed in pink, taking a pledge to follow simple tips meticulously for prevention of breast cancer, including healthy diet habits, regular exercise, and educating friends and relatives.
+Apollo Cancer Hospital hosted a unique campaign 'Let's be in Pink of Health- fight Cancer' to spread awareness among the youth about the dreaded breast cancer and how simple it can be to nip this disease in the bud stage, on Tuesday at Apollo Hospitals, Jubilee Hills. Tollywood star actress Poonam Kaur, Asian Games 2014 Badminton medalists N. Siki Reddy and Pradnya Gadre, Dr. Vijay Anand Reddy, Director, Apollo Cancer Hospital, and a large number of students from St. Ann's College for Women, Loyola Academy Degree and PG College and Wesley Degree College for Women took part, along with small kids dressed in pink, taking a pledge to follow simple tips meticulously for prevention of breast cancer, including healthy diet habits, regular exercise, and educating friends and relatives.
 
 College students expressed their views lucidly on breast cancer, causes for rampant incidence in India, ignorance among women, and simple steps to detect and prevent breast cancer at the elocution competition held on the occasion. The top 2 participants received prizes.
 
-Apollo Cancer Hospital has taken the initiative to organize the Breast Cancer Awareness Program to target younger women to stem the incidence in the community, as pointed out by Dr. Reddy.',
+Apollo Cancer Hospital has taken the initiative to organize the Breast Cancer Awareness Program to target younger women to stem the incidence in the community, as pointed out by Dr. Reddy.",
     'photos' => 
     array (
       0 => 'assets/Events/pink-of-health/4.webp',
@@ -1108,7 +1129,7 @@ Apollo Cancer Hospital has taken the initiative to organize the Breast Cancer Aw
       3 => 'assets/Events/pink-of-health/7.webp',
     ),
   ),
-  31 => 
+  35 =>
   array (
     'id' => 'breast-cancer-awareness-program-2013',
     'category' => 'awareness-programmes',
@@ -1121,11 +1142,11 @@ Apollo Cancer Hospital has taken the initiative to organize the Breast Cancer Aw
       1 => 'assets/Events/breast-cancer-13/2.webp',
       2 => 'assets/Events/breast-cancer-13/3.webp',
     ),
-    'description' => 'On the occasion of Breast cancer awareness month, Apollo Cancer Institute held a breast cancer awareness program at Apollo Cancer Hospital, Jubilee Hills, Hyderabad on 30th October 2013 to honor the breast cancer survivors and spread awareness on breast cancer.
+    'description' => "On the occasion of Breast cancer awareness month, Apollo Cancer Institute held a breast cancer awareness program at Apollo Cancer Hospital, Jubilee Hills, Hyderabad on 30th October 2013 to honor the breast cancer survivors and spread awareness on breast cancer.
 
-Speaking on the occasion, Dr. Vijay Anand Reddy briefed about cancer warning symptoms in women and various other cancers in women. He detailed early diagnostic techniques and treatment available today to treat and cure cancers. “Cancer is a lifestyle disease,” Dr. Reddy motivated the audience emphasizing physical exercise and proper dietary habits.
+Speaking on the occasion, Dr. Vijay Anand Reddy briefed about cancer warning symptoms in women and various other cancers in women. He detailed early diagnostic techniques and treatment available today to treat and cure cancers. 'Cancer is a lifestyle disease,' Dr. Reddy motivated the audience emphasizing physical exercise and proper dietary habits.
 
-Dr. Reddy\'s inspiring speech admired and supported cancer survivors and raised hope in patients fighting cancer. Encouraged and enchanted, cancer survivors joined Dr. Reddy at the dais and shared their experiences of fighting and surviving cancer. Ms. Bhramara shared how she regained all her health after chemotherapy cycles. Ms. Jyoti spoke about the moral support and treatment she received from Dr. Reddy and his team at Apollo Cancer Hospital.',
+Dr. Reddy's inspiring speech admired and supported cancer survivors and raised hope in patients fighting cancer. Encouraged and enchanted, cancer survivors joined Dr. Reddy at the dais and shared their experiences of fighting and surviving cancer. Ms. Bhramara shared how she regained all her health after chemotherapy cycles. Ms. Jyoti spoke about the moral support and treatment she received from Dr. Reddy and his team at Apollo Cancer Hospital.",
     'photos' => 
     array (
       0 => 'assets/Events/breast-cancer-13/4.webp',
@@ -1135,7 +1156,7 @@ Dr. Reddy\'s inspiring speech admired and supported cancer survivors and raised 
       4 => 'assets/Events/breast-cancer-13/8.webp',
     ),
   ),
-  32 => 
+  36 =>
   array (
     'id' => 'breast-cancer-awareness-seminar-2011',
     'category' => 'awareness-programmes',
@@ -1148,7 +1169,7 @@ Dr. Reddy\'s inspiring speech admired and supported cancer survivors and raised 
       1 => 'assets/Events/Breast-cancer-awareness-seminar-11/2.webp',
       2 => 'assets/Events/Breast-cancer-awareness-seminar-11/3.webp',
     ),
-    'description' => '"Breast Cancer Prevention starts at 5" was organized on 22nd October 2011 with the aim of increasing awareness among young women about the prevention and detection of cancer.
+    'description' => 'Breast Cancer Prevention starts at 5 was organized on 22nd October 2011 with the aim of increasing awareness among young women about the prevention and detection of cancer.
 
 Mrs. Banda Karthika Reddy, Mayor of Greater Hyderabad Municipal Corporation; Ms. Lakshmi Manchu, Cine Actress, Classical Dancer & Cancer Survivor; and Padma Shri Dr. Ananda Shankar Jayant were invited as Chief Guests for the program. Students from Villa Marie College for Women, St. Francis College for Women, and Badruka College actively participated.
 
@@ -1172,7 +1193,7 @@ The seminar focused on educating young women about early prevention and detectio
       14 => 'assets/Events/Breast-cancer-awareness-seminar-11/18.webp',
     ),
   ),
-  33 => 
+  37 =>
   array (
     'id' => 'breast-cancer-support-group-2011',
     'category' => 'support-groups',
@@ -1199,7 +1220,7 @@ The support group provides a compassionate environment for sharing knowledge, em
       4 => 'assets/Events/support-group/8.webp',
     ),
   ),
-  34 => 
+  38 =>
   array (
     'id' => 'breast-cancer-awareness-walk-2008',
     'category' => 'awareness-programmes',
@@ -1212,11 +1233,11 @@ The support group provides a compassionate environment for sharing knowledge, em
       1 => 'assets/Events/awareness-walk/2.webp',
       2 => 'assets/Events/awareness-walk/3.webp',
     ),
-    'description' => 'A Cancer Awareness Walk was conducted on 3rd February 2008 from K.B.R. Park Main gate to Apollo Cancer Institute Lawns. The event was organized by women’s organizations including the Breast Cancer Support Group and Cure Foundation of Apollo Cancer Institute, with support from various organizations such as Make a Wish Foundation, Astha, Aga Khan Health Service India, WIN, Deloitte, Accenture, Reddy’s Labs, Jubilee Club, and Roshini.
+    'description' => "A Cancer Awareness Walk was conducted on 3rd February 2008 from K.B.R. Park Main gate to Apollo Cancer Institute Lawns. The event was organized by women's organizations including the Breast Cancer Support Group and Cure Foundation of Apollo Cancer Institute, with support from various organizations such as Make a Wish Foundation, Astha, Aga Khan Health Service India, WIN, Deloitte, Accenture, Reddy's Labs, Jubilee Club, and Roshini.
 
 Popular Cine Actress Mrs. Ramya Krishna was invited as the Chief Guest. During the event, 500 Free Cancer Check Cards were distributed to attendees.
 
-This walk aimed to increase awareness about breast cancer and promote early detection in the community.',
+This walk aimed to increase awareness about breast cancer and promote early detection in the community.",
     'photos' => 
     array (
       0 => 'assets/Events/awareness-walk/4.webp',
@@ -1230,7 +1251,7 @@ This walk aimed to increase awareness about breast cancer and promote early dete
       8 => 'assets/Events/awareness-walk/12.webp',
     ),
   ),
-  35 => 
+  39 =>
   array (
     'id' => 'breast-cancer-awareness-programme-2005',
     'category' => 'awareness-programmes',
@@ -1259,11 +1280,11 @@ The program aimed to empower women by educating them about early detection and p
       6 => 'assets/breast-awareness/Photo-32.webp',
     ),
   ),
-  36 => 
+  40 =>
   array (
     'id' => 'childrens-day-celebrations-with-our-heroes-2015',
     'category' => 'awareness-programmes',
-    'title' => 'Children’s Day Celebrations With Our Heroes',
+    'title' => "Children's Day Celebrations With Our Heroes",
     'date' => '2015-11-23',
     'author' => 'Anuraj',
     'banners' => 
@@ -1273,13 +1294,13 @@ The program aimed to empower women by educating them about early detection and p
       2 => 'assets/Events/children-day/m3.webp',
       3 => 'assets/Events/children-day/m4.webp',
     ),
-    'description' => 'On the eve of Children’s Day, Apollo Cancer Hospital hosted a colourful celebration with Child Cancer Survivors and actress Rakul Preet Singh. The survivor children in costumes of Chota Bheem look alike, presented a theme show, where they defeated the cancer demon. 
+    'description' => "On the eve of Children's Day, Apollo Cancer Hospital hosted a colourful celebration with Child Cancer Survivors and actress Rakul Preet Singh. The survivor children in costumes of Chota Bheem look alike, presented a theme show, where they defeated the cancer demon.
 
-The show sent the strong message of cancer being conquerable, to the audience mostly comprising of children afflicted of cancer and their parents. “These tiny cancer survivors are the real heroes. In the recent years cancer treatment has made enormous advances and the best doctors, technology and hospitals are all available to treat cancer. Therefore anyone with cancer patients and their relatives need not worry. Early detection can facilitate treatment of cancer with ease,” she added. 
+The show sent the strong message of cancer being conquerable, to the audience mostly comprising of children afflicted of cancer and their parents. 'These tiny cancer survivors are the real heroes. In the recent years cancer treatment has made enormous advances and the best doctors, technology and hospitals are all available to treat cancer. Therefore anyone with cancer patients and their relatives need not worry. Early detection can facilitate treatment of cancer with ease,' she added.
 
-“I am really moved to hear and see little kids being inflicted of cancer, but there is great hope as childhood cancers are curable,” said Rakul. “Children cope with cancer treatment better than adults and recover much faster than adults. Most cancers in childhood are curable, in fact 80% of all childhood cancers are curable and in contrast only 65 percent of adult cancers are curable,” he added.
+'I am really moved to hear and see little kids being inflicted of cancer, but there is great hope as childhood cancers are curable,' said Rakul. 'Children cope with cancer treatment better than adults and recover much faster than adults. Most cancers in childhood are curable, in fact 80% of all childhood cancers are curable and in contrast only 65 percent of adult cancers are curable,' he added.
 
-Speaking on the occasion Dr. P. Vijay Anand Reddy, Director, Apollo Cancer Hospital pointed that in India, around 45,000 new cases of childhood cancers are diagnosed every year.',
+Speaking on the occasion Dr. P. Vijay Anand Reddy, Director, Apollo Cancer Hospital pointed that in India, around 45,000 new cases of childhood cancers are diagnosed every year.",
     'photos' => 
     array (
       0 => 'assets/Events/children-day/d1.webp',
@@ -1297,7 +1318,7 @@ Speaking on the occasion Dr. P. Vijay Anand Reddy, Director, Apollo Cancer Hospi
       12 => 'assets/Events/children-day/m4.webp',
     ),
   ),
-  37 => 
+  41 =>
   array (
     'id' => 't2-cricket-match-sunrisers-hyd-vs-child-cancer-patients-2014',
     'category' => 'awareness-programmes',
@@ -1310,11 +1331,11 @@ Speaking on the occasion Dr. P. Vijay Anand Reddy, Director, Apollo Cancer Hospi
       1 => 'assets/Events/t2-cricket-match/b2.webp',
       2 => 'assets/Events/t2-cricket-match/b3.webp',
     ),
-    'description' => 'Beaming faces of young kids – Mubasir, Kishan Kumar, Kiran and Pallavi – said it all. It was a cricket match where runs and wickets did not matter at all, but gestures did. For, some of the lead players of Sunrisers Hyderabad including captain Shikhar Dhawan, Dale Steyn, Darren Sammy turned up for a “friendly” match against the juvenile cancer patients at the Apollo Cancer Hospital, Hyderabad to lift their morale.
+    'description' => "Beaming faces of young kids – Mubasir, Kishan Kumar, Kiran and Pallavi – said it all. It was a cricket match where runs and wickets did not matter at all, but gestures did. For, some of the lead players of Sunrisers Hyderabad including captain Shikhar Dhawan, Dale Steyn, Darren Sammy turned up for a 'friendly' match against the juvenile cancer patients at the Apollo Cancer Hospital, Hyderabad to lift their morale.
 
-“A wonderful experience,” chortled Pallavi as the players spent more than 45 minutes with the juvenile patients. Much to the youngsters’ delight, Steyn and Darren Sammy made it a point to exchange pleasantries with them before the cricketing contest began. Captain Shikhar Dhawan wished the kids lead a more pleasant life ahead. “It’s always a touching experience to meet kids who show lot of courage, battling against all odds,” he said.
+'A wonderful experience,' chortled Pallavi as the players spent more than 45 minutes with the juvenile patients. Much to the youngsters' delight, Steyn and Darren Sammy made it a point to exchange pleasantries with them before the cricketing contest began. Captain Shikhar Dhawan wished the kids lead a more pleasant life ahead. 'It's always a touching experience to meet kids who show lot of courage, battling against all odds,' he said.
 
-Steyn hoped that these patients will hit cancer for a “huge six”. Dr. P. Vijay Anand Reddy, Director, Apollo Cancer Hospital, reminded that children cope with cancer treatment better than adults and recover much faster too! He added that in India, around 45,000 new cases of childhood cancers are diagnosed every year. Most cancers in childhood are curable, in fact 80% of all childhood cancers are curable and in contrast only 65 percent of adult cancers are curable.',
+Steyn hoped that these patients will hit cancer for a 'huge six'. Dr. P. Vijay Anand Reddy, Director, Apollo Cancer Hospital, reminded that children cope with cancer treatment better than adults and recover much faster too! He added that in India, around 45,000 new cases of childhood cancers are diagnosed every year. Most cancers in childhood are curable, in fact 80% of all childhood cancers are curable and in contrast only 65 percent of adult cancers are curable.",
     'photos' => 
     array (
       0 => 'assets/Events/t2-cricket-match/d1.webp',
@@ -1333,7 +1354,7 @@ Steyn hoped that these patients will hit cancer for a “huge six”. Dr. P. Vij
       13 => 'assets/Events/t2-cricket-match/p6.webp',
     ),
   ),
-  38 => 
+  42 =>
   array (
     'id' => 'world-retinoblastoma-awareness-week-2014',
     'category' => 'awareness-programmes',
@@ -1344,11 +1365,11 @@ Steyn hoped that these patients will hit cancer for a “huge six”. Dr. P. Vij
     array (
       0 => 'assets/Events/world-retinoblastoma/main.webp',
     ),
-    'description' => 'Retinoblastoma is a cancer that affects the retina of an eyeball in children aged 0-5. Unfortunately, many parents fail to recognize the symptoms this cancer presents and thereby end up at the doctor’s office in the later stages of the tumor. As a part of an awareness programme, ophthalmologists at LVPEI observed World Retinoblastoma Awareness Week from 11 to 15th May 2014 across the state.
+    'description' => "Retinoblastoma is a cancer that affects the retina of an eyeball in children aged 0-5. Unfortunately, many parents fail to recognize the symptoms this cancer presents and thereby end up at the doctor's office in the later stages of the tumor. As a part of an awareness programme, ophthalmologists at LVPEI observed World Retinoblastoma Awareness Week from 11 to 15th May 2014 across the state.
 
 According to the doctors, the symptoms of the disease can be observed if a child has crossed or squint eyes, constant swelling in the eye, continuous watering and also rapid loss of vision.
 
-In such cases parents must get an eye checkup with an ophthalmologist. Patients coming in at the last stage often have the cancer spread from the eye to the brain or grown too large in the eye. If detected early, it can be cured. “But we find patients complaining that they went to a health professional but were given drops and medicines and told that it would be fine,” says Dr. Vijay Anand Reddy, Director, Apollo Cancer Hospital.',
+In such cases parents must get an eye checkup with an ophthalmologist. Patients coming in at the last stage often have the cancer spread from the eye to the brain or grown too large in the eye. If detected early, it can be cured. 'But we find patients complaining that they went to a health professional but were given drops and medicines and told that it would be fine,' says Dr. Vijay Anand Reddy, Director, Apollo Cancer Hospital.",
     'photos' => 
     array (
       0 => 'assets/Events/world-retinoblastoma/m.webp',
@@ -1359,11 +1380,11 @@ In such cases parents must get an eye checkup with an ophthalmologist. Patients 
       5 => 'assets/Events/world-retinoblastoma/5.webp',
     ),
   ),
-  39 => 
+  43 =>
   array (
     'id' => 'celebrating-childrens-day-2013-with-sania-mirza',
     'category' => 'awareness-programmes',
-    'title' => 'Celebrating Children’s Day 2013 With Sania Mirza',
+    'title' => "Celebrating Children's Day 2013 With Sania Mirza",
     'date' => '2013-11-13',
     'author' => 'Anuraj',
     'banners' => 
@@ -1371,13 +1392,13 @@ In such cases parents must get an eye checkup with an ophthalmologist. Patients 
       0 => 'assets/Events/sania-mirza/1.webp',
       1 => 'assets/Events/sania-mirza/2.webp',
     ),
-    'description' => 'Speaking on the occasion guest of honor Ms. Sania Mirza shared her experience of going under the knife and complemented the young cancer fighters who fought cancer.
+    'description' => "Speaking on the occasion guest of honor Ms. Sania Mirza shared her experience of going under the knife and complemented the young cancer fighters who fought cancer.
 
-The month of November being marked to honor children globally, Apollo Cancer Hospital under the able leadership of Dr. Vijay Anand Reddy celebrated Children’s Day on 13th November 2013 with a range of colorful and fun-filled activities. Ace Tennis star Sania Mirza graced the event with her presence to honor and felicitate the child cancer survivors.
+The month of November being marked to honor children globally, Apollo Cancer Hospital under the able leadership of Dr. Vijay Anand Reddy celebrated Children's Day on 13th November 2013 with a range of colorful and fun-filled activities. Ace Tennis star Sania Mirza graced the event with her presence to honor and felicitate the child cancer survivors.
 
 Parents of child cancer survivors interacted with child cancer patients and their parents. A parent of a child cancer patient acknowledged the support and care by Dr. Vijay Anand Reddy and his team of consultants. The children participated in painting, singing, and dancing on this occasion.
 
-Speaking on the occasion Dr. Vijay Anand Reddy, Director, Apollo Cancer Hospital, welcomed Ms. Sania Mirza with a warm speech and expressed his concern for children who are struck with cancer. Dr. Reddy said, “Cancer doesn’t even spare children; however, children cope with cancers better than adults.” He also pointed out that 80% of childhood cancers are curable, against 65% in adults. Dr. S.V.S.S. Prasad, Consultant Medical Oncology, also spoke on the early symptoms of cancers in children.',
+Speaking on the occasion Dr. Vijay Anand Reddy, Director, Apollo Cancer Hospital, welcomed Ms. Sania Mirza with a warm speech and expressed his concern for children who are struck with cancer. Dr. Reddy said, 'Cancer doesn't even spare children; however, children cope with cancers better than adults.' He also pointed out that 80% of childhood cancers are curable, against 65% in adults. Dr. S.V.S.S. Prasad, Consultant Medical Oncology, also spoke on the early symptoms of cancers in children.",
     'photos' => 
     array (
       0 => 'assets/Events/sania-mirza/1.webp',
@@ -1399,7 +1420,7 @@ Speaking on the occasion Dr. Vijay Anand Reddy, Director, Apollo Cancer Hospital
       16 => 'assets/Events/sania-mirza/p7.webp',
     ),
   ),
-  40 => 
+  44 =>
   array (
     'id' => 'impact-day-2012-with-delloite',
     'category' => 'awareness-programmes',
@@ -1412,11 +1433,11 @@ Speaking on the occasion Dr. Vijay Anand Reddy, Director, Apollo Cancer Hospital
       1 => 'assets/Events/Delloite/d2.webp',
       2 => 'assets/Events/Delloite/d3.webp',
     ),
-    'description' => 'Techies from Delloite took a day off to spread cheer and love among cancer-stricken children at Apollo Cancer Hospital, Hyderabad on Friday.
+    'description' => "Techies from Delloite took a day off to spread cheer and love among cancer-stricken children at Apollo Cancer Hospital, Hyderabad on Friday.
 
 Taking a break from their hectic schedules, the professionals along with popular Telugu actor Krishnudu and Dr. Vijay Anand Reddy, Director, Apollo Cancer Hospital, interacted and spent some quality time with the child patients and their caretakers. The children had a whirlwind time, dancing to the tunes of popular songs while being cheered on by the crowd.
 
-The event was a part of the company’s Community Development Initiative, and saw participation of around 100 employees.',
+The event was a part of the company's Community Development Initiative, and saw participation of around 100 employees.",
     'photos' => 
     array (
       0 => 'assets/Events/Delloite/1.webp',
@@ -1438,11 +1459,11 @@ The event was a part of the company’s Community Development Initiative, and sa
       16 => 'assets/Events/Delloite/p6.webp',
     ),
   ),
-  41 => 
+  45 =>
   array (
     'id' => 'celebrate-with-the-stars-childrens-day-2011',
     'category' => 'awareness-programmes',
-    'title' => '“Celebrate With The Stars” – Children’s Day 2011',
+    'title' => "Celebrate With The Stars' - Children's Day 2011",
     'date' => '2011-11-14',
     'author' => 'Anuraj',
     'banners' => 
@@ -1451,11 +1472,11 @@ The event was a part of the company’s Community Development Initiative, and sa
       1 => 'assets/Events/childrens-day-2011/2.webp',
       2 => 'assets/Events/childrens-day-2011/6.webp',
     ),
-    'description' => 'Keeping in mind the importance of Children’s Day, Apollo Cancer Institute celebrated “Children’s Day with the real Stars!” on 14th November, 2011.
+    'description' => "Keeping in mind the importance of Children's Day, Apollo Cancer Institute celebrated 'Children's Day with the real Stars!' on 14th November, 2011.
 
 The fun filled event was attended by reel stars Madhu Shalini and Sreeram Chandra. Music, dance and a lot of positive energy boosted the spirits of the child cancer patients.
 
-The patients also interacted with cancer survivors, exchanging experiences and hope. This was mentally encouraging experience for the parents as well and they showed their faith in the ongoing treatment and in Dr. Vijay Anand Reddy.',
+The patients also interacted with cancer survivors, exchanging experiences and hope. This was mentally encouraging experience for the parents as well and they showed their faith in the ongoing treatment and in Dr. Vijay Anand Reddy.",
     'photos' => 
     array (
       0 => 'assets/Events/childrens-day-2011/1.webp',
@@ -1475,7 +1496,7 @@ The patients also interacted with cancer survivors, exchanging experiences and h
       14 => 'assets/Events/childrens-day-2011/p5.webp',
     ),
   ),
-  42 => 
+  46 =>
   array (
     'id' => 'international-child-cancer-awareness-day-2010',
     'category' => 'awareness-programmes',
@@ -1489,7 +1510,7 @@ The patients also interacted with cancer survivors, exchanging experiences and h
       2 => 'assets/Events/international-child-cancer/3.webp',
       3 => 'assets/Events/international-child-cancer/4.webp',
     ),
-    'description' => '"Childhood Cancer Awareness Day" was held at Apollo Cancer Hospital, Hyderabad on February 15, 2010. The event included awareness talks by oncologists, followed by several patients sharing their experiences.
+    'description' => 'Childhood Cancer Awareness Day was held at Apollo Cancer Hospital, Hyderabad on February 15, 2010. The event included awareness talks by oncologists, followed by several patients sharing their experiences.
 
 Many patients shared how they once thought their life had come to a dead end, but with the right amount of encouragement and guidance, they could commence a new life with more confidence than before. Cine Actor Mr. Navdeep was invited as the Chief Guest for the program.',
     'photos' => 
@@ -1509,11 +1530,11 @@ Many patients shared how they once thought their life had come to a dead end, bu
       12 => 'assets/Events/international-child-cancer/p5.webp',
     ),
   ),
-  43 => 
+  47 =>
   array (
     'id' => 'children-s-day-2007-parvathi-melton',
     'category' => 'awareness-programmes',
-    'title' => 'Children’s Day 2007 with Parvathi Melton',
+    'title' => "Children's Day 2007 with Parvathi Melton",
     'date' => '2007-11-14',
     'author' => 'Anuraj',
     'banners' => 
@@ -1523,7 +1544,7 @@ Many patients shared how they once thought their life had come to a dead end, bu
       2 => 'assets/Events/Parvathi-Melton/3.webp',
       3 => 'assets/Events/Parvathi-Melton/4.webp',
     ),
-    'description' => '"Children’s day was celebrated on 14th November 2007 with Paediatric Cancer patients and those who were treated and are now leading a new, confident life.
+    'description' => 'Children\'s day was celebrated on 14th November 2007 with Paediatric Cancer patients and those who were treated and are now leading a new, confident life.
 
 The program had more than seventy children of all age groups (from 1 year to 14 years) who actively participated in cultural programs, several games, and competitions, with prizes distributed to the winners. Ms. Parvathi Melton, a popular cine actress, was invited as the Chief Guest for the event.',
     'photos' => 
@@ -1547,7 +1568,7 @@ The program had more than seventy children of all age groups (from 1 year to 14 
       16 => 'assets/Events/Parvathi-Melton/7-1.webp',
     ),
   ),
-  44 => 
+  48 =>
   array (
     'id' => 'walt-disney-carnival-2006',
     'category' => 'awareness-programmes',
@@ -1558,15 +1579,15 @@ The program had more than seventy children of all age groups (from 1 year to 14 
     array (
       0 => 'assets/Events/Walt-Disney/1.webp',
     ),
-    'description' => '"Walt Disney Programme for Cancer children was held on 27th January 2006. A joint programme was organized with the help of Walt Disney, USA to entertain children suffering from cancer.
+    'description' => 'Walt Disney Programme for Cancer children was held on 27th January 2006. A joint programme was organized with the help of Walt Disney, USA to entertain children suffering from cancer.
 
-Several children from various cancer hospitals in twin cities participated in the programme. The aim of the programme was to encourage the children suffering from cancer to lead a fun-filled life regardless of the anomalies experienced in day-to-day life."',
+Several children from various cancer hospitals in twin cities participated in the programme. The aim of the programme was to encourage the children suffering from cancer to lead a fun-filled life regardless of the anomalies experienced in day-to-day life.',
     'photos' => 
     array (
       0 => 'assets/Events/Walt-Disney/1.webp',
     ),
   ),
-  45 => 
+  49 =>
   array (
     'id' => 'early-screening-and-detection-2008',
     'category' => 'awareness-programmes',
@@ -1578,9 +1599,9 @@ Several children from various cancer hospitals in twin cities participated in th
       0 => 'assets/Events/early-screening/1.webp',
       1 => 'assets/Events/early-screening/2.webp',
     ),
-    'description' => '"The larynx is an organ in the throat that forms your voice box. In case of laryngeal cancer, the larynx needs to be surgically removed, and this process is called Laryngectomy.
+    'description' => "The larynx is an organ in the throat that forms your voice box. In case of laryngeal cancer, the larynx needs to be surgically removed, and this process is called Laryngectomy.
 
-Laryngectomy Club conducts monthly meetings every 2nd Saturday at Apollo Cancer Institute. The anniversary of Laryngectomy Club was conducted on 12th Jan’ 2008 with a large number of patients and relatives."',
+Laryngectomy Club conducts monthly meetings every 2nd Saturday at Apollo Cancer Institute. The anniversary of Laryngectomy Club was conducted on 12th Jan' 2008 with a large number of patients and relatives.",
     'photos' => 
     array (
       0 => 'assets/Events/early-screening/3.webp',
@@ -1588,11 +1609,11 @@ Laryngectomy Club conducts monthly meetings every 2nd Saturday at Apollo Cancer 
       2 => 'assets/Events/early-screening/2.webp',
     ),
   ),
-  46 => 
+  50 =>
   array (
     'id' => 'cancer-awareness-super-car-rally-world-cancer-survivors-day-2021',
     'category' => 'awareness-programmes',
-    'title' => 'The Racers of the Cancer Awareness Super Car Rally – World Cancer Survivor’s Day 2021',
+    'title' => "The Racers of the Cancer Awareness Super Car Rally – World Cancer Survivor's Day 2021",
     'date' => '2021-02-08',
     'author' => 'Anuraj',
     'banners' => 
@@ -1601,17 +1622,17 @@ Laryngectomy Club conducts monthly meetings every 2nd Saturday at Apollo Cancer 
       1 => 'assets/Events/cancer-awareness-super-car/2.webp',
       2 => 'assets/Events/cancer-awareness-super-car/3.webp',
     ),
-    'description' => '"Super Car owners’ donning T-shirts & cars sporting stickers of “I AM and I WILL” spread the message of early detection & prevention of Cancer.
+    'description' => "Super Car owners' donning T-shirts & cars sporting stickers of 'I AM and I WILL' spread the message of early detection & prevention of Cancer.
 
-Cine actresses Ms Malvika Sharma & Catherine Tresa joined in the World Cancer Day celebrations at Apollo Cancer Institutes, Hyderabad. Tollywood Diva Malvika Sharma flagged off the Cancer Super Car Rally at Necklace Road. The celebrity owners of Hyderabad’s twenty-plus super cars took part in the drive for a noble cause to sensitize the public on cancer prevention and detection.
+Cine actresses Ms Malvika Sharma & Catherine Tresa joined in the World Cancer Day celebrations at Apollo Cancer Institutes, Hyderabad. Tollywood Diva Malvika Sharma flagged off the Cancer Super Car Rally at Necklace Road. The celebrity owners of Hyderabad's twenty-plus super cars took part in the drive for a noble cause to sensitize the public on cancer prevention and detection.
 
-They highlighted the message \'I AM and I WILL\' throughout the stretch of the rally from Necklace Road (IMAX circle) to Apollo Cancer Institutes, Jubilee Hills; via Banjara Hills Road No.1, LVPEI Marg and KBR park.
+They highlighted the message 'I AM and I WILL' throughout the stretch of the rally from Necklace Road (IMAX circle) to Apollo Cancer Institutes, Jubilee Hills; via Banjara Hills Road No.1, LVPEI Marg and KBR park.
 
 Later, Malvika Sharma joined Catherine Tresa; Dr Vijay Anand Reddy, Director, Apollo Cancer Institutes, Hyderabad; Dr Vijay Karan Reddy, Consultant Oncologist, Apollo Cancer Institutes and others to felicitate the racers who participated in the rally.
 
-\'Cancer is preventable, detectable early and highly curable! If you follow – 1) No Smoking or Chewing Tobacco, 2) Healthy Diet, 3) 40 min. of physical exercise – you can prevent 70% of cancers. Regular health check-ups can detect early cancer. Do not ignore warning signs and symptoms of cancer,\' says Dr Vijay Anand Reddy.
+'Cancer is preventable, detectable early and highly curable! If you follow – 1) No Smoking or Chewing Tobacco, 2) Healthy Diet, 3) 40 min. of physical exercise – you can prevent 70% of cancers. Regular health check-ups can detect early cancer. Do not ignore warning signs and symptoms of cancer,' says Dr Vijay Anand Reddy.
 
-The colorful vintage rally had super luxury cars like Mercedes e63, BMW m3, Ferrari 812SF, Ferrari 488, Lamborghini Huracan Performante, Audi r8, Porsche Carrera, Lamborghini Aventador, lined up to spread the message on Cancer loud and clear."',
+The colorful vintage rally had super luxury cars like Mercedes e63, BMW m3, Ferrari 812SF, Ferrari 488, Lamborghini Huracan Performante, Audi r8, Porsche Carrera, Lamborghini Aventador, lined up to spread the message on Cancer loud and clear.",
     'photos' => 
     array (
       0 => 'assets/Events/cancer-awareness-super-car/1.webp',
@@ -1647,34 +1668,40 @@ The colorful vintage rally had super luxury cars like Mercedes e63, BMW m3, Ferr
       30 => 'assets/Events/cancer-awareness-super-car/31.webp',
     ),
   ),
-  47 => 
+  51 =>
   array (
     'id' => 'felicitation-chairman-apollo-hospitals-2026',
-    'category' => 'events',
-    'homepage_only' => true,
-    'title' => 'Felicitation by Chairman Apollo Hospitals Sri Pratap’s C Reddy on Founder’s Day @ Chennai 8/2/26',
+    'category' => 'award',
+    'title' => "Felicitation by Chairman Apollo Hospitals Sri Pratap's C Reddy on Founder's Day @ Chennai 8/2/26",
     'date' => '2026-02-08',
     'author' => 'Dr. P. Vijay Anand Reddy',
-    'banners' => 
+    'banners' =>
     array (
-      0 => 'assets/Events/2026-with-cm/with-cm-1.webp',
+      0 => 'assets/Events/apollo-feci/apollo-feci-1.webp',
     ),
-    'description' => 'I am deeply humbled and honoured by the award bestowed upon me by the Government of India.I owe this honour to my teachers for their guidance and training; to my patients for their trust, courage, and resilience in the fight against cancer; and to my family for their unwavering support throughout my journey—especially my wife, Dr. Shashikala, who has been my constant strength.
+    'description' => "Felicitation by Chairman Apollo Hospitals Sri Pratap's C Reddy on Founder's Day @ Chennai 8/2/26
+
+I am deeply humbled and honoured by the award bestowed upon me by the Government of India.
+
+I owe this honour to my teachers for their guidance and training; to my patients for their trust, courage, and resilience in the fight against cancer; and to my family for their unwavering support throughout my journey - especially my wife, Dr. Shashikala, who has been my constant strength.
 
 I am profoundly grateful to Apollo Hospitals and Ms. Sangita Reddy for providing me with a peaceful and wonderful platform to do what I intended to do. My special thanks to Ms. Sangita Reddy for her continued trust and encouragement.
 
-I will remain forever indebted to our Chairman, Sri Pratap C. Reddy garu, for his unwavering support and encouragement throughout my career. I fondly recall a statement once made by Chairman Sir: “If I had the power to clone, I would clone Vijay Anand into six and rule the oncology world.” Such trust and affection mean more to me than words can express.
+I will remain forever indebted to our Chairman, Sri Pratap C. Reddy garu, for his unwavering support and encouragement throughout my career. I fondly recall a statement once made by Chairman Sir: If I had the power to clone, I would clone Vijay Anand into six and rule the oncology world. Such trust and affection mean more to me than words can express.
 
-This honour comes with a deeper sense of responsibility and a renewed commitment to serve humanity with greater dedication.',
-    'photos' => 
+This honour comes with a deeper sense of responsibility and a renewed commitment to serve humanity with greater dedication.
+
+With heartfelt gratitude, thank you all once again.",    array (
+      0 => 'assets/Events/apollo-feci/apollo-feci-1.webp',
+      1 => 'assets/Events/apollo-feci/apollo-feci-2.webp',
+    ),
+    'gallery' =>
     array (
-      0 => 'assets/Events/2026-with-cm/with-cm-1.webp',
-      1 => 'assets/Events/2026-with-cm/with-cm-2.webp',
-      2 => 'assets/Events/2026-with-cm/with-cm-3.webp',
-      3 => 'assets/Events/2026-with-cm/with-cm-4.webp',
+      0 => 'assets/Events/apollo-feci/apollo-feci-1.webp',
+      1 => 'assets/Events/apollo-feci/apollo-feci-2.webp',
     ),
   ),
-  49 =>
+  52 =>
   array (
     'id' => 'debates-in-uro-oncology-2023',
     'category' => 'awareness-programmes',
@@ -1685,7 +1712,7 @@ This honour comes with a deeper sense of responsibility and a renewed commitment
     array (
       0 => 'assets/Events/Debates in Uro Oncology 25-11-2023/MALI8328.webp',
     ),
-    'description' => 'The Uro Oncology Workshop titled "Debates in Uro Oncology – Demystifying the Controversies" was successfully conducted on 25th November 2023 at the Apollo Medical College Auditorium, Apollo Hospitals, Hyderabad. The program brought together leading experts in uro-oncology to engage in dynamic, evidence-based debates on key clinical challenges, focusing on diagnostic approaches, evolving imaging modalities, genetic testing, and treatment strategies relevant to the Indian context. Organized under the leadership of Dr. P. Vijay Anand Reddy with an eminent scientific committee, the workshop featured interactive sessions, panel discussions, and case-based deliberations, enabling participants to gain practical insights and clarity on contemporary controversies in prostate, bladder, and renal cancers. The event served as a valuable academic platform fostering knowledge exchange and enhancing clinical decision-making in uro-oncology.',
+    'description' => 'The Uro Oncology Workshop titled Debates in Uro Oncology – Demystifying the Controversies was successfully conducted on 25th November 2023 at the Apollo Medical College Auditorium, Apollo Hospitals, Hyderabad. The program brought together leading experts in uro-oncology to engage in dynamic, evidence-based debates on key clinical challenges, focusing on diagnostic approaches, evolving imaging modalities, genetic testing, and treatment strategies relevant to the Indian context. Organized under the leadership of Dr. P. Vijay Anand Reddy with an eminent scientific committee, the workshop featured interactive sessions, panel discussions, and case-based deliberations, enabling participants to gain practical insights and clarity on contemporary controversies in prostate, bladder, and renal cancers. The event served as a valuable academic platform fostering knowledge exchange and enhancing clinical decision-making in uro-oncology.',
     'photos' =>
     array (
       0 => 'assets/Events/Debates in Uro Oncology 25-11-2023/MALI8328.webp',
@@ -1701,7 +1728,7 @@ This honour comes with a deeper sense of responsibility and a renewed commitment
       10 => 'assets/Events/Debates in Uro Oncology 25-11-2023/MALI8431.webp',
     ),
   ),
-  50 =>
+  53 =>
   array (
     'id' => 'aroi-estro-teaching-course-2023',
     'category' => 'awareness-programmes',

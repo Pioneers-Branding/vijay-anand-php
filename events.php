@@ -4,6 +4,7 @@ include 'events_data.php';
 
 // Filter out felicitation events (they're on the dedicated felicitations page)
 $felicitationIds = [
+    'padma-shri-felicitation-cm-naidu-2026',
     'ida-2026',
     'felicitation-chairman-apollo-hospitals-2026'
 ];
