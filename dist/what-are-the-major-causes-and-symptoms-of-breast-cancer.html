@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>What are the Major Causes and Symptoms of Breast Cancer? - Dr. Vijay Anand Reddy</title>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
     <script src="https://unpkg.com/feather-icons"></script>
@@ -33,9 +33,17 @@
         .blog-content ul li { list-style-type: disc; }
         .blog-content ol li { list-style-type: decimal; }
         .blog-content strong { color: #1E293B; font-weight: 700; }
-        .blog-content h1, .blog-content h2, .blog-content h3 { color: #1E293B; margin: 2rem 0 1rem; font-weight: 700; line-height: 1.3; }
+        .blog-content h1, .blog-content h2, .blog-content h3, .blog-content h4, .blog-content h5, .blog-content h6 {
+            color: #1E293B;
+            margin: 2.25rem 0 1.25rem;
+            font-weight: 700;
+            line-height: 1.4;
+        }
         .blog-content h2 { font-size: 1.75rem; }
-        .blog-content h3 { font-size: 1.375rem; }
+        .blog-content h3 { font-size: 1.45rem; }
+        .blog-content h4 { font-size: 1.25rem; }
+        .blog-content h5 { font-size: 1.1rem; }
+        .blog-content h6 { font-size: 1rem; }
         .blog-content blockquote { border-left: 4px solid #9B528F; padding: 1rem 1.5rem; font-style: italic; color: #64748b; margin: 2rem 0; background: #f8fafc; border-radius: 0 0.5rem 0.5rem 0; }
         .blog-content img { max-width: 100%; height: auto; border-radius: 0.75rem; margin: 2rem 0; box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1); }
         .blog-content em { color: #64748b; }
@@ -43,6 +51,75 @@
         .blog-content table { width: 100%; border-collapse: collapse; margin: 1.5rem 0; }
         .blog-content th, .blog-content td { border: 1px solid #e2e8f0; padding: 0.75rem; text-align: left; }
         .blog-content th { background: #f8fafc; font-weight: 600; }
+
+        /* FAQ Accordion Styling */
+        .faq-section {
+            margin-top: 3rem;
+            border-top: 1px solid #F1F5F9;
+            padding-top: 2.5rem;
+        }
+        .faq-section-title {
+            font-size: 1.75rem;
+            font-weight: 700;
+            color: #1E293B;
+            margin-bottom: 1.5rem !important;
+        }
+        .faq-accordion {
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+        }
+        .faq-item {
+            border: 1px solid #E2E8F0;
+            border-radius: 0.75rem;
+            background: #FFFFFF;
+            overflow: hidden;
+            transition: all 0.3s ease;
+        }
+        .faq-item[open] {
+            border-color: #9B528F;
+            box-shadow: 0 4px 12px rgba(155, 82, 143, 0.05);
+        }
+        .faq-summary {
+            padding: 1.25rem 1.5rem;
+            font-weight: 600;
+            color: #1E293B;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            list-style: none;
+            user-select: none;
+            transition: background-color 0.2s ease;
+        }
+        .faq-summary::-webkit-details-marker {
+            display: none;
+        }
+        .faq-summary:hover {
+            background-color: #F8FAFC;
+            color: #9B528F;
+        }
+        .faq-chevron {
+            color: #64748B;
+            transition: transform 0.3s ease, color 0.3s ease;
+            flex-shrink: 0;
+            margin-left: 1rem;
+        }
+        .faq-item[open] .faq-chevron {
+            transform: rotate(180deg);
+            color: #9B528F;
+        }
+        .faq-answer {
+            padding: 1.25rem 1.5rem;
+            color: #475569;
+            line-height: 1.8;
+            font-size: 1rem;
+            border-top: 1px solid #F1F5F9;
+            background-color: #FAF9FB;
+        }
+        .faq-answer p {
+            margin-bottom: 0 !important;
+        }
     </style>
 </head>
 <body class="bg-gray-50">
@@ -1203,6 +1280,7 @@
                         <div class="blog-content text-gray-700 text-lg">
                             <p>Breast cancer is one of the most prevalent malignancies in women globally, whereby it is characterized by an unrestricted development of cells in the mammary gland. The struggle with <strong><a href="https://drvijayanandreddy.com/service/breast-cancer-treatment-in-hyderabad/">Breast Cancer Treatment in Hyderabad</a> </strong>has been a success story in many instances, especially, where there are comprehensive healthcare systems that offer cutting-edge therapies and personalized treatments for breast cancer.</p> <p><strong>Understanding Breast Cancer – Causes and Risk Factors</strong></p> <p>The exact cause of breast cancer remains unknown but it is recognized as a complex disease associated with a multicausal etiology involving genetic, environmental, and lifestyle factors.</p> <p><strong>Genetic Factors</strong></p> <p>BRCA1 and BRCA2 Gene Mutations: These genetic defects confer high risks of developing both ovarian and breast cancers. Other gene mutations implicated in increased risk of developing breast cancers include TP53 and PTEN among others.</p> <p><strong>Family History:</strong><strong> </strong>A woman’s chances of developing the condition increase twofold if she had a close kin (mom, sis, or daughter) affected by this ailment.</p> <p><strong>Hormone Factors</strong></p> <p><strong>Long years of exposure to estrogen: </strong>Premature menstruation (before the age of 12), late menopause (after the age of 55), and hormonal therapy following menopause can also increase the risk due to chronic estrogen exposure.</p> <p><strong>Pregnancy cases:</strong> A woman who has never had children or has her first child after 30 years may have a higher chance of getting breast cancer. This is because their hormones go through fewer changes compared to those who experience pregnancy for a long time in their lives.</p> <p><strong>Lifestyle and Environmental Factors</strong></p> <p><strong>Drinking Alcohol:</strong> The danger of breast cancer increases with an increase in alcohol consumption.</p> <p><strong>Being overweight:</strong> Excessive weight especially for women who are above fifty years has been associated with a high risk of breast cancer due to increased levels of estrogen among obese women.</p> <p><strong>Physical activity:</strong> A stationary lifestyle can increase the risk of getting breast cancer as exercising regularly is related to lowered risks.</p> <p><strong>Symptoms of Breast Cancer</strong></p> <p>Early detection will go a long way in improving treatment outcomes; therefore people need to be aware of the symptoms associated with this disease. Some types of breast cancer may lack any noticeable symptoms at the early stages; hence, regular checkups should not be underestimated by all means.</p> <p><strong>Common Symptoms Include:</strong></p> <p><strong>Lump in the Breast or Underarm:</strong> A breast lump is the most common symptom which could either be a mass at the breast or underarm that feels hard (as if a stone has been placed there), irregular, and usually painless but sometimes painful.</p> <p><strong>Change in Breast Size or Shape: </strong>Any change in size or shape of the breasts that cannot be explained should lead to further investigation.</p> <p><strong>Skin Changes: </strong>Redness, puckering, dimpling (like an orange peel) and scaling of the breast skin are all possible signs of breast cancer.</p> <p><strong>Nipple Changes: </strong>This may involve an inverted nipple, scaling, redness or discharge not related to breastfeeding.</p> <p><strong>Pain: </strong>Though often asymptomatic, new persistent pain in any specific area of the breast must be evaluated.</p> <p><strong>Diagnostic and Treatment Services</strong></p> <p><strong>Radiation Therapy: </strong>Radiation therapy is used to send high-energy waves into cells that retain their genes. Radiation therapy can be done after surgery to kill cancer cells left around breast tissue and axillary lymph nodes as well.&nbsp;</p> <p><strong>Surgery:</strong> Surgical alternatives vary from lumpectomy involving removal only of tumor and proximity tissues marginally surrounding it to mastectomy removing one or both breasts subject to unique characteristics for each case.</p> <p><strong>Chemotherapy: </strong>It utilizes medicine to destroy cancer cells, usually given before surgery (neoadjuvant chemotherapy) to shrink the tumor or after surgery (adjuvant chemotherapy) to kill any remaining cancer cells.</p> <p><strong>Hormonal Therapy:</strong> Blocking the body’s natural hormones (estrogen and progesterone) can be an effective way of preventing recurrence in hormone receptor-positive cancers.</p> <p><strong>Targeted Therapy: </strong>This kind of treatment approach targets specific genetic mutations within cancer cells. Such drugs like trastuzumab (Herceptin) slow down the HER2 gene that is overexpressed in some breast cancer cells and stop their growth.</p>                         </div>
 
+                        
                         <!-- Article Footer -->
                         <div class="mt-12 pt-8 border-t border-gray-100">
                             <!-- Tags -->

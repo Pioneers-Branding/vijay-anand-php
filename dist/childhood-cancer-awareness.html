@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Childhood Cancer Awareness: What Every Parent Should Know - Dr. Vijay Anand Reddy</title>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
     <script src="https://unpkg.com/feather-icons"></script>
@@ -33,9 +33,17 @@
         .blog-content ul li { list-style-type: disc; }
         .blog-content ol li { list-style-type: decimal; }
         .blog-content strong { color: #1E293B; font-weight: 700; }
-        .blog-content h1, .blog-content h2, .blog-content h3 { color: #1E293B; margin: 2rem 0 1rem; font-weight: 700; line-height: 1.3; }
+        .blog-content h1, .blog-content h2, .blog-content h3, .blog-content h4, .blog-content h5, .blog-content h6 {
+            color: #1E293B;
+            margin: 2.25rem 0 1.25rem;
+            font-weight: 700;
+            line-height: 1.4;
+        }
         .blog-content h2 { font-size: 1.75rem; }
-        .blog-content h3 { font-size: 1.375rem; }
+        .blog-content h3 { font-size: 1.45rem; }
+        .blog-content h4 { font-size: 1.25rem; }
+        .blog-content h5 { font-size: 1.1rem; }
+        .blog-content h6 { font-size: 1rem; }
         .blog-content blockquote { border-left: 4px solid #9B528F; padding: 1rem 1.5rem; font-style: italic; color: #64748b; margin: 2rem 0; background: #f8fafc; border-radius: 0 0.5rem 0.5rem 0; }
         .blog-content img { max-width: 100%; height: auto; border-radius: 0.75rem; margin: 2rem 0; box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1); }
         .blog-content em { color: #64748b; }
@@ -43,6 +51,75 @@
         .blog-content table { width: 100%; border-collapse: collapse; margin: 1.5rem 0; }
         .blog-content th, .blog-content td { border: 1px solid #e2e8f0; padding: 0.75rem; text-align: left; }
         .blog-content th { background: #f8fafc; font-weight: 600; }
+
+        /* FAQ Accordion Styling */
+        .faq-section {
+            margin-top: 3rem;
+            border-top: 1px solid #F1F5F9;
+            padding-top: 2.5rem;
+        }
+        .faq-section-title {
+            font-size: 1.75rem;
+            font-weight: 700;
+            color: #1E293B;
+            margin-bottom: 1.5rem !important;
+        }
+        .faq-accordion {
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+        }
+        .faq-item {
+            border: 1px solid #E2E8F0;
+            border-radius: 0.75rem;
+            background: #FFFFFF;
+            overflow: hidden;
+            transition: all 0.3s ease;
+        }
+        .faq-item[open] {
+            border-color: #9B528F;
+            box-shadow: 0 4px 12px rgba(155, 82, 143, 0.05);
+        }
+        .faq-summary {
+            padding: 1.25rem 1.5rem;
+            font-weight: 600;
+            color: #1E293B;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            list-style: none;
+            user-select: none;
+            transition: background-color 0.2s ease;
+        }
+        .faq-summary::-webkit-details-marker {
+            display: none;
+        }
+        .faq-summary:hover {
+            background-color: #F8FAFC;
+            color: #9B528F;
+        }
+        .faq-chevron {
+            color: #64748B;
+            transition: transform 0.3s ease, color 0.3s ease;
+            flex-shrink: 0;
+            margin-left: 1rem;
+        }
+        .faq-item[open] .faq-chevron {
+            transform: rotate(180deg);
+            color: #9B528F;
+        }
+        .faq-answer {
+            padding: 1.25rem 1.5rem;
+            color: #475569;
+            line-height: 1.8;
+            font-size: 1rem;
+            border-top: 1px solid #F1F5F9;
+            background-color: #FAF9FB;
+        }
+        .faq-answer p {
+            margin-bottom: 0 !important;
+        }
     </style>
 </head>
 <body class="bg-gray-50">
@@ -1201,8 +1278,9 @@
 
                         <!-- Article Content -->
                         <div class="blog-content text-gray-700 text-lg">
-                            <p>Childhood cancer is one of the most difficult challenges a family can face. Every day, children are diagnosed with cancers such as leukemia, brain tumours, and lymphomas—conditions that demand not only medical treatment but also emotional strength, community support, and awareness.</p> <p>As an oncologist dedicated to improving cancer care, I want to highlight how early detection and timely treatment can make a profound difference. Many childhood cancers are treatable, and with the right care and support, children can recover and go on to lead healthy, fulfilling lives.</p> <h4 class="wp-block-heading"><strong>✅ Important Signs Every Parent Should Watch For</strong></h4> <ul class="wp-block-list"><li>Unexplained weight loss</li> <li>Persistent fever not linked to infection</li> <li>Excessive tiredness or lethargy</li> <li>Unusual bruising or bleeding</li> <li>Swelling or lumps in the body</li> <li>Bone or joint pain that doesn’t go away</li> </ul> <p>If you notice any of these signs, it’s crucial to consult a healthcare professional without delay. Early diagnosis can significantly improve outcomes.</p> <h4 class="wp-block-heading"><strong>💙 How We Can Help</strong></h4> <p>&nbsp;✔ Spread awareness among parents, teachers, and caregivers<br>✔ Encourage early medical consultation when symptoms appear<br>✔ Support research and healthcare initiatives<br>✔ Provide compassion, counselling, and mental health support to families</p> <p>At <strong><a href="https://www.apollohospitals.com/departments/cancer/hospitals/hyderabad">Apollo Cancer Hospital, Hyderabad</a></strong>, we are committed to offering advanced treatment options, expert care, and emotional support for children and their families. Through knowledge, awareness, and compassion, we can stand together and make a difference in the fight against childhood cancer.</p> <p>Consult <strong><a href="https://drvijayanandreddy.com/">Dr. Vijay Anand Reddy</a></strong>, Oncologist at Apollo Cancer Hospital, Hyderabad, for expert advice, early diagnosis, and personalised care tailored to your child’s needs.</p> <p>Let’s unite—for the children, their families, and the caregivers. Awareness saves lives.</p> <p>📞 <strong>For guidance or support, feel free to connect with us.</strong></p>                         </div>
+                            <p>Childhood cancer is one of the most difficult challenges a family can face. Every day, children are diagnosed with cancers such as leukemia, brain tumours, and lymphomas—conditions that demand not only medical treatment but also emotional strength, community support, and awareness.</p> <p>As an oncologist dedicated to improving cancer care, I want to highlight how early detection and timely treatment can make a profound difference. Many childhood cancers are treatable, and with the right care and support, children can recover and go on to lead healthy, fulfilling lives.</p> <h4>✅ Important Signs Every Parent Should Watch For</h4> <ul class="wp-block-list"><li>Unexplained weight loss</li> <li>Persistent fever not linked to infection</li> <li>Excessive tiredness or lethargy</li> <li>Unusual bruising or bleeding</li> <li>Swelling or lumps in the body</li> <li>Bone or joint pain that doesn’t go away</li> </ul> <p>If you notice any of these signs, it’s crucial to consult a healthcare professional without delay. Early diagnosis can significantly improve outcomes.</p> <h4>💙 How We Can Help</h4> <p>&nbsp;✔ Spread awareness among parents, teachers, and caregivers<br>✔ Encourage early medical consultation when symptoms appear<br>✔ Support research and healthcare initiatives<br>✔ Provide compassion, counselling, and mental health support to families</p> <p>At <strong><a href="https://www.apollohospitals.com/departments/cancer/hospitals/hyderabad">Apollo Cancer Hospital, Hyderabad</a></strong>, we are committed to offering advanced treatment options, expert care, and emotional support for children and their families. Through knowledge, awareness, and compassion, we can stand together and make a difference in the fight against childhood cancer.</p> <p>Consult <strong><a href="https://drvijayanandreddy.com/">Dr. Vijay Anand Reddy</a></strong>, Oncologist at Apollo Cancer Hospital, Hyderabad, for expert advice, early diagnosis, and personalised care tailored to your child’s needs.</p> <p>Let’s unite—for the children, their families, and the caregivers. Awareness saves lives.</p> <p>📞 <strong>For guidance or support, feel free to connect with us.</strong></p>                         </div>
 
+                        
                         <!-- Article Footer -->
                         <div class="mt-12 pt-8 border-t border-gray-100">
                             <!-- Tags -->

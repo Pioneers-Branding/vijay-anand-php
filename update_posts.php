@@ -40,6 +40,136 @@ function normalizeTitle($title) {
     return strtolower(trim($title));
 }
 
+function parseFAQsRefined(&$content, $title) {
+    $faqs = [];
+    
+    // 1. First, check for Rank Math FAQ block (this is always an FAQ block and doesn't need heading matching)
+    if (stripos($content, 'wp-block-rank-math-faq-block') !== false) {
+        preg_match_all('/<div class="rank-math-faq-item">\s*<h\d[^>]*class="rank-math-question"[^>]*>(.*?)<\/h\d>\s*<div[^>]*class="rank-math-answer"[^>]*>(.*?)<\/div>\s*<\/div>/is', $content, $matches, PREG_SET_ORDER);
+        foreach ($matches as $m) {
+            $q = trim(strip_tags($m[1]));
+            $a = trim($m[2]);
+            if ($q && $a) {
+                $faqs[] = ['question' => $q, 'answer' => $a];
+            }
+        }
+        
+        if (!empty($faqs)) {
+            // Remove Rank Math block
+            $content = preg_replace('/<div class="wp-block-rank-math-faq-block">.*?<\/div>\s*<\/div>\s*<\/div>/is', '', $content);
+            $content = preg_replace('/<div class="wp-block-rank-math-faq-block">.*?<\/div>\s*<\/div>/is', '', $content);
+            // Remove any preceding heading
+            $content = preg_replace('/<(h\d|p)[^>]*>(?:<strong>)?\s*(?:Frequently Asked Questions|FAQ\(?s?\)?|Q&A|Common Questions)\s*(?::|—)?\s*(?:<\/strong>)?\s*(?::|—)?\s*<\/\1>\s*/is', '', $content);
+            return $faqs;
+        }
+    }
+    
+    // 2. Look for manual FAQ section by searching for an FAQ heading/paragraph anchor.
+    // We search for a tag (h1-h6 or p) containing "faq", "frequently asked questions", "q&a", "common questions", etc.
+    $pattern = '/<(h[1-6]|p)\b[^>]*>(?:<strong>)?\s*(?:\d+\.\s*)?(Frequently Asked Questions|FAQ\(?s?\)?|Q&A|Common Questions|Frequently Asked Questions \(FAQs\))\s*(?::|—)?\s*(?:<\/strong>)?\s*(?::|—)?\s*<\/\1>/is';
+    
+    if (preg_match($pattern, $content, $match, PREG_OFFSET_CAPTURE)) {
+        $headingHtml = $match[0][0];
+        $headingOffset = $match[0][1];
+        
+        $afterHeading = substr($content, $headingOffset + strlen($headingHtml));
+        
+        // A. List-based FAQ with ol/ul:
+        // <ol class="wp-block-list"><li><strong>Question</strong><ul class="wp-block-list"><li>Answer</li></ul></li>...
+        if (preg_match('/^\s*<ol[^>]*class="wp-block-list"[^>]*>(.*?)<\/ol>/is', $afterHeading, $olMatch)) {
+            $olContent = $olMatch[1];
+            preg_match_all('/<li>\s*<strong>(.*?)<\/strong>\s*<ul[^>]*>\s*<li>(.*?)<\/li>\s*<\/ul>\s*<\/li>/is', $olContent, $liMatches, PREG_SET_ORDER);
+            foreach ($liMatches as $lm) {
+                $q = trim(strip_tags($lm[1]));
+                $a = trim($lm[2]);
+                if ($q && $a) {
+                    $faqs[] = ['question' => $q, 'answer' => $a];
+                }
+            }
+            if (!empty($faqs)) {
+                $before = substr($content, 0, $headingOffset);
+                $after = substr($afterHeading, strlen($olMatch[0]));
+                $content = $before . $after;
+                return $faqs;
+            }
+        }
+        
+        // B. Q.1: Question in <p>, Answer in <ul>:
+        // <p><strong>Q.1: Question</strong></p> <ul class="wp-block-list"><li><strong>A:</strong> Answer</li></ul>
+        if (preg_match('/^\s*<p><strong>Q\.\d+:/is', $afterHeading)) {
+            preg_match_all('/<p><strong>Q\.\d+:\s*(.*?)<\/strong><\/p>\s*<ul[^>]*>\s*<li>\s*<strong>A:<\/strong>\s*(.*?)<\/li>\s*<\/ul>/is', $afterHeading, $liMatches, PREG_SET_ORDER);
+            foreach ($liMatches as $lm) {
+                $q = trim(strip_tags($lm[1]));
+                $a = trim($lm[2]);
+                if ($q && $a) {
+                    $faqs[] = ['question' => $q, 'answer' => $a];
+                }
+            }
+            if (!empty($faqs)) {
+                $before = substr($content, 0, $headingOffset);
+                $matchedLength = 0;
+                preg_match('/^(?:\s*<p><strong>Q\.\d+:\s*.*?<\/strong><\/p>\s*<ul[^>]*>\s*<li>\s*<strong>A:<\/strong>\s*.*?<\/li>\s*<\/ul>)+/is', $afterHeading, $fullMatch);
+                if (isset($fullMatch[0])) {
+                    $matchedLength = strlen($fullMatch[0]);
+                }
+                $after = substr($afterHeading, $matchedLength);
+                $content = $before . $after;
+                return $faqs;
+            }
+        }
+        
+        // C. Paragraph-based FAQ: Q: ... A: ... in <p> tags
+        // <p>Q: Question<br>A: Answer</p>
+        if (preg_match('/^\s*<p>Q:\s*/is', $afterHeading)) {
+            preg_match_all('/<p>Q:\s*(.*?)(?:<br\s*\/?>)\s*A:\s*(.*?)<\/p>/is', $afterHeading, $pMatches, PREG_SET_ORDER);
+            foreach ($pMatches as $pm) {
+                $q = trim(strip_tags($pm[1]));
+                $a = trim($pm[2]);
+                if ($q && $a) {
+                    $faqs[] = ['question' => $q, 'answer' => $a];
+                }
+            }
+            if (!empty($faqs)) {
+                $before = substr($content, 0, $headingOffset);
+                $matchedLength = 0;
+                preg_match('/^(?:\s*<p>Q:\s*(.*?)(?:<br\s*\/?>)\s*A:\s*.*?<\/p>)+/is', $afterHeading, $fullMatch);
+                if (isset($fullMatch[0])) {
+                    $matchedLength = strlen($fullMatch[0]);
+                }
+                $after = substr($afterHeading, $matchedLength);
+                $content = $before . $after;
+                return $faqs;
+            }
+        }
+        
+        // D. Manual Header-based FAQ: h4 and p
+        // <h4 class="wp-block-heading">1. <strong>Question</strong></h4> <p>Answer</p>
+        if (preg_match('/^\s*<h4[^>]*>\d+\.\s*(?:<strong>)?/is', $afterHeading)) {
+            preg_match_all('/<h4[^>]*>\d+\.\s*(?:<strong>)?(.*?)(?:<\/strong>)?<\/h4>\s*<p>(.*?)<\/p>/is', $afterHeading, $hMatches, PREG_SET_ORDER);
+            foreach ($hMatches as $hm) {
+                $q = trim(strip_tags($hm[1]));
+                $a = trim($hm[2]);
+                if ($q && $a) {
+                    $faqs[] = ['question' => $q, 'answer' => $a];
+                }
+            }
+            if (!empty($faqs)) {
+                $before = substr($content, 0, $headingOffset);
+                $matchedLength = 0;
+                preg_match('/^(?:\s*<h4[^>]*>\d+\.\s*(?:<strong>)?(?:.*?)(?:<\/strong>)?<\/h4>\s*<p>.*?<\/p>)+/is', $afterHeading, $fullMatch);
+                if (isset($fullMatch[0])) {
+                    $matchedLength = strlen($fullMatch[0]);
+                }
+                $after = substr($afterHeading, $matchedLength);
+                $content = $before . $after;
+                return $faqs;
+            }
+        }
+    }
+    
+    return $faqs;
+}
+
 // Map base posts by normalized title and date
 $basePostsMap = [];
 foreach ($basePosts as $post) {
@@ -181,7 +311,16 @@ while (($row = fgetcsv($fNew)) !== false) {
     // 1. Strip Gutenberg HTML comments
     $content = preg_replace('/<!-- \/?wp:.*?-->\s*/', '', $content);
     
-    // 2. Demote headings to ensure single-H1 compliance
+    // 2. Clean heading style attributes & empty headings
+    $content = preg_replace('/<(h[1-6])\b[^>]*?\bstyle=(["\']).*?\2/i', '<$1', $content);
+    $content = preg_replace('/<(h[1-6])\b[^>]*?\balign=(["\']).*?\2/i', '<$1', $content);
+    $content = preg_replace('/<(h[1-6])[^>]*>\s*(?:&nbsp;|\s)*<\/\1>/i', '', $content);
+    
+    // Remove redundant full strong wrapping in headings (e.g. <h4><strong>Heading</strong></h4> -> <h4>Heading</h4>)
+    $content = preg_replace('/<(h[1-6])[^>]*>\s*<strong[^>]*>\s*(.*?)\s*<\/strong>\s*<\/\1>/is', '<$1>$2</$1>', $content);
+    $content = preg_replace('/<(h[1-6])[^>]*>\s*<b[^>]*>\s*(.*?)\s*<\/b>\s*<\/\1>/is', '<$1>$2</$1>', $content);
+    
+    // 3. Demote headings to ensure single-H1 compliance
     $content = preg_replace('/<h3([^>]*)>/i', '<h4$1>', $content);
     $content = preg_replace('/<\/h3>/i', '</h4>', $content);
     
@@ -191,10 +330,13 @@ while (($row = fgetcsv($fNew)) !== false) {
     $content = preg_replace('/<h1([^>]*)>/i', '<h2$1>', $content);
     $content = preg_replace('/<\/h1>/i', '</h2>', $content);
     
-    // 3. Strip empty paragraphs
+    // 4. Parse FAQs and remove raw FAQ HTML from content
+    $faqs = parseFAQsRefined($content, $title);
+    
+    // 5. Strip empty paragraphs
     $content = preg_replace('/<p>\s*(?:&nbsp;)?\s*<\/p>/i', '', $content);
     
-    // 4. Ensure no doubled double-quotes
+    // 6. Ensure no doubled double-quotes
     $content = str_replace('""', '"', $content);
     
     $updatedPosts[] = [
@@ -203,7 +345,8 @@ while (($row = fgetcsv($fNew)) !== false) {
         'content' => $content,
         'date' => $finalDate,
         'images' => $images,
-        'permalink' => $finalPermalink
+        'permalink' => $finalPermalink,
+        'faqs' => $faqs
     ];
 }
 fclose($fNew);

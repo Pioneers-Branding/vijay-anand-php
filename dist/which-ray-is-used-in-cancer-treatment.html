@@ -5,7 +5,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Which Ray is Used in Cancer Treatment? {A 2026 Guide} - Dr. Vijay Anand Reddy</title>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+        <!-- FAQ Schema Markup -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {"@type":"Question","name":"What is the most common ray used in cancer treatment?","acceptedAnswer":{"@type":"Answer","text":"The most common rays used are high-energy X-rays, especially in external beam radiation therapy."}},
+        {"@type":"Question","name":"Are the rays used in cancer treatment harmful?","acceptedAnswer":{"@type":"Answer","text":"These rays can affect both cancer and healthy cells, but treatment is carefully planned to minimize damage to normal tissues. Healthy cells usually recover faster than cancer cells."}},
+        {"@type":"Question","name":"Is treatment with these rays painful?","acceptedAnswer":{"@type":"Answer","text":"No, the process is painless. Patients do not feel the rays during treatment, although some side effects may occur later."}},
+        {"@type":"Question","name":"How long does treatment using these rays take?","acceptedAnswer":{"@type":"Answer","text":"Treatment duration varies depending on the type of cancer, but it usually involves multiple sessions over several weeks."}},
+        {"@type":"Question","name":"Can these rays completely cure cancer?","acceptedAnswer":{"@type":"Answer","text":"In many cases, especially when cancer is detected early, these rays can help cure cancer. In other cases, they help control the disease and relieve symptoms."}},
+        {"@type":"Question","name":"Can these rays be combined with other treatments?","acceptedAnswer":{"@type":"Answer","text":"Yes, they are often used along with surgery or chemotherapy to improve treatment outcomes."}}      ]
+    }
+    </script>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
     <script src="https://unpkg.com/feather-icons"></script>
@@ -33,9 +47,17 @@
         .blog-content ul li { list-style-type: disc; }
         .blog-content ol li { list-style-type: decimal; }
         .blog-content strong { color: #1E293B; font-weight: 700; }
-        .blog-content h1, .blog-content h2, .blog-content h3 { color: #1E293B; margin: 2rem 0 1rem; font-weight: 700; line-height: 1.3; }
+        .blog-content h1, .blog-content h2, .blog-content h3, .blog-content h4, .blog-content h5, .blog-content h6 {
+            color: #1E293B;
+            margin: 2.25rem 0 1.25rem;
+            font-weight: 700;
+            line-height: 1.4;
+        }
         .blog-content h2 { font-size: 1.75rem; }
-        .blog-content h3 { font-size: 1.375rem; }
+        .blog-content h3 { font-size: 1.45rem; }
+        .blog-content h4 { font-size: 1.25rem; }
+        .blog-content h5 { font-size: 1.1rem; }
+        .blog-content h6 { font-size: 1rem; }
         .blog-content blockquote { border-left: 4px solid #9B528F; padding: 1rem 1.5rem; font-style: italic; color: #64748b; margin: 2rem 0; background: #f8fafc; border-radius: 0 0.5rem 0.5rem 0; }
         .blog-content img { max-width: 100%; height: auto; border-radius: 0.75rem; margin: 2rem 0; box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1); }
         .blog-content em { color: #64748b; }
@@ -43,6 +65,75 @@
         .blog-content table { width: 100%; border-collapse: collapse; margin: 1.5rem 0; }
         .blog-content th, .blog-content td { border: 1px solid #e2e8f0; padding: 0.75rem; text-align: left; }
         .blog-content th { background: #f8fafc; font-weight: 600; }
+
+        /* FAQ Accordion Styling */
+        .faq-section {
+            margin-top: 3rem;
+            border-top: 1px solid #F1F5F9;
+            padding-top: 2.5rem;
+        }
+        .faq-section-title {
+            font-size: 1.75rem;
+            font-weight: 700;
+            color: #1E293B;
+            margin-bottom: 1.5rem !important;
+        }
+        .faq-accordion {
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+        }
+        .faq-item {
+            border: 1px solid #E2E8F0;
+            border-radius: 0.75rem;
+            background: #FFFFFF;
+            overflow: hidden;
+            transition: all 0.3s ease;
+        }
+        .faq-item[open] {
+            border-color: #9B528F;
+            box-shadow: 0 4px 12px rgba(155, 82, 143, 0.05);
+        }
+        .faq-summary {
+            padding: 1.25rem 1.5rem;
+            font-weight: 600;
+            color: #1E293B;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            list-style: none;
+            user-select: none;
+            transition: background-color 0.2s ease;
+        }
+        .faq-summary::-webkit-details-marker {
+            display: none;
+        }
+        .faq-summary:hover {
+            background-color: #F8FAFC;
+            color: #9B528F;
+        }
+        .faq-chevron {
+            color: #64748B;
+            transition: transform 0.3s ease, color 0.3s ease;
+            flex-shrink: 0;
+            margin-left: 1rem;
+        }
+        .faq-item[open] .faq-chevron {
+            transform: rotate(180deg);
+            color: #9B528F;
+        }
+        .faq-answer {
+            padding: 1.25rem 1.5rem;
+            color: #475569;
+            line-height: 1.8;
+            font-size: 1rem;
+            border-top: 1px solid #F1F5F9;
+            background-color: #FAF9FB;
+        }
+        .faq-answer p {
+            margin-bottom: 0 !important;
+        }
     </style>
 </head>
 <body class="bg-gray-50">
@@ -1201,8 +1292,63 @@
 
                         <!-- Article Content -->
                         <div class="blog-content text-gray-700 text-lg">
-                            <p>Cancer is one of the most serious health conditions worldwide, and understanding its treatment options is important for patients and their families. Many people often ask <em>which ray is used in cancer treatment</em>, <em>rays used in cancer treatment</em>, or <em>what kind of rays are used in cancer treatment</em>. In simple terms, doctors use high-energy rays to target and destroy cancer cells inside the body. These rays are powerful enough to damage the internal structure of cancer cells, stopping them from growing and spreading. </p> <p>Different types of high-energy rays are used depending on the type, size, and location of the cancer. These include X-rays, gamma rays, proton beams, and electron beams, each with specific advantages in treatment. Consulting a <strong><a href="https://drvijayanandreddy.com/expertise/">Cancer Doctor in Hyderabad</a></strong> can help individuals better understand their condition and choose the most suitable approach for effective cancer care.</p> <h3 class="wp-block-heading">Types of Rays Used in Cancer Treatment</h3> <h4 class="wp-block-heading">1. X-Rays</h4> <p><a href="https://en.wikipedia.org/wiki/X-ray">X-rays</a> are the most commonly used rays in cancer treatment and are widely used because of their ability to penetrate deep into the body. They are generated by advanced machines and are carefully directed toward the tumor. These rays damage the DNA of cancer cells, which stops them from growing and dividing. Due to their effectiveness and flexibility, X-rays are used in treating many types of cancers, such as breast, lung, prostate, and brain cancers.</p> <ul class="wp-block-list"><li>Most commonly used radiation in cancer treatment</li> <li>Can reach deep-seated tumors</li> <li>Delivered using machines like linear accelerators</li> <li>Suitable for a wide range of cancers</li> <li>Provides precise targeting with modern technology</li> </ul> <h4 class="wp-block-heading">2. Gamma Rays</h4> <p>Gamma rays are highly powerful rays produced by radioactive substances. They are similar to X-rays but even more energetic, making them useful for highly targeted treatments. Gamma rays are often used in specialized procedures, especially for treating brain tumors, where precision is extremely important. These rays can focus on very small areas, reducing damage to surrounding healthy tissues.</p> <ul class="wp-block-list"><li>Extremely high-energy rays</li> <li>Used in precise treatments like Gamma Knife procedures</li> <li>Ideal for brain and small tumor areas</li> <li>Can target tumors with high accuracy</li> <li>Minimizes exposure to nearby healthy tissue</li> </ul> <h4 class="wp-block-heading">3. Proton Beams</h4> <p>Proton beams are an advanced form of radiation used in cancer treatment. Unlike X-rays and gamma rays, protons are charged particles that release their energy directly at the tumor site. This allows doctors to target cancer cells more precisely while reducing damage to surrounding tissues. Proton therapy is especially beneficial for tumors located near sensitive organs and is commonly used in children.</p> <ul class="wp-block-list"><li>Advanced and highly precise treatment option</li> <li>Delivers radiation directly to the tumor</li> <li>Reduces damage to nearby healthy tissues</li> <li>Ideal for pediatric cancers and sensitive areas</li> <li>Helps lower long-term side effects</li> </ul> <h4 class="wp-block-heading">4. Electron Beams</h4> <p>Electron beams are used for cancers that are located near the surface of the body. These rays do not travel deep into the body, making them ideal for treating skin cancers and superficial tumors. Because of their limited penetration, electron beams protect deeper organs from unnecessary radiation exposure while effectively treating the affected area.</p> <ul class="wp-block-list"><li>Suitable for surface-level cancers</li> <li>Limited depth of penetration</li> <li>Commonly used for skin cancer treatment</li> <li>Protects internal organs from radiation</li> <li>Effective for localized and shallow tumors</li> </ul> <h3 class="wp-block-heading">How Do These Rays Work?</h3> <p>The rays used in cancer treatment work by damaging the DNA of cancer cells. DNA is the control center of a cell. When it gets damaged:</p> <ul class="wp-block-list"><li>Cancer cells stop dividing</li> <li>They shrink over time</li> <li>Eventually, they die</li> </ul> <p>Normal cells can also be affected, but they usually recover faster than cancer cells.</p> <h3 class="wp-block-heading">Methods of Delivering Radiation</h3> <h4 class="wp-block-heading">1. External Beam Radiation Therapy (EBRT)</h4> <p>External Beam Radiation Therapy is the most commonly used method for delivering radiation in cancer treatment. The treatment is carefully planned using imaging techniques so that the radiation targets only the cancerous area while minimizing damage to surrounding healthy tissues. </p> <ul class="wp-block-list"><li>Most widely used method of radiation delivery</li> <li>Radiation is delivered from outside the body</li> <li>Uses advanced machines like linear accelerators</li> <li>Suitable for many types of cancers</li> <li>Non-invasive and painless procedure</li> <li>Typically given in multiple sessions over weeks</li> </ul> <h4 class="wp-block-heading">2. Internal Radiation Therapy (Brachytherapy)</h4> <p>Internal Radiation Therapy, also known as brachytherapy, involves placing a radioactive source directly inside or very close to the tumor. This method is commonly used for cancers such as cervical, prostate, and breast cancer and is known for its targeted approach and effectiveness.</p> <ul class="wp-block-list"><li>The radiation source is placed inside the body</li> <li>Delivers high doses directly to the tumor</li> <li>Reduces exposure to surrounding healthy tissues</li> <li>Can be temporary or permanent</li> <li>Commonly used for cervical, prostate, and breast cancers</li> <li>Highly targeted and effective method</li> </ul> <h4 class="wp-block-heading">3. Systemic Radiation Therapy</h4> <p>Systemic Radiation Therapy involves the use of radioactive substances that travel through the bloodstream to reach cancer cells throughout the body. It is particularly useful for cancers like thyroid cancer, where the disease may spread to different parts of the body.</p> <ul class="wp-block-list"><li>Radiation is delivered through the bloodstream</li> <li>Given orally or via injection</li> <li>Targets cancer cells throughout the body</li> <li>Useful for cancers that have spread</li> <li>Commonly used in thyroid cancer treatment</li> <li>Allows treatment of multiple areas at once</li> </ul> <h3 class="wp-block-heading">Why Are These Rays Effective?</h3> <p>The <strong>rays used in cancer treatment</strong> are effective because they directly target the most important part of a cancer cell—its DNA. Cancer cells grow and divide uncontrollably, and their survival depends on the ability of their DNA to keep functioning properly. When high-energy rays such as X-rays, gamma rays, proton beams, or electron beams are directed at a tumor, they damage this DNA. As a result, cancer cells lose their ability to multiply and gradually die. Over time, the tumor shrinks, and in many cases, it can be eliminated.</p> <ul class="wp-block-list"><li>Targets and damages the DNA of cancer cells</li> <li>Stops cancer cells from growing and dividing</li> <li>Causes tumors to shrink over time</li> <li>Cancer cells are more sensitive to radiation than normal cells</li> <li>Healthy cells can repair themselves more effectively</li> <li>Can be precisely directed to the tumor area</li> </ul> <h3 class="wp-block-heading">Conclusion</h3> <p>Understanding <em>which ray is used in cancer treatment</em> helps patients feel more informed and confident about their care. The <strong>rays used in cancer treatment</strong>—including X-rays, gamma rays, proton beams, and electron beams—are powerful tools that work by damaging cancer cells and stopping their growth. Each type of ray has its own role, and doctors carefully select the most suitable one based on the type, size, and location of the tumor. With advancements in technology, these treatments have become more precise, safer, and highly effective.</p> <p>It is also important to remember that every patient’s condition is different, and treatment plans are personalized accordingly. Specialists like <strong><a href="https://drvijayanandreddy.com/">Dr. Vijay Anand Reddy</a></strong> play a key role in designing the right approach for each individual.</p> <h3 class="wp-block-heading">Frequently Asked Questions</h3> <div class="wp-block-rank-math-faq-block"><div class="rank-math-faq-item"><h4 class="rank-math-question">What is the most common ray used in cancer treatment?</h4><div class="rank-math-answer">The most common rays used are <strong>high-energy X-rays</strong>, especially in external beam radiation therapy.</div></div><div class="rank-math-faq-item"><h4 class="rank-math-question">Are the rays used in cancer treatment harmful?</h4><div class="rank-math-answer">These rays can affect both cancer and healthy cells, but treatment is carefully planned to minimize damage to normal tissues. Healthy cells usually recover faster than cancer cells.</div></div><div class="rank-math-faq-item"><h4 class="rank-math-question">Is treatment with these rays painful?</h4><div class="rank-math-answer">No, the process is painless. Patients do not feel the rays during treatment, although some side effects may occur later.</div></div><div class="rank-math-faq-item"><h4 class="rank-math-question">How long does treatment using these rays take?</h4><div class="rank-math-answer">Treatment duration varies depending on the type of cancer, but it usually involves multiple sessions over several weeks.</div></div><div class="rank-math-faq-item"><h4 class="rank-math-question">Can these rays completely cure cancer?</h4><div class="rank-math-answer">In many cases, especially when cancer is detected early, these rays can help cure cancer. In other cases, they help control the disease and relieve symptoms.</div></div><div class="rank-math-faq-item"><h4 class="rank-math-question">Can these rays be combined with other treatments?</h4><div class="rank-math-answer">Yes, they are often used along with surgery or chemotherapy to improve treatment outcomes.</div></div></div>                         </div>
+                            <p>Cancer is one of the most serious health conditions worldwide, and understanding its treatment options is important for patients and their families. Many people often ask <em>which ray is used in cancer treatment</em>, <em>rays used in cancer treatment</em>, or <em>what kind of rays are used in cancer treatment</em>. In simple terms, doctors use high-energy rays to target and destroy cancer cells inside the body. These rays are powerful enough to damage the internal structure of cancer cells, stopping them from growing and spreading. </p> <p>Different types of high-energy rays are used depending on the type, size, and location of the cancer. These include X-rays, gamma rays, proton beams, and electron beams, each with specific advantages in treatment. Consulting a <strong><a href="https://drvijayanandreddy.com/expertise/">Cancer Doctor in Hyderabad</a></strong> can help individuals better understand their condition and choose the most suitable approach for effective cancer care.</p> <h3 class="wp-block-heading">Types of Rays Used in Cancer Treatment</h3> <h4 class="wp-block-heading">1. X-Rays</h4> <p><a href="https://en.wikipedia.org/wiki/X-ray">X-rays</a> are the most commonly used rays in cancer treatment and are widely used because of their ability to penetrate deep into the body. They are generated by advanced machines and are carefully directed toward the tumor. These rays damage the DNA of cancer cells, which stops them from growing and dividing. Due to their effectiveness and flexibility, X-rays are used in treating many types of cancers, such as breast, lung, prostate, and brain cancers.</p> <ul class="wp-block-list"><li>Most commonly used radiation in cancer treatment</li> <li>Can reach deep-seated tumors</li> <li>Delivered using machines like linear accelerators</li> <li>Suitable for a wide range of cancers</li> <li>Provides precise targeting with modern technology</li> </ul> <h4 class="wp-block-heading">2. Gamma Rays</h4> <p>Gamma rays are highly powerful rays produced by radioactive substances. They are similar to X-rays but even more energetic, making them useful for highly targeted treatments. Gamma rays are often used in specialized procedures, especially for treating brain tumors, where precision is extremely important. These rays can focus on very small areas, reducing damage to surrounding healthy tissues.</p> <ul class="wp-block-list"><li>Extremely high-energy rays</li> <li>Used in precise treatments like Gamma Knife procedures</li> <li>Ideal for brain and small tumor areas</li> <li>Can target tumors with high accuracy</li> <li>Minimizes exposure to nearby healthy tissue</li> </ul> <h4 class="wp-block-heading">3. Proton Beams</h4> <p>Proton beams are an advanced form of radiation used in cancer treatment. Unlike X-rays and gamma rays, protons are charged particles that release their energy directly at the tumor site. This allows doctors to target cancer cells more precisely while reducing damage to surrounding tissues. Proton therapy is especially beneficial for tumors located near sensitive organs and is commonly used in children.</p> <ul class="wp-block-list"><li>Advanced and highly precise treatment option</li> <li>Delivers radiation directly to the tumor</li> <li>Reduces damage to nearby healthy tissues</li> <li>Ideal for pediatric cancers and sensitive areas</li> <li>Helps lower long-term side effects</li> </ul> <h4 class="wp-block-heading">4. Electron Beams</h4> <p>Electron beams are used for cancers that are located near the surface of the body. These rays do not travel deep into the body, making them ideal for treating skin cancers and superficial tumors. Because of their limited penetration, electron beams protect deeper organs from unnecessary radiation exposure while effectively treating the affected area.</p> <ul class="wp-block-list"><li>Suitable for surface-level cancers</li> <li>Limited depth of penetration</li> <li>Commonly used for skin cancer treatment</li> <li>Protects internal organs from radiation</li> <li>Effective for localized and shallow tumors</li> </ul> <h3 class="wp-block-heading">How Do These Rays Work?</h3> <p>The rays used in cancer treatment work by damaging the DNA of cancer cells. DNA is the control center of a cell. When it gets damaged:</p> <ul class="wp-block-list"><li>Cancer cells stop dividing</li> <li>They shrink over time</li> <li>Eventually, they die</li> </ul> <p>Normal cells can also be affected, but they usually recover faster than cancer cells.</p> <h3 class="wp-block-heading">Methods of Delivering Radiation</h3> <h4 class="wp-block-heading">1. External Beam Radiation Therapy (EBRT)</h4> <p>External Beam Radiation Therapy is the most commonly used method for delivering radiation in cancer treatment. The treatment is carefully planned using imaging techniques so that the radiation targets only the cancerous area while minimizing damage to surrounding healthy tissues. </p> <ul class="wp-block-list"><li>Most widely used method of radiation delivery</li> <li>Radiation is delivered from outside the body</li> <li>Uses advanced machines like linear accelerators</li> <li>Suitable for many types of cancers</li> <li>Non-invasive and painless procedure</li> <li>Typically given in multiple sessions over weeks</li> </ul> <h4 class="wp-block-heading">2. Internal Radiation Therapy (Brachytherapy)</h4> <p>Internal Radiation Therapy, also known as brachytherapy, involves placing a radioactive source directly inside or very close to the tumor. This method is commonly used for cancers such as cervical, prostate, and breast cancer and is known for its targeted approach and effectiveness.</p> <ul class="wp-block-list"><li>The radiation source is placed inside the body</li> <li>Delivers high doses directly to the tumor</li> <li>Reduces exposure to surrounding healthy tissues</li> <li>Can be temporary or permanent</li> <li>Commonly used for cervical, prostate, and breast cancers</li> <li>Highly targeted and effective method</li> </ul> <h4 class="wp-block-heading">3. Systemic Radiation Therapy</h4> <p>Systemic Radiation Therapy involves the use of radioactive substances that travel through the bloodstream to reach cancer cells throughout the body. It is particularly useful for cancers like thyroid cancer, where the disease may spread to different parts of the body.</p> <ul class="wp-block-list"><li>Radiation is delivered through the bloodstream</li> <li>Given orally or via injection</li> <li>Targets cancer cells throughout the body</li> <li>Useful for cancers that have spread</li> <li>Commonly used in thyroid cancer treatment</li> <li>Allows treatment of multiple areas at once</li> </ul> <h3 class="wp-block-heading">Why Are These Rays Effective?</h3> <p>The <strong>rays used in cancer treatment</strong> are effective because they directly target the most important part of a cancer cell—its DNA. Cancer cells grow and divide uncontrollably, and their survival depends on the ability of their DNA to keep functioning properly. When high-energy rays such as X-rays, gamma rays, proton beams, or electron beams are directed at a tumor, they damage this DNA. As a result, cancer cells lose their ability to multiply and gradually die. Over time, the tumor shrinks, and in many cases, it can be eliminated.</p> <ul class="wp-block-list"><li>Targets and damages the DNA of cancer cells</li> <li>Stops cancer cells from growing and dividing</li> <li>Causes tumors to shrink over time</li> <li>Cancer cells are more sensitive to radiation than normal cells</li> <li>Healthy cells can repair themselves more effectively</li> <li>Can be precisely directed to the tumor area</li> </ul> <h3 class="wp-block-heading">Conclusion</h3> <p>Understanding <em>which ray is used in cancer treatment</em> helps patients feel more informed and confident about their care. The <strong>rays used in cancer treatment</strong>—including X-rays, gamma rays, proton beams, and electron beams—are powerful tools that work by damaging cancer cells and stopping their growth. Each type of ray has its own role, and doctors carefully select the most suitable one based on the type, size, and location of the tumor. With advancements in technology, these treatments have become more precise, safer, and highly effective.</p> <p>It is also important to remember that every patient’s condition is different, and treatment plans are personalized accordingly. Specialists like <strong><a href="https://drvijayanandreddy.com/">Dr. Vijay Anand Reddy</a></strong> play a key role in designing the right approach for each individual.</p>                         </div>
 
+                                                <!-- FAQ Accordion Section -->
+                        <div class="faq-section">
+                            <h3 class="faq-section-title">Frequently Asked Questions</h3>
+                            <div class="faq-accordion">
+                                                                <details class="faq-item">
+                                    <summary class="faq-summary">
+                                        <span>What is the most common ray used in cancer treatment?</span>
+                                        <i data-feather="chevron-down" class="faq-chevron w-5 h-5"></i>
+                                    </summary>
+                                    <div class="faq-answer">
+                                        The most common rays used are <strong>high-energy X-rays</strong>, especially in external beam radiation therapy.                                    </div>
+                                </details>
+                                                                <details class="faq-item">
+                                    <summary class="faq-summary">
+                                        <span>Are the rays used in cancer treatment harmful?</span>
+                                        <i data-feather="chevron-down" class="faq-chevron w-5 h-5"></i>
+                                    </summary>
+                                    <div class="faq-answer">
+                                        These rays can affect both cancer and healthy cells, but treatment is carefully planned to minimize damage to normal tissues. Healthy cells usually recover faster than cancer cells.                                    </div>
+                                </details>
+                                                                <details class="faq-item">
+                                    <summary class="faq-summary">
+                                        <span>Is treatment with these rays painful?</span>
+                                        <i data-feather="chevron-down" class="faq-chevron w-5 h-5"></i>
+                                    </summary>
+                                    <div class="faq-answer">
+                                        No, the process is painless. Patients do not feel the rays during treatment, although some side effects may occur later.                                    </div>
+                                </details>
+                                                                <details class="faq-item">
+                                    <summary class="faq-summary">
+                                        <span>How long does treatment using these rays take?</span>
+                                        <i data-feather="chevron-down" class="faq-chevron w-5 h-5"></i>
+                                    </summary>
+                                    <div class="faq-answer">
+                                        Treatment duration varies depending on the type of cancer, but it usually involves multiple sessions over several weeks.                                    </div>
+                                </details>
+                                                                <details class="faq-item">
+                                    <summary class="faq-summary">
+                                        <span>Can these rays completely cure cancer?</span>
+                                        <i data-feather="chevron-down" class="faq-chevron w-5 h-5"></i>
+                                    </summary>
+                                    <div class="faq-answer">
+                                        In many cases, especially when cancer is detected early, these rays can help cure cancer. In other cases, they help control the disease and relieve symptoms.                                    </div>
+                                </details>
+                                                                <details class="faq-item">
+                                    <summary class="faq-summary">
+                                        <span>Can these rays be combined with other treatments?</span>
+                                        <i data-feather="chevron-down" class="faq-chevron w-5 h-5"></i>
+                                    </summary>
+                                    <div class="faq-answer">
+                                        Yes, they are often used along with surgery or chemotherapy to improve treatment outcomes.                                    </div>
+                                </details>
+                                                            </div>
+                        </div>
+                        
                         <!-- Article Footer -->
                         <div class="mt-12 pt-8 border-t border-gray-100">
                             <!-- Tags -->

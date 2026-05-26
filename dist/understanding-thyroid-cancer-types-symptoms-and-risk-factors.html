@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Understanding Thyroid Cancer: Types, Symptoms, and Risk Factors - Dr. Vijay Anand Reddy</title>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
     <script src="https://unpkg.com/feather-icons"></script>
@@ -33,9 +33,17 @@
         .blog-content ul li { list-style-type: disc; }
         .blog-content ol li { list-style-type: decimal; }
         .blog-content strong { color: #1E293B; font-weight: 700; }
-        .blog-content h1, .blog-content h2, .blog-content h3 { color: #1E293B; margin: 2rem 0 1rem; font-weight: 700; line-height: 1.3; }
+        .blog-content h1, .blog-content h2, .blog-content h3, .blog-content h4, .blog-content h5, .blog-content h6 {
+            color: #1E293B;
+            margin: 2.25rem 0 1.25rem;
+            font-weight: 700;
+            line-height: 1.4;
+        }
         .blog-content h2 { font-size: 1.75rem; }
-        .blog-content h3 { font-size: 1.375rem; }
+        .blog-content h3 { font-size: 1.45rem; }
+        .blog-content h4 { font-size: 1.25rem; }
+        .blog-content h5 { font-size: 1.1rem; }
+        .blog-content h6 { font-size: 1rem; }
         .blog-content blockquote { border-left: 4px solid #9B528F; padding: 1rem 1.5rem; font-style: italic; color: #64748b; margin: 2rem 0; background: #f8fafc; border-radius: 0 0.5rem 0.5rem 0; }
         .blog-content img { max-width: 100%; height: auto; border-radius: 0.75rem; margin: 2rem 0; box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1); }
         .blog-content em { color: #64748b; }
@@ -43,6 +51,75 @@
         .blog-content table { width: 100%; border-collapse: collapse; margin: 1.5rem 0; }
         .blog-content th, .blog-content td { border: 1px solid #e2e8f0; padding: 0.75rem; text-align: left; }
         .blog-content th { background: #f8fafc; font-weight: 600; }
+
+        /* FAQ Accordion Styling */
+        .faq-section {
+            margin-top: 3rem;
+            border-top: 1px solid #F1F5F9;
+            padding-top: 2.5rem;
+        }
+        .faq-section-title {
+            font-size: 1.75rem;
+            font-weight: 700;
+            color: #1E293B;
+            margin-bottom: 1.5rem !important;
+        }
+        .faq-accordion {
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+        }
+        .faq-item {
+            border: 1px solid #E2E8F0;
+            border-radius: 0.75rem;
+            background: #FFFFFF;
+            overflow: hidden;
+            transition: all 0.3s ease;
+        }
+        .faq-item[open] {
+            border-color: #9B528F;
+            box-shadow: 0 4px 12px rgba(155, 82, 143, 0.05);
+        }
+        .faq-summary {
+            padding: 1.25rem 1.5rem;
+            font-weight: 600;
+            color: #1E293B;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            list-style: none;
+            user-select: none;
+            transition: background-color 0.2s ease;
+        }
+        .faq-summary::-webkit-details-marker {
+            display: none;
+        }
+        .faq-summary:hover {
+            background-color: #F8FAFC;
+            color: #9B528F;
+        }
+        .faq-chevron {
+            color: #64748B;
+            transition: transform 0.3s ease, color 0.3s ease;
+            flex-shrink: 0;
+            margin-left: 1rem;
+        }
+        .faq-item[open] .faq-chevron {
+            transform: rotate(180deg);
+            color: #9B528F;
+        }
+        .faq-answer {
+            padding: 1.25rem 1.5rem;
+            color: #475569;
+            line-height: 1.8;
+            font-size: 1rem;
+            border-top: 1px solid #F1F5F9;
+            background-color: #FAF9FB;
+        }
+        .faq-answer p {
+            margin-bottom: 0 !important;
+        }
     </style>
 </head>
 <body class="bg-gray-50">
@@ -1201,8 +1278,9 @@
 
                         <!-- Article Content -->
                         <div class="blog-content text-gray-700 text-lg">
-                            <p>Thyroid cancer, a relatively uncommon type of cancer, affects the thyroid gland, a small gland at the base of the neck. While it's considered one of the more treatable forms of cancer, understanding its types, symptoms, and risk factors is crucial for early detection and effective management. With advancements in medical science, the <a href="https://drvijayanandreddy.com/service/thyroid-cancer/"><strong>Best Thyroid Cancer Treatment in Hyderabad</strong></a> will be the best treatment option available.</p> <h4 class="wp-block-heading"><strong>Types of Thyroid Cancer:</strong></h4> <p><strong>Papillary Thyroid Cancer:</strong> The most common type, accounting for about 80% of all cases. It grows slowly but may spread to lymph nodes in the neck.</p> <p><strong>Follicular Thyroid Cancer:</strong> This type includes Hürthle cell cancer and is more likely to spread to the lungs or bones.</p> <p><strong>Medullary Thyroid Cancer: </strong>This form accounts for a smaller percentage of cases and can be more challenging to treat.</p> <p><strong>Anaplastic Thyroid Cancer:</strong> Though rare, it is the most aggressive form of thyroid cancer and is difficult to treat.</p> <h4 class="wp-block-heading"><strong>Symptoms of Thyroid Cancer:</strong></h4> <p>Thyroid cancer typically does not cause any early symptoms. As it grows, it may cause:</p> <ul><li>A lump or swelling in the neck.</li> <li>Pain in the front of the neck, sometimes extending up to the ears.</li> <li>Hoarseness or voice changes that do not go away.</li> <li>Trouble swallowing or breathing.</li> <li>A constant cough not related to a cold.</li> </ul> <h4 class="wp-block-heading"><strong>Risk Factors:</strong></h4> <p>Certain factors may increase the risk of developing thyroid cancer:</p> <ul><li><strong>Gender and Age</strong>: Women are more likely to develop thyroid cancer, particularly between ages 30 and 60.</li> <li><strong>Genetic Factors:</strong> A family history of thyroid cancer or genetic syndromes increases the risk.</li> <li><strong>Radiation Exposure:</strong> Exposure to high levels of radiation, especially during childhood, is a significant risk factor.</li> <li><strong>Iodine Deficiency:</strong> In some cases, a diet low in iodine may increase the risk.</li> </ul> <h4 class="wp-block-heading"><strong>Detection and Diagnosis:</strong></h4> <p>Early detection of thyroid cancer often involves routine physical exams, imaging tests, and biopsy procedures. Physicians in Hyderabad, known for providing the best thyroid cancer treatment, emphasize the importance of regular check-ups for early diagnosis.</p> <h4 class="wp-block-heading"><strong>Treatment Options</strong>:</h4> <p>The treatment for thyroid cancer typically depends on the type and stage of the cancer. Options may include surgery, radioactive iodine treatment, hormone therapy, radiation therapy, chemotherapy, or targeted therapy. Hyderabad's medical centers, recognized for offering some of the best thyroid cancer treatment, provide a multidisciplinary approach, combining these treatments to improve outcomes.</p> <h4 class="wp-block-heading"><strong>Prevention and Awareness:</strong></h4> <p>While there is no sure way to prevent thyroid cancer, awareness of risk factors, maintaining a healthy lifestyle, and regular medical check-ups can play a crucial role in early detection and successful treatment.</p> <h4 class="wp-block-heading"><strong>Conclusion</strong></h4> <p>In conclusion, understanding thyroid cancer’s types, symptoms, and risk factors is key to its effective management. With advancements in treatment methods, getting treatment from the <a href="https://drvijayanandreddy.com/"><strong>Best Oncologist in Hyderabad</strong></a> is leading the way in providing comprehensive and advanced care, ensuring the best outcomes for patients.</p>                         </div>
+                            <p>Thyroid cancer, a relatively uncommon type of cancer, affects the thyroid gland, a small gland at the base of the neck. While it's considered one of the more treatable forms of cancer, understanding its types, symptoms, and risk factors is crucial for early detection and effective management. With advancements in medical science, the <a href="https://drvijayanandreddy.com/service/thyroid-cancer/"><strong>Best Thyroid Cancer Treatment in Hyderabad</strong></a> will be the best treatment option available.</p> <h4>Types of Thyroid Cancer:</h4> <p><strong>Papillary Thyroid Cancer:</strong> The most common type, accounting for about 80% of all cases. It grows slowly but may spread to lymph nodes in the neck.</p> <p><strong>Follicular Thyroid Cancer:</strong> This type includes Hürthle cell cancer and is more likely to spread to the lungs or bones.</p> <p><strong>Medullary Thyroid Cancer: </strong>This form accounts for a smaller percentage of cases and can be more challenging to treat.</p> <p><strong>Anaplastic Thyroid Cancer:</strong> Though rare, it is the most aggressive form of thyroid cancer and is difficult to treat.</p> <h4>Symptoms of Thyroid Cancer:</h4> <p>Thyroid cancer typically does not cause any early symptoms. As it grows, it may cause:</p> <ul><li>A lump or swelling in the neck.</li> <li>Pain in the front of the neck, sometimes extending up to the ears.</li> <li>Hoarseness or voice changes that do not go away.</li> <li>Trouble swallowing or breathing.</li> <li>A constant cough not related to a cold.</li> </ul> <h4>Risk Factors:</h4> <p>Certain factors may increase the risk of developing thyroid cancer:</p> <ul><li><strong>Gender and Age</strong>: Women are more likely to develop thyroid cancer, particularly between ages 30 and 60.</li> <li><strong>Genetic Factors:</strong> A family history of thyroid cancer or genetic syndromes increases the risk.</li> <li><strong>Radiation Exposure:</strong> Exposure to high levels of radiation, especially during childhood, is a significant risk factor.</li> <li><strong>Iodine Deficiency:</strong> In some cases, a diet low in iodine may increase the risk.</li> </ul> <h4>Detection and Diagnosis:</h4> <p>Early detection of thyroid cancer often involves routine physical exams, imaging tests, and biopsy procedures. Physicians in Hyderabad, known for providing the best thyroid cancer treatment, emphasize the importance of regular check-ups for early diagnosis.</p> <h4>Treatment Options</strong>:</h4> <p>The treatment for thyroid cancer typically depends on the type and stage of the cancer. Options may include surgery, radioactive iodine treatment, hormone therapy, radiation therapy, chemotherapy, or targeted therapy. Hyderabad's medical centers, recognized for offering some of the best thyroid cancer treatment, provide a multidisciplinary approach, combining these treatments to improve outcomes.</p> <h4 class="wp-block-heading"><strong>Prevention and Awareness:</h4> <p>While there is no sure way to prevent thyroid cancer, awareness of risk factors, maintaining a healthy lifestyle, and regular medical check-ups can play a crucial role in early detection and successful treatment.</p> <h4>Conclusion</h4> <p>In conclusion, understanding thyroid cancer’s types, symptoms, and risk factors is key to its effective management. With advancements in treatment methods, getting treatment from the <a href="https://drvijayanandreddy.com/"><strong>Best Oncologist in Hyderabad</strong></a> is leading the way in providing comprehensive and advanced care, ensuring the best outcomes for patients.</p>                         </div>
 
+                        
                         <!-- Article Footer -->
                         <div class="mt-12 pt-8 border-t border-gray-100">
                             <!-- Tags -->

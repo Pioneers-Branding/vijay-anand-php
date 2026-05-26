@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tobacco: A Major Public Health Threat - Dr. Vijay Anand Reddy</title>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
     <script src="https://unpkg.com/feather-icons"></script>
@@ -33,9 +33,17 @@
         .blog-content ul li { list-style-type: disc; }
         .blog-content ol li { list-style-type: decimal; }
         .blog-content strong { color: #1E293B; font-weight: 700; }
-        .blog-content h1, .blog-content h2, .blog-content h3 { color: #1E293B; margin: 2rem 0 1rem; font-weight: 700; line-height: 1.3; }
+        .blog-content h1, .blog-content h2, .blog-content h3, .blog-content h4, .blog-content h5, .blog-content h6 {
+            color: #1E293B;
+            margin: 2.25rem 0 1.25rem;
+            font-weight: 700;
+            line-height: 1.4;
+        }
         .blog-content h2 { font-size: 1.75rem; }
-        .blog-content h3 { font-size: 1.375rem; }
+        .blog-content h3 { font-size: 1.45rem; }
+        .blog-content h4 { font-size: 1.25rem; }
+        .blog-content h5 { font-size: 1.1rem; }
+        .blog-content h6 { font-size: 1rem; }
         .blog-content blockquote { border-left: 4px solid #9B528F; padding: 1rem 1.5rem; font-style: italic; color: #64748b; margin: 2rem 0; background: #f8fafc; border-radius: 0 0.5rem 0.5rem 0; }
         .blog-content img { max-width: 100%; height: auto; border-radius: 0.75rem; margin: 2rem 0; box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1); }
         .blog-content em { color: #64748b; }
@@ -43,6 +51,75 @@
         .blog-content table { width: 100%; border-collapse: collapse; margin: 1.5rem 0; }
         .blog-content th, .blog-content td { border: 1px solid #e2e8f0; padding: 0.75rem; text-align: left; }
         .blog-content th { background: #f8fafc; font-weight: 600; }
+
+        /* FAQ Accordion Styling */
+        .faq-section {
+            margin-top: 3rem;
+            border-top: 1px solid #F1F5F9;
+            padding-top: 2.5rem;
+        }
+        .faq-section-title {
+            font-size: 1.75rem;
+            font-weight: 700;
+            color: #1E293B;
+            margin-bottom: 1.5rem !important;
+        }
+        .faq-accordion {
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+        }
+        .faq-item {
+            border: 1px solid #E2E8F0;
+            border-radius: 0.75rem;
+            background: #FFFFFF;
+            overflow: hidden;
+            transition: all 0.3s ease;
+        }
+        .faq-item[open] {
+            border-color: #9B528F;
+            box-shadow: 0 4px 12px rgba(155, 82, 143, 0.05);
+        }
+        .faq-summary {
+            padding: 1.25rem 1.5rem;
+            font-weight: 600;
+            color: #1E293B;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            list-style: none;
+            user-select: none;
+            transition: background-color 0.2s ease;
+        }
+        .faq-summary::-webkit-details-marker {
+            display: none;
+        }
+        .faq-summary:hover {
+            background-color: #F8FAFC;
+            color: #9B528F;
+        }
+        .faq-chevron {
+            color: #64748B;
+            transition: transform 0.3s ease, color 0.3s ease;
+            flex-shrink: 0;
+            margin-left: 1rem;
+        }
+        .faq-item[open] .faq-chevron {
+            transform: rotate(180deg);
+            color: #9B528F;
+        }
+        .faq-answer {
+            padding: 1.25rem 1.5rem;
+            color: #475569;
+            line-height: 1.8;
+            font-size: 1rem;
+            border-top: 1px solid #F1F5F9;
+            background-color: #FAF9FB;
+        }
+        .faq-answer p {
+            margin-bottom: 0 !important;
+        }
     </style>
 </head>
 <body class="bg-gray-50">
@@ -1203,6 +1280,7 @@
                         <div class="blog-content text-gray-700 text-lg">
                             Tobacco: A Major Public Health Threat By Dr P Vijay Anand Reddy Hyderabad: Respiratory diseases are one of the main causes of death worldwide, tobacco being the major risk factor. Tobacco use or exposure to tobacco smoking has a negative impact on health across the life course. Globally, the tobacco epidemic is one of the biggest public health threats. Tobacco kills one person every four seconds! Eight million deaths are caused by tobacco every year, and one million deaths are due to second-hand smoke exposure. <blockquote><footer><cite>Dr Vijay Anand Reddy</cite> <a href="https://twitter.com/intent/tweet?text=Apollo+Cancer+Hospitals%2C+Hyderabad%2C+launched+a+campaign+%E2%80%98Smoke+%26+Win%E2%80%99%2C+on+the+eve+of+%E2%80%98World+No+Tobacco+Day%E2%80%99+%E2%80%93+31st+May%2C+to+wean+away+the+youth+from+the+destructive+habit+of+smoking.++%E2%80%94+Dr+Vijay+Anand+Reddy&amp;url=https%3A%2F%2Fdrvijayanandreddy.com%2Fwp-admin%2Fadmin-ajax.html" target="_blank" rel="noopener" data-abc="true"> Tweet </a></footer></blockquote> In India, tobacco use is one of the major causes of death &amp; disease, accounting for nearly 1.35 million deaths every year. India is also the second largest consumer and producer of tobacco. The vast number of fatalities resulting from respiratory diseases linked to tobacco is concerning. But, even more concerning is the immense suffering inflicted by these illnesses, which severely impact the quality of life for individuals of all ages, worldwide. Tobacco, in any form, poses a grave threat to lung health for everyone, not just smokers. The harmful effects of tobacco smoking and second-hand smoke are significant risk factors for diseases such as lung cancer, COPD, TB and asthma. It is distressing to think that even before children take their first steps, they may already be experiencing the consequences of being exposed to tobacco smoke. Babies born to mothers who smoke, or are around second-hand smoke during pregnancy are at risk of experiencing stunted lung growth and function. The impact of parental smoking on children’s lung function can lead to long-term respiratory issues in adulthood. It is crucial to consider the lasting effects of tobacco smoke on lung development, as inhaling toxins can hinder growth and cause irreversible harm. Tobacco control must become a worldwide focus: Despite a decrease in current tobacco smoking rates from 27 per cent to 20 per cent between 2000 and 2016, efforts to diminish tobacco consumption are not progressing at the desired pace set by global agreements of 30 per cent reduction by 2025. If the current trends persist, the world is projected to achieve only a 22 per cent reduction by the target year. The most concerning illnesses associated with smoking: Lung cancer: Tobacco smoking is the leading cause of lung cancer, resulting in approximately 1.2 million deaths annually, accounting for nearly 90 per cent of lung cancer cases. Smokers face up to 22 times higher chances of developing lung cancer compared to non-smokers. Those who are exposed to second-hand smoke have a 30 per cent increased risk of lung cancer. It’s interesting to note that after a decade of abstaining from tobacco, the likelihood of developing lung cancer is halved. It is important to acknowledge that no amount of exposure to tobacco smoke is without risks. The most effective strategy to enhance lung health on a global scale is to decrease tobacco consumption and limit exposure to tobacco smoke. Chronic Obstructive Pulmonary Disease (COPD): An obstructive lung disease that makes it hard to breathe. Heart disease: Smoking can cause narrowing and blockages in your arteries, which means less oxygen flow to your heart. Stroke: Smoking affects your arteries, and thus it can trigger a stroke. Asthma: A chronic lung disease that makes it harder to move air in and out of your lungs. Reproductive health: Smoking can cause a fertilised egg to implant somewhere other than the uterus (ectopic pregnancy). Premature, low birth-weight babies: The effects of smoking not only impact the parent’s health but also that of the infant. Diabetes: Smokers are 30 per cent to 40 per cent more likely to get type 2 diabetes than non-smokers. Eye diseases: Smoking can make one go blind; it damages the eyes, resulting in vision loss. It is always advisable to consider cessation of tobacco use in order to potentially reverse some of the damage caused by tobacco smoke to the lungs. Taking this step promptly is crucial to avoid the development of chronic lung disease, which may become irreversible. Improvement in lung function can be observed within a mere two weeks of quitting tobacco use. For individuals diagnosed with lung disease, quitting smoking is linked to enhanced treatment results and an overall better quality of life. Few tips to quit smoking: 1. Try nicotine replacement therapy. 2. Avoid triggers. 3. Physical activity can help distract you from tobacco cravings. 4. Try relaxation techniques such as deep breathing, yoga or listening to music. 5. Remind yourself of the benefits. Please be aware that making an effort to overcome the temptation to use tobacco is more advantageous than inaction. Furthermore, every instance of resisting a craving for tobacco brings you closer to achieving a tobacco-free lifestyle. The article is written by Dr P Vijay Anand Reddy, Director, Senior Consultant Oncologist, Prof, Head, Radiation Oncology, Apollo Cancer Centre, Hyderabad Disclaimer: The information provided is for educational purposes only and does not substitute medical advice from your physician. Roche makes no representation with respect to any treatment action or application of medication through this educational endeavour and therefore will not be liable for any direct or indirect damage arising there from. Please consult your treating physician for any further advice and treatment. Input Code: M-IN-00004535, Valid Upto: This input is not valid after 25/5/2025 Issued in Public Interest by: Roche Products (India) Pvt. Ltd. 146-B, 166 A, Unit No. 7, 8, 9, 8th Floor, R City Office, R City Mall, Lal Bahadur Shastri Marg, Ghatkopar, Mumbai - 400 086. Tel: +91(22)50457300, Fax: +91(22)50457301 Published On May 31, 2024 at 10:00 AM IST                        </div>
 
+                        
                         <!-- Article Footer -->
                         <div class="mt-12 pt-8 border-t border-gray-100">
                             <!-- Tags -->

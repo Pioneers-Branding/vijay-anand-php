@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Role of Genetics in Cancer Risk and Treatment - Dr. Vijay Anand Reddy</title>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
     <script src="https://unpkg.com/feather-icons"></script>
@@ -33,9 +33,17 @@
         .blog-content ul li { list-style-type: disc; }
         .blog-content ol li { list-style-type: decimal; }
         .blog-content strong { color: #1E293B; font-weight: 700; }
-        .blog-content h1, .blog-content h2, .blog-content h3 { color: #1E293B; margin: 2rem 0 1rem; font-weight: 700; line-height: 1.3; }
+        .blog-content h1, .blog-content h2, .blog-content h3, .blog-content h4, .blog-content h5, .blog-content h6 {
+            color: #1E293B;
+            margin: 2.25rem 0 1.25rem;
+            font-weight: 700;
+            line-height: 1.4;
+        }
         .blog-content h2 { font-size: 1.75rem; }
-        .blog-content h3 { font-size: 1.375rem; }
+        .blog-content h3 { font-size: 1.45rem; }
+        .blog-content h4 { font-size: 1.25rem; }
+        .blog-content h5 { font-size: 1.1rem; }
+        .blog-content h6 { font-size: 1rem; }
         .blog-content blockquote { border-left: 4px solid #9B528F; padding: 1rem 1.5rem; font-style: italic; color: #64748b; margin: 2rem 0; background: #f8fafc; border-radius: 0 0.5rem 0.5rem 0; }
         .blog-content img { max-width: 100%; height: auto; border-radius: 0.75rem; margin: 2rem 0; box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1); }
         .blog-content em { color: #64748b; }
@@ -43,6 +51,75 @@
         .blog-content table { width: 100%; border-collapse: collapse; margin: 1.5rem 0; }
         .blog-content th, .blog-content td { border: 1px solid #e2e8f0; padding: 0.75rem; text-align: left; }
         .blog-content th { background: #f8fafc; font-weight: 600; }
+
+        /* FAQ Accordion Styling */
+        .faq-section {
+            margin-top: 3rem;
+            border-top: 1px solid #F1F5F9;
+            padding-top: 2.5rem;
+        }
+        .faq-section-title {
+            font-size: 1.75rem;
+            font-weight: 700;
+            color: #1E293B;
+            margin-bottom: 1.5rem !important;
+        }
+        .faq-accordion {
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+        }
+        .faq-item {
+            border: 1px solid #E2E8F0;
+            border-radius: 0.75rem;
+            background: #FFFFFF;
+            overflow: hidden;
+            transition: all 0.3s ease;
+        }
+        .faq-item[open] {
+            border-color: #9B528F;
+            box-shadow: 0 4px 12px rgba(155, 82, 143, 0.05);
+        }
+        .faq-summary {
+            padding: 1.25rem 1.5rem;
+            font-weight: 600;
+            color: #1E293B;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            list-style: none;
+            user-select: none;
+            transition: background-color 0.2s ease;
+        }
+        .faq-summary::-webkit-details-marker {
+            display: none;
+        }
+        .faq-summary:hover {
+            background-color: #F8FAFC;
+            color: #9B528F;
+        }
+        .faq-chevron {
+            color: #64748B;
+            transition: transform 0.3s ease, color 0.3s ease;
+            flex-shrink: 0;
+            margin-left: 1rem;
+        }
+        .faq-item[open] .faq-chevron {
+            transform: rotate(180deg);
+            color: #9B528F;
+        }
+        .faq-answer {
+            padding: 1.25rem 1.5rem;
+            color: #475569;
+            line-height: 1.8;
+            font-size: 1rem;
+            border-top: 1px solid #F1F5F9;
+            background-color: #FAF9FB;
+        }
+        .faq-answer p {
+            margin-bottom: 0 !important;
+        }
     </style>
 </head>
 <body class="bg-gray-50">
@@ -1203,6 +1280,7 @@
                         <div class="blog-content text-gray-700 text-lg">
                             <p>Cancer, a complex and multifaceted disease, involves the uncontrolled growth of abnormal cells in the body. While environmental and lifestyle factors significantly contribute to cancer risk, genetics play a pivotal role in both the predisposition to cancer and the response to treatment. The <strong><a href="https://drvijayanandreddy.com/">Best Oncologist in Hyderabad</a></strong> is leveraging genetic insights to revolutionize cancer diagnosis, treatment, and prevention strategies, offering hope and personalized care to patients.</p> <h4 class="wp-block-heading">Understanding Genetic Influence on Cancer</h4> <p>At its core, cancer is a genetic disease caused by changes to genes that control the way our cells function, especially how they grow and divide. These genetic changes can be inherited from our parents or can arise during a person's lifetime as a result of errors that occur as cells divide or due to exposure to DNA-damaging substances.</p> <p><strong>Inherited Genetic Mutations:</strong> Certain inherited genetic mutations significantly increase the risk of developing specific types of cancer. BRCA1 and BRCA2 gene mutations, for example, are well-known for their association with breast and ovarian cancer risk. Similarly, mutations in genes such as APC, associated with familial adenomatous polyposis, increase the risk of colorectal cancer.</p> <p><strong>Somatic Mutations:</strong> These are genetic alterations acquired during a person's life and are present only in cancer cells. Somatic mutations can result from environmental exposures, such as tobacco smoke, and UV radiation, or can occur spontaneously during cell division.</p> <h4 class="wp-block-heading">Genetic Testing and Cancer Risk Assessment</h4> <p>Genetic testing has become an invaluable tool in oncology, allowing the <strong><a href="https://drvijayanandreddy.com/expertise/">Cancer Specialist in Hyderabad</a></strong> to assess an individual's risk of developing certain types of cancer. By analyzing a patient's DNA, healthcare professionals can identify specific inherited mutations that might increase cancer risk. This knowledge empowers individuals to make informed decisions about their health, including taking preventive measures or undergoing more frequent screening to catch cancer early when it is most treatable.</p> <h4 class="wp-block-heading">Personalized Treatment Based on Genetic Information</h4> <p>One of the most promising aspects of understanding cancer genetics is the development of personalized or precision medicine. This approach tailors treatment based on the genetic makeup of both the patient and the tumor, leading to more effective and less toxic therapies.</p> <p><strong>Targeted Therapy:</strong> Targeted therapies are drugs designed to target specific genetic changes in cancer cells that allow them to grow and proliferate. For example, the drug trastuzumab (Herceptin) targets breast cancer cells that overexpress the HER2 protein due to a genetic mutation.</p> <p><strong>Immunotherapy: </strong>Certain genetic changes in tumors can make them visible to the immune system. Immunotherapies can boost the body's natural defenses to recognize and destroy cancer cells more effectively.</p> <p><strong>Pharmacogenomics:</strong> This field studies how a person's genetics can affect their response to drugs, allowing oncologists to choose medications that are most likely to be effective and cause fewer side effects.</p> <h4 class="wp-block-heading">Challenges and Ethical Considerations</h4> <p>While genetic information holds immense potential in cancer care, it also presents challenges and ethical considerations. The best oncologists in Hyderabad navigate these complexities by ensuring patients are fully informed about the implications of genetic testing, including the potential for psychological distress, issues of privacy, and the risk of discrimination.</p> <p><strong>Informed Consent:</strong> Patients must provide informed consent before undergoing genetic testing, understanding the possible outcomes and their implications.</p> <p><strong>Genetic Counseling:</strong> Genetic counseling is an integral part of the testing process, helping patients and their families understand the risks, benefits, and limitations of genetic information.</p> <p><strong>Confidentiality and Discrimination: </strong>Protecting patients' genetic information is paramount to prevent potential discrimination by employers or insurance companies.</p> <h4 class="wp-block-heading">The Future of Genetics in Cancer Care</h4> <p>The field of cancer genetics is rapidly evolving, with ongoing research uncovering new genetic mutations and their implications for cancer risk and treatment. The future promises even more advanced genetic screening tools, novel targeted therapies, and a deeper understanding of cancer's genetic basis. As research progresses, the best oncologists in Hyderabad and around the world will continue to integrate genetic insights into clinical practice, offering more personalized and effective care for cancer patients.</p> <h4 class="wp-block-heading">Conclusion</h4> <p>The role of genetics in cancer risk and treatment is a cornerstone of modern oncology, offering insights that guide prevention, diagnosis, and personalized therapy. In Hyderabad, where access to some of the best oncologists and cutting-edge medical technologies is available, patients can benefit from genetic testing and tailored treatment plans that improve outcomes and quality of life. As the field of cancer genetics continues to advance, it holds the promise of transforming cancer care, making it more precise, effective, and hopeful for patients worldwide.</p>                         </div>
 
+                        
                         <!-- Article Footer -->
                         <div class="mt-12 pt-8 border-t border-gray-100">
                             <!-- Tags -->

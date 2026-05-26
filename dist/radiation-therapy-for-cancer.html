@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Radiation Therapy for Cancer: How Does It Work? - Dr. Vijay Anand Reddy</title>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
     <script src="https://unpkg.com/feather-icons"></script>
@@ -33,9 +33,17 @@
         .blog-content ul li { list-style-type: disc; }
         .blog-content ol li { list-style-type: decimal; }
         .blog-content strong { color: #1E293B; font-weight: 700; }
-        .blog-content h1, .blog-content h2, .blog-content h3 { color: #1E293B; margin: 2rem 0 1rem; font-weight: 700; line-height: 1.3; }
+        .blog-content h1, .blog-content h2, .blog-content h3, .blog-content h4, .blog-content h5, .blog-content h6 {
+            color: #1E293B;
+            margin: 2.25rem 0 1.25rem;
+            font-weight: 700;
+            line-height: 1.4;
+        }
         .blog-content h2 { font-size: 1.75rem; }
-        .blog-content h3 { font-size: 1.375rem; }
+        .blog-content h3 { font-size: 1.45rem; }
+        .blog-content h4 { font-size: 1.25rem; }
+        .blog-content h5 { font-size: 1.1rem; }
+        .blog-content h6 { font-size: 1rem; }
         .blog-content blockquote { border-left: 4px solid #9B528F; padding: 1rem 1.5rem; font-style: italic; color: #64748b; margin: 2rem 0; background: #f8fafc; border-radius: 0 0.5rem 0.5rem 0; }
         .blog-content img { max-width: 100%; height: auto; border-radius: 0.75rem; margin: 2rem 0; box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1); }
         .blog-content em { color: #64748b; }
@@ -43,6 +51,75 @@
         .blog-content table { width: 100%; border-collapse: collapse; margin: 1.5rem 0; }
         .blog-content th, .blog-content td { border: 1px solid #e2e8f0; padding: 0.75rem; text-align: left; }
         .blog-content th { background: #f8fafc; font-weight: 600; }
+
+        /* FAQ Accordion Styling */
+        .faq-section {
+            margin-top: 3rem;
+            border-top: 1px solid #F1F5F9;
+            padding-top: 2.5rem;
+        }
+        .faq-section-title {
+            font-size: 1.75rem;
+            font-weight: 700;
+            color: #1E293B;
+            margin-bottom: 1.5rem !important;
+        }
+        .faq-accordion {
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+        }
+        .faq-item {
+            border: 1px solid #E2E8F0;
+            border-radius: 0.75rem;
+            background: #FFFFFF;
+            overflow: hidden;
+            transition: all 0.3s ease;
+        }
+        .faq-item[open] {
+            border-color: #9B528F;
+            box-shadow: 0 4px 12px rgba(155, 82, 143, 0.05);
+        }
+        .faq-summary {
+            padding: 1.25rem 1.5rem;
+            font-weight: 600;
+            color: #1E293B;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            list-style: none;
+            user-select: none;
+            transition: background-color 0.2s ease;
+        }
+        .faq-summary::-webkit-details-marker {
+            display: none;
+        }
+        .faq-summary:hover {
+            background-color: #F8FAFC;
+            color: #9B528F;
+        }
+        .faq-chevron {
+            color: #64748B;
+            transition: transform 0.3s ease, color 0.3s ease;
+            flex-shrink: 0;
+            margin-left: 1rem;
+        }
+        .faq-item[open] .faq-chevron {
+            transform: rotate(180deg);
+            color: #9B528F;
+        }
+        .faq-answer {
+            padding: 1.25rem 1.5rem;
+            color: #475569;
+            line-height: 1.8;
+            font-size: 1rem;
+            border-top: 1px solid #F1F5F9;
+            background-color: #FAF9FB;
+        }
+        .faq-answer p {
+            margin-bottom: 0 !important;
+        }
     </style>
 </head>
 <body class="bg-gray-50">
@@ -1201,8 +1278,9 @@
 
                         <!-- Article Content -->
                         <div class="blog-content text-gray-700 text-lg">
-                            <p>Radiation therapy, also known as radiotherapy, is a medical treatment used primarily for cancer. It involves the use of high-energy radiation to destroy cancer cells, shrink tumors, and control the growth and spread of cancer. This therapy can be used as a standalone treatment or in conjunction with other treatments like chemotherapy and surgery.</p> <h3 class="wp-block-heading"><strong>How Radiation Therapy Works?</strong></h3> <p>Radiation therapy functions by damaging the DNA within cancer cells, leading to their eventual death. This damage is inflicted in two primary ways:</p> <p><strong>Direct Damage:</strong> Radiation directly targets the DNA molecule, causing breaks and damage that impede the cell's ability to grow and divide, leading to cell death.</p> <p><strong>Indirect Damage:</strong> Radiation interacts with water molecules inside the cell, forming free radicals. These radicals then cause widespread cellular damage, including to the DNA, resulting in cell death.</p> <p>Radiation oncologists play a critical role in the oncology team. They meticulously plan and oversee each course of radiation therapy, ensuring that it is delivered with pinpoint accuracy. Their extensive training enables them to determine the appropriate dosage, delivery method, and duration of treatment to achieve the best possible outcomes for their patients with the <a href="https://drvijayanandreddy.com/"><strong>Best Oncologist in Hyderabad</strong></a>.&nbsp;</p> <h3 class="wp-block-heading"><strong>Types of Radiation Therapy</strong></h3> <p>Radiation therapy is classified into two main types:</p> <h4 class="wp-block-heading"><strong>External Beam Radiation Therapy:</strong></h4> <ul><li>The most prevalent type is where a machine outside the body directs radiation beams at the tumor.</li> <li>Includes various sub-types:<ul><li><strong>Photon Beam Radiation:</strong> Uses high-energy X-rays or gamma rays.</li> <li><strong>Proton Beam Radiation:</strong> Employs charged protons, offering precise energy delivery to the tumor while sparing surrounding healthy tissue.</li> <li><strong>Electron Beam Radiation: </strong>Utilizes electrons and is best suited for treating superficial tumors.</li> </ul> </li> </ul> <h4 class="wp-block-heading"><strong>Internal Radiation Therapy:</strong></h4> <ul><li>Involves placing radioactive material inside the body near or in the tumor.</li> <li>Methods include:<ul><li><strong>Brachytherapy:</strong> Placement of radioactive material directly in or near the tumor.</li> <li><strong>Radioactive Seed Implants:</strong> Implanting tiny radioactive seeds into the tumor.</li> <li>S<strong>ystemic Radiotherapy:</strong> Injecting radioactive material into the bloodstream to target cancer cells throughout the body.</li> </ul> </li> </ul> <h3 class="wp-block-heading"><strong>Applications of Radiation Therapy</strong></h3> <p>Radiation therapy’s role varies based on cancer type and stage:</p> <ul><li><strong>Curative Treatment:</strong> Aims to eradicate cancer cells, often used alone or alongside surgery and chemotherapy.</li> <li><strong>Palliative Treatment:</strong> Focuses on symptom relief in advanced cancer stages, such as reducing pain or tumor size.</li> <li><strong>Neoadjuvant Therapy:</strong> Administered before surgery to shrink the tumor.</li> <li><strong>Adjuvant Therapy:</strong> Applied post-surgery to eliminate residual cancer cells and reduce recurrence risk.</li> </ul> <h3 class="wp-block-heading"><strong>Benefits of Radiation Therapy</strong></h3> <ul><li><strong>Versatile Treatment: </strong>Effective against a wide spectrum of cancers, including breast, lung, prostate, and brain cancers.</li> <li><strong>Non-invasive: </strong>External beam therapy doesn’t require surgical intervention.</li> <li><strong>Targeted Treatment:</strong> This can be focused on specific body parts, minimizing healthy tissue damage.</li> <li><strong>Combinable: </strong>Can be integrated with other cancer treatments to enhance outcomes.</li> </ul> <h3 class="wp-block-heading"><strong>Potential Side Effects of Radiation Therapy</strong></h3> <p>While beneficial, radiation therapy can have side effects, influenced by the radiation type, dose, treatment area, and individual factors:</p> <ul><li><strong>Fatigue:</strong> A common side effect.</li> <li><strong>Skin Changes:</strong> Redness, dryness, itching, or soreness in the treatment area.</li> <li><strong>Hair Loss:</strong> Occurs in the treated region.</li> <li><strong>Mouth Issues: </strong>Particularly in head and neck treatments, can cause sores, dryness, and swallowing difficulties.</li> <li><strong>Gastrointestinal Effects:</strong> Nausea, and vomiting, especially with abdominal radiation.</li> <li><strong>Other Effects: </strong>Depending on the treated area, may include bladder issues, sexual dysfunction, or fertility concerns.</li> </ul> <h3 class="wp-block-heading"><strong>Consulting with The Best Doctor</strong></h3> <p>Before proceeding with radiation therapy, discuss its benefits and risks with Dr. Vijay Anand Reddy for the Best <a href="https://drvijayanandreddy.com/service/stereotactic-radiosurgery/"><strong>Stereotactic Radiosurgery in Hyderabad</strong></a>. They will tailor a treatment plan based on your individual needs and goals, ensuring the most effective and safe approach.</p>                         </div>
+                            <p>Radiation therapy, also known as radiotherapy, is a medical treatment used primarily for cancer. It involves the use of high-energy radiation to destroy cancer cells, shrink tumors, and control the growth and spread of cancer. This therapy can be used as a standalone treatment or in conjunction with other treatments like chemotherapy and surgery.</p> <h3>How Radiation Therapy Works?</h3> <p>Radiation therapy functions by damaging the DNA within cancer cells, leading to their eventual death. This damage is inflicted in two primary ways:</p> <p><strong>Direct Damage:</strong> Radiation directly targets the DNA molecule, causing breaks and damage that impede the cell's ability to grow and divide, leading to cell death.</p> <p><strong>Indirect Damage:</strong> Radiation interacts with water molecules inside the cell, forming free radicals. These radicals then cause widespread cellular damage, including to the DNA, resulting in cell death.</p> <p>Radiation oncologists play a critical role in the oncology team. They meticulously plan and oversee each course of radiation therapy, ensuring that it is delivered with pinpoint accuracy. Their extensive training enables them to determine the appropriate dosage, delivery method, and duration of treatment to achieve the best possible outcomes for their patients with the <a href="https://drvijayanandreddy.com/"><strong>Best Oncologist in Hyderabad</strong></a>.&nbsp;</p> <h3>Types of Radiation Therapy</h3> <p>Radiation therapy is classified into two main types:</p> <h4>External Beam Radiation Therapy:</h4> <ul><li>The most prevalent type is where a machine outside the body directs radiation beams at the tumor.</li> <li>Includes various sub-types:<ul><li><strong>Photon Beam Radiation:</strong> Uses high-energy X-rays or gamma rays.</li> <li><strong>Proton Beam Radiation:</strong> Employs charged protons, offering precise energy delivery to the tumor while sparing surrounding healthy tissue.</li> <li><strong>Electron Beam Radiation: </strong>Utilizes electrons and is best suited for treating superficial tumors.</li> </ul> </li> </ul> <h4>Internal Radiation Therapy:</h4> <ul><li>Involves placing radioactive material inside the body near or in the tumor.</li> <li>Methods include:<ul><li><strong>Brachytherapy:</strong> Placement of radioactive material directly in or near the tumor.</li> <li><strong>Radioactive Seed Implants:</strong> Implanting tiny radioactive seeds into the tumor.</li> <li>S<strong>ystemic Radiotherapy:</strong> Injecting radioactive material into the bloodstream to target cancer cells throughout the body.</li> </ul> </li> </ul> <h3>Applications of Radiation Therapy</h3> <p>Radiation therapy’s role varies based on cancer type and stage:</p> <ul><li><strong>Curative Treatment:</strong> Aims to eradicate cancer cells, often used alone or alongside surgery and chemotherapy.</li> <li><strong>Palliative Treatment:</strong> Focuses on symptom relief in advanced cancer stages, such as reducing pain or tumor size.</li> <li><strong>Neoadjuvant Therapy:</strong> Administered before surgery to shrink the tumor.</li> <li><strong>Adjuvant Therapy:</strong> Applied post-surgery to eliminate residual cancer cells and reduce recurrence risk.</li> </ul> <h3>Benefits of Radiation Therapy</h3> <ul><li><strong>Versatile Treatment: </strong>Effective against a wide spectrum of cancers, including breast, lung, prostate, and brain cancers.</li> <li><strong>Non-invasive: </strong>External beam therapy doesn’t require surgical intervention.</li> <li><strong>Targeted Treatment:</strong> This can be focused on specific body parts, minimizing healthy tissue damage.</li> <li><strong>Combinable: </strong>Can be integrated with other cancer treatments to enhance outcomes.</li> </ul> <h3>Potential Side Effects of Radiation Therapy</h3> <p>While beneficial, radiation therapy can have side effects, influenced by the radiation type, dose, treatment area, and individual factors:</p> <ul><li><strong>Fatigue:</strong> A common side effect.</li> <li><strong>Skin Changes:</strong> Redness, dryness, itching, or soreness in the treatment area.</li> <li><strong>Hair Loss:</strong> Occurs in the treated region.</li> <li><strong>Mouth Issues: </strong>Particularly in head and neck treatments, can cause sores, dryness, and swallowing difficulties.</li> <li><strong>Gastrointestinal Effects:</strong> Nausea, and vomiting, especially with abdominal radiation.</li> <li><strong>Other Effects: </strong>Depending on the treated area, may include bladder issues, sexual dysfunction, or fertility concerns.</li> </ul> <h3>Consulting with The Best Doctor</h3> <p>Before proceeding with radiation therapy, discuss its benefits and risks with Dr. Vijay Anand Reddy for the Best <a href="https://drvijayanandreddy.com/service/stereotactic-radiosurgery/"><strong>Stereotactic Radiosurgery in Hyderabad</strong></a>. They will tailor a treatment plan based on your individual needs and goals, ensuring the most effective and safe approach.</p>                         </div>
 
+                        
                         <!-- Article Footer -->
                         <div class="mt-12 pt-8 border-t border-gray-100">
                             <!-- Tags -->

@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Radiation Therapy in the Treatment of Eye Cancer - Dr. Vijay Anand Reddy</title>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
     <script src="https://unpkg.com/feather-icons"></script>
@@ -33,9 +33,17 @@
         .blog-content ul li { list-style-type: disc; }
         .blog-content ol li { list-style-type: decimal; }
         .blog-content strong { color: #1E293B; font-weight: 700; }
-        .blog-content h1, .blog-content h2, .blog-content h3 { color: #1E293B; margin: 2rem 0 1rem; font-weight: 700; line-height: 1.3; }
+        .blog-content h1, .blog-content h2, .blog-content h3, .blog-content h4, .blog-content h5, .blog-content h6 {
+            color: #1E293B;
+            margin: 2.25rem 0 1.25rem;
+            font-weight: 700;
+            line-height: 1.4;
+        }
         .blog-content h2 { font-size: 1.75rem; }
-        .blog-content h3 { font-size: 1.375rem; }
+        .blog-content h3 { font-size: 1.45rem; }
+        .blog-content h4 { font-size: 1.25rem; }
+        .blog-content h5 { font-size: 1.1rem; }
+        .blog-content h6 { font-size: 1rem; }
         .blog-content blockquote { border-left: 4px solid #9B528F; padding: 1rem 1.5rem; font-style: italic; color: #64748b; margin: 2rem 0; background: #f8fafc; border-radius: 0 0.5rem 0.5rem 0; }
         .blog-content img { max-width: 100%; height: auto; border-radius: 0.75rem; margin: 2rem 0; box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1); }
         .blog-content em { color: #64748b; }
@@ -43,6 +51,75 @@
         .blog-content table { width: 100%; border-collapse: collapse; margin: 1.5rem 0; }
         .blog-content th, .blog-content td { border: 1px solid #e2e8f0; padding: 0.75rem; text-align: left; }
         .blog-content th { background: #f8fafc; font-weight: 600; }
+
+        /* FAQ Accordion Styling */
+        .faq-section {
+            margin-top: 3rem;
+            border-top: 1px solid #F1F5F9;
+            padding-top: 2.5rem;
+        }
+        .faq-section-title {
+            font-size: 1.75rem;
+            font-weight: 700;
+            color: #1E293B;
+            margin-bottom: 1.5rem !important;
+        }
+        .faq-accordion {
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+        }
+        .faq-item {
+            border: 1px solid #E2E8F0;
+            border-radius: 0.75rem;
+            background: #FFFFFF;
+            overflow: hidden;
+            transition: all 0.3s ease;
+        }
+        .faq-item[open] {
+            border-color: #9B528F;
+            box-shadow: 0 4px 12px rgba(155, 82, 143, 0.05);
+        }
+        .faq-summary {
+            padding: 1.25rem 1.5rem;
+            font-weight: 600;
+            color: #1E293B;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            list-style: none;
+            user-select: none;
+            transition: background-color 0.2s ease;
+        }
+        .faq-summary::-webkit-details-marker {
+            display: none;
+        }
+        .faq-summary:hover {
+            background-color: #F8FAFC;
+            color: #9B528F;
+        }
+        .faq-chevron {
+            color: #64748B;
+            transition: transform 0.3s ease, color 0.3s ease;
+            flex-shrink: 0;
+            margin-left: 1rem;
+        }
+        .faq-item[open] .faq-chevron {
+            transform: rotate(180deg);
+            color: #9B528F;
+        }
+        .faq-answer {
+            padding: 1.25rem 1.5rem;
+            color: #475569;
+            line-height: 1.8;
+            font-size: 1rem;
+            border-top: 1px solid #F1F5F9;
+            background-color: #FAF9FB;
+        }
+        .faq-answer p {
+            margin-bottom: 0 !important;
+        }
     </style>
 </head>
 <body class="bg-gray-50">
@@ -1201,8 +1278,9 @@
 
                         <!-- Article Content -->
                         <div class="blog-content text-gray-700 text-lg">
-                            <p>Eye cancer, though relatively rare, poses significant challenges in treatment. Radiation therapy has emerged as a pivotal modality in managing this condition, offering hope and improved outcomes for patients. In India, advancements in radiation therapy from the <strong><a href="https://drvijayanandreddy.com/">Best Oncologist in Hyderabad</a></strong> have greatly enhanced the precision and effectiveness of eye cancer treatment.</p> <h4 class="wp-block-heading"><strong>Understanding Radiation Therapy for Eye Cancer:</strong></h4> <p>Radiation therapy uses high-energy rays or particles to destroy cancer cells. For eye cancer, it's particularly valuable because it can target tumors within the eye without the need for invasive surgery, thereby preserving vision as much as possible.</p> <h4 class="wp-block-heading">Types of Radiation Therapy Used in Eye Cancer Treatment:</h4> <p><strong>External Beam Radiation Therapy (EBRT):</strong> This is the most common form of radiation therapy for eye cancer. It involves targeting the tumor with radiation beams from outside the body. Technological advancements have made EBRT more precise, reducing damage to surrounding healthy tissue.</p> <p><strong>Brachytherapy: </strong>Particularly effective for treating melanoma of the eye, brachytherapy involves placing a small radioactive disc, known as a plaque, directly on the eye, near the tumor. This localized form of radiation therapy is widely used in India and has shown excellent results in preserving vision.</p> <p><strong>Proton Beam Therapy:</strong> A newer form of radiation therapy, proton beam therapy, offers even greater precision by using protons to target the tumor. This approach is especially beneficial for treating larger eye tumors and is increasingly becoming available in specialized centers for <a href="https://drvijayanandreddy.com/service/eye-cancer-treatment-in-india/"><strong>Eye Cancer Treatment in India</strong></a>.</p> <h4 class="wp-block-heading"><strong>Advantages of Radiation Therapy in Eye Cancer Treatment:</strong></h4> <ul><li>Vision Preservation: One of the primary goals of radiation therapy in eye cancer treatment is to preserve as much vision as possible.</li> <li>Non-Invasive: Radiation therapy is less invasive than traditional surgery, making it a preferred option for many patients.</li> <li>Targeted Treatment: Advances in radiation technology allow for the treatment to be highly targeted, minimizing damage to surrounding healthy tissues.</li> </ul> <h4 class="wp-block-heading"><strong>The Role of Multidisciplinary Care:</strong></h4> <p>Eye Cancer treatment in India often involves a multidisciplinary team approach. This team includes oncologists, ophthalmologists, radiation therapists, and other specialists. They work together to determine the best course of radiation therapy, taking into account the type, size, and location of the tumor, as well as the patient's overall health and vision needs.</p> <h4 class="wp-block-heading"><strong>Challenges and Future Directions:</strong></h4> <p>While radiation therapy is a cornerstone in the treatment of eye cancer, it's not without its challenges. Side effects can include inflammation, dry eye, or, in rare cases, loss of vision. Ongoing research in India is focused on further refining radiation techniques to minimize these side effects and improve outcomes for patients.<br><br><strong>Conclusion</strong></p> <p>In conclusion, radiation therapy plays a critical role in the management of eye cancer, offering an effective, vision-sparing treatment option. With continuous advancements in radiation technology, eye cancer treatment in India is poised to provide even better outcomes for patients, emphasizing a balance between effective cancer control and preservation of vision.</p>                         </div>
+                            <p>Eye cancer, though relatively rare, poses significant challenges in treatment. Radiation therapy has emerged as a pivotal modality in managing this condition, offering hope and improved outcomes for patients. In India, advancements in radiation therapy from the <strong><a href="https://drvijayanandreddy.com/">Best Oncologist in Hyderabad</a></strong> have greatly enhanced the precision and effectiveness of eye cancer treatment.</p> <h4>Understanding Radiation Therapy for Eye Cancer:</h4> <p>Radiation therapy uses high-energy rays or particles to destroy cancer cells. For eye cancer, it's particularly valuable because it can target tumors within the eye without the need for invasive surgery, thereby preserving vision as much as possible.</p> <h4 class="wp-block-heading">Types of Radiation Therapy Used in Eye Cancer Treatment:</h4> <p><strong>External Beam Radiation Therapy (EBRT):</strong> This is the most common form of radiation therapy for eye cancer. It involves targeting the tumor with radiation beams from outside the body. Technological advancements have made EBRT more precise, reducing damage to surrounding healthy tissue.</p> <p><strong>Brachytherapy: </strong>Particularly effective for treating melanoma of the eye, brachytherapy involves placing a small radioactive disc, known as a plaque, directly on the eye, near the tumor. This localized form of radiation therapy is widely used in India and has shown excellent results in preserving vision.</p> <p><strong>Proton Beam Therapy:</strong> A newer form of radiation therapy, proton beam therapy, offers even greater precision by using protons to target the tumor. This approach is especially beneficial for treating larger eye tumors and is increasingly becoming available in specialized centers for <a href="https://drvijayanandreddy.com/service/eye-cancer-treatment-in-india/"><strong>Eye Cancer Treatment in India</strong></a>.</p> <h4>Advantages of Radiation Therapy in Eye Cancer Treatment:</h4> <ul><li>Vision Preservation: One of the primary goals of radiation therapy in eye cancer treatment is to preserve as much vision as possible.</li> <li>Non-Invasive: Radiation therapy is less invasive than traditional surgery, making it a preferred option for many patients.</li> <li>Targeted Treatment: Advances in radiation technology allow for the treatment to be highly targeted, minimizing damage to surrounding healthy tissues.</li> </ul> <h4>The Role of Multidisciplinary Care:</h4> <p>Eye Cancer treatment in India often involves a multidisciplinary team approach. This team includes oncologists, ophthalmologists, radiation therapists, and other specialists. They work together to determine the best course of radiation therapy, taking into account the type, size, and location of the tumor, as well as the patient's overall health and vision needs.</p> <h4>Challenges and Future Directions:</h4> <p>While radiation therapy is a cornerstone in the treatment of eye cancer, it's not without its challenges. Side effects can include inflammation, dry eye, or, in rare cases, loss of vision. Ongoing research in India is focused on further refining radiation techniques to minimize these side effects and improve outcomes for patients.<br><br><strong>Conclusion</strong></p> <p>In conclusion, radiation therapy plays a critical role in the management of eye cancer, offering an effective, vision-sparing treatment option. With continuous advancements in radiation technology, eye cancer treatment in India is poised to provide even better outcomes for patients, emphasizing a balance between effective cancer control and preservation of vision.</p>                         </div>
 
+                        
                         <!-- Article Footer -->
                         <div class="mt-12 pt-8 border-t border-gray-100">
                             <!-- Tags -->

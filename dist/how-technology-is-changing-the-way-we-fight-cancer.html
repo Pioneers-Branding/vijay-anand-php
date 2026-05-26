@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>How Technology Is Changing the Way We Fight Cancer - Dr. Vijay Anand Reddy</title>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
     <script src="https://unpkg.com/feather-icons"></script>
@@ -33,9 +33,17 @@
         .blog-content ul li { list-style-type: disc; }
         .blog-content ol li { list-style-type: decimal; }
         .blog-content strong { color: #1E293B; font-weight: 700; }
-        .blog-content h1, .blog-content h2, .blog-content h3 { color: #1E293B; margin: 2rem 0 1rem; font-weight: 700; line-height: 1.3; }
+        .blog-content h1, .blog-content h2, .blog-content h3, .blog-content h4, .blog-content h5, .blog-content h6 {
+            color: #1E293B;
+            margin: 2.25rem 0 1.25rem;
+            font-weight: 700;
+            line-height: 1.4;
+        }
         .blog-content h2 { font-size: 1.75rem; }
-        .blog-content h3 { font-size: 1.375rem; }
+        .blog-content h3 { font-size: 1.45rem; }
+        .blog-content h4 { font-size: 1.25rem; }
+        .blog-content h5 { font-size: 1.1rem; }
+        .blog-content h6 { font-size: 1rem; }
         .blog-content blockquote { border-left: 4px solid #9B528F; padding: 1rem 1.5rem; font-style: italic; color: #64748b; margin: 2rem 0; background: #f8fafc; border-radius: 0 0.5rem 0.5rem 0; }
         .blog-content img { max-width: 100%; height: auto; border-radius: 0.75rem; margin: 2rem 0; box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1); }
         .blog-content em { color: #64748b; }
@@ -43,6 +51,75 @@
         .blog-content table { width: 100%; border-collapse: collapse; margin: 1.5rem 0; }
         .blog-content th, .blog-content td { border: 1px solid #e2e8f0; padding: 0.75rem; text-align: left; }
         .blog-content th { background: #f8fafc; font-weight: 600; }
+
+        /* FAQ Accordion Styling */
+        .faq-section {
+            margin-top: 3rem;
+            border-top: 1px solid #F1F5F9;
+            padding-top: 2.5rem;
+        }
+        .faq-section-title {
+            font-size: 1.75rem;
+            font-weight: 700;
+            color: #1E293B;
+            margin-bottom: 1.5rem !important;
+        }
+        .faq-accordion {
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+        }
+        .faq-item {
+            border: 1px solid #E2E8F0;
+            border-radius: 0.75rem;
+            background: #FFFFFF;
+            overflow: hidden;
+            transition: all 0.3s ease;
+        }
+        .faq-item[open] {
+            border-color: #9B528F;
+            box-shadow: 0 4px 12px rgba(155, 82, 143, 0.05);
+        }
+        .faq-summary {
+            padding: 1.25rem 1.5rem;
+            font-weight: 600;
+            color: #1E293B;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            list-style: none;
+            user-select: none;
+            transition: background-color 0.2s ease;
+        }
+        .faq-summary::-webkit-details-marker {
+            display: none;
+        }
+        .faq-summary:hover {
+            background-color: #F8FAFC;
+            color: #9B528F;
+        }
+        .faq-chevron {
+            color: #64748B;
+            transition: transform 0.3s ease, color 0.3s ease;
+            flex-shrink: 0;
+            margin-left: 1rem;
+        }
+        .faq-item[open] .faq-chevron {
+            transform: rotate(180deg);
+            color: #9B528F;
+        }
+        .faq-answer {
+            padding: 1.25rem 1.5rem;
+            color: #475569;
+            line-height: 1.8;
+            font-size: 1rem;
+            border-top: 1px solid #F1F5F9;
+            background-color: #FAF9FB;
+        }
+        .faq-answer p {
+            margin-bottom: 0 !important;
+        }
     </style>
 </head>
 <body class="bg-gray-50">
@@ -1201,8 +1278,9 @@
 
                         <!-- Article Content -->
                         <div class="blog-content text-gray-700 text-lg">
-                            <p>The landscape of cancer care is undergoing a silent revolution, driven by technology. From early detection to advanced treatment and personalized care, modern oncology is undergoing a transformation that was unimaginable a decade ago. At <strong><a href="https://drvijayanandreddy.com/">Dr. Vijay Anand Reddy’s</a></strong> Oncology Centre, we believe that innovation saves lives—and we're proud to bring those advancements to every patient we serve.</p> <h3 class="wp-block-heading"><strong>Key Technological Advancements in Cancer Care:</strong></h3> <p><strong>1. AI &amp; Imaging Precision</strong></p> <p>Artificial Intelligence is improving cancer detection through advanced imaging. AI-driven scans can detect abnormalities more quickly and accurately, particularly in breast, lung, and brain cancers.</p> <p><strong>2. Molecular &amp; Genomic Testing</strong></p> <p>No two cancers are the same. Genomic profiling enables oncologists to examine a tumor’s genetic makeup, allowing for personalized treatments that target the cancer at its source.</p> <p><strong>3. Robotic Surgery &amp; Minimal Invasion</strong></p> <p>Precision tools like robotic-assisted surgeries enable doctors to remove tumors with minimal damage, reducing pain, scarring, and recovery time.</p> <p><strong>4. Tele-Oncology &amp; Virtual Tumor Boards</strong></p> <p>Patients can now consult experts remotely. Virtual tumor boards—like those led by Dr. Vijay Anand Reddy—allow specialists from different fields to collaborate in real-time for optimal treatment planning.</p> <p><strong>5. Smart Chemotherapy &amp; Immunotherapy</strong></p> <p>Advanced delivery systems and tailored immunotherapy now attack only the cancer cells, sparing healthy tissue and minimizing side effects.</p> <h3 class="wp-block-heading"><strong>A Better Experience for Patients</strong></h3> <p>Technology isn’t just about machines—it’s about giving patients more control, better care, and new hope. With faster diagnosis, targeted treatments, and less-invasive procedures, patients can return to normal life more quickly—and with more confidence.</p> <p>At Dr. Vijay Anand Reddy’s Oncology Centre, we combine compassion with the latest cancer-fighting technology to offer world-class care in Hyderabad.</p> <p>Because innovation isn’t just about curing cancer—it’s about changing how we live through it. Learn more: <a href="http://www.drvijayanandreddy.com"><strong>www.drvijayanandreddy.com</strong></a><br>Contact: 91-9676720002</p>                         </div>
+                            <p>The landscape of cancer care is undergoing a silent revolution, driven by technology. From early detection to advanced treatment and personalized care, modern oncology is undergoing a transformation that was unimaginable a decade ago. At <strong><a href="https://drvijayanandreddy.com/">Dr. Vijay Anand Reddy’s</a></strong> Oncology Centre, we believe that innovation saves lives—and we're proud to bring those advancements to every patient we serve.</p> <h3>Key Technological Advancements in Cancer Care:</h3> <p><strong>1. AI &amp; Imaging Precision</strong></p> <p>Artificial Intelligence is improving cancer detection through advanced imaging. AI-driven scans can detect abnormalities more quickly and accurately, particularly in breast, lung, and brain cancers.</p> <p><strong>2. Molecular &amp; Genomic Testing</strong></p> <p>No two cancers are the same. Genomic profiling enables oncologists to examine a tumor’s genetic makeup, allowing for personalized treatments that target the cancer at its source.</p> <p><strong>3. Robotic Surgery &amp; Minimal Invasion</strong></p> <p>Precision tools like robotic-assisted surgeries enable doctors to remove tumors with minimal damage, reducing pain, scarring, and recovery time.</p> <p><strong>4. Tele-Oncology &amp; Virtual Tumor Boards</strong></p> <p>Patients can now consult experts remotely. Virtual tumor boards—like those led by Dr. Vijay Anand Reddy—allow specialists from different fields to collaborate in real-time for optimal treatment planning.</p> <p><strong>5. Smart Chemotherapy &amp; Immunotherapy</strong></p> <p>Advanced delivery systems and tailored immunotherapy now attack only the cancer cells, sparing healthy tissue and minimizing side effects.</p> <h3>A Better Experience for Patients</h3> <p>Technology isn’t just about machines—it’s about giving patients more control, better care, and new hope. With faster diagnosis, targeted treatments, and less-invasive procedures, patients can return to normal life more quickly—and with more confidence.</p> <p>At Dr. Vijay Anand Reddy’s Oncology Centre, we combine compassion with the latest cancer-fighting technology to offer world-class care in Hyderabad.</p> <p>Because innovation isn’t just about curing cancer—it’s about changing how we live through it. Learn more: <a href="http://www.drvijayanandreddy.com"><strong>www.drvijayanandreddy.com</strong></a><br>Contact: 91-9676720002</p>                         </div>
 
+                        
                         <!-- Article Footer -->
                         <div class="mt-12 pt-8 border-t border-gray-100">
                             <!-- Tags -->

@@ -51,6 +51,31 @@ $related = array_slice(array_filter($posts, fn($p) => intval($p['id']) !== $post
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><?= htmlspecialchars($post['title']) ?> - Dr. Vijay Anand Reddy</title>
+    <?php if (!empty($post['faqs'])): ?>
+    <!-- FAQ Schema Markup -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        <?php 
+        $schemaItems = [];
+        foreach ($post['faqs'] as $faq) {
+            $schemaItems[] = json_encode([
+                "@type" => "Question",
+                "name" => $faq['question'],
+                "acceptedAnswer" => [
+                    "@type" => "Answer",
+                    "text" => strip_tags($faq['answer'])
+                ]
+            ], JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE);
+        }
+        echo implode(",\n        ", $schemaItems);
+        ?>
+      ]
+    }
+    </script>
+    <?php endif; ?>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
@@ -79,9 +104,17 @@ $related = array_slice(array_filter($posts, fn($p) => intval($p['id']) !== $post
         .blog-content ul li { list-style-type: disc; }
         .blog-content ol li { list-style-type: decimal; }
         .blog-content strong { color: #1E293B; font-weight: 700; }
-        .blog-content h1, .blog-content h2, .blog-content h3 { color: #1E293B; margin: 2rem 0 1rem; font-weight: 700; line-height: 1.3; }
+        .blog-content h1, .blog-content h2, .blog-content h3, .blog-content h4, .blog-content h5, .blog-content h6 {
+            color: #1E293B;
+            margin: 2.25rem 0 1.25rem;
+            font-weight: 700;
+            line-height: 1.4;
+        }
         .blog-content h2 { font-size: 1.75rem; }
-        .blog-content h3 { font-size: 1.375rem; }
+        .blog-content h3 { font-size: 1.45rem; }
+        .blog-content h4 { font-size: 1.25rem; }
+        .blog-content h5 { font-size: 1.1rem; }
+        .blog-content h6 { font-size: 1rem; }
         .blog-content blockquote { border-left: 4px solid #9B528F; padding: 1rem 1.5rem; font-style: italic; color: #64748b; margin: 2rem 0; background: #f8fafc; border-radius: 0 0.5rem 0.5rem 0; }
         .blog-content img { max-width: 100%; height: auto; border-radius: 0.75rem; margin: 2rem 0; box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1); }
         .blog-content em { color: #64748b; }
@@ -89,6 +122,75 @@ $related = array_slice(array_filter($posts, fn($p) => intval($p['id']) !== $post
         .blog-content table { width: 100%; border-collapse: collapse; margin: 1.5rem 0; }
         .blog-content th, .blog-content td { border: 1px solid #e2e8f0; padding: 0.75rem; text-align: left; }
         .blog-content th { background: #f8fafc; font-weight: 600; }
+
+        /* FAQ Accordion Styling */
+        .faq-section {
+            margin-top: 3rem;
+            border-top: 1px solid #F1F5F9;
+            padding-top: 2.5rem;
+        }
+        .faq-section-title {
+            font-size: 1.75rem;
+            font-weight: 700;
+            color: #1E293B;
+            margin-bottom: 1.5rem !important;
+        }
+        .faq-accordion {
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+        }
+        .faq-item {
+            border: 1px solid #E2E8F0;
+            border-radius: 0.75rem;
+            background: #FFFFFF;
+            overflow: hidden;
+            transition: all 0.3s ease;
+        }
+        .faq-item[open] {
+            border-color: #9B528F;
+            box-shadow: 0 4px 12px rgba(155, 82, 143, 0.05);
+        }
+        .faq-summary {
+            padding: 1.25rem 1.5rem;
+            font-weight: 600;
+            color: #1E293B;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            list-style: none;
+            user-select: none;
+            transition: background-color 0.2s ease;
+        }
+        .faq-summary::-webkit-details-marker {
+            display: none;
+        }
+        .faq-summary:hover {
+            background-color: #F8FAFC;
+            color: #9B528F;
+        }
+        .faq-chevron {
+            color: #64748B;
+            transition: transform 0.3s ease, color 0.3s ease;
+            flex-shrink: 0;
+            margin-left: 1rem;
+        }
+        .faq-item[open] .faq-chevron {
+            transform: rotate(180deg);
+            color: #9B528F;
+        }
+        .faq-answer {
+            padding: 1.25rem 1.5rem;
+            color: #475569;
+            line-height: 1.8;
+            font-size: 1rem;
+            border-top: 1px solid #F1F5F9;
+            background-color: #FAF9FB;
+        }
+        .faq-answer p {
+            margin-bottom: 0 !important;
+        }
     </style>
 </head>
 <body class="bg-gray-50">
@@ -208,6 +310,26 @@ $related = array_slice(array_filter($posts, fn($p) => intval($p['id']) !== $post
                         <div class="blog-content text-gray-700 text-lg">
                             <?= $post['content'] ?>
                         </div>
+
+                        <?php if (!empty($post['faqs'])): ?>
+                        <!-- FAQ Accordion Section -->
+                        <div class="faq-section">
+                            <h3 class="faq-section-title">Frequently Asked Questions</h3>
+                            <div class="faq-accordion">
+                                <?php foreach ($post['faqs'] as $faq): ?>
+                                <details class="faq-item">
+                                    <summary class="faq-summary">
+                                        <span><?= htmlspecialchars($faq['question']) ?></span>
+                                        <i data-feather="chevron-down" class="faq-chevron w-5 h-5"></i>
+                                    </summary>
+                                    <div class="faq-answer">
+                                        <?= $faq['answer'] ?>
+                                    </div>
+                                </details>
+                                <?php endforeach; ?>
+                            </div>
+                        </div>
+                        <?php endif; ?>
 
                         <!-- Article Footer -->
                         <div class="mt-12 pt-8 border-t border-gray-100">

@@ -5,7 +5,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Is Breast Cancer Curable with Treatment? Understanding Your Prognosis and Next Steps - Dr. Vijay Anand Reddy</title>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+        <!-- FAQ Schema Markup -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {"@type":"Question","name":"Is breast cancer always curable if caught early?","acceptedAnswer":{"@type":"Answer","text":"Early detection dramatically improves cure rates (Stage 1 has 99% 5-year survival). However, individual factors matter—molecular subtype, grade, and patient-specific factors influence outcomes."}},
+        {"@type":"Question","name":"Can metastatic breast cancer be cured?","acceptedAnswer":{"@type":"Answer","text":"Stage IV breast cancer is generally considered incurable but increasingly treatable as a chronic disease. Some patients with oligometastatic disease may achieve long-term remission with aggressive local and systemic therapy."}},
+        {"@type":"Question","name":"How long before I'm considered \"cured\"?","acceptedAnswer":{"@type":"Answer","text":"Most oncologists consider 5 years without recurrence a significant milestone. However, late recurrences can occur, particularly with certain subtypes. Some consider 10 years recurrence-free as \"cured.\""}},
+        {"@type":"Question","name":"Will I need treatment after my surgery?","acceptedAnswer":{"@type":"Answer","text":"Additional therapy depends on stage, grade, and molecular subtype. Many stages require chemotherapy, radiation, and/or hormonal therapy to optimize cure rates."}},
+        {"@type":"Question","name":"What's my individual prognosis?","acceptedAnswer":{"@type":"Answer","text":"Your oncology team uses nomograms, gene expression profiles, and clinical algorithms to predict your specific prognosis and guide treatment recommendations."}}      ]
+    }
+    </script>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
     <script src="https://unpkg.com/feather-icons"></script>
@@ -33,9 +46,17 @@
         .blog-content ul li { list-style-type: disc; }
         .blog-content ol li { list-style-type: decimal; }
         .blog-content strong { color: #1E293B; font-weight: 700; }
-        .blog-content h1, .blog-content h2, .blog-content h3 { color: #1E293B; margin: 2rem 0 1rem; font-weight: 700; line-height: 1.3; }
+        .blog-content h1, .blog-content h2, .blog-content h3, .blog-content h4, .blog-content h5, .blog-content h6 {
+            color: #1E293B;
+            margin: 2.25rem 0 1.25rem;
+            font-weight: 700;
+            line-height: 1.4;
+        }
         .blog-content h2 { font-size: 1.75rem; }
-        .blog-content h3 { font-size: 1.375rem; }
+        .blog-content h3 { font-size: 1.45rem; }
+        .blog-content h4 { font-size: 1.25rem; }
+        .blog-content h5 { font-size: 1.1rem; }
+        .blog-content h6 { font-size: 1rem; }
         .blog-content blockquote { border-left: 4px solid #9B528F; padding: 1rem 1.5rem; font-style: italic; color: #64748b; margin: 2rem 0; background: #f8fafc; border-radius: 0 0.5rem 0.5rem 0; }
         .blog-content img { max-width: 100%; height: auto; border-radius: 0.75rem; margin: 2rem 0; box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1); }
         .blog-content em { color: #64748b; }
@@ -43,6 +64,75 @@
         .blog-content table { width: 100%; border-collapse: collapse; margin: 1.5rem 0; }
         .blog-content th, .blog-content td { border: 1px solid #e2e8f0; padding: 0.75rem; text-align: left; }
         .blog-content th { background: #f8fafc; font-weight: 600; }
+
+        /* FAQ Accordion Styling */
+        .faq-section {
+            margin-top: 3rem;
+            border-top: 1px solid #F1F5F9;
+            padding-top: 2.5rem;
+        }
+        .faq-section-title {
+            font-size: 1.75rem;
+            font-weight: 700;
+            color: #1E293B;
+            margin-bottom: 1.5rem !important;
+        }
+        .faq-accordion {
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+        }
+        .faq-item {
+            border: 1px solid #E2E8F0;
+            border-radius: 0.75rem;
+            background: #FFFFFF;
+            overflow: hidden;
+            transition: all 0.3s ease;
+        }
+        .faq-item[open] {
+            border-color: #9B528F;
+            box-shadow: 0 4px 12px rgba(155, 82, 143, 0.05);
+        }
+        .faq-summary {
+            padding: 1.25rem 1.5rem;
+            font-weight: 600;
+            color: #1E293B;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            list-style: none;
+            user-select: none;
+            transition: background-color 0.2s ease;
+        }
+        .faq-summary::-webkit-details-marker {
+            display: none;
+        }
+        .faq-summary:hover {
+            background-color: #F8FAFC;
+            color: #9B528F;
+        }
+        .faq-chevron {
+            color: #64748B;
+            transition: transform 0.3s ease, color 0.3s ease;
+            flex-shrink: 0;
+            margin-left: 1rem;
+        }
+        .faq-item[open] .faq-chevron {
+            transform: rotate(180deg);
+            color: #9B528F;
+        }
+        .faq-answer {
+            padding: 1.25rem 1.5rem;
+            color: #475569;
+            line-height: 1.8;
+            font-size: 1rem;
+            border-top: 1px solid #F1F5F9;
+            background-color: #FAF9FB;
+        }
+        .faq-answer p {
+            margin-bottom: 0 !important;
+        }
     </style>
 </head>
 <body class="bg-gray-50">
@@ -1201,8 +1291,55 @@
 
                         <!-- Article Content -->
                         <div class="blog-content text-gray-700 text-lg">
-                            <p>Introduction</p> <p>When facing a breast cancer diagnosis, one of the first questions that comes to mind is: "Can breast cancer be cured?" The answer is nuanced but fundamentally hopeful. Modern medical advances have significantly improved survival rates and treatment outcomes, making breast cancer increasingly manageable and, in many cases, curable—especially when detected early.</p> <p>In this comprehensive guide, we'll explore the curability of breast cancer, factors affecting prognosis, current treatment options, and important next steps you should consider with your healthcare team.</p> <p>Understanding Breast Cancer Curability</p> <p>Yes, breast cancer can be cured, but success depends on several critical factors:</p> <ul class="wp-block-list"><li>Stage at Diagnosis: Early-stage cancers (Stage 0, 1, and 2) have significantly higher cure rates</li> <li>Hormone Receptor Status: ER/PR positive cancers often respond better to hormonal therapies</li> <li>HER2 Status: HER2 positive cases can benefit from targeted biologic therapies</li> <li>Grade and Type: Lower-grade cancers generally have better prognosis</li> <li>Patient Health: Overall health and age influence treatment tolerance and outcomes</li> </ul> <p>According to recent data from the American Cancer Society, the 5-year survival rate for all stages of breast cancer combined is approximately 91%, with stage 1 breast cancer having survival rates exceeding 99%.</p> <p>Factors Affecting Breast Cancer Prognosis</p> <p>Several interconnected factors determine whether breast cancer can be cured:</p> <ol class="wp-block-list"><li>Stage and Size<br>Breast cancer staging (0-IV) is the most critical prognostic factor. Smaller tumors confined to the breast have substantially better outcomes than those that have spread to lymph nodes or distant organs.</li> <li>Histological Type<br>Common types like invasive ductal carcinoma and invasive lobular carcinoma may have different prognosis compared to rare types like inflammatory breast cancer.</li> <li>Tumor Grade<br>Grading (1-3) indicates how aggressive the cancer cells appear. Lower-grade tumors typically grow more slowly.</li> <li>Molecular Subtype<br>Breast cancers are classified as:</li> </ol> <ul class="wp-block-list"><li>Luminal A (ER/PR positive, HER2 negative)</li> <li>Luminal B (ER/PR positive, HER2 positive or high Ki-67)</li> <li>HER2-positive (Overexpresses HER2)</li> <li>Triple-negative (No ER, PR, or HER2 expression)</li> </ul> <p>Each subtype requires different treatment approaches and has distinct prognosis.</p> <ol start="5" class="wp-block-list"><li>Age and Overall Health<br>Younger patients often tolerate aggressive treatments better, while comorbidities can affect treatment options and outcomes.</li> <li>Genetic Factors<br>BRCA1/BRCA2 mutations, family history, and other genetic markers can influence risk and recurrence rates.</li> </ol> <p>Current Treatment Options for Curable Breast Cancer</p> <p>The multidisciplinary approach to breast cancer combines multiple treatment modalities:</p> <p>Surgery</p> <ul class="wp-block-list"><li>Breast-conserving therapy (lumpectomy)</li> <li>Total mastectomy with reconstruction options</li> <li>Sentinel lymph node biopsy to assess spread</li> </ul> <p>Radiation Therapy</p> <ul class="wp-block-list"><li>Post-surgical radiation to reduce recurrence</li> <li>Accelerated partial breast irradiation (APBI)</li> <li>3D conformal or intensity-modulated radiation therapy (IMRT)</li> </ul> <p>Chemotherapy</p> <ul class="wp-block-list"><li>Neoadjuvant chemotherapy (before surgery)</li> <li>Adjuvant chemotherapy (after surgery)</li> <li>Standard regimens like AC-T or paclitaxel-based therapy</li> </ul> <p>Hormonal Therapy</p> <ul class="wp-block-list"><li>Tamoxifen (blocks estrogen receptors)</li> <li>Aromatase inhibitors (for postmenopausal women)</li> <li>Fulvestrant and CDK4/6 inhibitors</li> <li>Duration typically 5-10 years</li> </ul> <p>Targeted Therapy</p> <ul class="wp-block-list"><li>Trastuzumab (Herceptin) for HER2-positive cancers</li> <li>Pertuzumab and T-DM1 for advanced HER2-positive disease</li> <li>CDK4/6 inhibitors for advanced luminal cancers</li> </ul> <p>Immunotherapy</p> <ul class="wp-block-list"><li>PD-L1 inhibitors like atezolizumab and pembrolizumab</li> <li>Increasingly used for triple-negative breast cancer</li> <li>CAR-T cell therapy in investigational settings</li> </ul> <p>Combination Approaches<br>Most curable cancers benefit from multimodal therapy combining surgery, radiation, and systemic therapy based on individual tumor characteristics.</p> <p>Stage-Specific Curability Rates</p> <p>Stage I: Approximately 99% 5-year survival rate<br>Stage IIA: Approximately 93% 5-year survival rate<br>Stage IIB: Approximately 85-90% 5-year survival rate<br>Stage IIIA: Approximately 72% 5-year survival rate<br>Stage IIIB: Approximately 41-52% 5-year survival rate<br>Stage IV: Approximately 27% 5-year survival rate (chronic disease, but often manageable)</p> <p>Note: These are population averages; individual outcomes vary significantly based on tumor biology and treatment response.</p> <p>Key Steps After Diagnosis</p> <ol class="wp-block-list"><li>Seek Specialist Evaluation<br>Consult with a surgical oncologist, medical oncologist, and radiation oncologist for comprehensive assessment.</li> <li>Complete Staging Workup</li> </ol> <ul class="wp-block-list"><li>Core needle or excisional biopsy for diagnosis</li> <li>Imaging (mammography, ultrasound, MRI)</li> <li>Systemic staging with CT chest/abdomen and bone scan or PET-CT if indicated</li> </ul> <ol class="wp-block-list"><li>Molecular Testing<br>Ensure testing for ER/PR, HER2, Ki-67, and gene expression profiling (Oncotype DX, MammaPrint).</li> <li>Develop Treatment Plan<br>Work with your team to create a personalized plan addressing your specific tumor type and stage.</li> <li>Participate in Clinical Trials<br>Discuss trial eligibility—newer therapies may offer additional benefits.</li> <li>Establish Supportive Care</li> </ol> <ul class="wp-block-list"><li>Oncologic rehabilitation</li> <li>Mental health support</li> <li>Nutritional counseling</li> <li>Support groups</li> </ul> <ol class="wp-block-list"><li>Plan Follow-up Surveillance<br>Regular clinical exams, imaging as recommended, and long-term monitoring for recurrence or late effects.</li> </ol> <p>Living with and Beyond Breast Cancer</p> <p>Many breast cancer survivors live long, healthy lives after treatment. Quality of life considerations include:</p> <ul class="wp-block-list"><li>Managing treatment side effects</li> <li>Hormonal and sexual health</li> <li>Lymphedema management</li> <li>Bone health, especially with hormone therapy</li> <li>Cardiovascular health monitoring</li> <li>Fatigue management</li> <li>Psychosocial adjustment</li> </ul> <p>Frequently Asked Questions</p> <p>Q: Is breast cancer always curable if caught early?<br>A: Early detection dramatically improves cure rates (Stage 1 has 99% 5-year survival). However, individual factors matter—molecular subtype, grade, and patient-specific factors influence outcomes.</p> <p>Q: Can metastatic breast cancer be cured?<br>A: Stage IV breast cancer is generally considered incurable but increasingly treatable as a chronic disease. Some patients with oligometastatic disease may achieve long-term remission with aggressive local and systemic therapy.</p> <p>Q: How long before I'm considered "cured"?<br>A: Most oncologists consider 5 years without recurrence a significant milestone. However, late recurrences can occur, particularly with certain subtypes. Some consider 10 years recurrence-free as "cured."</p> <p>Q: Will I need treatment after my surgery?<br>A: Additional therapy depends on stage, grade, and molecular subtype. Many stages require chemotherapy, radiation, and/or hormonal therapy to optimize cure rates.</p> <p>Q: What's my individual prognosis?<br>A: Your oncology team uses nomograms, gene expression profiles, and clinical algorithms to predict your specific prognosis and guide treatment recommendations.</p> <p>Conclusion</p> <p>Breast cancer is increasingly curable, especially with early detection and appropriate treatment. Survival rates continue to improve with advances in targeted therapies, immunotherapy, and personalized medicine approaches. If you've been diagnosed with breast cancer, working closely with a multidisciplinary team, undergoing comprehensive staging and molecular testing, and participating actively in treatment decisions significantly improves outcomes.</p> <p>Your prognosis is individual—don't rely solely on population statistics. Discuss your specific situation, treatment options, and long-term outlook with your healthcare team. Many resources, support systems, and emerging therapies are available to optimize both cure rates and quality of life.</p> <p>Remember: A breast cancer diagnosis is serious but not necessarily a death sentence. Thousands of women are diagnosed and successfully treated annually, going on to live fulfilling lives post-treatment.</p> <p>Call to Action<br>If you have questions about your specific breast cancer diagnosis, prognosis, or treatment options, schedule a consultation with Dr. Vijay Anand Reddy, an experienced oncology specialist. Early intervention and expert guidance can make a significant difference in your treatment journey and long-term outcomes.</p>                         </div>
+                            <p>Introduction</p> <p>When facing a breast cancer diagnosis, one of the first questions that comes to mind is: "Can breast cancer be cured?" The answer is nuanced but fundamentally hopeful. Modern medical advances have significantly improved survival rates and treatment outcomes, making breast cancer increasingly manageable and, in many cases, curable—especially when detected early.</p> <p>In this comprehensive guide, we'll explore the curability of breast cancer, factors affecting prognosis, current treatment options, and important next steps you should consider with your healthcare team.</p> <p>Understanding Breast Cancer Curability</p> <p>Yes, breast cancer can be cured, but success depends on several critical factors:</p> <ul class="wp-block-list"><li>Stage at Diagnosis: Early-stage cancers (Stage 0, 1, and 2) have significantly higher cure rates</li> <li>Hormone Receptor Status: ER/PR positive cancers often respond better to hormonal therapies</li> <li>HER2 Status: HER2 positive cases can benefit from targeted biologic therapies</li> <li>Grade and Type: Lower-grade cancers generally have better prognosis</li> <li>Patient Health: Overall health and age influence treatment tolerance and outcomes</li> </ul> <p>According to recent data from the American Cancer Society, the 5-year survival rate for all stages of breast cancer combined is approximately 91%, with stage 1 breast cancer having survival rates exceeding 99%.</p> <p>Factors Affecting Breast Cancer Prognosis</p> <p>Several interconnected factors determine whether breast cancer can be cured:</p> <ol class="wp-block-list"><li>Stage and Size<br>Breast cancer staging (0-IV) is the most critical prognostic factor. Smaller tumors confined to the breast have substantially better outcomes than those that have spread to lymph nodes or distant organs.</li> <li>Histological Type<br>Common types like invasive ductal carcinoma and invasive lobular carcinoma may have different prognosis compared to rare types like inflammatory breast cancer.</li> <li>Tumor Grade<br>Grading (1-3) indicates how aggressive the cancer cells appear. Lower-grade tumors typically grow more slowly.</li> <li>Molecular Subtype<br>Breast cancers are classified as:</li> </ol> <ul class="wp-block-list"><li>Luminal A (ER/PR positive, HER2 negative)</li> <li>Luminal B (ER/PR positive, HER2 positive or high Ki-67)</li> <li>HER2-positive (Overexpresses HER2)</li> <li>Triple-negative (No ER, PR, or HER2 expression)</li> </ul> <p>Each subtype requires different treatment approaches and has distinct prognosis.</p> <ol start="5" class="wp-block-list"><li>Age and Overall Health<br>Younger patients often tolerate aggressive treatments better, while comorbidities can affect treatment options and outcomes.</li> <li>Genetic Factors<br>BRCA1/BRCA2 mutations, family history, and other genetic markers can influence risk and recurrence rates.</li> </ol> <p>Current Treatment Options for Curable Breast Cancer</p> <p>The multidisciplinary approach to breast cancer combines multiple treatment modalities:</p> <p>Surgery</p> <ul class="wp-block-list"><li>Breast-conserving therapy (lumpectomy)</li> <li>Total mastectomy with reconstruction options</li> <li>Sentinel lymph node biopsy to assess spread</li> </ul> <p>Radiation Therapy</p> <ul class="wp-block-list"><li>Post-surgical radiation to reduce recurrence</li> <li>Accelerated partial breast irradiation (APBI)</li> <li>3D conformal or intensity-modulated radiation therapy (IMRT)</li> </ul> <p>Chemotherapy</p> <ul class="wp-block-list"><li>Neoadjuvant chemotherapy (before surgery)</li> <li>Adjuvant chemotherapy (after surgery)</li> <li>Standard regimens like AC-T or paclitaxel-based therapy</li> </ul> <p>Hormonal Therapy</p> <ul class="wp-block-list"><li>Tamoxifen (blocks estrogen receptors)</li> <li>Aromatase inhibitors (for postmenopausal women)</li> <li>Fulvestrant and CDK4/6 inhibitors</li> <li>Duration typically 5-10 years</li> </ul> <p>Targeted Therapy</p> <ul class="wp-block-list"><li>Trastuzumab (Herceptin) for HER2-positive cancers</li> <li>Pertuzumab and T-DM1 for advanced HER2-positive disease</li> <li>CDK4/6 inhibitors for advanced luminal cancers</li> </ul> <p>Immunotherapy</p> <ul class="wp-block-list"><li>PD-L1 inhibitors like atezolizumab and pembrolizumab</li> <li>Increasingly used for triple-negative breast cancer</li> <li>CAR-T cell therapy in investigational settings</li> </ul> <p>Combination Approaches<br>Most curable cancers benefit from multimodal therapy combining surgery, radiation, and systemic therapy based on individual tumor characteristics.</p> <p>Stage-Specific Curability Rates</p> <p>Stage I: Approximately 99% 5-year survival rate<br>Stage IIA: Approximately 93% 5-year survival rate<br>Stage IIB: Approximately 85-90% 5-year survival rate<br>Stage IIIA: Approximately 72% 5-year survival rate<br>Stage IIIB: Approximately 41-52% 5-year survival rate<br>Stage IV: Approximately 27% 5-year survival rate (chronic disease, but often manageable)</p> <p>Note: These are population averages; individual outcomes vary significantly based on tumor biology and treatment response.</p> <p>Key Steps After Diagnosis</p> <ol class="wp-block-list"><li>Seek Specialist Evaluation<br>Consult with a surgical oncologist, medical oncologist, and radiation oncologist for comprehensive assessment.</li> <li>Complete Staging Workup</li> </ol> <ul class="wp-block-list"><li>Core needle or excisional biopsy for diagnosis</li> <li>Imaging (mammography, ultrasound, MRI)</li> <li>Systemic staging with CT chest/abdomen and bone scan or PET-CT if indicated</li> </ul> <ol class="wp-block-list"><li>Molecular Testing<br>Ensure testing for ER/PR, HER2, Ki-67, and gene expression profiling (Oncotype DX, MammaPrint).</li> <li>Develop Treatment Plan<br>Work with your team to create a personalized plan addressing your specific tumor type and stage.</li> <li>Participate in Clinical Trials<br>Discuss trial eligibility—newer therapies may offer additional benefits.</li> <li>Establish Supportive Care</li> </ol> <ul class="wp-block-list"><li>Oncologic rehabilitation</li> <li>Mental health support</li> <li>Nutritional counseling</li> <li>Support groups</li> </ul> <ol class="wp-block-list"><li>Plan Follow-up Surveillance<br>Regular clinical exams, imaging as recommended, and long-term monitoring for recurrence or late effects.</li> </ol> <p>Living with and Beyond Breast Cancer</p> <p>Many breast cancer survivors live long, healthy lives after treatment. Quality of life considerations include:</p> <ul class="wp-block-list"><li>Managing treatment side effects</li> <li>Hormonal and sexual health</li> <li>Lymphedema management</li> <li>Bone health, especially with hormone therapy</li> <li>Cardiovascular health monitoring</li> <li>Fatigue management</li> <li>Psychosocial adjustment</li> </ul>  <p>Conclusion</p> <p>Breast cancer is increasingly curable, especially with early detection and appropriate treatment. Survival rates continue to improve with advances in targeted therapies, immunotherapy, and personalized medicine approaches. If you've been diagnosed with breast cancer, working closely with a multidisciplinary team, undergoing comprehensive staging and molecular testing, and participating actively in treatment decisions significantly improves outcomes.</p> <p>Your prognosis is individual—don't rely solely on population statistics. Discuss your specific situation, treatment options, and long-term outlook with your healthcare team. Many resources, support systems, and emerging therapies are available to optimize both cure rates and quality of life.</p> <p>Remember: A breast cancer diagnosis is serious but not necessarily a death sentence. Thousands of women are diagnosed and successfully treated annually, going on to live fulfilling lives post-treatment.</p> <p>Call to Action<br>If you have questions about your specific breast cancer diagnosis, prognosis, or treatment options, schedule a consultation with Dr. Vijay Anand Reddy, an experienced oncology specialist. Early intervention and expert guidance can make a significant difference in your treatment journey and long-term outcomes.</p>                         </div>
 
+                                                <!-- FAQ Accordion Section -->
+                        <div class="faq-section">
+                            <h3 class="faq-section-title">Frequently Asked Questions</h3>
+                            <div class="faq-accordion">
+                                                                <details class="faq-item">
+                                    <summary class="faq-summary">
+                                        <span>Is breast cancer always curable if caught early?</span>
+                                        <i data-feather="chevron-down" class="faq-chevron w-5 h-5"></i>
+                                    </summary>
+                                    <div class="faq-answer">
+                                        Early detection dramatically improves cure rates (Stage 1 has 99% 5-year survival). However, individual factors matter—molecular subtype, grade, and patient-specific factors influence outcomes.                                    </div>
+                                </details>
+                                                                <details class="faq-item">
+                                    <summary class="faq-summary">
+                                        <span>Can metastatic breast cancer be cured?</span>
+                                        <i data-feather="chevron-down" class="faq-chevron w-5 h-5"></i>
+                                    </summary>
+                                    <div class="faq-answer">
+                                        Stage IV breast cancer is generally considered incurable but increasingly treatable as a chronic disease. Some patients with oligometastatic disease may achieve long-term remission with aggressive local and systemic therapy.                                    </div>
+                                </details>
+                                                                <details class="faq-item">
+                                    <summary class="faq-summary">
+                                        <span>How long before I&#039;m considered &quot;cured&quot;?</span>
+                                        <i data-feather="chevron-down" class="faq-chevron w-5 h-5"></i>
+                                    </summary>
+                                    <div class="faq-answer">
+                                        Most oncologists consider 5 years without recurrence a significant milestone. However, late recurrences can occur, particularly with certain subtypes. Some consider 10 years recurrence-free as "cured."                                    </div>
+                                </details>
+                                                                <details class="faq-item">
+                                    <summary class="faq-summary">
+                                        <span>Will I need treatment after my surgery?</span>
+                                        <i data-feather="chevron-down" class="faq-chevron w-5 h-5"></i>
+                                    </summary>
+                                    <div class="faq-answer">
+                                        Additional therapy depends on stage, grade, and molecular subtype. Many stages require chemotherapy, radiation, and/or hormonal therapy to optimize cure rates.                                    </div>
+                                </details>
+                                                                <details class="faq-item">
+                                    <summary class="faq-summary">
+                                        <span>What&#039;s my individual prognosis?</span>
+                                        <i data-feather="chevron-down" class="faq-chevron w-5 h-5"></i>
+                                    </summary>
+                                    <div class="faq-answer">
+                                        Your oncology team uses nomograms, gene expression profiles, and clinical algorithms to predict your specific prognosis and guide treatment recommendations.                                    </div>
+                                </details>
+                                                            </div>
+                        </div>
+                        
                         <!-- Article Footer -->
                         <div class="mt-12 pt-8 border-t border-gray-100">
                             <!-- Tags -->

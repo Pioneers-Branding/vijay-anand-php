@@ -5,7 +5,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>How Is Cancer Caused? | Causes, Risk Factors &amp;amp; Prevention Guide - Dr. Vijay Anand Reddy</title>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+        <!-- FAQ Schema Markup -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {"@type":"Question","name":"Q1: What does it mean when we say cancer is caused by genetic mutations?","acceptedAnswer":{"@type":"Answer","text":"Cancer begins when the DNA inside a cell develops mutations that disrupt normal growth. These damaged cells start dividing uncontrollably, eventually forming tumors and spreading if not treated."}},
+        {"@type":"Question","name":"Q2: Are most cancers inherited from parents?","acceptedAnswer":{"@type":"Answer","text":"No. Only about 5–10% of cancers are inherited. The majority happen due to acquired mutations caused by aging, lifestyle factors, and environmental exposures."}},
+        {"@type":"Question","name":"Q3: Can lifestyle factors really cause cancer?","acceptedAnswer":{"@type":"Answer","text":"Yes. Habits like smoking, poor diet, lack of exercise, alcohol use, and obesity contribute significantly to DNA damage, making them major preventable causes of cancer."}},
+        {"@type":"Question","name":"Q4: Is tobacco the biggest cause of cancer?","acceptedAnswer":{"@type":"Answer","text":"Absolutely. Tobacco is the leading preventable cause of cancer, responsible for nearly 25–30% of all cancer deaths worldwide due to the carcinogens in smoke."}},
+        {"@type":"Question","name":"Q5: Do viruses cause cancer?","acceptedAnswer":{"@type":"Answer","text":"Some viruses increase cancer risk. Common examples include HPV (cervical and throat cancers), Hepatitis B and C (liver cancer), and H. pylori bacteria (stomach cancer)."}}      ]
+    }
+    </script>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
     <script src="https://unpkg.com/feather-icons"></script>
@@ -33,9 +46,17 @@
         .blog-content ul li { list-style-type: disc; }
         .blog-content ol li { list-style-type: decimal; }
         .blog-content strong { color: #1E293B; font-weight: 700; }
-        .blog-content h1, .blog-content h2, .blog-content h3 { color: #1E293B; margin: 2rem 0 1rem; font-weight: 700; line-height: 1.3; }
+        .blog-content h1, .blog-content h2, .blog-content h3, .blog-content h4, .blog-content h5, .blog-content h6 {
+            color: #1E293B;
+            margin: 2.25rem 0 1.25rem;
+            font-weight: 700;
+            line-height: 1.4;
+        }
         .blog-content h2 { font-size: 1.75rem; }
-        .blog-content h3 { font-size: 1.375rem; }
+        .blog-content h3 { font-size: 1.45rem; }
+        .blog-content h4 { font-size: 1.25rem; }
+        .blog-content h5 { font-size: 1.1rem; }
+        .blog-content h6 { font-size: 1rem; }
         .blog-content blockquote { border-left: 4px solid #9B528F; padding: 1rem 1.5rem; font-style: italic; color: #64748b; margin: 2rem 0; background: #f8fafc; border-radius: 0 0.5rem 0.5rem 0; }
         .blog-content img { max-width: 100%; height: auto; border-radius: 0.75rem; margin: 2rem 0; box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1); }
         .blog-content em { color: #64748b; }
@@ -43,6 +64,75 @@
         .blog-content table { width: 100%; border-collapse: collapse; margin: 1.5rem 0; }
         .blog-content th, .blog-content td { border: 1px solid #e2e8f0; padding: 0.75rem; text-align: left; }
         .blog-content th { background: #f8fafc; font-weight: 600; }
+
+        /* FAQ Accordion Styling */
+        .faq-section {
+            margin-top: 3rem;
+            border-top: 1px solid #F1F5F9;
+            padding-top: 2.5rem;
+        }
+        .faq-section-title {
+            font-size: 1.75rem;
+            font-weight: 700;
+            color: #1E293B;
+            margin-bottom: 1.5rem !important;
+        }
+        .faq-accordion {
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+        }
+        .faq-item {
+            border: 1px solid #E2E8F0;
+            border-radius: 0.75rem;
+            background: #FFFFFF;
+            overflow: hidden;
+            transition: all 0.3s ease;
+        }
+        .faq-item[open] {
+            border-color: #9B528F;
+            box-shadow: 0 4px 12px rgba(155, 82, 143, 0.05);
+        }
+        .faq-summary {
+            padding: 1.25rem 1.5rem;
+            font-weight: 600;
+            color: #1E293B;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            list-style: none;
+            user-select: none;
+            transition: background-color 0.2s ease;
+        }
+        .faq-summary::-webkit-details-marker {
+            display: none;
+        }
+        .faq-summary:hover {
+            background-color: #F8FAFC;
+            color: #9B528F;
+        }
+        .faq-chevron {
+            color: #64748B;
+            transition: transform 0.3s ease, color 0.3s ease;
+            flex-shrink: 0;
+            margin-left: 1rem;
+        }
+        .faq-item[open] .faq-chevron {
+            transform: rotate(180deg);
+            color: #9B528F;
+        }
+        .faq-answer {
+            padding: 1.25rem 1.5rem;
+            color: #475569;
+            line-height: 1.8;
+            font-size: 1rem;
+            border-top: 1px solid #F1F5F9;
+            background-color: #FAF9FB;
+        }
+        .faq-answer p {
+            margin-bottom: 0 !important;
+        }
     </style>
 </head>
 <body class="bg-gray-50">
@@ -1201,8 +1291,55 @@
 
                         <!-- Article Content -->
                         <div class="blog-content text-gray-700 text-lg">
-                            <p>That is a question that cuts straight to the heart of what cancer is. Understanding how is cancer caused? is the key to both treatment and prevention.</p> <p>The short answer is: Cancer is a genetic disease caused by an accumulation of changes (mutations) in a cell's DNA over time. These mutations disable the normal controls that tell a cell when to grow, when to stop, and when to die. These DNA changes can be caused by random errors during cell division (the majority of cases) or by exposure to external agents called carcinogens.</p> <p>This comprehensive, 2,000-word guide will take you deep into the genetic mechanisms, detail the major risk factors, and outline effective prevention strategies, with the added guidance of leading experts like a <strong><a href="https://drvijayanandreddy.com/service/medical-oncologist-in-hyderabad/">Medical Oncologist in Hyderabad</a></strong>.</p> <h3 class="wp-block-heading"><strong>The Core Mechanism: How is cancer caused? (The Genetic Error)</strong></h3> <p>Cancer begins at the microscopic level—in the DNA instruction manual of a single cell. Every cancer arises because a cell acquires multiple, specific genetic "typos" or mutations that transform it from a law-abiding member of the body into a rogue agent.</p> <h4 class="wp-block-heading"><strong>A. The Two Types of Critical Genes</strong></h4> <p>The mutations that cause cancer occur primarily in two critical types of genes:</p> <ol class="wp-block-list"><li><strong>Oncogenes (The Stuck Gas Pedal):</strong> These are normal genes that, when mutated or "switched on," become hyperactive. They act like a stuck accelerator pedal, constantly telling the cell to grow and divide, leading to uncontrolled proliferation. A well-known example of an oncogene is the KRAS gene, whose mutations frequently appear in colorectal cancer and lung cancer.</li> <li><strong>Tumor Suppressor Genes (The Cut Brakes):</strong> These are normal genes that act as the cell's brakes. They repair damaged DNA, stop cell division if damage is too severe, and trigger programmed cell death (apoptosis). When these genes are mutated or inactivated, the brakes fail, allowing damaged cells to multiply unchecked. The best-known example is the TP53 gene, often referred to as the “guardian of the genome.” This gene is found to be switched off or damaged in more than 50% of all human cancers.</li> </ol> <p>Cancer is generally a multi-step process: it takes years and the accumulation of mutations in <em>several</em> oncogenes and tumor suppressor genes to turn a healthy cell into a fully malignant one.</p> <h4 class="wp-block-heading"><strong>B. Genetic Changes: Inherited vs. Acquired</strong></h4> <p>The mutations that answer <strong>How is cancer caused?</strong> fall into two categories:</p> <figure class="wp-block-table"><table class="has-fixed-layout"><tbody><tr><td><strong>Type of Genetic Change</strong></td><td><strong>Description</strong></td><td><strong>Prevalence</strong></td></tr><tr><td><strong>Acquired (Somatic) Mutations</strong></td><td>Genetic changes that occur <em>after</em> birth in a single cell, usually due to lifestyle, environmental exposure, or random error.</td><td>90–95% of all cancers.</td></tr><tr><td><strong>Inherited (Germline) Mutations</strong></td><td>Genetic mutations are passed down from a parent (e.g., in the BRCA1 or APC genes). These mutations predispose a person to cancer, but they do not guarantee it.</td><td>5–10% of all cancers.</td></tr></tbody></table></figure> <p>The vast majority of cancers are acquired, meaning they are primarily linked to environmental and lifestyle factors over a lifetime.</p> <h3 class="wp-block-heading"><strong>The Major Risk Factors: What Causes the DNA Damage?</strong></h3> <p>External agents known as carcinogens are the primary drivers of acquired mutations. These external agents interact with your DNA, causing the damage that initiates cancer. Globally, lifestyle and environmental factors account for the majority of cancer deaths.</p> <h4 class="wp-block-heading"><strong>1. Tobacco Use (The Single Biggest Cause)</strong></h4> <p>Tobacco use is the leading preventable cause of cancer, responsible for about 25-30% of all cancer deaths.</p> <ul class="wp-block-list"><li><strong>Mechanism:</strong> Tobacco smoke contains over 7,000 chemicals, including powerful carcinogens like nitrosamines and benzene. These chemicals travel through the bloodstream and directly damage DNA in nearly every organ.</li> <li><strong>Associated Cancers:</strong> Lung (most common), mouth, throat, esophagus, bladder, kidney, pancreas, liver, and cervix.</li> </ul> <h4 class="wp-block-heading"><strong>2. Diet, Obesity, and Physical Inactivity (The Metabolic Risk)</strong></h4> <p>These lifestyle factors are linked to 30-35% of cancer deaths, primarily by driving chronic inflammation and hormonal imbalance.</p> <ul class="wp-block-list"><li><strong>Obesity:</strong> Excess body fat produces hormones (like estrogen) and inflammatory signals that promote cell proliferation. Obesity is a major risk factor for cancers of the breast (post-menopausal), colon, kidney, esophagus, and pancreas.</li> <li><strong>Poor Diet:</strong> A diet low in fiber (fruits, vegetables, whole grains) and high in processed/red meat and saturated fats is linked to colorectal and stomach cancers.</li> <li><strong>Lack of Exercise:</strong> Physical activity helps regulate hormone levels, improves immune function, and controls inflammation. Inactivity directly increases the risk of breast and colon cancers.</li> </ul> <h4 class="wp-block-heading"><strong>3. Infectious Agents (Biological Carcinogens)</strong></h4> <p>Certain viruses, bacteria, and parasites do not <em>cause</em> cancer directly but integrate their genetic material into human cells or cause chronic inflammation that leads to genetic damage.</p> <ul class="wp-block-list"><li><strong>Human Papillomavirus (HPV):</strong> Linked to nearly all cervical cancers and a rising number of head and neck cancers (oropharyngeal). Vaccination is key pto revention.</li> <li><strong>Hepatitis B and C Viruses (HBV/HCV):</strong> Cause chronic liver inflammation, leading to liver cancer.</li> <li><strong>Helicobacter Pylori (H. pylori):</strong> A bacterium causing stomach inflammation and increasing the risk of stomach cancer.</li> </ul> <h4 class="wp-block-heading"><strong>4. Radiation Exposure (Energy Damage)</strong></h4> <ul class="wp-block-list"><li><strong>Ultraviolet (UV) Radiation:</strong> From sunlight and tanning beds. Causes <a href="https://en.wikipedia.org/wiki/DNA">DNA</a> damage in skin cells, leading to melanoma, basal cell, and squamous cell carcinomas.</li> <li><strong>Ionizing Radiation:</strong> From industrial exposure, certain medical procedures, or radon gas. Linked to leukemia and certain solid tumors.</li> </ul> <h4 class="wp-block-heading"><strong>5. Alcohol Consumption</strong></h4> <p>Alcohol is classified as a Group 1 carcinogen. The risk is linked not only to the ethanol itself but also to its breakdown product, acetaldehyde. Alcohol increases the risk of cancers of the mouth, pharynx, larynx, esophagus, liver, colon, and breast.</p> <h3 class="wp-block-heading"><strong>Prevention: Proactive Steps to Limit Risk</strong></h3> <p>Knowing How is cancer caused? is the foundation for prevention. Experts estimate that 30–50% of all cancer cases are preventable by modifying lifestyle choices.</p> <figure class="wp-block-table"><table class="has-fixed-layout"><tbody><tr><td><strong>Prevention Strategy</strong></td><td><strong>Target Risk Factor</strong></td><td><strong>Actionable Steps</strong></td></tr><tr><td><strong>Eliminate Tobacco</strong></td><td>Tobacco Smoke, Benzene</td><td>Achieve and maintain a BMI under 25 through a balanced diet and activity.</td></tr><tr><td><strong>Maintain Healthy Weight</strong></td><td>Obesity, Hormonal Imbalance</td><td>Achieve and maintain a BMI under 25 through balanced diet and activity.</td></tr><tr><td><strong>Increase Activity</strong></td><td>Physical Inactivity</td><td>Aim for 150 minutes of moderate or 75 minutes of vigorous exercise weekly.</td></tr><tr><td><strong>Vaccination</strong></td><td>Infectious Agents (Viruses)</td><td>Maintain a Healthy Weight</td></tr><tr><td><strong>Sun Protection</strong></td><td>UV Radiation</td><td>Limit direct sun exposure between 10 a.m. and 4 p.m., use broad-spectrum sunscreen (SPF 30+), and wear protective clothing.</td></tr><tr><td><strong>Limit Alcohol</strong></td><td>Alcohol Toxicity</td><td>Limit consumption to no more than one drink per day for women and two drinks per day for men.</td></tr><tr><td><strong>Screening</strong></td><td>Early Detection</td><td>Follow guidelines for mammograms, colonoscopies, and cervical screens.</td></tr></tbody></table></figure> <h3 class="wp-block-heading"><strong>Expert Guidance: Consulting an Oncologist in Hyderabad</strong></h3> <p>The path from understanding How is cancer caused? to developing a personalized treatment plan requires highly specialized care. Consulting a leading oncologist in hyderabad or a Medical Oncologist in Hyderabad is essential for precision diagnosis and multi-modal treatment.</p> <p>A specialist like <strong><a href="https://drvijayanandreddy.com/">Dr. Vijay Anand Reddy</a></strong> is not just a renowned expert in treating cancer; his deep experience in radiation oncology informs the strategic planning necessary to target malignant cells with high precision. An oncologist in Hyderabad or a Medical Oncologist in Hyderabad will use genomic testing to identify the specific mutations (oncogenes and tumor suppressor genes) in your tumor, transforming the general knowledge of How is cancer caused? into a personalized therapy (like Targeted Therapy or Immunotherapy). The coordinated approach led by the <strong><a href="https://drvijayanandreddy.com/achievements/">Best Oncologist in India</a></strong> ensures that patients benefit from the latest advancements, from minimal-toxicity chemotherapy regimens to advanced image-guided radiation techniques pioneered by leaders like Dr. Vijay Anand Reddy.</p> <h4 class="wp-block-heading"><strong>Frequently Asked Questions(FAQs):</strong></h4> <div class="wp-block-rank-math-faq-block"><div class="rank-math-faq-item"><h4 class="rank-math-question">Q1: What does it mean when we say cancer is caused by genetic mutations?</h4><div class="rank-math-answer">Cancer begins when the DNA inside a cell develops mutations that disrupt normal growth. These damaged cells start dividing uncontrollably, eventually forming tumors and spreading if not treated.</div></div><div class="rank-math-faq-item"><h4 class="rank-math-question">Q2: Are most cancers inherited from parents?</h4><div class="rank-math-answer">No. Only about 5–10% of cancers are inherited. The majority happen due to acquired mutations caused by aging, lifestyle factors, and environmental exposures.</div></div><div class="rank-math-faq-item"><h4 class="rank-math-question">Q3: Can lifestyle factors really cause cancer?</h4><div class="rank-math-answer">Yes. Habits like smoking, poor diet, lack of exercise, alcohol use, and obesity contribute significantly to DNA damage, making them major preventable causes of cancer.</div></div><div class="rank-math-faq-item"><h4 class="rank-math-question">Q4: Is tobacco the biggest cause of cancer?</h4><div class="rank-math-answer">Absolutely. Tobacco is the leading preventable cause of cancer, responsible for nearly 25–30% of all cancer deaths worldwide due to the carcinogens in smoke.</div></div><div class="rank-math-faq-item"><h4 class="rank-math-question">Q5: Do viruses cause cancer?</h4><div class="rank-math-answer">Some viruses increase cancer risk. Common examples include HPV (cervical and throat cancers), Hepatitis B and C (liver cancer), and H. pylori bacteria (stomach cancer).</div></div></div>                         </div>
+                            <p>That is a question that cuts straight to the heart of what cancer is. Understanding how is cancer caused? is the key to both treatment and prevention.</p> <p>The short answer is: Cancer is a genetic disease caused by an accumulation of changes (mutations) in a cell's DNA over time. These mutations disable the normal controls that tell a cell when to grow, when to stop, and when to die. These DNA changes can be caused by random errors during cell division (the majority of cases) or by exposure to external agents called carcinogens.</p> <p>This comprehensive, 2,000-word guide will take you deep into the genetic mechanisms, detail the major risk factors, and outline effective prevention strategies, with the added guidance of leading experts like a <strong><a href="https://drvijayanandreddy.com/service/medical-oncologist-in-hyderabad/">Medical Oncologist in Hyderabad</a></strong>.</p> <h3>The Core Mechanism: How is cancer caused? (The Genetic Error)</h3> <p>Cancer begins at the microscopic level—in the DNA instruction manual of a single cell. Every cancer arises because a cell acquires multiple, specific genetic "typos" or mutations that transform it from a law-abiding member of the body into a rogue agent.</p> <h4>A. The Two Types of Critical Genes</h4> <p>The mutations that cause cancer occur primarily in two critical types of genes:</p> <ol class="wp-block-list"><li><strong>Oncogenes (The Stuck Gas Pedal):</strong> These are normal genes that, when mutated or "switched on," become hyperactive. They act like a stuck accelerator pedal, constantly telling the cell to grow and divide, leading to uncontrolled proliferation. A well-known example of an oncogene is the KRAS gene, whose mutations frequently appear in colorectal cancer and lung cancer.</li> <li><strong>Tumor Suppressor Genes (The Cut Brakes):</strong> These are normal genes that act as the cell's brakes. They repair damaged DNA, stop cell division if damage is too severe, and trigger programmed cell death (apoptosis). When these genes are mutated or inactivated, the brakes fail, allowing damaged cells to multiply unchecked. The best-known example is the TP53 gene, often referred to as the “guardian of the genome.” This gene is found to be switched off or damaged in more than 50% of all human cancers.</li> </ol> <p>Cancer is generally a multi-step process: it takes years and the accumulation of mutations in <em>several</em> oncogenes and tumor suppressor genes to turn a healthy cell into a fully malignant one.</p> <h4>B. Genetic Changes: Inherited vs. Acquired</h4> <p>The mutations that answer <strong>How is cancer caused?</strong> fall into two categories:</p> <figure class="wp-block-table"><table class="has-fixed-layout"><tbody><tr><td><strong>Type of Genetic Change</strong></td><td><strong>Description</strong></td><td><strong>Prevalence</strong></td></tr><tr><td><strong>Acquired (Somatic) Mutations</strong></td><td>Genetic changes that occur <em>after</em> birth in a single cell, usually due to lifestyle, environmental exposure, or random error.</td><td>90–95% of all cancers.</td></tr><tr><td><strong>Inherited (Germline) Mutations</strong></td><td>Genetic mutations are passed down from a parent (e.g., in the BRCA1 or APC genes). These mutations predispose a person to cancer, but they do not guarantee it.</td><td>5–10% of all cancers.</td></tr></tbody></table></figure> <p>The vast majority of cancers are acquired, meaning they are primarily linked to environmental and lifestyle factors over a lifetime.</p> <h3>The Major Risk Factors: What Causes the DNA Damage?</h3> <p>External agents known as carcinogens are the primary drivers of acquired mutations. These external agents interact with your DNA, causing the damage that initiates cancer. Globally, lifestyle and environmental factors account for the majority of cancer deaths.</p> <h4>1. Tobacco Use (The Single Biggest Cause)</h4> <p>Tobacco use is the leading preventable cause of cancer, responsible for about 25-30% of all cancer deaths.</p> <ul class="wp-block-list"><li><strong>Mechanism:</strong> Tobacco smoke contains over 7,000 chemicals, including powerful carcinogens like nitrosamines and benzene. These chemicals travel through the bloodstream and directly damage DNA in nearly every organ.</li> <li><strong>Associated Cancers:</strong> Lung (most common), mouth, throat, esophagus, bladder, kidney, pancreas, liver, and cervix.</li> </ul> <h4>2. Diet, Obesity, and Physical Inactivity (The Metabolic Risk)</h4> <p>These lifestyle factors are linked to 30-35% of cancer deaths, primarily by driving chronic inflammation and hormonal imbalance.</p> <ul class="wp-block-list"><li><strong>Obesity:</strong> Excess body fat produces hormones (like estrogen) and inflammatory signals that promote cell proliferation. Obesity is a major risk factor for cancers of the breast (post-menopausal), colon, kidney, esophagus, and pancreas.</li> <li><strong>Poor Diet:</strong> A diet low in fiber (fruits, vegetables, whole grains) and high in processed/red meat and saturated fats is linked to colorectal and stomach cancers.</li> <li><strong>Lack of Exercise:</strong> Physical activity helps regulate hormone levels, improves immune function, and controls inflammation. Inactivity directly increases the risk of breast and colon cancers.</li> </ul> <h4>3. Infectious Agents (Biological Carcinogens)</h4> <p>Certain viruses, bacteria, and parasites do not <em>cause</em> cancer directly but integrate their genetic material into human cells or cause chronic inflammation that leads to genetic damage.</p> <ul class="wp-block-list"><li><strong>Human Papillomavirus (HPV):</strong> Linked to nearly all cervical cancers and a rising number of head and neck cancers (oropharyngeal). Vaccination is key pto revention.</li> <li><strong>Hepatitis B and C Viruses (HBV/HCV):</strong> Cause chronic liver inflammation, leading to liver cancer.</li> <li><strong>Helicobacter Pylori (H. pylori):</strong> A bacterium causing stomach inflammation and increasing the risk of stomach cancer.</li> </ul> <h4>4. Radiation Exposure (Energy Damage)</h4> <ul class="wp-block-list"><li><strong>Ultraviolet (UV) Radiation:</strong> From sunlight and tanning beds. Causes <a href="https://en.wikipedia.org/wiki/DNA">DNA</a> damage in skin cells, leading to melanoma, basal cell, and squamous cell carcinomas.</li> <li><strong>Ionizing Radiation:</strong> From industrial exposure, certain medical procedures, or radon gas. Linked to leukemia and certain solid tumors.</li> </ul> <h4>5. Alcohol Consumption</h4> <p>Alcohol is classified as a Group 1 carcinogen. The risk is linked not only to the ethanol itself but also to its breakdown product, acetaldehyde. Alcohol increases the risk of cancers of the mouth, pharynx, larynx, esophagus, liver, colon, and breast.</p> <h3>Prevention: Proactive Steps to Limit Risk</h3> <p>Knowing How is cancer caused? is the foundation for prevention. Experts estimate that 30–50% of all cancer cases are preventable by modifying lifestyle choices.</p> <figure class="wp-block-table"><table class="has-fixed-layout"><tbody><tr><td><strong>Prevention Strategy</strong></td><td><strong>Target Risk Factor</strong></td><td><strong>Actionable Steps</strong></td></tr><tr><td><strong>Eliminate Tobacco</strong></td><td>Tobacco Smoke, Benzene</td><td>Achieve and maintain a BMI under 25 through a balanced diet and activity.</td></tr><tr><td><strong>Maintain Healthy Weight</strong></td><td>Obesity, Hormonal Imbalance</td><td>Achieve and maintain a BMI under 25 through balanced diet and activity.</td></tr><tr><td><strong>Increase Activity</strong></td><td>Physical Inactivity</td><td>Aim for 150 minutes of moderate or 75 minutes of vigorous exercise weekly.</td></tr><tr><td><strong>Vaccination</strong></td><td>Infectious Agents (Viruses)</td><td>Maintain a Healthy Weight</td></tr><tr><td><strong>Sun Protection</strong></td><td>UV Radiation</td><td>Limit direct sun exposure between 10 a.m. and 4 p.m., use broad-spectrum sunscreen (SPF 30+), and wear protective clothing.</td></tr><tr><td><strong>Limit Alcohol</strong></td><td>Alcohol Toxicity</td><td>Limit consumption to no more than one drink per day for women and two drinks per day for men.</td></tr><tr><td><strong>Screening</strong></td><td>Early Detection</td><td>Follow guidelines for mammograms, colonoscopies, and cervical screens.</td></tr></tbody></table></figure> <h3>Expert Guidance: Consulting an Oncologist in Hyderabad</h3> <p>The path from understanding How is cancer caused? to developing a personalized treatment plan requires highly specialized care. Consulting a leading oncologist in hyderabad or a Medical Oncologist in Hyderabad is essential for precision diagnosis and multi-modal treatment.</p> <p>A specialist like <strong><a href="https://drvijayanandreddy.com/">Dr. Vijay Anand Reddy</a></strong> is not just a renowned expert in treating cancer; his deep experience in radiation oncology informs the strategic planning necessary to target malignant cells with high precision. An oncologist in Hyderabad or a Medical Oncologist in Hyderabad will use genomic testing to identify the specific mutations (oncogenes and tumor suppressor genes) in your tumor, transforming the general knowledge of How is cancer caused? into a personalized therapy (like Targeted Therapy or Immunotherapy). The coordinated approach led by the <strong><a href="https://drvijayanandreddy.com/achievements/">Best Oncologist in India</a></strong> ensures that patients benefit from the latest advancements, from minimal-toxicity chemotherapy regimens to advanced image-guided radiation techniques pioneered by leaders like Dr. Vijay Anand Reddy.</p> <h4>Frequently Asked Questions(FAQs):</h4>                          </div>
 
+                                                <!-- FAQ Accordion Section -->
+                        <div class="faq-section">
+                            <h3 class="faq-section-title">Frequently Asked Questions</h3>
+                            <div class="faq-accordion">
+                                                                <details class="faq-item">
+                                    <summary class="faq-summary">
+                                        <span>Q1: What does it mean when we say cancer is caused by genetic mutations?</span>
+                                        <i data-feather="chevron-down" class="faq-chevron w-5 h-5"></i>
+                                    </summary>
+                                    <div class="faq-answer">
+                                        Cancer begins when the DNA inside a cell develops mutations that disrupt normal growth. These damaged cells start dividing uncontrollably, eventually forming tumors and spreading if not treated.                                    </div>
+                                </details>
+                                                                <details class="faq-item">
+                                    <summary class="faq-summary">
+                                        <span>Q2: Are most cancers inherited from parents?</span>
+                                        <i data-feather="chevron-down" class="faq-chevron w-5 h-5"></i>
+                                    </summary>
+                                    <div class="faq-answer">
+                                        No. Only about 5–10% of cancers are inherited. The majority happen due to acquired mutations caused by aging, lifestyle factors, and environmental exposures.                                    </div>
+                                </details>
+                                                                <details class="faq-item">
+                                    <summary class="faq-summary">
+                                        <span>Q3: Can lifestyle factors really cause cancer?</span>
+                                        <i data-feather="chevron-down" class="faq-chevron w-5 h-5"></i>
+                                    </summary>
+                                    <div class="faq-answer">
+                                        Yes. Habits like smoking, poor diet, lack of exercise, alcohol use, and obesity contribute significantly to DNA damage, making them major preventable causes of cancer.                                    </div>
+                                </details>
+                                                                <details class="faq-item">
+                                    <summary class="faq-summary">
+                                        <span>Q4: Is tobacco the biggest cause of cancer?</span>
+                                        <i data-feather="chevron-down" class="faq-chevron w-5 h-5"></i>
+                                    </summary>
+                                    <div class="faq-answer">
+                                        Absolutely. Tobacco is the leading preventable cause of cancer, responsible for nearly 25–30% of all cancer deaths worldwide due to the carcinogens in smoke.                                    </div>
+                                </details>
+                                                                <details class="faq-item">
+                                    <summary class="faq-summary">
+                                        <span>Q5: Do viruses cause cancer?</span>
+                                        <i data-feather="chevron-down" class="faq-chevron w-5 h-5"></i>
+                                    </summary>
+                                    <div class="faq-answer">
+                                        Some viruses increase cancer risk. Common examples include HPV (cervical and throat cancers), Hepatitis B and C (liver cancer), and H. pylori bacteria (stomach cancer).                                    </div>
+                                </details>
+                                                            </div>
+                        </div>
+                        
                         <!-- Article Footer -->
                         <div class="mt-12 pt-8 border-t border-gray-100">
                             <!-- Tags -->

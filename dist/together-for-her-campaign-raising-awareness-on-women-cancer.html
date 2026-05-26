@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TogetHER for Her Campaign Raising awareness on Women Cancer March 16th 2024 - Dr. Vijay Anand Reddy</title>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
     <script src="https://unpkg.com/feather-icons"></script>
@@ -33,9 +33,17 @@
         .blog-content ul li { list-style-type: disc; }
         .blog-content ol li { list-style-type: decimal; }
         .blog-content strong { color: #1E293B; font-weight: 700; }
-        .blog-content h1, .blog-content h2, .blog-content h3 { color: #1E293B; margin: 2rem 0 1rem; font-weight: 700; line-height: 1.3; }
+        .blog-content h1, .blog-content h2, .blog-content h3, .blog-content h4, .blog-content h5, .blog-content h6 {
+            color: #1E293B;
+            margin: 2.25rem 0 1.25rem;
+            font-weight: 700;
+            line-height: 1.4;
+        }
         .blog-content h2 { font-size: 1.75rem; }
-        .blog-content h3 { font-size: 1.375rem; }
+        .blog-content h3 { font-size: 1.45rem; }
+        .blog-content h4 { font-size: 1.25rem; }
+        .blog-content h5 { font-size: 1.1rem; }
+        .blog-content h6 { font-size: 1rem; }
         .blog-content blockquote { border-left: 4px solid #9B528F; padding: 1rem 1.5rem; font-style: italic; color: #64748b; margin: 2rem 0; background: #f8fafc; border-radius: 0 0.5rem 0.5rem 0; }
         .blog-content img { max-width: 100%; height: auto; border-radius: 0.75rem; margin: 2rem 0; box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1); }
         .blog-content em { color: #64748b; }
@@ -43,6 +51,75 @@
         .blog-content table { width: 100%; border-collapse: collapse; margin: 1.5rem 0; }
         .blog-content th, .blog-content td { border: 1px solid #e2e8f0; padding: 0.75rem; text-align: left; }
         .blog-content th { background: #f8fafc; font-weight: 600; }
+
+        /* FAQ Accordion Styling */
+        .faq-section {
+            margin-top: 3rem;
+            border-top: 1px solid #F1F5F9;
+            padding-top: 2.5rem;
+        }
+        .faq-section-title {
+            font-size: 1.75rem;
+            font-weight: 700;
+            color: #1E293B;
+            margin-bottom: 1.5rem !important;
+        }
+        .faq-accordion {
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+        }
+        .faq-item {
+            border: 1px solid #E2E8F0;
+            border-radius: 0.75rem;
+            background: #FFFFFF;
+            overflow: hidden;
+            transition: all 0.3s ease;
+        }
+        .faq-item[open] {
+            border-color: #9B528F;
+            box-shadow: 0 4px 12px rgba(155, 82, 143, 0.05);
+        }
+        .faq-summary {
+            padding: 1.25rem 1.5rem;
+            font-weight: 600;
+            color: #1E293B;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            list-style: none;
+            user-select: none;
+            transition: background-color 0.2s ease;
+        }
+        .faq-summary::-webkit-details-marker {
+            display: none;
+        }
+        .faq-summary:hover {
+            background-color: #F8FAFC;
+            color: #9B528F;
+        }
+        .faq-chevron {
+            color: #64748B;
+            transition: transform 0.3s ease, color 0.3s ease;
+            flex-shrink: 0;
+            margin-left: 1rem;
+        }
+        .faq-item[open] .faq-chevron {
+            transform: rotate(180deg);
+            color: #9B528F;
+        }
+        .faq-answer {
+            padding: 1.25rem 1.5rem;
+            color: #475569;
+            line-height: 1.8;
+            font-size: 1rem;
+            border-top: 1px solid #F1F5F9;
+            background-color: #FAF9FB;
+        }
+        .faq-answer p {
+            margin-bottom: 0 !important;
+        }
     </style>
 </head>
 <body class="bg-gray-50">
@@ -1203,6 +1280,7 @@
                         <div class="blog-content text-gray-700 text-lg">
                             Previous slide Next slide <p>Apollo Cancer Centre, Hyderabad, has officially launched the "Together for Her" campaign, today at hotel Taj Deccan , a movement dedicated to empowering women to take charge of their health. This initiative commenced by introducing India's pioneering Purple Clip Champions Brigade.</p><p> </p><p>Speaking on this occasion Dr P Vijay Anand Reddy, Director, Apollo Cancer Centre said “As we honour the strength and resilience of women today, let us remember that self-care is not selfish; it is essential. Let us prioritize our health, both physical and mental, knowing that by nurturing ourselves, we empower ourselves and pave the way for a brighter, healthier future for all”.  </p><p> </p><p>Dignitaries who participated in the discussion were Dr. Christina Z. Chongthu, IAS, Secretary to Government, Health, Medical &amp; Family Welfare, Dr Vijay Kumar, IPS, ADG (Operations) Greyhounds &amp; OCTOPUS, Telangana Police, Ms. Ananda Shankar Jayant, Indian Classical Dancer, Choreographer &amp; Padmashree Awardee and Apollo team of doctors.</p> <a href="http://drvijayanandreddy.com/wp-content/uploads/2024/03/Main-Picture-MALI9182-1-scaled.jpeg" data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="a688b9a" data-elementor-lightbox-title="Main Picture - MALI9182" data-e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6ODg0OSwidXJsIjoiaHR0cDpcL1wvZHJ2aWpheWFuYW5kcmVkZHkuY29tXC93cC1jb250ZW50XC91cGxvYWRzXC8yMDI0XC8wM1wvTWFpbi1QaWN0dXJlLU1BTEk5MTgyLTEtc2NhbGVkLmpwZWciLCJzbGlkZXNob3ciOiJhNjg4YjlhIn0%3D"> </a> <a href="http://drvijayanandreddy.com/wp-content/uploads/2024/03/MALI9017-scaled.jpeg" data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="a688b9a" data-elementor-lightbox-title="MALI9017" data-e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6ODg1MCwidXJsIjoiaHR0cDpcL1wvZHJ2aWpheWFuYW5kcmVkZHkuY29tXC93cC1jb250ZW50XC91cGxvYWRzXC8yMDI0XC8wM1wvTUFMSTkwMTctc2NhbGVkLmpwZWciLCJzbGlkZXNob3ciOiJhNjg4YjlhIn0%3D"> </a> <a href="http://drvijayanandreddy.com/wp-content/uploads/2024/03/MALI9025-scaled.jpeg" data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="a688b9a" data-elementor-lightbox-title="MALI9025" data-e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6ODg1MSwidXJsIjoiaHR0cDpcL1wvZHJ2aWpheWFuYW5kcmVkZHkuY29tXC93cC1jb250ZW50XC91cGxvYWRzXC8yMDI0XC8wM1wvTUFMSTkwMjUtc2NhbGVkLmpwZWciLCJzbGlkZXNob3ciOiJhNjg4YjlhIn0%3D"> </a> <a href="http://drvijayanandreddy.com/wp-content/uploads/2024/03/MALI9041-scaled.jpeg" data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="a688b9a" data-elementor-lightbox-title="MALI9041" data-e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6ODg1MiwidXJsIjoiaHR0cDpcL1wvZHJ2aWpheWFuYW5kcmVkZHkuY29tXC93cC1jb250ZW50XC91cGxvYWRzXC8yMDI0XC8wM1wvTUFMSTkwNDEtc2NhbGVkLmpwZWciLCJzbGlkZXNob3ciOiJhNjg4YjlhIn0%3D"> </a> <a href="http://drvijayanandreddy.com/wp-content/uploads/2024/03/MALI9055-scaled.jpeg" data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="a688b9a" data-elementor-lightbox-title="MALI9055" data-e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6ODg1MywidXJsIjoiaHR0cDpcL1wvZHJ2aWpheWFuYW5kcmVkZHkuY29tXC93cC1jb250ZW50XC91cGxvYWRzXC8yMDI0XC8wM1wvTUFMSTkwNTUtc2NhbGVkLmpwZWciLCJzbGlkZXNob3ciOiJhNjg4YjlhIn0%3D"> </a> <a href="http://drvijayanandreddy.com/wp-content/uploads/2024/03/MALI9069-scaled.jpeg" data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="a688b9a" data-elementor-lightbox-title="MALI9069" data-e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6ODg1NCwidXJsIjoiaHR0cDpcL1wvZHJ2aWpheWFuYW5kcmVkZHkuY29tXC93cC1jb250ZW50XC91cGxvYWRzXC8yMDI0XC8wM1wvTUFMSTkwNjktc2NhbGVkLmpwZWciLCJzbGlkZXNob3ciOiJhNjg4YjlhIn0%3D"> </a> <a href="http://drvijayanandreddy.com/wp-content/uploads/2024/03/MALI9104-scaled.jpeg" data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="a688b9a" data-elementor-lightbox-title="MALI9104" data-e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6ODg1NSwidXJsIjoiaHR0cDpcL1wvZHJ2aWpheWFuYW5kcmVkZHkuY29tXC93cC1jb250ZW50XC91cGxvYWRzXC8yMDI0XC8wM1wvTUFMSTkxMDQtc2NhbGVkLmpwZWciLCJzbGlkZXNob3ciOiJhNjg4YjlhIn0%3D"> </a> <a href="http://drvijayanandreddy.com/wp-content/uploads/2024/03/MALI9117-scaled.jpeg" data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="a688b9a" data-elementor-lightbox-title="MALI9117" data-e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6ODg1NiwidXJsIjoiaHR0cDpcL1wvZHJ2aWpheWFuYW5kcmVkZHkuY29tXC93cC1jb250ZW50XC91cGxvYWRzXC8yMDI0XC8wM1wvTUFMSTkxMTctc2NhbGVkLmpwZWciLCJzbGlkZXNob3ciOiJhNjg4YjlhIn0%3D"> </a> <a href="http://drvijayanandreddy.com/wp-content/uploads/2024/03/MALI9132-scaled.jpeg" data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="a688b9a" data-elementor-lightbox-title="MALI9132" data-e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6ODg1NywidXJsIjoiaHR0cDpcL1wvZHJ2aWpheWFuYW5kcmVkZHkuY29tXC93cC1jb250ZW50XC91cGxvYWRzXC8yMDI0XC8wM1wvTUFMSTkxMzItc2NhbGVkLmpwZWciLCJzbGlkZXNob3ciOiJhNjg4YjlhIn0%3D"> </a> <a href="http://drvijayanandreddy.com/wp-content/uploads/2024/03/MALI9152-scaled.jpeg" data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="a688b9a" data-elementor-lightbox-title="MALI9152" data-e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6ODg1OCwidXJsIjoiaHR0cDpcL1wvZHJ2aWpheWFuYW5kcmVkZHkuY29tXC93cC1jb250ZW50XC91cGxvYWRzXC8yMDI0XC8wM1wvTUFMSTkxNTItc2NhbGVkLmpwZWciLCJzbGlkZXNob3ciOiJhNjg4YjlhIn0%3D"> </a> <a href="http://drvijayanandreddy.com/wp-content/uploads/2024/03/MALI9173-scaled.jpeg" data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="a688b9a" data-elementor-lightbox-title="MALI9173" data-e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6ODg1OSwidXJsIjoiaHR0cDpcL1wvZHJ2aWpheWFuYW5kcmVkZHkuY29tXC93cC1jb250ZW50XC91cGxvYWRzXC8yMDI0XC8wM1wvTUFMSTkxNzMtc2NhbGVkLmpwZWciLCJzbGlkZXNob3ciOiJhNjg4YjlhIn0%3D"> </a> <a href="http://drvijayanandreddy.com/wp-content/uploads/2024/03/MALI9275-scaled.jpeg" data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="a688b9a" data-elementor-lightbox-title="MALI9275" data-e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6ODg2MCwidXJsIjoiaHR0cDpcL1wvZHJ2aWpheWFuYW5kcmVkZHkuY29tXC93cC1jb250ZW50XC91cGxvYWRzXC8yMDI0XC8wM1wvTUFMSTkyNzUtc2NhbGVkLmpwZWciLCJzbGlkZXNob3ciOiJhNjg4YjlhIn0%3D"> </a> <a href="http://drvijayanandreddy.com/wp-content/uploads/2024/03/MALI9299-scaled.jpeg" data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="a688b9a" data-elementor-lightbox-title="MALI9299" data-e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6ODg2MSwidXJsIjoiaHR0cDpcL1wvZHJ2aWpheWFuYW5kcmVkZHkuY29tXC93cC1jb250ZW50XC91cGxvYWRzXC8yMDI0XC8wM1wvTUFMSTkyOTktc2NhbGVkLmpwZWciLCJzbGlkZXNob3ciOiJhNjg4YjlhIn0%3D"> </a> <a href="http://drvijayanandreddy.com/wp-content/uploads/2024/03/MALI9333-scaled.jpeg" data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="a688b9a" data-elementor-lightbox-title="MALI9333" data-e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6ODg2MiwidXJsIjoiaHR0cDpcL1wvZHJ2aWpheWFuYW5kcmVkZHkuY29tXC93cC1jb250ZW50XC91cGxvYWRzXC8yMDI0XC8wM1wvTUFMSTkzMzMtc2NhbGVkLmpwZWciLCJzbGlkZXNob3ciOiJhNjg4YjlhIn0%3D"> </a>                        </div>
 
+                        
                         <!-- Article Footer -->
                         <div class="mt-12 pt-8 border-t border-gray-100">
                             <!-- Tags -->

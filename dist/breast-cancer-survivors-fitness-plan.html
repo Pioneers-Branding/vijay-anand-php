@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Ultimate Breast Cancer Survivors Fitness Plan: Key Components and Table - Dr. Vijay Anand Reddy</title>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
     <script src="https://unpkg.com/feather-icons"></script>
@@ -33,9 +33,17 @@
         .blog-content ul li { list-style-type: disc; }
         .blog-content ol li { list-style-type: decimal; }
         .blog-content strong { color: #1E293B; font-weight: 700; }
-        .blog-content h1, .blog-content h2, .blog-content h3 { color: #1E293B; margin: 2rem 0 1rem; font-weight: 700; line-height: 1.3; }
+        .blog-content h1, .blog-content h2, .blog-content h3, .blog-content h4, .blog-content h5, .blog-content h6 {
+            color: #1E293B;
+            margin: 2.25rem 0 1.25rem;
+            font-weight: 700;
+            line-height: 1.4;
+        }
         .blog-content h2 { font-size: 1.75rem; }
-        .blog-content h3 { font-size: 1.375rem; }
+        .blog-content h3 { font-size: 1.45rem; }
+        .blog-content h4 { font-size: 1.25rem; }
+        .blog-content h5 { font-size: 1.1rem; }
+        .blog-content h6 { font-size: 1rem; }
         .blog-content blockquote { border-left: 4px solid #9B528F; padding: 1rem 1.5rem; font-style: italic; color: #64748b; margin: 2rem 0; background: #f8fafc; border-radius: 0 0.5rem 0.5rem 0; }
         .blog-content img { max-width: 100%; height: auto; border-radius: 0.75rem; margin: 2rem 0; box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1); }
         .blog-content em { color: #64748b; }
@@ -43,6 +51,75 @@
         .blog-content table { width: 100%; border-collapse: collapse; margin: 1.5rem 0; }
         .blog-content th, .blog-content td { border: 1px solid #e2e8f0; padding: 0.75rem; text-align: left; }
         .blog-content th { background: #f8fafc; font-weight: 600; }
+
+        /* FAQ Accordion Styling */
+        .faq-section {
+            margin-top: 3rem;
+            border-top: 1px solid #F1F5F9;
+            padding-top: 2.5rem;
+        }
+        .faq-section-title {
+            font-size: 1.75rem;
+            font-weight: 700;
+            color: #1E293B;
+            margin-bottom: 1.5rem !important;
+        }
+        .faq-accordion {
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+        }
+        .faq-item {
+            border: 1px solid #E2E8F0;
+            border-radius: 0.75rem;
+            background: #FFFFFF;
+            overflow: hidden;
+            transition: all 0.3s ease;
+        }
+        .faq-item[open] {
+            border-color: #9B528F;
+            box-shadow: 0 4px 12px rgba(155, 82, 143, 0.05);
+        }
+        .faq-summary {
+            padding: 1.25rem 1.5rem;
+            font-weight: 600;
+            color: #1E293B;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            list-style: none;
+            user-select: none;
+            transition: background-color 0.2s ease;
+        }
+        .faq-summary::-webkit-details-marker {
+            display: none;
+        }
+        .faq-summary:hover {
+            background-color: #F8FAFC;
+            color: #9B528F;
+        }
+        .faq-chevron {
+            color: #64748B;
+            transition: transform 0.3s ease, color 0.3s ease;
+            flex-shrink: 0;
+            margin-left: 1rem;
+        }
+        .faq-item[open] .faq-chevron {
+            transform: rotate(180deg);
+            color: #9B528F;
+        }
+        .faq-answer {
+            padding: 1.25rem 1.5rem;
+            color: #475569;
+            line-height: 1.8;
+            font-size: 1rem;
+            border-top: 1px solid #F1F5F9;
+            background-color: #FAF9FB;
+        }
+        .faq-answer p {
+            margin-bottom: 0 !important;
+        }
     </style>
 </head>
 <body class="bg-gray-50">
@@ -1201,8 +1278,9 @@
 
                         <!-- Article Content -->
                         <div class="blog-content text-gray-700 text-lg">
-                            <p>After battling breast cancer, adopting a fitness plan can be a significant step towards recovery and long-term health. Exercise not only helps in rebuilding physical strength but also plays a crucial role in enhancing emotional well-being. For survivors seeking to incorporate exercise into their recovery phase, understanding how to start can be overwhelming. This plan is designed with survivors in mind, offering guidance on safe and effective ways to regain fitness post-treatment. It's important to consult healthcare providers, like those at the<a href="https://drvijayanandreddy.com/service/breast-cancer-treatment-in-india/"> Best Breast Cancer Treatment in India</a>, to tailor a fitness plan that meets your specific needs.</p> <h3 class="wp-block-heading"><strong>Components of Breast Cancer Survivors Fitness Plan</strong></h3> <h4 class="wp-block-heading"><strong>1. Start Slow</strong></h4> <figure class="wp-block-image"><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXf60w8CQsAUT7iB6CWXm5U--HaOGp83XQcvE1rXkVJ5ZfYwGevgZ2ggbkSn6tEcUK7iYjj0ScwF3YG-QSDtr30-g0wddN0--16VoK-Zk9HKMf-8gs2ZTiVHJSMXrM4dSXg8uV1kRRzaiSrwPdgm7muE-c7Z?key=r8nmk4L6Zi51oCpd18gi-Q" alt="/></figure> <p>Begin with low-intensity activities, such as walking or gentle yoga. Starting slow helps in gradually building up endurance and muscle strength without overstraining the body.</p> <h4 class="wp-block-heading"><strong>2. Incorporate Strength Training</strong></h4> <figure class="wp-block-image"><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXejnDJos6WL0mAyUf0xR-J57XAZgXncM-ytiOKoa5_txPHibP4vqMxmXYs34z0qol-QYkK2R8nuUV-YgRDJevgWi3FhsfTb2__IHHOdhQkrrzKBE41wXI5zi8Pb7mpdKOOsELB6TF41dppqGG68EUddw6WT?key=r8nmk4L6Zi51oCpd18gi-Q" alt="/></figure> <p>Strength training can help rebuild muscle mass and bone density that might have been affected by cancer treatment. Use light weights or resistance bands, and gradually increase the intensity under professional guidance.</p> <h4 class="wp-block-heading"><strong>3. Focus on Flexibility</strong></h4> <figure class="wp-block-image"><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXdsAf6ipuDq6C1vD3206FAFrLnOY714F4SfH771oeT-yI8iudfUHuiFK-h20kuZO9sh_cIowK1bF5JQBwo4738HIAV2hL_j7ZH-S-Z2zHgNKrIqj-0fDNsM4d7udJvVvPbGqofA38jKKn0wqI66AR2HbYq4?key=r8nmk4L6Zi51oCpd18gi-Q" alt="/></figure> <p>Cancer treatments can lead to reduced flexibility. Incorporate stretching exercises or yoga to enhance flexibility and reduce stiffness.</p> <h4 class="wp-block-heading"><strong>4. Include Cardiovascular Exercises</strong></h4> <figure class="wp-block-image"><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXf2HdHvbtbpoocU1IZXmEkRwpKYdih5CTo6QRT-G0nMYhU44EpPE4V5cqjMxB197zQjjfmUFH1S0e5D-bbt0k5CIKX3P9UXUSpRkOtR_yeM9LBoGSsVVYrp4Ab-j7Hmhba3Fqz3irCt3GBzDj0NEFFyFPBo?key=r8nmk4L6Zi51oCpd18gi-Q" alt="/></figure> <p>Engaging in cardiovascular activities like cycling, brisk walking, or swimming can improve heart health and boost energy levels.</p> <h4 class="wp-block-heading"><strong>5. Prioritize Balance Exercises</strong></h4> <figure class="wp-block-image"><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXcq7L-5IRp7XeRkDhwaBgOturu-Wg87eklZQDuuH9t_M63gBTZtYZ0NwYzC9QhIxjYz4KtMlqwViXay19PPkluAy8uxTz-SdmY8y-ceM34OooAnZV38rdDckOiQwFMyrHp4wWq7wmuU8btxfKUxDJDkbpEf?key=r8nmk4L6Zi51oCpd18gi-Q" alt="/></figure> <p>Balance exercises are crucial, especially for those who may experience neuropathy as a side effect of treatment. Tai chi and balance-focused yoga poses are beneficial.</p> <h3 class="wp-block-heading"><strong>Table: Suggested Weekly Fitness Plan for Breast Cancer Survivors</strong></h3> <figure class="wp-block-table"><table class="has-fixed-layout"><tbody><tr><td><strong>Day</strong></td><td><strong>Activity</strong></td><td><strong>Duration</strong></td><td><strong>Intensity</strong></td></tr><tr><td>Monday</td><td>Walk or Gentle Yoga</td><td>30 minutes</td><td>Low</td></tr><tr><td>Tuesday</td><td>Light Strength Training</td><td>20 minutes</td><td>Moderate</td></tr><tr><td>Wednesday</td><td>Rest or Gentle Stretching</td><td>15 minutes</td><td>Low</td></tr><tr><td>Thursday</td><td>Cardio (e.g., Cycling)</td><td>30 minutes</td><td>Moderate</td></tr><tr><td>Friday</td><td>Balance Exercises (e.g., Tai Chi)</td><td>30 minutes</td><td>Low to Moderate</td></tr><tr><td>Saturday</td><td>Combination of Walking and Stretching</td><td>40 minutes</td><td>Low to Moderate</td></tr><tr><td>Sunday</td><td>Rest or Light Activity</td><td>Optional</td><td>Low</td></tr></tbody></table></figure> <p>Implementing a structured fitness plan is a key component of recovery for breast cancer survivors. It not only helps in physical rehabilitation but also boosts mental health and overall well-being. As always, it's crucial to coordinate with healthcare professionals to ensure that any exercise plan is safe and effective. Survivors looking for comprehensive care can find support at facilities offering the Best Breast Cancer Treatment in India, where customized wellness programs are part of the recovery process. Embracing fitness as a part of your new beginning can help pave the way for a healthier, more vibrant future.</p>                         </div>
+                            <p>After battling breast cancer, adopting a fitness plan can be a significant step towards recovery and long-term health. Exercise not only helps in rebuilding physical strength but also plays a crucial role in enhancing emotional well-being. For survivors seeking to incorporate exercise into their recovery phase, understanding how to start can be overwhelming. This plan is designed with survivors in mind, offering guidance on safe and effective ways to regain fitness post-treatment. It's important to consult healthcare providers, like those at the<a href="https://drvijayanandreddy.com/service/breast-cancer-treatment-in-india/"> Best Breast Cancer Treatment in India</a>, to tailor a fitness plan that meets your specific needs.</p> <h3>Components of Breast Cancer Survivors Fitness Plan</h3> <h4>1. Start Slow</h4> <figure class="wp-block-image"><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXf60w8CQsAUT7iB6CWXm5U--HaOGp83XQcvE1rXkVJ5ZfYwGevgZ2ggbkSn6tEcUK7iYjj0ScwF3YG-QSDtr30-g0wddN0--16VoK-Zk9HKMf-8gs2ZTiVHJSMXrM4dSXg8uV1kRRzaiSrwPdgm7muE-c7Z?key=r8nmk4L6Zi51oCpd18gi-Q" alt="/></figure> <p>Begin with low-intensity activities, such as walking or gentle yoga. Starting slow helps in gradually building up endurance and muscle strength without overstraining the body.</p> <h4>2. Incorporate Strength Training</h4> <figure class="wp-block-image"><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXejnDJos6WL0mAyUf0xR-J57XAZgXncM-ytiOKoa5_txPHibP4vqMxmXYs34z0qol-QYkK2R8nuUV-YgRDJevgWi3FhsfTb2__IHHOdhQkrrzKBE41wXI5zi8Pb7mpdKOOsELB6TF41dppqGG68EUddw6WT?key=r8nmk4L6Zi51oCpd18gi-Q" alt="/></figure> <p>Strength training can help rebuild muscle mass and bone density that might have been affected by cancer treatment. Use light weights or resistance bands, and gradually increase the intensity under professional guidance.</p> <h4>3. Focus on Flexibility</h4> <figure class="wp-block-image"><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXdsAf6ipuDq6C1vD3206FAFrLnOY714F4SfH771oeT-yI8iudfUHuiFK-h20kuZO9sh_cIowK1bF5JQBwo4738HIAV2hL_j7ZH-S-Z2zHgNKrIqj-0fDNsM4d7udJvVvPbGqofA38jKKn0wqI66AR2HbYq4?key=r8nmk4L6Zi51oCpd18gi-Q" alt="/></figure> <p>Cancer treatments can lead to reduced flexibility. Incorporate stretching exercises or yoga to enhance flexibility and reduce stiffness.</p> <h4>4. Include Cardiovascular Exercises</h4> <figure class="wp-block-image"><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXf2HdHvbtbpoocU1IZXmEkRwpKYdih5CTo6QRT-G0nMYhU44EpPE4V5cqjMxB197zQjjfmUFH1S0e5D-bbt0k5CIKX3P9UXUSpRkOtR_yeM9LBoGSsVVYrp4Ab-j7Hmhba3Fqz3irCt3GBzDj0NEFFyFPBo?key=r8nmk4L6Zi51oCpd18gi-Q" alt="/></figure> <p>Engaging in cardiovascular activities like cycling, brisk walking, or swimming can improve heart health and boost energy levels.</p> <h4>5. Prioritize Balance Exercises</h4> <figure class="wp-block-image"><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXcq7L-5IRp7XeRkDhwaBgOturu-Wg87eklZQDuuH9t_M63gBTZtYZ0NwYzC9QhIxjYz4KtMlqwViXay19PPkluAy8uxTz-SdmY8y-ceM34OooAnZV38rdDckOiQwFMyrHp4wWq7wmuU8btxfKUxDJDkbpEf?key=r8nmk4L6Zi51oCpd18gi-Q" alt="/></figure> <p>Balance exercises are crucial, especially for those who may experience neuropathy as a side effect of treatment. Tai chi and balance-focused yoga poses are beneficial.</p> <h3>Table: Suggested Weekly Fitness Plan for Breast Cancer Survivors</h3> <figure class="wp-block-table"><table class="has-fixed-layout"><tbody><tr><td><strong>Day</strong></td><td><strong>Activity</strong></td><td><strong>Duration</strong></td><td><strong>Intensity</strong></td></tr><tr><td>Monday</td><td>Walk or Gentle Yoga</td><td>30 minutes</td><td>Low</td></tr><tr><td>Tuesday</td><td>Light Strength Training</td><td>20 minutes</td><td>Moderate</td></tr><tr><td>Wednesday</td><td>Rest or Gentle Stretching</td><td>15 minutes</td><td>Low</td></tr><tr><td>Thursday</td><td>Cardio (e.g., Cycling)</td><td>30 minutes</td><td>Moderate</td></tr><tr><td>Friday</td><td>Balance Exercises (e.g., Tai Chi)</td><td>30 minutes</td><td>Low to Moderate</td></tr><tr><td>Saturday</td><td>Combination of Walking and Stretching</td><td>40 minutes</td><td>Low to Moderate</td></tr><tr><td>Sunday</td><td>Rest or Light Activity</td><td>Optional</td><td>Low</td></tr></tbody></table></figure> <p>Implementing a structured fitness plan is a key component of recovery for breast cancer survivors. It not only helps in physical rehabilitation but also boosts mental health and overall well-being. As always, it's crucial to coordinate with healthcare professionals to ensure that any exercise plan is safe and effective. Survivors looking for comprehensive care can find support at facilities offering the Best Breast Cancer Treatment in India, where customized wellness programs are part of the recovery process. Embracing fitness as a part of your new beginning can help pave the way for a healthier, more vibrant future.</p>                         </div>
 
+                        
                         <!-- Article Footer -->
                         <div class="mt-12 pt-8 border-t border-gray-100">
                             <!-- Tags -->

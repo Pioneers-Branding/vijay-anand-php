@@ -1,6 +1,5 @@
 # Redirect .php URLs to .html
 /achievements.php    /achievements.html    301
-/analyze.php    /analyze.html    301
 /awards.php    /awards.html    301
 /awareness-lectures.php    /awareness-lectures.html    301
 /biological-therapy.php    /biological-therapy.html    301
@@ -18,6 +17,7 @@
 /ccgc-2.php    /ccgc-2.html    301
 /cervical-cancer-treatment-in-hyderabad.php    /cervical-cancer-treatment-in-hyderabad.html    301
 /cervical-cancer.php    /cervical-cancer.html    301
+/check_faq_115.php    /check_faq_115.html    301
 /chemotherapy.php    /chemotherapy.html    301
 /colorectal-cancer-treatment-in-hyderabad.php    /colorectal-cancer-treatment-in-hyderabad.html    301
 /colorectal-cancer.php    /colorectal-cancer.html    301
