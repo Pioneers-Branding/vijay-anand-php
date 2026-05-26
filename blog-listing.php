@@ -3,9 +3,9 @@
 $postsJson = file_get_contents('posts_data.json');
 $posts = json_decode($postsJson, true);
 
-// Sort by id descending (newest first)
+// Sort by date descending (newest first)
 usort($posts, function($a, $b) {
-    return intval($b['id']) - intval($a['id']);
+    return strcmp($b['date'] ?? '', $a['date'] ?? '');
 });
 
 // Pagination
@@ -189,6 +189,10 @@ if (is_dir($imagesDir)) {
 
                                 <!-- Content -->
                                 <div class="p-6">
+                                    <div class="flex items-center text-gray-400 text-xs mb-2">
+                                        <i data-feather="calendar" class="w-3.5 h-3.5 mr-1.5"></i>
+                                        <span><?= date('M d, Y', strtotime($post['date'])) ?></span>
+                                    </div>
                                     <h3 class="text-xl font-bold text-medical-dark mb-4 line-clamp-2 group-hover:text-medical-blue transition-colors duration-300">
                                         <?= htmlspecialchars($post['title']) ?>
                                     </h3>

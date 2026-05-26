@@ -133,9 +133,9 @@ $related = array_slice(array_filter($posts, fn($p) => intval($p['id']) !== $post
                                 <p class="text-xs text-blue-200">Oncologist</p>
                             </div>
                         </div>
-                        <div class="hidden sm:flex items-center">
-                            <i data-feather="clock" class="w-4 h-4 mr-2"></i>
-                            <span>5 min read</span>
+                        <div class="flex items-center">
+                            <i data-feather="calendar" class="w-4 h-4 mr-2"></i>
+                            <span><?= date('F j, Y', strtotime($post['date'])) ?></span>
                         </div>
                     </div>
                 </div>
