@@ -1050,10 +1050,10 @@
     $postsJson = file_get_contents('posts_data.json');
     $allPosts = json_decode($postsJson, true) ?: [];
 
-    // Sort by id descending (newest first) and take first 3
-    usort($allPosts, function($a, $b) {
-        return intval($b['id']) - intval($a['id']);
-    });
+     // Sort by date descending (newest first) and take first 3
+     usort($allPosts, function($a, $b) {
+         return strcmp($b['date'] ?? '', $a['date'] ?? '');
+     });
     $homepagePosts = array_slice($allPosts, 0, 3);
     ?>
     <section id="blog" class="py-6 sm:py-8 bg-white">
@@ -1086,6 +1086,10 @@
 
                 <!-- Content Container -->
                 <div class="bg-white p-5 sm:p-6">
+                  <div class="flex items-center text-gray-400 text-xs mb-2">
+                    <i data-feather="calendar" class="w-3.5 h-3.5 mr-1.5"></i>
+                    <span><?= date('M d, Y', strtotime($post['date'])) ?></span>
+                  </div>
                   <h4 class="text-lg sm:text-xl font-bold text-gray-800 mb-2 line-clamp-2 group-hover:text-medical-blue transition-colors duration-200">
                     <?= htmlspecialchars($post['title']) ?>
                   </h4>
