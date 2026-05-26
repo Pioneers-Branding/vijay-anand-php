@@ -1,10 +1,10 @@
 # Redirect .php URLs to .html
 /achievements.php    /achievements.html    301
+/analyze.php    /analyze.html    301
 /awards.php    /awards.html    301
 /awareness-lectures.php    /awareness-lectures.html    301
 /biological-therapy.php    /biological-therapy.html    301
 /blog-listing.php    /blog-listing.html    301
-/blog-post.php    /blog-post.html    301
 /bone-cancer-osteosarcoma.php    /bone-cancer-osteosarcoma.html    301
 /bone-cancer-treatment-in-hyderabad.php    /bone-cancer-treatment-in-hyderabad.html    301
 /books.php    /books.html    301
@@ -99,6 +99,7 @@
 /tomotherapy.php    /tomotherapy.html    301
 /update_content_urls.php    /update_content_urls.html    301
 /update_pipe_urls.php    /update_pipe_urls.html    301
+/update_posts.php    /update_posts.html    301
 /uro-oncology.php    /uro-oncology.html    301
 /uveal-melanoma.php    /uveal-melanoma.html    301
 /video-gallery.php    /video-gallery.html    301
