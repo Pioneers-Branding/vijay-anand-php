@@ -4,8 +4,8 @@
     <link rel="icon" href="assets/logo/var-favicon.png" type="image/png">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Brain Tumor Doctor in India | Dr. Vijay Anand Reddy</title>
-    <meta name="description" content="Seeking a trusted Brain Tumor Doctor in India? Consult Dr. Vijay Anand Reddy for advanced diagnosis, personalized treatment, and compassionate cancer care.">
+    <title>Brain Tumor Treatment in India | Dr. Vijay Anand Reddy</title>
+    <meta name="description" content="Seeking advanced Brain Tumor Treatment in India? Get expert diagnosis, modern therapies, and compassionate care under Dr. Vijay Anand Reddy for better outcomes.">
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
     

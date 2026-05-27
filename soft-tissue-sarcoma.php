@@ -4,8 +4,8 @@
     <link rel="icon" href="assets/logo/var-favicon.png" type="image/png">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Soft Tissue Sarcoma Doctor in India | Dr. Vijay Anand Reddy</title>
-    <meta name="description" content="Seeking a trusted Soft Tissue Sarcoma Doctor in India? Consult Dr. Vijay Anand Reddy for advanced diagnosis, personalized treatment, and compassionate cancer care.">
+    <title>Soft Tissue Sarcoma treatment in Hyderabad, India</title>
+    <meta name="description" content="Seeking advanced Soft Tissue Sarcoma treatment in Hyderabad, India? Consult Dr. Vijay Anand Reddy for expert diagnosis, personalized care & cancer management.">
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
     
