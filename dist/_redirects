@@ -1,4 +1,246 @@
-# Redirect .php URLs to .html
+# 1. Specific Query-based redirects for blog posts
+/blog-post.php    id=10610    /blog/is-chemotherapy-painful-for-breast-cancer?    301
+/blog/view.php    id=10610    /blog/is-chemotherapy-painful-for-breast-cancer?    301
+/blog-post.php    id=10593    /blog/8th-edition-of-whitathon?    301
+/blog/view.php    id=10593    /blog/8th-edition-of-whitathon?    301
+/blog-post.php    id=10581    /blog/how-to-cure-throat-cancer-at-home?    301
+/blog/view.php    id=10581    /blog/how-to-cure-throat-cancer-at-home?    301
+/blog-post.php    id=10576    /blog/which-ray-is-used-in-cancer-treatment?    301
+/blog/view.php    id=10576    /blog/which-ray-is-used-in-cancer-treatment?    301
+/blog-post.php    id=10573    /blog/can-liver-cancer-cause-high-blood-sugar?    301
+/blog/view.php    id=10573    /blog/can-liver-cancer-cause-high-blood-sugar?    301
+/blog-post.php    id=10569    /blog/why-hair-loss-in-cancer-treatment?    301
+/blog/view.php    id=10569    /blog/why-hair-loss-in-cancer-treatment?    301
+/blog-post.php    id=10566    /blog/is-lung-cancer-treatable?    301
+/blog/view.php    id=10566    /blog/is-lung-cancer-treatable?    301
+/blog-post.php    id=10519    /blog/how-does-proton-therapy-work?    301
+/blog/view.php    id=10519    /blog/how-does-proton-therapy-work?    301
+/blog-post.php    id=10512    /blog/does-breast-cancer-cause-hair-loss?    301
+/blog/view.php    id=10512    /blog/does-breast-cancer-cause-hair-loss?    301
+/blog-post.php    id=10508    /blog/how-fast-does-cancer-spread-without-treatment?    301
+/blog/view.php    id=10508    /blog/how-fast-does-cancer-spread-without-treatment?    301
+/blog-post.php    id=10496    /blog/is-chemotherapy-painful?    301
+/blog/view.php    id=10496    /blog/is-chemotherapy-painful?    301
+/blog-post.php    id=10476    /blog/how-long-does-proton-therapy-take?    301
+/blog/view.php    id=10476    /blog/how-long-does-proton-therapy-take?    301
+/blog-post.php    id=9970    /blog/can-blood-cancer-be-cured?    301
+/blog/view.php    id=9970    /blog/can-blood-cancer-be-cured?    301
+/blog-post.php    id=10284    /blog/is-immunotherapy-better-than-chemotherapy?    301
+/blog/view.php    id=10284    /blog/is-immunotherapy-better-than-chemotherapy?    301
+/blog-post.php    id=9986    /blog/at-what-stage-of-cancer-is-chemotherapy-used?    301
+/blog/view.php    id=9986    /blog/at-what-stage-of-cancer-is-chemotherapy-used?    301
+/blog-post.php    id=10212    /blog/what-type-of-cancer-can-be-treated-with-proton-therapy?    301
+/blog/view.php    id=10212    /blog/what-type-of-cancer-can-be-treated-with-proton-therapy?    301
+/blog-post.php    id=10435    /blog/what-is-the-best-treatment-for-liver-cancer?    301
+/blog/view.php    id=10435    /blog/what-is-the-best-treatment-for-liver-cancer?    301
+/blog-post.php    id=10113    /blog/can-hair-transplant-cause-cancer?    301
+/blog/view.php    id=10113    /blog/can-hair-transplant-cause-cancer?    301
+/blog-post.php    id=10290    /blog/what-is-the-difference-between-radiotherapy-and-chemotherapy?    301
+/blog/view.php    id=10290    /blog/what-is-the-difference-between-radiotherapy-and-chemotherapy?    301
+/blog-post.php    id=10413    /blog/how-to-detect-brain-tumor-at-home?    301
+/blog/view.php    id=10413    /blog/how-to-detect-brain-tumor-at-home?    301
+/blog-post.php    id=10409    /blog/how-is-cancer-caused?    301
+/blog/view.php    id=10409    /blog/how-is-cancer-caused?    301
+/blog-post.php    id=10406    /blog/top-10-cancer-specialist-doctors-in-india?    301
+/blog/view.php    id=10406    /blog/top-10-cancer-specialist-doctors-in-india?    301
+/blog-post.php    id=10401    /blog/can-stage-2-lung-cancer-be-cured?    301
+/blog/view.php    id=10401    /blog/can-stage-2-lung-cancer-be-cured?    301
+/blog-post.php    id=10398    /blog/how-long-does-breast-cancer-treatment-take?    301
+/blog/view.php    id=10398    /blog/how-long-does-breast-cancer-treatment-take?    301
+/blog-post.php    id=10391    /blog/apollo-cancer-centers-cure-foundation?    301
+/blog/view.php    id=10391    /blog/apollo-cancer-centers-cure-foundation?    301
+/blog-post.php    id=10349    /blog/is-breast-cancer-curable?    301
+/blog/view.php    id=10349    /blog/is-breast-cancer-curable?    301
+/blog-post.php    id=10365    /blog/national-cancer-awareness-day-check-o-late-initiative?    301
+/blog/view.php    id=10365    /blog/national-cancer-awareness-day-check-o-late-initiative?    301
+/blog-post.php    id=10335    /blog/how-to-prevent-blood-cancer?    301
+/blog/view.php    id=10335    /blog/how-to-prevent-blood-cancer?    301
+/blog-post.php    id=10330    /blog/what-is-the-difference-between-tumor-and-cancer?    301
+/blog/view.php    id=10330    /blog/what-is-the-difference-between-tumor-and-cancer?    301
+/blog-post.php    id=10303    /blog/i-am-a-survivor-hindi-version-book-launch?    301
+/blog/view.php    id=10303    /blog/i-am-a-survivor-hindi-version-book-launch?    301
+/blog-post.php    id=10325    /blog/can-cancer-be-transmitted-through-saliva?    301
+/blog/view.php    id=10325    /blog/can-cancer-be-transmitted-through-saliva?    301
+/blog-post.php    id=10295    /blog/how-to-detect-brain-cancer?    301
+/blog/view.php    id=10295    /blog/how-to-detect-brain-cancer?    301
+/blog-post.php    id=10202    /blog/childhood-cancer-awareness?    301
+/blog/view.php    id=10202    /blog/childhood-cancer-awareness?    301
+/blog-post.php    id=10194    /blog/seasonal-health-precautions-for-cancer-patients?    301
+/blog/view.php    id=10194    /blog/seasonal-health-precautions-for-cancer-patients?    301
+/blog-post.php    id=10279    /blog/how-to-prevent-brain-tumor?    301
+/blog/view.php    id=10279    /blog/how-to-prevent-brain-tumor?    301
+/blog-post.php    id=10153    /blog/how-technology-is-changing-the-way-we-fight-cancer?    301
+/blog/view.php    id=10153    /blog/how-technology-is-changing-the-way-we-fight-cancer?    301
+/blog-post.php    id=10128    /blog/what-is-personalized-cancer-treatment-how-its-revolutionizing-patient-outcomes?    301
+/blog/view.php    id=10128    /blog/what-is-personalized-cancer-treatment-how-its-revolutionizing-patient-outcomes?    301
+/blog-post.php    id=10138    /blog/sarcoma-awareness-month?    301
+/blog/view.php    id=10138    /blog/sarcoma-awareness-month?    301
+/blog-post.php    id=10117    /blog/top-signs-of-cancer-you-should-never-ignore?    301
+/blog/view.php    id=10117    /blog/top-signs-of-cancer-you-should-never-ignore?    301
+/blog-post.php    id=10103    /blog/mits-50-cent-dna-sensor-a-breakthrough-in-affordable-diagnostics?    301
+/blog/view.php    id=10103    /blog/mits-50-cent-dna-sensor-a-breakthrough-in-affordable-diagnostics?    301
+/blog-post.php    id=10054    /blog/immunotherapy-vs-chemotherapy-which-is-better-for-cancer-treatment?    301
+/blog/view.php    id=10054    /blog/immunotherapy-vs-chemotherapy-which-is-better-for-cancer-treatment?    301
+/blog-post.php    id=9898    /blog/early-signs-of-cancer-you-should-never-ignore?    301
+/blog/view.php    id=9898    /blog/early-signs-of-cancer-you-should-never-ignore?    301
+/blog-post.php    id=9897    /blog/most-common-cancer-in-male-in-india?    301
+/blog/view.php    id=9897    /blog/most-common-cancer-in-male-in-india?    301
+/blog-post.php    id=9827    /blog/why-prevention-is-the-best-cure-cancer-screening-guidelines?    301
+/blog/view.php    id=9827    /blog/why-prevention-is-the-best-cure-cancer-screening-guidelines?    301
+/blog-post.php    id=9865    /blog/what-is-the-esr-level-in-cancer-patients?    301
+/blog/view.php    id=9865    /blog/what-is-the-esr-level-in-cancer-patients?    301
+/blog-post.php    id=9808    /blog/how-to-prevent-cancer?    301
+/blog/view.php    id=9808    /blog/how-to-prevent-cancer?    301
+/blog-post.php    id=9965    /blog/revolutionary-breakthrough-new-combination-therapy-nearly-quadruples-survival-in-advanced-skin-cancer-patients?    301
+/blog/view.php    id=9965    /blog/revolutionary-breakthrough-new-combination-therapy-nearly-quadruples-survival-in-advanced-skin-cancer-patients?    301
+/blog-post.php    id=9686    /blog/most-common-cancers-in-females-in-india?    301
+/blog/view.php    id=9686    /blog/most-common-cancers-in-females-in-india?    301
+/blog-post.php    id=9903    /blog/whitathon-marathon-for-eye-cancer-awareness-2?    301
+/blog/view.php    id=9903    /blog/whitathon-marathon-for-eye-cancer-awareness-2?    301
+/blog-post.php    id=9796    /blog/can-vitamin-b12-deficiency-be-a-sign-of-cancer?    301
+/blog/view.php    id=9796    /blog/can-vitamin-b12-deficiency-be-a-sign-of-cancer?    301
+/blog-post.php    id=9789    /blog/7-cancer-foods-to-eat-and-avoid-for-effective-prevention?    301
+/blog/view.php    id=9789    /blog/7-cancer-foods-to-eat-and-avoid-for-effective-prevention?    301
+/blog-post.php    id=9821    /blog/testicular-cancer-awareness-month?    301
+/blog/view.php    id=9821    /blog/testicular-cancer-awareness-month?    301
+/blog-post.php    id=9818    /blog/bowel-cancer-awareness-month?    301
+/blog/view.php    id=9818    /blog/bowel-cancer-awareness-month?    301
+/blog-post.php    id=9815    /blog/teenager-and-young-adult-cancer-awareness-month?    301
+/blog/view.php    id=9815    /blog/teenager-and-young-adult-cancer-awareness-month?    301
+/blog-post.php    id=9778    /blog/throat-cancer-symptoms-causes-and-treatment?    301
+/blog/view.php    id=9778    /blog/throat-cancer-symptoms-causes-and-treatment?    301
+/blog-post.php    id=9630    /blog/world-childhood-cancer-day-2025-a-global-call-for-hope-equity-and-action?    301
+/blog/view.php    id=9630    /blog/world-childhood-cancer-day-2025-a-global-call-for-hope-equity-and-action?    301
+/blog-post.php    id=9609    /blog/hope-in-a-shot-a-step-towards-a-cancer-free-future?    301
+/blog/view.php    id=9609    /blog/hope-in-a-shot-a-step-towards-a-cancer-free-future?    301
+/blog-post.php    id=9606    /blog/world-cancer-day-uniting-the-world-in-the-fight-against-cancer?    301
+/blog/view.php    id=9606    /blog/world-cancer-day-uniting-the-world-in-the-fight-against-cancer?    301
+/blog-post.php    id=9585    /blog/understanding-eye-melanoma-symptoms-causes-treatment-and-prevention?    301
+/blog/view.php    id=9585    /blog/understanding-eye-melanoma-symptoms-causes-treatment-and-prevention?    301
+/blog-post.php    id=9579    /blog/human-metapneumovirus-symptoms-prevention-and-cancer-patient-precautions?    301
+/blog/view.php    id=9579    /blog/human-metapneumovirus-symptoms-prevention-and-cancer-patient-precautions?    301
+/blog-post.php    id=9557    /blog/everything-you-need-to-know-about-cervical-cancer-causes-symptoms-and-treatments?    301
+/blog/view.php    id=9557    /blog/everything-you-need-to-know-about-cervical-cancer-causes-symptoms-and-treatments?    301
+/blog-post.php    id=9455    /blog/does-radiation-therapy-affect-your-taste?    301
+/blog/view.php    id=9455    /blog/does-radiation-therapy-affect-your-taste?    301
+/blog-post.php    id=9451    /blog/can-eye-cancer-be-cured-without-surgery?    301
+/blog/view.php    id=9451    /blog/can-eye-cancer-be-cured-without-surgery?    301
+/blog-post.php    id=9432    /blog/how-to-treat-cancer-with-chemotherapy?    301
+/blog/view.php    id=9432    /blog/how-to-treat-cancer-with-chemotherapy?    301
+/blog-post.php    id=9422    /blog/nutrition-and-diet-during-cancer-treatment-what-you-need-to-know?    301
+/blog/view.php    id=9422    /blog/nutrition-and-diet-during-cancer-treatment-what-you-need-to-know?    301
+/blog-post.php    id=9417    /blog/the-multidisciplinary-approach-in-medical-oncology?    301
+/blog/view.php    id=9417    /blog/the-multidisciplinary-approach-in-medical-oncology?    301
+/blog-post.php    id=9412    /blog/managing-side-effects-of-cancer-treatments-tips-and-advice?    301
+/blog/view.php    id=9412    /blog/managing-side-effects-of-cancer-treatments-tips-and-advice?    301
+/blog-post.php    id=9407    /blog/is-breast-cancer-grade-2-curable?    301
+/blog/view.php    id=9407    /blog/is-breast-cancer-grade-2-curable?    301
+/blog-post.php    id=9404    /blog/breast-cancer-dinner-ideas-for-patients?    301
+/blog/view.php    id=9404    /blog/breast-cancer-dinner-ideas-for-patients?    301
+/blog-post.php    id=9400    /blog/advancements-in-chemotherapy-latest-treatments-and-technologies?    301
+/blog/view.php    id=9400    /blog/advancements-in-chemotherapy-latest-treatments-and-technologies?    301
+/blog-post.php    id=9389    /blog/does-breast-cancer-grow-fast?    301
+/blog/view.php    id=9389    /blog/does-breast-cancer-grow-fast?    301
+/blog-post.php    id=9369    /blog/breast-cancer-or-fibroadenoma-key-differences-you-should-know?    301
+/blog/view.php    id=9369    /blog/breast-cancer-or-fibroadenoma-key-differences-you-should-know?    301
+/blog-post.php    id=9385    /blog/breast-cancer-survivors-fitness-plan?    301
+/blog/view.php    id=9385    /blog/breast-cancer-survivors-fitness-plan?    301
+/blog-post.php    id=9362    /blog/is-breast-cancer-stage-2-serious?    301
+/blog/view.php    id=9362    /blog/is-breast-cancer-stage-2-serious?    301
+/blog-post.php    id=9315    /blog/how-chemotherapy-works-a-medical-oncologists-perspective?    301
+/blog/view.php    id=9315    /blog/how-chemotherapy-works-a-medical-oncologists-perspective?    301
+/blog-post.php    id=9332    /blog/can-breast-cancer-spread-from-one-person-to-another?    301
+/blog/view.php    id=9332    /blog/can-breast-cancer-spread-from-one-person-to-another?    301
+/blog-post.php    id=9290    /blog/can-breast-cancer-impact-your-vision?    301
+/blog/view.php    id=9290    /blog/can-breast-cancer-impact-your-vision?    301
+/blog-post.php    id=9300    /blog/how-much-is-breast-cancer-chemo?    301
+/blog/view.php    id=9300    /blog/how-much-is-breast-cancer-chemo?    301
+/blog-post.php    id=9303    /blog/is-breast-cancer-considered-a-disability?    301
+/blog/view.php    id=9303    /blog/is-breast-cancer-considered-a-disability?    301
+/blog-post.php    id=9286    /blog/the-future-of-oncology-emerging-technologies-and-treatments?    301
+/blog/view.php    id=9286    /blog/the-future-of-oncology-emerging-technologies-and-treatments?    301
+/blog-post.php    id=9273    /blog/advanced-treatments-for-breast-cancer-what-you-need-to-know?    301
+/blog/view.php    id=9273    /blog/advanced-treatments-for-breast-cancer-what-you-need-to-know?    301
+/blog-post.php    id=9246    /blog/ocular-oncology-workshop?    301
+/blog/view.php    id=9246    /blog/ocular-oncology-workshop?    301
+/blog-post.php    id=9242    /blog/the-role-of-a-medical-oncologist-in-cancer-treatment?    301
+/blog/view.php    id=9242    /blog/the-role-of-a-medical-oncologist-in-cancer-treatment?    301
+/blog-post.php    id=9219    /blog/whitathon-marathon-for-eye-cancer-awareness?    301
+/blog/view.php    id=9219    /blog/whitathon-marathon-for-eye-cancer-awareness?    301
+/blog-post.php    id=9215    /blog/what-are-the-psychological-effects-of-cancer?    301
+/blog/view.php    id=9215    /blog/what-are-the-psychological-effects-of-cancer?    301
+/blog-post.php    id=9211    /blog/can-lifestyle-changes-help-in-managing-thyroid-cancer?    301
+/blog/view.php    id=9211    /blog/can-lifestyle-changes-help-in-managing-thyroid-cancer?    301
+/blog-post.php    id=9146    /blog/honour-cancer-survivors-at-apollo-cancer-centre-in-hyderabad?    301
+/blog/view.php    id=9146    /blog/honour-cancer-survivors-at-apollo-cancer-centre-in-hyderabad?    301
+/blog-post.php    id=9097    /blog/how-can-early-detection-improve-cancer-survival-rates?    301
+/blog/view.php    id=9097    /blog/how-can-early-detection-improve-cancer-survival-rates?    301
+/blog-post.php    id=9026    /blog/tobacco-a-major-public-health-threat?    301
+/blog/view.php    id=9026    /blog/tobacco-a-major-public-health-threat?    301
+/blog-post.php    id=8989    /blog/what-is-eye-cancer-what-are-the-effects-of-it?    301
+/blog/view.php    id=8989    /blog/what-is-eye-cancer-what-are-the-effects-of-it?    301
+/blog-post.php    id=8972    /blog/how-important-is-early-detection-in-treating-brain-tumors?    301
+/blog/view.php    id=8972    /blog/how-important-is-early-detection-in-treating-brain-tumors?    301
+/blog-post.php    id=8953    /blog/what-is-the-best-radiation-oncology-treatment?    301
+/blog/view.php    id=8953    /blog/what-is-the-best-radiation-oncology-treatment?    301
+/blog-post.php    id=8947    /blog/is-proton-therapy-more-effective-than-chemotherapy?    301
+/blog/view.php    id=8947    /blog/is-proton-therapy-more-effective-than-chemotherapy?    301
+/blog-post.php    id=8941    /blog/what-is-eye-cancer-symptoms-risk-factors-treatments?    301
+/blog/view.php    id=8941    /blog/what-is-eye-cancer-symptoms-risk-factors-treatments?    301
+/blog-post.php    id=8937    /blog/what-are-the-major-causes-and-symptoms-of-breast-cancer?    301
+/blog/view.php    id=8937    /blog/what-are-the-major-causes-and-symptoms-of-breast-cancer?    301
+/blog-post.php    id=8934    /blog/how-does-cancer-impact-physical-and-emotional-health?    301
+/blog/view.php    id=8934    /blog/how-does-cancer-impact-physical-and-emotional-health?    301
+/blog-post.php    id=8904    /blog/how-is-radiation-therapy-used-to-treat-cancers?    301
+/blog/view.php    id=8904    /blog/how-is-radiation-therapy-used-to-treat-cancers?    301
+/blog-post.php    id=8867    /blog/preventive-measures-and-early-detection-of-eye-cancer?    301
+/blog/view.php    id=8867    /blog/preventive-measures-and-early-detection-of-eye-cancer?    301
+/blog-post.php    id=8842    /blog/breast-cancer-in-young-women-unique-challenges-and-considerations?    301
+/blog/view.php    id=8842    /blog/breast-cancer-in-young-women-unique-challenges-and-considerations?    301
+/blog-post.php    id=8829    /blog/advancements-in-radiation-oncology-precision-and-technology?    301
+/blog/view.php    id=8829    /blog/advancements-in-radiation-oncology-precision-and-technology?    301
+/blog-post.php    id=8845    /blog/together-for-her-campaign-raising-awareness-on-women-cancer?    301
+/blog/view.php    id=8845    /blog/together-for-her-campaign-raising-awareness-on-women-cancer?    301
+/blog-post.php    id=8786    /blog/the-role-of-genetics-in-cancer-risk-and-treatment?    301
+/blog/view.php    id=8786    /blog/the-role-of-genetics-in-cancer-risk-and-treatment?    301
+/blog-post.php    id=8697    /blog/the-role-of-chemotherapy-in-breast-cancer-management?    301
+/blog/view.php    id=8697    /blog/the-role-of-chemotherapy-in-breast-cancer-management?    301
+/blog-post.php    id=8672    /blog/the-evolving-role-of-medical-oncologists-in-cancer-care?    301
+/blog/view.php    id=8672    /blog/the-evolving-role-of-medical-oncologists-in-cancer-care?    301
+/blog-post.php    id=8659    /blog/the-impact-of-lifestyle-factors-on-cancer-risk-and-management?    301
+/blog/view.php    id=8659    /blog/the-impact-of-lifestyle-factors-on-cancer-risk-and-management?    301
+/blog-post.php    id=8622    /blog/victory-bell-launched-to-commemorate-world-cancer-day-symbolizes-triumph-over-cancer?    301
+/blog/view.php    id=8622    /blog/victory-bell-launched-to-commemorate-world-cancer-day-symbolizes-triumph-over-cancer?    301
+/blog-post.php    id=8647    /blog/apollo-cancer-centres-launches-unmask-cancer?    301
+/blog/view.php    id=8647    /blog/apollo-cancer-centres-launches-unmask-cancer?    301
+/blog-post.php    id=8594    /blog/radiation-therapy-in-the-treatment-of-eye-cancer?    301
+/blog/view.php    id=8594    /blog/radiation-therapy-in-the-treatment-of-eye-cancer?    301
+/blog-post.php    id=8586    /blog/chemotherapy-and-radiation-therapy-key-treatments-for-pancreatic-cancer?    301
+/blog/view.php    id=8586    /blog/chemotherapy-and-radiation-therapy-key-treatments-for-pancreatic-cancer?    301
+/blog-post.php    id=8583    /blog/understanding-thyroid-cancer-types-symptoms-and-risk-factors?    301
+/blog/view.php    id=8583    /blog/understanding-thyroid-cancer-types-symptoms-and-risk-factors?    301
+/blog-post.php    id=8567    /blog/the-future-of-cancer-treatment?    301
+/blog/view.php    id=8567    /blog/the-future-of-cancer-treatment?    301
+/blog-post.php    id=8213    /blog/esophageal-cancer-symptoms-causes-treatment?    301
+/blog/view.php    id=8213    /blog/esophageal-cancer-symptoms-causes-treatment?    301
+/blog-post.php    id=7992    /blog/radiation-therapy-for-cancer?    301
+/blog/view.php    id=7992    /blog/radiation-therapy-for-cancer?    301
+/blog-post.php    id=7975    /blog/symptoms-of-cancer?    301
+/blog/view.php    id=7975    /blog/symptoms-of-cancer?    301
+/blog-post.php    id=10077    /blog/breast-cancer-symptoms-in-hindi?    301
+/blog/view.php    id=10077    /blog/breast-cancer-symptoms-in-hindi?    301
+/blog-post.php    id=10346    /blog/is-breast-cancer-curable-with-treatment-understanding-your-prognosis-and-next-steps?    301
+/blog/view.php    id=10346    /blog/is-breast-cancer-curable-with-treatment-understanding-your-prognosis-and-next-steps?    301
+/blog-post.php    id=7936    /blog/understanding-colon-cancer-symptoms-causes-and-prevention?    301
+/blog/view.php    id=7936    /blog/understanding-colon-cancer-symptoms-causes-and-prevention?    301
+/blog-post.php    id=7942    /blog/understanding-cancer-dispelling-myths-and-presenting-facts?    301
+/blog/view.php    id=7942    /blog/understanding-cancer-dispelling-myths-and-presenting-facts?    301
+
+# 2. General fallback for blog posts query params (e.g. when slug is also present or UTM tags exist)
+/blog-post.php    /blog-post.html    301
+/blog/view.php    /blog-post.html    301
+
+# 3. Redirect .php URLs to .html
 /achievements.php    /achievements.html    301
 /awards.php    /awards.html    301
 /awareness-lectures.php    /awareness-lectures.html    301
@@ -16,7 +258,6 @@
 /ccgc-2.php    /ccgc-2.html    301
 /cervical-cancer-treatment-in-hyderabad.php    /cervical-cancer-treatment-in-hyderabad.html    301
 /cervical-cancer.php    /cervical-cancer.html    301
-/check_faq_115.php    /check_faq_115.html    301
 /chemotherapy.php    /chemotherapy.html    301
 /colorectal-cancer-treatment-in-hyderabad.php    /colorectal-cancer-treatment-in-hyderabad.html    301
 /colorectal-cancer.php    /colorectal-cancer.html    301
@@ -105,7 +346,7 @@
 /blog-listing.html    /blog/    301
 /blog-listing.php     /blog/    301
 
-# Blog redirects for SEO
+# 4. Path-based Blog redirects for SEO (old URL structure)
 /is-chemotherapy-painful-for-breast-cancer-real-facts    /blog/is-chemotherapy-painful-for-breast-cancer    301
 /is-chemotherapy-painful-for-breast-cancer-real-facts/    /blog/is-chemotherapy-painful-for-breast-cancer    301
 /8th-edition-of-whitathon    /blog/8th-edition-of-whitathon    301
@@ -342,4 +583,6 @@
 /understanding-colon-cancer-symptoms-causes-and-prevention/    /blog/understanding-colon-cancer-symptoms-causes-and-prevention    301
 /understanding-cancer-dispelling-myths-and-presenting-facts    /blog/understanding-cancer-dispelling-myths-and-presenting-facts    301
 /understanding-cancer-dispelling-myths-and-presenting-facts/    /blog/understanding-cancer-dispelling-myths-and-presenting-facts    301
+
+# 5. SPA-style fallback for index
 /    /index.html    200

@@ -302,8 +302,56 @@ if ($html && strlen($html) > 1000) {
     echo "  Failed to generate blog listing page.\n";
 }
 
+// Generate JS redirector
+echo "\nGenerating client-side blog redirector...\n";
+$jsMap = json_encode($blogLinkMap, JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES);
+$redirectorHtml = <<<HTML
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Redirecting... - Dr. Vijay Anand Reddy</title>
+    <script>
+        const blogLinkMap = $jsMap;
+        const urlParams = new URLSearchParams(window.location.search);
+        const id = urlParams.get('id');
+        if (id && blogLinkMap[id]) {
+            window.location.replace(blogLinkMap[id]);
+        } else {
+            window.location.replace('/blog/');
+        }
+    </script>
+</head>
+<body>
+    <div style="font-family: system-ui, -apple-system, sans-serif; display: flex; justify-content: center; align-items: center; height: 100vh; flex-direction: column; color: #1E293B;">
+        <p style="font-size: 1.25rem; font-weight: 500; margin-bottom: 0.5rem;">Redirecting to the new article URL...</p>
+        <p style="font-size: 0.875rem; color: #64748B;">If you are not redirected automatically, <a href="/blog/" style="color: #9B528F; text-decoration: underline;">click here</a>.</p>
+    </div>
+</body>
+</html>
+HTML;
+file_put_contents($distDir . DIRECTORY_SEPARATOR . 'blog-post.html', $redirectorHtml);
+echo "  Generated: blog-post.html\n";
+
 // Create _redirects for Netlify
-$redirects = "# Redirect .php URLs to .html\n";
+$redirects = "# 1. Specific Query-based redirects for blog posts\n";
+foreach ($blogData as $post) {
+    $postId = $post['id'];
+    if (empty($postId)) continue;
+    if (isset($blogLinkMap[$postId])) {
+        $newUrlPath = parse_url($blogLinkMap[$postId], PHP_URL_PATH);
+        $cleanSlug = trim($newUrlPath, '/');
+        $redirects .= "/blog-post.php    id=$postId    /$cleanSlug?    301\n";
+        $redirects .= "/blog/view.php    id=$postId    /$cleanSlug?    301\n";
+    }
+}
+
+$redirects .= "\n# 2. General fallback for blog posts query params (e.g. when slug is also present or UTM tags exist)\n";
+$redirects .= "/blog-post.php    /blog-post.html    301\n";
+$redirects .= "/blog/view.php    /blog-post.html    301\n";
+
+$redirects .= "\n# 3. Redirect .php URLs to .html\n";
 foreach ($phpFiles as $phpFile) {
     $basename = basename($phpFile);
     if (in_array($basename, $excludeFiles) || preg_match('/_data\.php$/', $basename)) continue;
@@ -319,7 +367,7 @@ $baseJsonContent = shell_exec($gitCmd);
 if ($baseJsonContent) {
     $basePosts = json_decode($baseJsonContent, true);
     if ($basePosts) {
-        $redirects .= "\n# Blog redirects for SEO\n";
+        $redirects .= "\n# 4. Path-based Blog redirects for SEO (old URL structure)\n";
         foreach ($basePosts as $oldPost) {
             if (empty($oldPost['permalink'])) {
                 continue;
@@ -342,6 +390,7 @@ if ($baseJsonContent) {
 }
 
 // SPA-style fallback for index
+$redirects .= "\n# 5. SPA-style fallback for index\n";
 $redirects .= "/    /index.html    200\n";
 file_put_contents($distDir . DIRECTORY_SEPARATOR . '_redirects', $redirects);
 
