@@ -27,6 +27,7 @@ $excludeFiles = [
     'video_gallery_data.php',
     'extract_testimonials.php',
     'blog-post.php',
+    'blog-listing.php',
     'build.php',
 ];
 
@@ -44,6 +45,7 @@ if (is_dir($distDir)) {
     rmdir($distDir);
 }
 mkdir($distDir, 0755, true);
+mkdir($distDir . DIRECTORY_SEPARATOR . 'blog', 0755, true);
 
 // Copy assets folder
 function copyDir($src, $dst) {
@@ -60,6 +62,44 @@ function copyDir($src, $dst) {
         }
     }
     closedir($dir);
+}
+
+function adjustRelativePaths($html, $depth = 1) {
+    $prefix = str_repeat('../', $depth);
+    
+    // Replace relative href and src attributes that don't start with http, https, mailto, /, #
+    $html = preg_replace_callback('/(src|href)=["\'](?!http|https|mailto|\/|#)([^"\']+)["\']/i', function($matches) use ($prefix) {
+        $attr = $matches[1];
+        $val = $matches[2];
+        if (strpos($val, '../') === 0) {
+            return $matches[0];
+        }
+        return $attr . '="' . $prefix . $val . '"';
+    }, $html);
+    
+    // Handle srcset
+    $html = preg_replace_callback('/srcset=["\']([^"\']+)["\']/i', function($matches) use ($prefix) {
+        $parts = explode(',', $matches[1]);
+        foreach ($parts as &$part) {
+            $part = trim($part);
+            if (!empty($part) && !preg_match('/^(?:http|https|\/|\.\.\/)/', $part)) {
+                $part = $prefix . $part;
+            }
+        }
+        return 'srcset="' . implode(', ', $parts) . '"';
+    }, $html);
+    
+    return $html;
+}
+
+function replaceBlogLinks($html, $blogLinkMap) {
+    return preg_replace_callback('/href=["\'](?:..\/)?blog-post\.(?:php|html)\?id=(\d+)(?:[^"\']*)["\']/', function($matches) use ($blogLinkMap) {
+        $id = $matches[1];
+        if (isset($blogLinkMap[$id])) {
+            return 'href="' . $blogLinkMap[$id] . '"';
+        }
+        return $matches[0];
+    }, $html);
 }
 
 echo "Copying assets...\n";
@@ -80,6 +120,25 @@ if (file_exists($sourceDir . '/events_data.php')) {
 if (file_exists($sourceDir . '/survivors_data.php')) {
     include $sourceDir . '/survivors_data.php';
     $survivorsData = $survivors;
+}
+
+// Load dynamic blog data & build link map
+$blogData = [];
+if (file_exists($sourceDir . '/posts_data.json')) {
+    $blogData = json_decode(file_get_contents($sourceDir . '/posts_data.json'), true) ?: [];
+}
+$blogLinkMap = [];
+foreach ($blogData as $post) {
+    $urlPath = !empty($post['permalink']) ? parse_url($post['permalink'], PHP_URL_PATH) : '';
+    $friendlySlug = trim((string)$urlPath, '/');
+    if (empty($friendlySlug) || strpos($friendlySlug, '?p=') !== false) {
+        $friendlySlug = preg_replace("/[^a-z0-9]+/", "-", strtolower($post['title']));
+        $friendlySlug = trim($friendlySlug, "-");
+        $friendlySlug = substr($friendlySlug, 0, 50);
+        $friendlySlug = trim($friendlySlug, "-");
+        $friendlySlug = 'blog/' . $friendlySlug;
+    }
+    $blogLinkMap[$post['id']] = '/' . $friendlySlug;
 }
 
 // Find all page PHP files
@@ -115,6 +174,12 @@ foreach ($phpFiles as $phpFile) {
 
     // Replace .php links with .html links (only in href attributes)
     $html = preg_replace('/href="([^"]*?)\.php(["#])/', 'href="$1.html$2', $html);
+
+    // Replace dynamic blog post links with clean /blog/[slug] links
+    $html = replaceBlogLinks($html, $blogLinkMap);
+
+    // Replace blog-listing link with /blog/
+    $html = str_replace('href="blog-listing.html"', 'href="/blog/"', $html);
 
     // Write HTML file
     $outPath = $distDir . DIRECTORY_SEPARATOR . $htmlName;
@@ -175,20 +240,18 @@ foreach ($survivorsData as $survivor) {
 
 // Generate static detail pages for blogs
 echo "\nGenerating blog detail pages...\n";
-$blogData = [];
-if (file_exists($sourceDir . '/posts_data.json')) {
-    $blogData = json_decode(file_get_contents($sourceDir . '/posts_data.json'), true);
-}
 foreach ($blogData as $post) {
     $postId = $post['id'];
     if (empty($postId)) continue;
 
-    $urlPath = parse_url($post['permalink'], PHP_URL_PATH);
-    $friendlySlug = trim($urlPath, '/');
+    $urlPath = !empty($post['permalink']) ? parse_url($post['permalink'], PHP_URL_PATH) : '';
+    $friendlySlug = trim((string)$urlPath, '/');
     if (empty($friendlySlug) || strpos($friendlySlug, '?p=') !== false) {
         $friendlySlug = preg_replace("/[^a-z0-9]+/", "-", strtolower($post['title']));
         $friendlySlug = trim($friendlySlug, "-");
         $friendlySlug = substr($friendlySlug, 0, 50);
+        $friendlySlug = trim($friendlySlug, "-");
+        $friendlySlug = 'blog/' . $friendlySlug;
     }
 
     $blogHtmlName = "$friendlySlug.html";
@@ -202,6 +265,11 @@ foreach ($blogData as $post) {
 
     if ($html && strlen($html) > 1000) {
         $html = preg_replace('/href="([^"]*?)\.php(["#])/', 'href="$1.html$2', $html);
+        $html = replaceBlogLinks($html, $blogLinkMap);
+        $html = str_replace('href="blog-listing.html"', 'href="/blog/"', $html);
+        $html = str_replace('href="../blog-listing.html"', 'href="/blog/"', $html);
+        $html = adjustRelativePaths($html, 1);
+        
         $outPath = $distDir . DIRECTORY_SEPARATOR . $blogHtmlName;
         file_put_contents($outPath, $html);
         echo "  Generated: $blogHtmlName\n";
@@ -209,6 +277,29 @@ foreach ($blogData as $post) {
     } else {
         echo "  Failed: $blogHtmlName\n";
     }
+}
+
+// Generate static blog listing page at /blog/
+echo "\nGenerating blog listing page...\n";
+$tempFile = $sourceDir . DIRECTORY_SEPARATOR . '_temp_render.php';
+file_put_contents($tempFile, "<?php include '" . addslashes($sourceDir) . "/blog-listing.php';");
+$cmd = "php " . escapeshellarg($tempFile) . " 2>&1";
+$html = shell_exec($cmd);
+unlink($tempFile);
+
+if ($html && strlen($html) > 1000) {
+    $html = preg_replace('/href="([^"]*?)\.php(["#])/', 'href="$1.html$2', $html);
+    $html = replaceBlogLinks($html, $blogLinkMap);
+    $html = str_replace('href="blog-listing.html"', 'href="/blog/"', $html);
+    $html = str_replace('href="../blog-listing.html"', 'href="/blog/"', $html);
+    $html = adjustRelativePaths($html, 1);
+    
+    $outPath = $distDir . DIRECTORY_SEPARATOR . 'blog' . DIRECTORY_SEPARATOR . 'index.html';
+    file_put_contents($outPath, $html);
+    echo "  Generated: blog/index.html\n";
+    $rendered++;
+} else {
+    echo "  Failed to generate blog listing page.\n";
 }
 
 // Create _redirects for Netlify
@@ -219,6 +310,37 @@ foreach ($phpFiles as $phpFile) {
     $htmlName = preg_replace('/\.php$/', '.html', $basename);
     $redirects .= "/$basename    /$htmlName    301\n";
 }
+$redirects .= "/blog-listing.html    /blog/    301\n";
+$redirects .= "/blog-listing.php     /blog/    301\n";
+
+// Add blog redirects for SEO from git base posts
+$gitCmd = 'git show cb1a5b4:posts_data.json';
+$baseJsonContent = shell_exec($gitCmd);
+if ($baseJsonContent) {
+    $basePosts = json_decode($baseJsonContent, true);
+    if ($basePosts) {
+        $redirects .= "\n# Blog redirects for SEO\n";
+        foreach ($basePosts as $oldPost) {
+            if (empty($oldPost['permalink'])) {
+                continue;
+            }
+            $oldUrlPath = parse_url($oldPost['permalink'], PHP_URL_PATH);
+            $oldSlug = trim($oldUrlPath, '/');
+            
+            $postId = $oldPost['id'];
+            if (isset($blogLinkMap[$postId])) {
+                $newUrlPath = parse_url($blogLinkMap[$postId], PHP_URL_PATH);
+                $cleanSlug = trim($newUrlPath, '/');
+                
+                if (!empty($oldSlug) && $oldSlug !== $cleanSlug) {
+                    $redirects .= "/$oldSlug    /$cleanSlug    301\n";
+                    $redirects .= "/$oldSlug/    /$cleanSlug    301\n";
+                }
+            }
+        }
+    }
+}
+
 // SPA-style fallback for index
 $redirects .= "/    /index.html    200\n";
 file_put_contents($distDir . DIRECTORY_SEPARATOR . '_redirects', $redirects);
@@ -244,41 +366,6 @@ if (file_exists($survivorsHtmlPath)) {
     // Fix survivor links: survivors.php?id=X -> survivor-X.html
     $survivorsHtml = preg_replace("/window\.location\.href='survivors\.php\?id=([^']+)'/", "window.location.href='survivor-$1.html'", $survivorsHtml);
     file_put_contents($survivorsHtmlPath, $survivorsHtml);
-}
-
-echo "\nUpdating blog links in blog-listing.html and index.html...\n";
-$filesToFix = [$distDir . '/blog-listing.html', $distDir . '/index.html'];
-
-// Build map of ID -> friendlySlug
-$blogLinkMap = [];
-foreach ($blogData as $post) {
-    $urlPath = parse_url($post['permalink'], PHP_URL_PATH);
-    $friendlySlug = trim($urlPath, '/');
-    if (empty($friendlySlug) || strpos($friendlySlug, '?p=') !== false) {
-        $friendlySlug = preg_replace("/[^a-z0-9]+/", "-", strtolower($post['title']));
-        $friendlySlug = trim($friendlySlug, "-");
-        $friendlySlug = substr($friendlySlug, 0, 50);
-    }
-    $blogLinkMap[$post['id']] = $friendlySlug . '.html';
-}
-
-foreach ($filesToFix as $filePath) {
-    if (file_exists($filePath)) {
-        $html = file_get_contents($filePath);
-        // Replace dynamic blog post links with static friendly ones
-        // e.g. blog-post.php?id=123&slug=xyz -> friendly-slug.html
-        // and blog-post.html?id=123&slug=xyz -> friendly-slug.html
-        $html = preg_replace_callback('/href=["\'](?:..\/)?blog-post\.(?:php|html)\?id=(\d+)(?:[^"\']*)["\']/', function($matches) use ($blogLinkMap) {
-            $id = $matches[1];
-            if (isset($blogLinkMap[$id])) {
-                return 'href="' . $blogLinkMap[$id] . '"';
-            }
-            return $matches[0];
-        }, $html);
-
-        file_put_contents($filePath, $html);
-        echo "  Updated links in: " . basename($filePath) . "\n";
-    }
 }
 
 echo "\n=== Build Complete ===\n";

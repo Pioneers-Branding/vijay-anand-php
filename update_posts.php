@@ -29,6 +29,49 @@ if (!$basePosts) {
     die("Error: Failed to decode base JSON posts.\n");
 }
 
+function cleanPermalink($url, $title) {
+    $urlPath = parse_url($url, PHP_URL_PATH);
+    $slug = trim($urlPath, '/');
+    
+    if (empty($slug) || strpos($slug, '?p=') !== false) {
+        $cleanTitle = preg_replace('/\{[^}]*\}/', '', $title);
+        $cleanTitle = preg_replace('/\[[^\]]*\]/', '', $cleanTitle);
+        $slug = preg_replace("/[^a-z0-9]+/", "-", strtolower($cleanTitle));
+        $slug = trim($slug, "-");
+    }
+    
+    // Remove curly brace content from the slug if it's there
+    if (preg_match('/\{([^}]+)\}/', $title, $matches)) {
+        $curlySlug = preg_replace("/[^a-z0-9]+/", "-", strtolower($matches[1]));
+        $curlySlug = trim($curlySlug, "-");
+        if (!empty($curlySlug)) {
+            if (substr($slug, -strlen($curlySlug)) === $curlySlug) {
+                $slug = substr($slug, 0, -strlen($curlySlug));
+                $slug = trim($slug, "-");
+            }
+        }
+    }
+    
+    // Remove common suffixes
+    $suffixesToRemove = [
+        'real-facts', 'key-insights', 'a-2026-guide', 'key-facts', 
+        '2026-guide', 'complete-guide', 'simple-guide', 'expert-guide', 
+        'a-2025-guide', 'experts-guide'
+    ];
+    foreach ($suffixesToRemove as $suffix) {
+        if (preg_match('/-' . preg_quote($suffix, '/') . '$/', $slug)) {
+            $slug = preg_replace('/-' . preg_quote($suffix, '/') . '$/', '', $slug);
+            $slug = trim($slug, "-");
+        }
+    }
+    
+    if (strpos($slug, 'blog/') === 0) {
+        $slug = substr($slug, 5);
+    }
+    
+    return 'https://drvijayanandreddy.com/blog/' . trim($slug, '/-');
+}
+
 // Helper to normalize strings for robust matching
 function normalizeTitle($title) {
     // Decode HTML entities
@@ -251,16 +294,12 @@ while (($row = fgetcsv($fNew)) !== false) {
     }
     
     $finalDate = $date;
-    $finalPermalink = $permalink;
-    
-    // Override specific values
     if ($title === 'Is Breast Cancer Curable with Treatment? Understanding Your Prognosis and Next Steps') {
         $finalDate = '2023-11-20';
-        $finalPermalink = 'https://drvijayanandreddy.com/is-breast-cancer-curable-with-treatment-understanding-your-prognosis-and-next-steps/';
     } elseif ($title === 'Is Chemotherapy Painful for Breast Cancer? {Real Facts}') {
         $finalDate = '2026-05-15';
-        $finalPermalink = 'https://drvijayanandreddy.com/is-chemotherapy-painful-for-breast-cancer-real-facts/';
     }
+    $finalPermalink = cleanPermalink($permalink, $title);
     
     // Retrieve clean content and images from base posts
     $content = '';
