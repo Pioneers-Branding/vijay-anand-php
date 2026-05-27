@@ -4,8 +4,8 @@
     <link rel="icon" href="assets/logo/var-favicon.png" type="image/png">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dr. Vijay Anand Reddy - Leading Oncologist in Hyderabad | Apollo Cancer Centre</title>
-    <meta name="description" content="Dr. Vijay Anand Reddy, MD Radiation Oncology, Director at Apollo Cancer Centres Hyderabad. 34+ years experience in cancer treatment. Book consultation today.">
+    <title>Best Oncologist in Hyderabad, India | Dr. Vijay Anand Reddy</title>
+    <meta name="description" content="Seeking the Best Oncologist in Hyderabad, India? Dr. Vijay Anand Reddy offers advanced cancer diagnosis, personalized treatments, and compassionate care.">
     
     <!-- Feather Icons -->
     <script src="https://unpkg.com/feather-icons"></script>

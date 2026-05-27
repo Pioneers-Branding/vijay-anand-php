@@ -4,7 +4,8 @@
     <link rel="icon" href="assets/logo/var-favicon.png" type="image/png">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>LungCancerPage - Dr. Vijay Anand Reddy</title>
+    <title>Lung Cancer Doctor in India | Dr. Vijay Anand Reddy</title>
+    <meta name="description" content="Seeking a trusted Lung Cancer Doctor in India? Consult Dr. Vijay Anand Reddy for advanced diagnosis, personalized treatment, and compassionate cancer care.">
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
     
