@@ -394,6 +394,78 @@ $redirects .= "\n# 5. SPA-style fallback for index\n";
 $redirects .= "/    /index.html    200\n";
 file_put_contents($distDir . DIRECTORY_SEPARATOR . '_redirects', $redirects);
 
+// Generate sitemap.xml
+echo "\nGenerating sitemap.xml...\n";
+$sitemapUrls = [];
+$baseUrl = 'https://drvijayanandreddy.com';
+
+// 1. Add general pages
+foreach ($phpFiles as $phpFile) {
+    $basename = basename($phpFile);
+    if (in_array($basename, $excludeFiles) || preg_match('/_data\.php$/', $basename)) {
+        continue;
+    }
+    
+    $htmlName = preg_replace('/\.php$/', '.html', $basename);
+    if ($htmlName === 'index.html') {
+        $sitemapUrls[] = $baseUrl . '/';
+    } else {
+        $sitemapUrls[] = $baseUrl . '/' . $htmlName;
+    }
+}
+
+// 2. Add blog listing
+$sitemapUrls[] = $baseUrl . '/blog/';
+
+// 3. Add blog post detail pages
+foreach ($blogData as $post) {
+    $postId = $post['id'];
+    if (empty($postId)) continue;
+
+    $urlPath = !empty($post['permalink']) ? parse_url($post['permalink'], PHP_URL_PATH) : '';
+    $friendlySlug = trim((string)$urlPath, '/');
+    if (empty($friendlySlug) || strpos($friendlySlug, '?p=') !== false) {
+        $friendlySlug = preg_replace("/[^a-z0-9]+/", "-", strtolower($post['title']));
+        $friendlySlug = trim($friendlySlug, "-");
+        $friendlySlug = substr($friendlySlug, 0, 50);
+        $friendlySlug = trim($friendlySlug, "-");
+        $friendlySlug = 'blog/' . $friendlySlug;
+    }
+    $sitemapUrls[] = $baseUrl . '/' . $friendlySlug;
+}
+
+// 4. Add event detail pages
+foreach ($eventsData as $event) {
+    $sitemapUrls[] = $baseUrl . '/event-' . $event['id'] . '.html';
+}
+
+// 5. Add survivor detail pages
+foreach ($survivorsData as $survivor) {
+    $sitemapUrls[] = $baseUrl . '/survivor-' . $survivor['id'] . '.html';
+}
+
+// Build XML content
+$xml = '<?xml version="1.0" encoding="UTF-8"?>' . "\n";
+$xml .= '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">' . "\n";
+foreach ($sitemapUrls as $url) {
+    $xml .= '  <url>' . "\n";
+    $xml .= '    <loc>' . htmlspecialchars($url) . '</loc>' . "\n";
+    $xml .= '    <lastmod>' . date('Y-m-d') . '</lastmod>' . "\n";
+    $xml .= '  </url>' . "\n";
+}
+$xml .= '</urlset>' . "\n";
+
+file_put_contents($distDir . DIRECTORY_SEPARATOR . 'sitemap.xml', $xml);
+echo "  Generated: sitemap.xml with " . count($sitemapUrls) . " URLs.\n";
+
+// Generate robots.txt
+echo "\nGenerating robots.txt...\n";
+$robots = "User-agent: *\n";
+$robots .= "Allow: /\n\n";
+$robots .= "Sitemap: " . $baseUrl . "/sitemap.xml\n";
+file_put_contents($distDir . DIRECTORY_SEPARATOR . 'robots.txt', $robots);
+echo "  Generated: robots.txt\n";
+
 // Update onclick links in list pages to point to static detail pages
 echo "\nUpdating event links in events.html...\n";
 $eventsHtmlPath = $distDir . '/events.html';

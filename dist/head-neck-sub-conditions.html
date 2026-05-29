@@ -4,7 +4,8 @@
     <link rel="icon" href="assets/logo/var-favicon.png" type="image/png">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HeadNeckSubConditionsPage - Dr. Vijay Anand Reddy</title>
+    <title>Head & Neck Cancer Sub-Conditions Treatment in India | Dr. Vijay Anand Reddy</title>
+    <meta name="description" content="Get expert treatment for head and neck cancer sub-conditions in India. Consult Dr. Vijay Anand Reddy for personalized, advanced, and compassionate oncology care.">
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
     

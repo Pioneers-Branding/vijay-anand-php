@@ -4,7 +4,8 @@
     <link rel="icon" href="assets/logo/var-favicon.png" type="image/png">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>UroOncologyPage - Dr. Vijay Anand Reddy</title>
+    <title>Top Uro-Oncology Treatment Specialist in India | Dr. Vijay Anand Reddy</title>
+    <meta name="description" content="Get world-class uro-oncology treatment in India under Dr. Vijay Anand Reddy. Advanced therapies for prostate, kidney, bladder, and testicular cancers.">
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
     
