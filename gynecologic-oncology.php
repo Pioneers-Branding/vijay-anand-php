@@ -4,7 +4,8 @@
     <link rel="icon" href="assets/logo/var-favicon.png" type="image/png">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GynecologicOncologyPage - Dr. Vijay Anand Reddy</title>
+    <title>Best Gynecologic Oncology Treatment in India | Dr. Vijay Anand Reddy</title>
+    <meta name="description" content="Consult Dr. Vijay Anand Reddy for advanced gynecologic oncology in India. Expert treatment for ovarian, cervical, and uterine cancers with personalized care plans.">
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
     
