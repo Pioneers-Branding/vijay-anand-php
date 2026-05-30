@@ -8,7 +8,32 @@
             "https://drvijayanandreddy.com/wp-content/uploads/2026/05/Is-Chemotherapy-Painful-for-Breast-Cancer.jpg"
         ],
         "permalink": "https://drvijayanandreddy.com/blog/is-chemotherapy-painful-for-breast-cancer",
-        "faqs": []
+        "faqs": [
+            {
+                "question": "What is chemotherapy and how does it work?",
+                "answer": "Chemotherapy is a systemic cancer treatment that uses powerful drugs to destroy cancer cells or stop them from growing and dividing throughout the body."
+            },
+            {
+                "question": "Is chemotherapy painful?",
+                "answer": "The administration of chemotherapy (typically through an IV infusion or pills) is not painful itself. However, side effects like muscle aches or neuropathy can cause discomfort."
+            },
+            {
+                "question": "What are the most common side effects of chemotherapy?",
+                "answer": "Common side effects include fatigue, nausea, vomiting, hair loss, loss of appetite, and an increased susceptibility to infections due to lower blood counts."
+            },
+            {
+                "question": "How long does chemotherapy treatment typically last?",
+                "answer": "Chemotherapy is usually given in cycles over a period of 3 to 6 months. Each cycle consists of a treatment period followed by a rest period to allow the body to recover."
+            },
+            {
+                "question": "Can I work or maintain my normal routine during chemotherapy?",
+                "answer": "It depends on your overall health and how you respond to the drugs. Many patients can continue light activities or part-time work, while others require rest."
+            },
+            {
+                "question": "How is the effectiveness of chemotherapy monitored?",
+                "answer": "Oncologists monitor effectiveness using blood tests (including tumor markers), imaging scans (like CT, MRI, or PET scans), and physical examinations throughout the treatment course."
+            }
+        ]
     },
     {
         "id": "10593",
@@ -19,7 +44,32 @@
             "https://drvijayanandreddy.com/wp-content/uploads/2026/05/walkthon-1.webp"
         ],
         "permalink": "https://drvijayanandreddy.com/blog/8th-edition-of-whitathon",
-        "faqs": []
+        "faqs": [
+            {
+                "question": "What is cancer and how does it start?",
+                "answer": "Cancer is a disease where abnormal cells in the body grow uncontrollably and spread to other parts. It starts when genetic mutations damage cellular DNA, overriding normal cell division controls."
+            },
+            {
+                "question": "What are the main risk factors for cancer?",
+                "answer": "Key risk factors include tobacco use, poor diet, physical inactivity, obesity, heavy alcohol intake, excessive sun exposure, and genetic factors."
+            },
+            {
+                "question": "Can cancer be prevented?",
+                "answer": "Up to 30-50% of cancer cases can be prevented by adopting healthy habits, avoiding tobacco and excessive alcohol, exercising, eating well, getting vaccinated (HPV, Hep B), and getting screened regularly."
+            },
+            {
+                "question": "Why is early detection of cancer crucial?",
+                "answer": "Early detection significantly increases the chances of successful treatment. When cancers are found before they spread (metastasize), therapies are more effective, and cure rates are much higher."
+            },
+            {
+                "question": "What are the most common cancer treatments?",
+                "answer": "The main treatments are surgery, chemotherapy, radiation therapy, immunotherapy, and targeted therapies. Doctors often use a combination of these treatments."
+            },
+            {
+                "question": "What support is available for managing cancer treatment side effects?",
+                "answer": "Palliative and supportive care teams provide medications to prevent nausea and pain, nutritional guidance, physical therapy, and psychological counseling to help patients stay comfortable during treatment."
+            }
+        ]
     },
     {
         "id": "10581",
@@ -374,7 +424,32 @@
             "https://drvijayanandreddy.com/wp-content/uploads/2025/06/Treatment-Options-for-Blood-Cancer-visual-selection.png"
         ],
         "permalink": "https://drvijayanandreddy.com/blog/can-blood-cancer-be-cured",
-        "faqs": []
+        "faqs": [
+            {
+                "question": "What is blood cancer?",
+                "answer": "Blood cancer affects the production and function of blood cells. The three main types are leukemia (bone marrow), lymphoma (lymph system), and myeloma (plasma cells)."
+            },
+            {
+                "question": "Can blood cancer be cured?",
+                "answer": "Yes, many blood cancers can be cured or managed effectively long-term with treatments like chemotherapy, immunotherapy, targeted therapy, and stem cell transplants."
+            },
+            {
+                "question": "What are the symptoms of blood cancer?",
+                "answer": "Common symptoms include persistent fatigue, unexplained weight loss, easy bruising or bleeding, frequent infections, night sweats, and swollen lymph nodes."
+            },
+            {
+                "question": "How is blood cancer diagnosed?",
+                "answer": "Diagnosis is made through comprehensive blood tests (such as complete blood count), a bone marrow biopsy, and imaging scans (PET/CT) to check for spread."
+            },
+            {
+                "question": "What is a bone marrow transplant?",
+                "answer": "A bone marrow (or stem cell) transplant replaces damaged or destroyed blood-producing stem cells in the bone marrow with healthy donor cells, helping the body produce healthy blood cells."
+            },
+            {
+                "question": "Are there ways to prevent blood cancer?",
+                "answer": "While most blood cancers cannot be directly prevented, avoiding exposure to hazardous chemicals (like benzene) and radiation, along with maintaining a healthy immune system, can reduce risks."
+            }
+        ]
     },
     {
         "id": "10284",
@@ -385,7 +460,32 @@
             "https://drvijayanandreddy.com/wp-content/uploads/2025/10/How-Technology-Is-Changing-the-Way-We-Fight-Cancer-2.jpg"
         ],
         "permalink": "https://drvijayanandreddy.com/blog/is-immunotherapy-better-than-chemotherapy",
-        "faqs": []
+        "faqs": [
+            {
+                "question": "What is chemotherapy and how does it work?",
+                "answer": "Chemotherapy is a systemic cancer treatment that uses powerful drugs to destroy cancer cells or stop them from growing and dividing throughout the body."
+            },
+            {
+                "question": "Is chemotherapy painful?",
+                "answer": "The administration of chemotherapy (typically through an IV infusion or pills) is not painful itself. However, side effects like muscle aches or neuropathy can cause discomfort."
+            },
+            {
+                "question": "What are the most common side effects of chemotherapy?",
+                "answer": "Common side effects include fatigue, nausea, vomiting, hair loss, loss of appetite, and an increased susceptibility to infections due to lower blood counts."
+            },
+            {
+                "question": "How long does chemotherapy treatment typically last?",
+                "answer": "Chemotherapy is usually given in cycles over a period of 3 to 6 months. Each cycle consists of a treatment period followed by a rest period to allow the body to recover."
+            },
+            {
+                "question": "Can I work or maintain my normal routine during chemotherapy?",
+                "answer": "It depends on your overall health and how you respond to the drugs. Many patients can continue light activities or part-time work, while others require rest."
+            },
+            {
+                "question": "How is the effectiveness of chemotherapy monitored?",
+                "answer": "Oncologists monitor effectiveness using blood tests (including tumor markers), imaging scans (like CT, MRI, or PET scans), and physical examinations throughout the treatment course."
+            }
+        ]
     },
     {
         "id": "9986",
@@ -430,7 +530,32 @@
             "https://drvijayanandreddy.com/wp-content/uploads/2025/10/How-Technology-Is-Changing-the-Way-We-Fight-Cancer.jpg"
         ],
         "permalink": "https://drvijayanandreddy.com/blog/what-type-of-cancer-can-be-treated-with-proton-therapy",
-        "faqs": []
+        "faqs": [
+            {
+                "question": "What is Proton Therapy?",
+                "answer": "Proton therapy is a highly advanced form of radiation therapy that uses protons rather than conventional X-rays to target tumors with pinpoint precision."
+            },
+            {
+                "question": "What are the main advantages of Proton Therapy?",
+                "answer": "Proton therapy delivers the maximum radiation dose directly at the tumor site and then stops completely. This spares surrounding healthy tissues and organs, reducing side effects."
+            },
+            {
+                "question": "Is Proton Therapy painful?",
+                "answer": "No, proton therapy is completely painless. Patients do not feel any physical sensation during the actual delivery of the proton beams."
+            },
+            {
+                "question": "Which cancers are best suited for Proton Therapy?",
+                "answer": "It is ideal for brain and spinal tumors, pediatric cancers, eye cancers, head and neck cancers, and tumors located close to critical structures like the heart or major nerves."
+            },
+            {
+                "question": "How long does a Proton Therapy treatment session take?",
+                "answer": "The actual proton beam delivery takes only 1 to 2 minutes, but the total session time takes about 30 minutes to ensure precise millimeter positioning and imaging verification."
+            },
+            {
+                "question": "Does Proton Therapy have side effects?",
+                "answer": "Yes, but they are typically milder than standard radiation. Common side effects are limited to mild fatigue and localized skin irritation in the treatment area."
+            }
+        ]
     },
     {
         "id": "10435",
@@ -476,7 +601,32 @@
             "https://drvijayanandreddy.com/wp-content/uploads/2025/07/What-Are-the-Real-Risks-of-Hair-Transplants_-visual-selection.png"
         ],
         "permalink": "https://drvijayanandreddy.com/blog/can-hair-transplant-cause-cancer",
-        "faqs": []
+        "faqs": [
+            {
+                "question": "What is cancer and how does it start?",
+                "answer": "Cancer is a disease where abnormal cells in the body grow uncontrollably and spread to other parts. It starts when genetic mutations damage cellular DNA, overriding normal cell division controls."
+            },
+            {
+                "question": "What are the main risk factors for cancer?",
+                "answer": "Key risk factors include tobacco use, poor diet, physical inactivity, obesity, heavy alcohol intake, excessive sun exposure, and genetic factors."
+            },
+            {
+                "question": "Can cancer be prevented?",
+                "answer": "Up to 30-50% of cancer cases can be prevented by adopting healthy habits, avoiding tobacco and excessive alcohol, exercising, eating well, getting vaccinated (HPV, Hep B), and getting screened regularly."
+            },
+            {
+                "question": "Why is early detection of cancer crucial?",
+                "answer": "Early detection significantly increases the chances of successful treatment. When cancers are found before they spread (metastasize), therapies are more effective, and cure rates are much higher."
+            },
+            {
+                "question": "What are the most common cancer treatments?",
+                "answer": "The main treatments are surgery, chemotherapy, radiation therapy, immunotherapy, and targeted therapies. Doctors often use a combination of these treatments."
+            },
+            {
+                "question": "What support is available for managing cancer treatment side effects?",
+                "answer": "Palliative and supportive care teams provide medications to prevent nausea and pain, nutritional guidance, physical therapy, and psychological counseling to help patients stay comfortable during treatment."
+            }
+        ]
     },
     {
         "id": "10290",
@@ -487,7 +637,32 @@
             "https://drvijayanandreddy.com/wp-content/uploads/2025/10/How-Technology-Is-Changing-the-Way-We-Fight-Cancer-3.jpg"
         ],
         "permalink": "https://drvijayanandreddy.com/blog/what-is-the-difference-between-radiotherapy-and-chemotherapy",
-        "faqs": []
+        "faqs": [
+            {
+                "question": "What is chemotherapy and how does it work?",
+                "answer": "Chemotherapy is a systemic cancer treatment that uses powerful drugs to destroy cancer cells or stop them from growing and dividing throughout the body."
+            },
+            {
+                "question": "Is chemotherapy painful?",
+                "answer": "The administration of chemotherapy (typically through an IV infusion or pills) is not painful itself. However, side effects like muscle aches or neuropathy can cause discomfort."
+            },
+            {
+                "question": "What are the most common side effects of chemotherapy?",
+                "answer": "Common side effects include fatigue, nausea, vomiting, hair loss, loss of appetite, and an increased susceptibility to infections due to lower blood counts."
+            },
+            {
+                "question": "How long does chemotherapy treatment typically last?",
+                "answer": "Chemotherapy is usually given in cycles over a period of 3 to 6 months. Each cycle consists of a treatment period followed by a rest period to allow the body to recover."
+            },
+            {
+                "question": "Can I work or maintain my normal routine during chemotherapy?",
+                "answer": "It depends on your overall health and how you respond to the drugs. Many patients can continue light activities or part-time work, while others require rest."
+            },
+            {
+                "question": "How is the effectiveness of chemotherapy monitored?",
+                "answer": "Oncologists monitor effectiveness using blood tests (including tumor markers), imaging scans (like CT, MRI, or PET scans), and physical examinations throughout the treatment course."
+            }
+        ]
     },
     {
         "id": "10413",
@@ -604,7 +779,32 @@
             "https://drvijayanandreddy.com/wp-content/uploads/2025/11/How-Technology-Is-Changing-the-Way-We-Fight-Cancer-4.png"
         ],
         "permalink": "https://drvijayanandreddy.com/blog/can-stage-2-lung-cancer-be-cured",
-        "faqs": []
+        "faqs": [
+            {
+                "question": "What is the primary cause of lung cancer?",
+                "answer": "Cigarette smoking is the leading risk factor, responsible for about 85% of all lung cancer cases. Avoidance of tobacco is the single best way to prevent the disease."
+            },
+            {
+                "question": "Can non-smokers get lung cancer?",
+                "answer": "Yes. Non-smokers can develop lung cancer due to exposure to radon gas, secondhand smoke, air pollution, occupational carcinogens (like asbestos), or genetic factors."
+            },
+            {
+                "question": "Can stage 2 lung cancer be cured completely?",
+                "answer": "Yes. Stage 2 lung cancer is treatable and curable. The primary treatment is surgical removal of the tumor, followed by adjuvant chemotherapy or radiation to eliminate remaining cells."
+            },
+            {
+                "question": "What are the main symptoms of lung cancer?",
+                "answer": "Symptoms include a persistent cough that doesn’t go away, coughing up blood, shortness of breath, chest pain, hoarseness, and unexplained weight loss."
+            },
+            {
+                "question": "How is lung cancer screened early?",
+                "answer": "Annual screening using a low-dose CT scan is recommended for high-risk individuals (such as older adults with a heavy smoking history)."
+            },
+            {
+                "question": "What is the role of immunotherapy in lung cancer treatment?",
+                "answer": "Immunotherapy drugs help the patient’s own immune system recognize and destroy lung cancer cells. It has significantly improved survival rates in advanced-stage lung cancers."
+            }
+        ]
     },
     {
         "id": "10398",
@@ -615,7 +815,32 @@
             "https://drvijayanandreddy.com/wp-content/uploads/2025/11/How-Technology-Is-Changing-the-Way-We-Fight-Cancer-1.png"
         ],
         "permalink": "https://drvijayanandreddy.com/blog/how-long-does-breast-cancer-treatment-take",
-        "faqs": []
+        "faqs": [
+            {
+                "question": "What are the early warning signs of breast cancer?",
+                "answer": "Common warning signs include a new lump or thickening in the breast or underarm, breast skin dimpling or redness, nipple retraction, or spontaneous nipple discharge."
+            },
+            {
+                "question": "Is breast cancer curable?",
+                "answer": "Yes, breast cancer is highly curable, especially when detected early (stages 0, 1, or 2). Early diagnosis leads to survival rates exceeding 90-95%."
+            },
+            {
+                "question": "What are the primary treatment options for breast cancer?",
+                "answer": "Treatment typically involves a combination of surgery (lumpectomy or mastectomy), radiation therapy, chemotherapy, hormone therapy, and targeted therapies."
+            },
+            {
+                "question": "Does breast cancer affect men too?",
+                "answer": "Yes. Although much less common, men have breast tissue and can develop breast cancer. It accounts for about 1% of all breast cancer cases."
+            },
+            {
+                "question": "What is the difference between a breast cyst and a tumor?",
+                "answer": "A breast cyst is a fluid-filled sac that is almost always benign (non-cancerous), whereas a tumor is a solid mass of tissue that can be benign or malignant and requires biopsy."
+            },
+            {
+                "question": "How often should women screen for breast cancer?",
+                "answer": "Women should perform monthly breast self-exams and begin annual or biennial mammograms at age 40, or earlier if they have a strong family history."
+            }
+        ]
     },
     {
         "id": "10391",
@@ -626,7 +851,32 @@
             "https://drvijayanandreddy.com/wp-content/uploads/2025/11/WhatsApp-Image-2025-11-01-at-2.20.34-PM-2.jpeg"
         ],
         "permalink": "https://drvijayanandreddy.com/blog/apollo-cancer-centers-cure-foundation",
-        "faqs": []
+        "faqs": [
+            {
+                "question": "What is cancer and how does it start?",
+                "answer": "Cancer is a disease where abnormal cells in the body grow uncontrollably and spread to other parts. It starts when genetic mutations damage cellular DNA, overriding normal cell division controls."
+            },
+            {
+                "question": "What are the main risk factors for cancer?",
+                "answer": "Key risk factors include tobacco use, poor diet, physical inactivity, obesity, heavy alcohol intake, excessive sun exposure, and genetic factors."
+            },
+            {
+                "question": "Can cancer be prevented?",
+                "answer": "Up to 30-50% of cancer cases can be prevented by adopting healthy habits, avoiding tobacco and excessive alcohol, exercising, eating well, getting vaccinated (HPV, Hep B), and getting screened regularly."
+            },
+            {
+                "question": "Why is early detection of cancer crucial?",
+                "answer": "Early detection significantly increases the chances of successful treatment. When cancers are found before they spread (metastasize), therapies are more effective, and cure rates are much higher."
+            },
+            {
+                "question": "What are the most common cancer treatments?",
+                "answer": "The main treatments are surgery, chemotherapy, radiation therapy, immunotherapy, and targeted therapies. Doctors often use a combination of these treatments."
+            },
+            {
+                "question": "What support is available for managing cancer treatment side effects?",
+                "answer": "Palliative and supportive care teams provide medications to prevent nausea and pain, nutritional guidance, physical therapy, and psychological counseling to help patients stay comfortable during treatment."
+            }
+        ]
     },
     {
         "id": "10349",
@@ -637,7 +887,32 @@
             "https://drvijayanandreddy.com/wp-content/uploads/2025/10/How-Technology-Is-Changing-the-Way-We-Fight-Cancer-2.png"
         ],
         "permalink": "https://drvijayanandreddy.com/blog/is-breast-cancer-curable",
-        "faqs": []
+        "faqs": [
+            {
+                "question": "What are the early warning signs of breast cancer?",
+                "answer": "Common warning signs include a new lump or thickening in the breast or underarm, breast skin dimpling or redness, nipple retraction, or spontaneous nipple discharge."
+            },
+            {
+                "question": "Is breast cancer curable?",
+                "answer": "Yes, breast cancer is highly curable, especially when detected early (stages 0, 1, or 2). Early diagnosis leads to survival rates exceeding 90-95%."
+            },
+            {
+                "question": "What are the primary treatment options for breast cancer?",
+                "answer": "Treatment typically involves a combination of surgery (lumpectomy or mastectomy), radiation therapy, chemotherapy, hormone therapy, and targeted therapies."
+            },
+            {
+                "question": "Does breast cancer affect men too?",
+                "answer": "Yes. Although much less common, men have breast tissue and can develop breast cancer. It accounts for about 1% of all breast cancer cases."
+            },
+            {
+                "question": "What is the difference between a breast cyst and a tumor?",
+                "answer": "A breast cyst is a fluid-filled sac that is almost always benign (non-cancerous), whereas a tumor is a solid mass of tissue that can be benign or malignant and requires biopsy."
+            },
+            {
+                "question": "How often should women screen for breast cancer?",
+                "answer": "Women should perform monthly breast self-exams and begin annual or biennial mammograms at age 40, or earlier if they have a strong family history."
+            }
+        ]
     },
     {
         "id": "10365",
@@ -648,7 +923,32 @@
             "https://drvijayanandreddy.com/wp-content/uploads/2025/11/3ae89281-f4ae-4aa7-a09c-1b2a9424ee6a.webp"
         ],
         "permalink": "https://drvijayanandreddy.com/blog/national-cancer-awareness-day-check-o-late-initiative",
-        "faqs": []
+        "faqs": [
+            {
+                "question": "What is cancer and how does it start?",
+                "answer": "Cancer is a disease where abnormal cells in the body grow uncontrollably and spread to other parts. It starts when genetic mutations damage cellular DNA, overriding normal cell division controls."
+            },
+            {
+                "question": "What are the main risk factors for cancer?",
+                "answer": "Key risk factors include tobacco use, poor diet, physical inactivity, obesity, heavy alcohol intake, excessive sun exposure, and genetic factors."
+            },
+            {
+                "question": "Can cancer be prevented?",
+                "answer": "Up to 30-50% of cancer cases can be prevented by adopting healthy habits, avoiding tobacco and excessive alcohol, exercising, eating well, getting vaccinated (HPV, Hep B), and getting screened regularly."
+            },
+            {
+                "question": "Why is early detection of cancer crucial?",
+                "answer": "Early detection significantly increases the chances of successful treatment. When cancers are found before they spread (metastasize), therapies are more effective, and cure rates are much higher."
+            },
+            {
+                "question": "What are the most common cancer treatments?",
+                "answer": "The main treatments are surgery, chemotherapy, radiation therapy, immunotherapy, and targeted therapies. Doctors often use a combination of these treatments."
+            },
+            {
+                "question": "What support is available for managing cancer treatment side effects?",
+                "answer": "Palliative and supportive care teams provide medications to prevent nausea and pain, nutritional guidance, physical therapy, and psychological counseling to help patients stay comfortable during treatment."
+            }
+        ]
     },
     {
         "id": "10335",
@@ -659,7 +959,32 @@
             "https://drvijayanandreddy.com/wp-content/uploads/2025/10/How-Technology-Is-Changing-the-Way-We-Fight-Cancer-3.png"
         ],
         "permalink": "https://drvijayanandreddy.com/blog/how-to-prevent-blood-cancer",
-        "faqs": []
+        "faqs": [
+            {
+                "question": "What is blood cancer?",
+                "answer": "Blood cancer affects the production and function of blood cells. The three main types are leukemia (bone marrow), lymphoma (lymph system), and myeloma (plasma cells)."
+            },
+            {
+                "question": "Can blood cancer be cured?",
+                "answer": "Yes, many blood cancers can be cured or managed effectively long-term with treatments like chemotherapy, immunotherapy, targeted therapy, and stem cell transplants."
+            },
+            {
+                "question": "What are the symptoms of blood cancer?",
+                "answer": "Common symptoms include persistent fatigue, unexplained weight loss, easy bruising or bleeding, frequent infections, night sweats, and swollen lymph nodes."
+            },
+            {
+                "question": "How is blood cancer diagnosed?",
+                "answer": "Diagnosis is made through comprehensive blood tests (such as complete blood count), a bone marrow biopsy, and imaging scans (PET/CT) to check for spread."
+            },
+            {
+                "question": "What is a bone marrow transplant?",
+                "answer": "A bone marrow (or stem cell) transplant replaces damaged or destroyed blood-producing stem cells in the bone marrow with healthy donor cells, helping the body produce healthy blood cells."
+            },
+            {
+                "question": "Are there ways to prevent blood cancer?",
+                "answer": "While most blood cancers cannot be directly prevented, avoiding exposure to hazardous chemicals (like benzene) and radiation, along with maintaining a healthy immune system, can reduce risks."
+            }
+        ]
     },
     {
         "id": "10330",
@@ -690,7 +1015,32 @@
             "https://drvijayanandreddy.com/wp-content/uploads/2025/10/55b97721-24a2-4018-bfd7-a228035df5ed.jpg"
         ],
         "permalink": "https://drvijayanandreddy.com/blog/i-am-a-survivor-hindi-version-book-launch",
-        "faqs": []
+        "faqs": [
+            {
+                "question": "What is cancer and how does it start?",
+                "answer": "Cancer is a disease where abnormal cells in the body grow uncontrollably and spread to other parts. It starts when genetic mutations damage cellular DNA, overriding normal cell division controls."
+            },
+            {
+                "question": "What are the main risk factors for cancer?",
+                "answer": "Key risk factors include tobacco use, poor diet, physical inactivity, obesity, heavy alcohol intake, excessive sun exposure, and genetic factors."
+            },
+            {
+                "question": "Can cancer be prevented?",
+                "answer": "Up to 30-50% of cancer cases can be prevented by adopting healthy habits, avoiding tobacco and excessive alcohol, exercising, eating well, getting vaccinated (HPV, Hep B), and getting screened regularly."
+            },
+            {
+                "question": "Why is early detection of cancer crucial?",
+                "answer": "Early detection significantly increases the chances of successful treatment. When cancers are found before they spread (metastasize), therapies are more effective, and cure rates are much higher."
+            },
+            {
+                "question": "What are the most common cancer treatments?",
+                "answer": "The main treatments are surgery, chemotherapy, radiation therapy, immunotherapy, and targeted therapies. Doctors often use a combination of these treatments."
+            },
+            {
+                "question": "What support is available for managing cancer treatment side effects?",
+                "answer": "Palliative and supportive care teams provide medications to prevent nausea and pain, nutritional guidance, physical therapy, and psychological counseling to help patients stay comfortable during treatment."
+            }
+        ]
     },
     {
         "id": "10325",
@@ -702,7 +1052,32 @@
             "https://drvijayanandreddy.com/wp-content/uploads/2025/10/The-Fundamental-Biological-Barrier-visual-selection.png"
         ],
         "permalink": "https://drvijayanandreddy.com/blog/can-cancer-be-transmitted-through-saliva",
-        "faqs": []
+        "faqs": [
+            {
+                "question": "What is cancer and how does it start?",
+                "answer": "Cancer is a disease where abnormal cells in the body grow uncontrollably and spread to other parts. It starts when genetic mutations damage cellular DNA, overriding normal cell division controls."
+            },
+            {
+                "question": "What are the main risk factors for cancer?",
+                "answer": "Key risk factors include tobacco use, poor diet, physical inactivity, obesity, heavy alcohol intake, excessive sun exposure, and genetic factors."
+            },
+            {
+                "question": "Can cancer be prevented?",
+                "answer": "Up to 30-50% of cancer cases can be prevented by adopting healthy habits, avoiding tobacco and excessive alcohol, exercising, eating well, getting vaccinated (HPV, Hep B), and getting screened regularly."
+            },
+            {
+                "question": "Why is early detection of cancer crucial?",
+                "answer": "Early detection significantly increases the chances of successful treatment. When cancers are found before they spread (metastasize), therapies are more effective, and cure rates are much higher."
+            },
+            {
+                "question": "What are the most common cancer treatments?",
+                "answer": "The main treatments are surgery, chemotherapy, radiation therapy, immunotherapy, and targeted therapies. Doctors often use a combination of these treatments."
+            },
+            {
+                "question": "What support is available for managing cancer treatment side effects?",
+                "answer": "Palliative and supportive care teams provide medications to prevent nausea and pain, nutritional guidance, physical therapy, and psychological counseling to help patients stay comfortable during treatment."
+            }
+        ]
     },
     {
         "id": "10295",
@@ -729,7 +1104,32 @@
             "https://drvijayanandreddy.com/wp-content/uploads/2025/09/How-Technology-Is-Changing-the-Way-We-Fight-Cancer-2.jpg"
         ],
         "permalink": "https://drvijayanandreddy.com/blog/childhood-cancer-awareness",
-        "faqs": []
+        "faqs": [
+            {
+                "question": "What is cancer and how does it start?",
+                "answer": "Cancer is a disease where abnormal cells in the body grow uncontrollably and spread to other parts. It starts when genetic mutations damage cellular DNA, overriding normal cell division controls."
+            },
+            {
+                "question": "What are the main risk factors for cancer?",
+                "answer": "Key risk factors include tobacco use, poor diet, physical inactivity, obesity, heavy alcohol intake, excessive sun exposure, and genetic factors."
+            },
+            {
+                "question": "Can cancer be prevented?",
+                "answer": "Up to 30-50% of cancer cases can be prevented by adopting healthy habits, avoiding tobacco and excessive alcohol, exercising, eating well, getting vaccinated (HPV, Hep B), and getting screened regularly."
+            },
+            {
+                "question": "Why is early detection of cancer crucial?",
+                "answer": "Early detection significantly increases the chances of successful treatment. When cancers are found before they spread (metastasize), therapies are more effective, and cure rates are much higher."
+            },
+            {
+                "question": "What are the most common cancer treatments?",
+                "answer": "The main treatments are surgery, chemotherapy, radiation therapy, immunotherapy, and targeted therapies. Doctors often use a combination of these treatments."
+            },
+            {
+                "question": "What support is available for managing cancer treatment side effects?",
+                "answer": "Palliative and supportive care teams provide medications to prevent nausea and pain, nutritional guidance, physical therapy, and psychological counseling to help patients stay comfortable during treatment."
+            }
+        ]
     },
     {
         "id": "10194",
@@ -740,7 +1140,32 @@
             "https://drvijayanandreddy.com/wp-content/uploads/2025/09/How-Technology-Is-Changing-the-Way-We-Fight-Cancer-1.jpg"
         ],
         "permalink": "https://drvijayanandreddy.com/blog/seasonal-health-precautions-for-cancer-patients",
-        "faqs": []
+        "faqs": [
+            {
+                "question": "What is cancer and how does it start?",
+                "answer": "Cancer is a disease where abnormal cells in the body grow uncontrollably and spread to other parts. It starts when genetic mutations damage cellular DNA, overriding normal cell division controls."
+            },
+            {
+                "question": "What are the main risk factors for cancer?",
+                "answer": "Key risk factors include tobacco use, poor diet, physical inactivity, obesity, heavy alcohol intake, excessive sun exposure, and genetic factors."
+            },
+            {
+                "question": "Can cancer be prevented?",
+                "answer": "Up to 30-50% of cancer cases can be prevented by adopting healthy habits, avoiding tobacco and excessive alcohol, exercising, eating well, getting vaccinated (HPV, Hep B), and getting screened regularly."
+            },
+            {
+                "question": "Why is early detection of cancer crucial?",
+                "answer": "Early detection significantly increases the chances of successful treatment. When cancers are found before they spread (metastasize), therapies are more effective, and cure rates are much higher."
+            },
+            {
+                "question": "What are the most common cancer treatments?",
+                "answer": "The main treatments are surgery, chemotherapy, radiation therapy, immunotherapy, and targeted therapies. Doctors often use a combination of these treatments."
+            },
+            {
+                "question": "What support is available for managing cancer treatment side effects?",
+                "answer": "Palliative and supportive care teams provide medications to prevent nausea and pain, nutritional guidance, physical therapy, and psychological counseling to help patients stay comfortable during treatment."
+            }
+        ]
     },
     {
         "id": "10279",
@@ -751,7 +1176,32 @@
             "https://drvijayanandreddy.com/wp-content/uploads/2025/10/How-Technology-Is-Changing-the-Way-We-Fight-Cancer-1.jpg"
         ],
         "permalink": "https://drvijayanandreddy.com/blog/how-to-prevent-brain-tumor",
-        "faqs": []
+        "faqs": [
+            {
+                "question": "What is the difference between benign and malignant brain tumors?",
+                "answer": "Benign brain tumors are non-cancerous, grow slowly, and do not invade surrounding tissue (though they can still cause pressure). Malignant tumors are cancerous, grow rapidly, and spread into adjacent brain tissue."
+            },
+            {
+                "question": "What are the early signs of a brain tumor?",
+                "answer": "Common early signs include new or changing patterns of headaches, seizures, unexplained nausea or vomiting, vision or speech difficulties, and loss of balance."
+            },
+            {
+                "question": "Can a brain tumor be cured completely?",
+                "answer": "Many brain tumors, especially benign ones and certain early-stage malignant ones, can be completely cured or managed for many years through surgery, radiation, and chemotherapy."
+            },
+            {
+                "question": "What are the main treatment methods for brain tumors?",
+                "answer": "The main treatments are surgical removal (craniotomy), radiation therapy (including precise proton therapy), and chemotherapy (such as temozolomide)."
+            },
+            {
+                "question": "How are brain tumors diagnosed?",
+                "answer": "They are primarily diagnosed via neurological exams and high-resolution imaging scans like MRI or CT. A biopsy is then performed to confirm the exact cell type."
+            },
+            {
+                "question": "Is there any link between mobile phones and brain tumors?",
+                "answer": "Extensive epidemiological studies conducted worldwide by major health organizations have found no scientific evidence linking radiofrequency energy from mobile phones to brain tumors."
+            }
+        ]
     },
     {
         "id": "10153",
@@ -762,7 +1212,32 @@
             "https://drvijayanandreddy.com/wp-content/uploads/2025/07/How-Technology-Is-Changing-the-Way-We-Fight-Cancer.jpg"
         ],
         "permalink": "https://drvijayanandreddy.com/blog/how-technology-is-changing-the-way-we-fight-cancer",
-        "faqs": []
+        "faqs": [
+            {
+                "question": "What is cancer and how does it start?",
+                "answer": "Cancer is a disease where abnormal cells in the body grow uncontrollably and spread to other parts. It starts when genetic mutations damage cellular DNA, overriding normal cell division controls."
+            },
+            {
+                "question": "What are the main risk factors for cancer?",
+                "answer": "Key risk factors include tobacco use, poor diet, physical inactivity, obesity, heavy alcohol intake, excessive sun exposure, and genetic factors."
+            },
+            {
+                "question": "Can cancer be prevented?",
+                "answer": "Up to 30-50% of cancer cases can be prevented by adopting healthy habits, avoiding tobacco and excessive alcohol, exercising, eating well, getting vaccinated (HPV, Hep B), and getting screened regularly."
+            },
+            {
+                "question": "Why is early detection of cancer crucial?",
+                "answer": "Early detection significantly increases the chances of successful treatment. When cancers are found before they spread (metastasize), therapies are more effective, and cure rates are much higher."
+            },
+            {
+                "question": "What are the most common cancer treatments?",
+                "answer": "The main treatments are surgery, chemotherapy, radiation therapy, immunotherapy, and targeted therapies. Doctors often use a combination of these treatments."
+            },
+            {
+                "question": "What support is available for managing cancer treatment side effects?",
+                "answer": "Palliative and supportive care teams provide medications to prevent nausea and pain, nutritional guidance, physical therapy, and psychological counseling to help patients stay comfortable during treatment."
+            }
+        ]
     },
     {
         "id": "10128",
@@ -773,7 +1248,32 @@
             "https://drvijayanandreddy.com/wp-content/uploads/2025/07/blgo-1.webp"
         ],
         "permalink": "https://drvijayanandreddy.com/blog/what-is-personalized-cancer-treatment-how-its-revolutionizing-patient-outcomes",
-        "faqs": []
+        "faqs": [
+            {
+                "question": "What is cancer and how does it start?",
+                "answer": "Cancer is a disease where abnormal cells in the body grow uncontrollably and spread to other parts. It starts when genetic mutations damage cellular DNA, overriding normal cell division controls."
+            },
+            {
+                "question": "What are the main risk factors for cancer?",
+                "answer": "Key risk factors include tobacco use, poor diet, physical inactivity, obesity, heavy alcohol intake, excessive sun exposure, and genetic factors."
+            },
+            {
+                "question": "Can cancer be prevented?",
+                "answer": "Up to 30-50% of cancer cases can be prevented by adopting healthy habits, avoiding tobacco and excessive alcohol, exercising, eating well, getting vaccinated (HPV, Hep B), and getting screened regularly."
+            },
+            {
+                "question": "Why is early detection of cancer crucial?",
+                "answer": "Early detection significantly increases the chances of successful treatment. When cancers are found before they spread (metastasize), therapies are more effective, and cure rates are much higher."
+            },
+            {
+                "question": "What are the most common cancer treatments?",
+                "answer": "The main treatments are surgery, chemotherapy, radiation therapy, immunotherapy, and targeted therapies. Doctors often use a combination of these treatments."
+            },
+            {
+                "question": "What support is available for managing cancer treatment side effects?",
+                "answer": "Palliative and supportive care teams provide medications to prevent nausea and pain, nutritional guidance, physical therapy, and psychological counseling to help patients stay comfortable during treatment."
+            }
+        ]
     },
     {
         "id": "10138",
@@ -784,7 +1284,32 @@
             "https://drvijayanandreddy.com/wp-content/uploads/2025/07/DSC00065-scaled.jpg"
         ],
         "permalink": "https://drvijayanandreddy.com/blog/sarcoma-awareness-month",
-        "faqs": []
+        "faqs": [
+            {
+                "question": "What is melanoma and why is it serious?",
+                "answer": "Melanoma is the most serious type of skin cancer. It develops in the melanocytes (pigment cells) and is more likely than other skin cancers to spread to other parts of the body if not caught early."
+            },
+            {
+                "question": "What is a sarcoma?",
+                "answer": "Sarcomas are rare cancers that develop in connective tissues, including bones, muscles, fat, blood vessels, cartilage, and nerves."
+            },
+            {
+                "question": "What causes skin cancer?",
+                "answer": "The primary cause is overexposure to ultraviolet (UV) radiation from sunlight or tanning beds, which damages skin cells and triggers cancer mutation."
+            },
+            {
+                "question": "How do you check for skin cancer early?",
+                "answer": "Follow the ABCDE rule for moles: Asymmetry, Border irregularity, Color variation, Diameter greater than 6mm, and Evolving size, shape, or color."
+            },
+            {
+                "question": "How is soft tissue sarcoma treated?",
+                "answer": "Sarcomas are typically treated with surgical removal of the tumor, often combined with radiation therapy to reduce recurrence risk, or chemotherapy in advanced cases."
+            },
+            {
+                "question": "Can skin cancer be cured?",
+                "answer": "Yes, almost all skin cancers (including melanoma) are highly curable if detected early and excised completely."
+            }
+        ]
     },
     {
         "id": "10117",
@@ -795,7 +1320,32 @@
             "https://drvijayanandreddy.com/wp-content/uploads/2025/07/Top-Signs-of-Cancer-You-Should-Never-Ignore-Early-Detection-Saves-Lives.jpg"
         ],
         "permalink": "https://drvijayanandreddy.com/blog/top-signs-of-cancer-you-should-never-ignore",
-        "faqs": []
+        "faqs": [
+            {
+                "question": "What is cancer and how does it start?",
+                "answer": "Cancer is a disease where abnormal cells in the body grow uncontrollably and spread to other parts. It starts when genetic mutations damage cellular DNA, overriding normal cell division controls."
+            },
+            {
+                "question": "What are the main risk factors for cancer?",
+                "answer": "Key risk factors include tobacco use, poor diet, physical inactivity, obesity, heavy alcohol intake, excessive sun exposure, and genetic factors."
+            },
+            {
+                "question": "Can cancer be prevented?",
+                "answer": "Up to 30-50% of cancer cases can be prevented by adopting healthy habits, avoiding tobacco and excessive alcohol, exercising, eating well, getting vaccinated (HPV, Hep B), and getting screened regularly."
+            },
+            {
+                "question": "Why is early detection of cancer crucial?",
+                "answer": "Early detection significantly increases the chances of successful treatment. When cancers are found before they spread (metastasize), therapies are more effective, and cure rates are much higher."
+            },
+            {
+                "question": "What are the most common cancer treatments?",
+                "answer": "The main treatments are surgery, chemotherapy, radiation therapy, immunotherapy, and targeted therapies. Doctors often use a combination of these treatments."
+            },
+            {
+                "question": "What support is available for managing cancer treatment side effects?",
+                "answer": "Palliative and supportive care teams provide medications to prevent nausea and pain, nutritional guidance, physical therapy, and psychological counseling to help patients stay comfortable during treatment."
+            }
+        ]
     },
     {
         "id": "10103",
@@ -861,7 +1411,32 @@
             "https://drvijayanandreddy.com/wp-content/uploads/2025/06/image.png"
         ],
         "permalink": "https://drvijayanandreddy.com/blog/immunotherapy-vs-chemotherapy-which-is-better-for-cancer-treatment",
-        "faqs": []
+        "faqs": [
+            {
+                "question": "What is chemotherapy and how does it work?",
+                "answer": "Chemotherapy is a systemic cancer treatment that uses powerful drugs to destroy cancer cells or stop them from growing and dividing throughout the body."
+            },
+            {
+                "question": "Is chemotherapy painful?",
+                "answer": "The administration of chemotherapy (typically through an IV infusion or pills) is not painful itself. However, side effects like muscle aches or neuropathy can cause discomfort."
+            },
+            {
+                "question": "What are the most common side effects of chemotherapy?",
+                "answer": "Common side effects include fatigue, nausea, vomiting, hair loss, loss of appetite, and an increased susceptibility to infections due to lower blood counts."
+            },
+            {
+                "question": "How long does chemotherapy treatment typically last?",
+                "answer": "Chemotherapy is usually given in cycles over a period of 3 to 6 months. Each cycle consists of a treatment period followed by a rest period to allow the body to recover."
+            },
+            {
+                "question": "Can I work or maintain my normal routine during chemotherapy?",
+                "answer": "It depends on your overall health and how you respond to the drugs. Many patients can continue light activities or part-time work, while others require rest."
+            },
+            {
+                "question": "How is the effectiveness of chemotherapy monitored?",
+                "answer": "Oncologists monitor effectiveness using blood tests (including tumor markers), imaging scans (like CT, MRI, or PET scans), and physical examinations throughout the treatment course."
+            }
+        ]
     },
     {
         "id": "9898",
@@ -872,7 +1447,32 @@
             "https://drvijayanandreddy.com/wp-content/uploads/2025/06/10-Early-Warning-Signs-of-Cancer-You-Should-Never-Ignore-visual-selection.png"
         ],
         "permalink": "https://drvijayanandreddy.com/blog/early-signs-of-cancer-you-should-never-ignore",
-        "faqs": []
+        "faqs": [
+            {
+                "question": "What is cancer and how does it start?",
+                "answer": "Cancer is a disease where abnormal cells in the body grow uncontrollably and spread to other parts. It starts when genetic mutations damage cellular DNA, overriding normal cell division controls."
+            },
+            {
+                "question": "What are the main risk factors for cancer?",
+                "answer": "Key risk factors include tobacco use, poor diet, physical inactivity, obesity, heavy alcohol intake, excessive sun exposure, and genetic factors."
+            },
+            {
+                "question": "Can cancer be prevented?",
+                "answer": "Up to 30-50% of cancer cases can be prevented by adopting healthy habits, avoiding tobacco and excessive alcohol, exercising, eating well, getting vaccinated (HPV, Hep B), and getting screened regularly."
+            },
+            {
+                "question": "Why is early detection of cancer crucial?",
+                "answer": "Early detection significantly increases the chances of successful treatment. When cancers are found before they spread (metastasize), therapies are more effective, and cure rates are much higher."
+            },
+            {
+                "question": "What are the most common cancer treatments?",
+                "answer": "The main treatments are surgery, chemotherapy, radiation therapy, immunotherapy, and targeted therapies. Doctors often use a combination of these treatments."
+            },
+            {
+                "question": "What support is available for managing cancer treatment side effects?",
+                "answer": "Palliative and supportive care teams provide medications to prevent nausea and pain, nutritional guidance, physical therapy, and psychological counseling to help patients stay comfortable during treatment."
+            }
+        ]
     },
     {
         "id": "9897",
@@ -885,7 +1485,32 @@
             "https://drvijayanandreddy.com/wp-content/uploads/2025/06/How-Is-Cancer-Diagnosed-in-India_-visual-selection.png"
         ],
         "permalink": "https://drvijayanandreddy.com/blog/most-common-cancer-in-male-in-india",
-        "faqs": []
+        "faqs": [
+            {
+                "question": "What is cancer and how does it start?",
+                "answer": "Cancer is a disease where abnormal cells in the body grow uncontrollably and spread to other parts. It starts when genetic mutations damage cellular DNA, overriding normal cell division controls."
+            },
+            {
+                "question": "What are the main risk factors for cancer?",
+                "answer": "Key risk factors include tobacco use, poor diet, physical inactivity, obesity, heavy alcohol intake, excessive sun exposure, and genetic factors."
+            },
+            {
+                "question": "Can cancer be prevented?",
+                "answer": "Up to 30-50% of cancer cases can be prevented by adopting healthy habits, avoiding tobacco and excessive alcohol, exercising, eating well, getting vaccinated (HPV, Hep B), and getting screened regularly."
+            },
+            {
+                "question": "Why is early detection of cancer crucial?",
+                "answer": "Early detection significantly increases the chances of successful treatment. When cancers are found before they spread (metastasize), therapies are more effective, and cure rates are much higher."
+            },
+            {
+                "question": "What are the most common cancer treatments?",
+                "answer": "The main treatments are surgery, chemotherapy, radiation therapy, immunotherapy, and targeted therapies. Doctors often use a combination of these treatments."
+            },
+            {
+                "question": "What support is available for managing cancer treatment side effects?",
+                "answer": "Palliative and supportive care teams provide medications to prevent nausea and pain, nutritional guidance, physical therapy, and psychological counseling to help patients stay comfortable during treatment."
+            }
+        ]
     },
     {
         "id": "9827",
@@ -894,7 +1519,32 @@
         "date": "2025-06-09",
         "images": [],
         "permalink": "https://drvijayanandreddy.com/blog/why-prevention-is-the-best-cure-cancer-screening-guidelines",
-        "faqs": []
+        "faqs": [
+            {
+                "question": "What is cancer and how does it start?",
+                "answer": "Cancer is a disease where abnormal cells in the body grow uncontrollably and spread to other parts. It starts when genetic mutations damage cellular DNA, overriding normal cell division controls."
+            },
+            {
+                "question": "What are the main risk factors for cancer?",
+                "answer": "Key risk factors include tobacco use, poor diet, physical inactivity, obesity, heavy alcohol intake, excessive sun exposure, and genetic factors."
+            },
+            {
+                "question": "Can cancer be prevented?",
+                "answer": "Up to 30-50% of cancer cases can be prevented by adopting healthy habits, avoiding tobacco and excessive alcohol, exercising, eating well, getting vaccinated (HPV, Hep B), and getting screened regularly."
+            },
+            {
+                "question": "Why is early detection of cancer crucial?",
+                "answer": "Early detection significantly increases the chances of successful treatment. When cancers are found before they spread (metastasize), therapies are more effective, and cure rates are much higher."
+            },
+            {
+                "question": "What are the most common cancer treatments?",
+                "answer": "The main treatments are surgery, chemotherapy, radiation therapy, immunotherapy, and targeted therapies. Doctors often use a combination of these treatments."
+            },
+            {
+                "question": "What support is available for managing cancer treatment side effects?",
+                "answer": "Palliative and supportive care teams provide medications to prevent nausea and pain, nutritional guidance, physical therapy, and psychological counseling to help patients stay comfortable during treatment."
+            }
+        ]
     },
     {
         "id": "9865",
@@ -960,7 +1610,32 @@
             "https://drvijayanandreddy.com/wp-content/uploads/2025/06/i-2025-06-21T143719.762.png"
         ],
         "permalink": "https://drvijayanandreddy.com/blog/revolutionary-breakthrough-new-combination-therapy-nearly-quadruples-survival-in-advanced-skin-cancer-patients",
-        "faqs": []
+        "faqs": [
+            {
+                "question": "What is melanoma and why is it serious?",
+                "answer": "Melanoma is the most serious type of skin cancer. It develops in the melanocytes (pigment cells) and is more likely than other skin cancers to spread to other parts of the body if not caught early."
+            },
+            {
+                "question": "What is a sarcoma?",
+                "answer": "Sarcomas are rare cancers that develop in connective tissues, including bones, muscles, fat, blood vessels, cartilage, and nerves."
+            },
+            {
+                "question": "What causes skin cancer?",
+                "answer": "The primary cause is overexposure to ultraviolet (UV) radiation from sunlight or tanning beds, which damages skin cells and triggers cancer mutation."
+            },
+            {
+                "question": "How do you check for skin cancer early?",
+                "answer": "Follow the ABCDE rule for moles: Asymmetry, Border irregularity, Color variation, Diameter greater than 6mm, and Evolving size, shape, or color."
+            },
+            {
+                "question": "How is soft tissue sarcoma treated?",
+                "answer": "Sarcomas are typically treated with surgical removal of the tumor, often combined with radiation therapy to reduce recurrence risk, or chemotherapy in advanced cases."
+            },
+            {
+                "question": "Can skin cancer be cured?",
+                "answer": "Yes, almost all skin cancers (including melanoma) are highly curable if detected early and excised completely."
+            }
+        ]
     },
     {
         "id": "9686",
@@ -993,7 +1668,32 @@
             "https://drvijayanandreddy.com/wp-content/uploads/2025/06/WhatsApp-Image-2025-05-19-at-4.11.08-PM-1.jpeg"
         ],
         "permalink": "https://drvijayanandreddy.com/blog/whitathon-marathon-for-eye-cancer-awareness-2",
-        "faqs": []
+        "faqs": [
+            {
+                "question": "What is eye cancer?",
+                "answer": "Eye cancer refers to tumors that originate in the eye structure. The most common primary eye cancers are intraocular melanoma in adults and retinoblastoma in children."
+            },
+            {
+                "question": "Can eye cancer be cured?",
+                "answer": "Yes. With early detection and advanced treatments (like plaque brachytherapy or proton therapy), eye cancers have a high cure rate and can often be treated successfully."
+            },
+            {
+                "question": "What are the common symptoms of eye cancer?",
+                "answer": "Symptoms can include blurred vision, flashes of light, dark spots on the iris, floaters (spots in the vision), or a growing dark shadow in the visual field."
+            },
+            {
+                "question": "Is removal of the eye always necessary for eye cancer?",
+                "answer": "No. Modern eye preservation treatments like plaque brachytherapy and proton therapy can treat the tumor effectively while preserving the eye and vision in many cases."
+            },
+            {
+                "question": "What is ocular melanoma?",
+                "answer": "Ocular melanoma is the most common type of primary eye cancer in adults. It develops in the pigment-producing cells of the uvea (the middle layer of the eye)."
+            },
+            {
+                "question": "How is eye cancer diagnosed?",
+                "answer": "Eye cancer is diagnosed during a detailed ophthalmic exam by an ocular oncologist using specialized techniques like ultrasound, optical coherence tomography (OCT), and angiography."
+            }
+        ]
     },
     {
         "id": "9796",
@@ -1049,7 +1749,32 @@
             "https://drvijayanandreddy.com/wp-content/uploads/2025/06/Testicular-Cancer-Awareness-Month-Raising-Awareness-and-Ensuring-Early-Detection.webp"
         ],
         "permalink": "https://drvijayanandreddy.com/blog/testicular-cancer-awareness-month",
-        "faqs": []
+        "faqs": [
+            {
+                "question": "What is cancer and how does it start?",
+                "answer": "Cancer is a disease where abnormal cells in the body grow uncontrollably and spread to other parts. It starts when genetic mutations damage cellular DNA, overriding normal cell division controls."
+            },
+            {
+                "question": "What are the main risk factors for cancer?",
+                "answer": "Key risk factors include tobacco use, poor diet, physical inactivity, obesity, heavy alcohol intake, excessive sun exposure, and genetic factors."
+            },
+            {
+                "question": "Can cancer be prevented?",
+                "answer": "Up to 30-50% of cancer cases can be prevented by adopting healthy habits, avoiding tobacco and excessive alcohol, exercising, eating well, getting vaccinated (HPV, Hep B), and getting screened regularly."
+            },
+            {
+                "question": "Why is early detection of cancer crucial?",
+                "answer": "Early detection significantly increases the chances of successful treatment. When cancers are found before they spread (metastasize), therapies are more effective, and cure rates are much higher."
+            },
+            {
+                "question": "What are the most common cancer treatments?",
+                "answer": "The main treatments are surgery, chemotherapy, radiation therapy, immunotherapy, and targeted therapies. Doctors often use a combination of these treatments."
+            },
+            {
+                "question": "What support is available for managing cancer treatment side effects?",
+                "answer": "Palliative and supportive care teams provide medications to prevent nausea and pain, nutritional guidance, physical therapy, and psychological counseling to help patients stay comfortable during treatment."
+            }
+        ]
     },
     {
         "id": "9818",
@@ -1060,7 +1785,32 @@
             "https://drvijayanandreddy.com/wp-content/uploads/2025/06/Bowel-Cancer-Awareness-Month-A-Call-to-Action-for-Early-Detection-and-Prevention.webp"
         ],
         "permalink": "https://drvijayanandreddy.com/blog/bowel-cancer-awareness-month",
-        "faqs": []
+        "faqs": [
+            {
+                "question": "What is colon cancer?",
+                "answer": "Colon cancer is a malignancy that starts in the large intestine (colon) or rectum, often beginning as small, non-cancerous clumps of cells called polyps."
+            },
+            {
+                "question": "How can colon cancer be prevented?",
+                "answer": "Colon cancer can be prevented by undergoing regular screenings (like a colonoscopy) starting at age 45, which allow doctors to find and remove precancerous polyps before they turn into cancer."
+            },
+            {
+                "question": "What are the common symptoms of colon cancer?",
+                "answer": "Symptoms include persistent changes in bowel habits (diarrhea or constipation), blood in the stool, rectal bleeding, persistent abdominal discomfort, and unexplained fatigue."
+            },
+            {
+                "question": "What is a colonoscopy?",
+                "answer": "A colonoscopy is a diagnostic procedure where a gastroenterologist uses a long, flexible tube with a camera to examine the entire lining of the colon and rectum, removing any polyps on the spot."
+            },
+            {
+                "question": "How is colon cancer treated?",
+                "answer": "Primary treatments include surgery to remove the section of the colon containing the tumor, often accompanied by chemotherapy or radiation therapy depending on the stage."
+            },
+            {
+                "question": "Is colon cancer hereditary?",
+                "answer": "Most colon cancers are sporadic, but about 5% to 10% are hereditary, caused by gene mutations passed down in families (such as Lynch syndrome or FAP)."
+            }
+        ]
     },
     {
         "id": "9815",
@@ -1071,7 +1821,32 @@
             "https://drvijayanandreddy.com/wp-content/uploads/2025/06/Teenager-and-Young-Adult-Cancer-Awareness-Month-Supporting-a-Unique-and-Vulnerable-Group.webp"
         ],
         "permalink": "https://drvijayanandreddy.com/blog/teenager-and-young-adult-cancer-awareness-month",
-        "faqs": []
+        "faqs": [
+            {
+                "question": "What is cancer and how does it start?",
+                "answer": "Cancer is a disease where abnormal cells in the body grow uncontrollably and spread to other parts. It starts when genetic mutations damage cellular DNA, overriding normal cell division controls."
+            },
+            {
+                "question": "What are the main risk factors for cancer?",
+                "answer": "Key risk factors include tobacco use, poor diet, physical inactivity, obesity, heavy alcohol intake, excessive sun exposure, and genetic factors."
+            },
+            {
+                "question": "Can cancer be prevented?",
+                "answer": "Up to 30-50% of cancer cases can be prevented by adopting healthy habits, avoiding tobacco and excessive alcohol, exercising, eating well, getting vaccinated (HPV, Hep B), and getting screened regularly."
+            },
+            {
+                "question": "Why is early detection of cancer crucial?",
+                "answer": "Early detection significantly increases the chances of successful treatment. When cancers are found before they spread (metastasize), therapies are more effective, and cure rates are much higher."
+            },
+            {
+                "question": "What are the most common cancer treatments?",
+                "answer": "The main treatments are surgery, chemotherapy, radiation therapy, immunotherapy, and targeted therapies. Doctors often use a combination of these treatments."
+            },
+            {
+                "question": "What support is available for managing cancer treatment side effects?",
+                "answer": "Palliative and supportive care teams provide medications to prevent nausea and pain, nutritional guidance, physical therapy, and psychological counseling to help patients stay comfortable during treatment."
+            }
+        ]
     },
     {
         "id": "9778",
@@ -1108,7 +1883,32 @@
             "https://drvijayanandreddy.com/wp-content/uploads/2025/02/World-Childhood-Cancer-Day-2025-A-Global-Call-for-Hope-Equity-and-Action.png"
         ],
         "permalink": "https://drvijayanandreddy.com/blog/world-childhood-cancer-day-2025-a-global-call-for-hope-equity-and-action",
-        "faqs": []
+        "faqs": [
+            {
+                "question": "What is cancer and how does it start?",
+                "answer": "Cancer is a disease where abnormal cells in the body grow uncontrollably and spread to other parts. It starts when genetic mutations damage cellular DNA, overriding normal cell division controls."
+            },
+            {
+                "question": "What are the main risk factors for cancer?",
+                "answer": "Key risk factors include tobacco use, poor diet, physical inactivity, obesity, heavy alcohol intake, excessive sun exposure, and genetic factors."
+            },
+            {
+                "question": "Can cancer be prevented?",
+                "answer": "Up to 30-50% of cancer cases can be prevented by adopting healthy habits, avoiding tobacco and excessive alcohol, exercising, eating well, getting vaccinated (HPV, Hep B), and getting screened regularly."
+            },
+            {
+                "question": "Why is early detection of cancer crucial?",
+                "answer": "Early detection significantly increases the chances of successful treatment. When cancers are found before they spread (metastasize), therapies are more effective, and cure rates are much higher."
+            },
+            {
+                "question": "What are the most common cancer treatments?",
+                "answer": "The main treatments are surgery, chemotherapy, radiation therapy, immunotherapy, and targeted therapies. Doctors often use a combination of these treatments."
+            },
+            {
+                "question": "What support is available for managing cancer treatment side effects?",
+                "answer": "Palliative and supportive care teams provide medications to prevent nausea and pain, nutritional guidance, physical therapy, and psychological counseling to help patients stay comfortable during treatment."
+            }
+        ]
     },
     {
         "id": "9609",
@@ -1121,7 +1921,32 @@
             "https://drvijayanandreddy.com/wp-content/uploads/2025/02/1.jpg"
         ],
         "permalink": "https://drvijayanandreddy.com/blog/hope-in-a-shot-a-step-towards-a-cancer-free-future",
-        "faqs": []
+        "faqs": [
+            {
+                "question": "What is cancer and how does it start?",
+                "answer": "Cancer is a disease where abnormal cells in the body grow uncontrollably and spread to other parts. It starts when genetic mutations damage cellular DNA, overriding normal cell division controls."
+            },
+            {
+                "question": "What are the main risk factors for cancer?",
+                "answer": "Key risk factors include tobacco use, poor diet, physical inactivity, obesity, heavy alcohol intake, excessive sun exposure, and genetic factors."
+            },
+            {
+                "question": "Can cancer be prevented?",
+                "answer": "Up to 30-50% of cancer cases can be prevented by adopting healthy habits, avoiding tobacco and excessive alcohol, exercising, eating well, getting vaccinated (HPV, Hep B), and getting screened regularly."
+            },
+            {
+                "question": "Why is early detection of cancer crucial?",
+                "answer": "Early detection significantly increases the chances of successful treatment. When cancers are found before they spread (metastasize), therapies are more effective, and cure rates are much higher."
+            },
+            {
+                "question": "What are the most common cancer treatments?",
+                "answer": "The main treatments are surgery, chemotherapy, radiation therapy, immunotherapy, and targeted therapies. Doctors often use a combination of these treatments."
+            },
+            {
+                "question": "What support is available for managing cancer treatment side effects?",
+                "answer": "Palliative and supportive care teams provide medications to prevent nausea and pain, nutritional guidance, physical therapy, and psychological counseling to help patients stay comfortable during treatment."
+            }
+        ]
     },
     {
         "id": "9606",
@@ -1132,7 +1957,32 @@
             "https://drvijayanandreddy.com/wp-content/uploads/2025/02/World-Cancer-Day-Uniting-the-World-in-the-Fight-Against-Cancer.webp"
         ],
         "permalink": "https://drvijayanandreddy.com/blog/world-cancer-day-uniting-the-world-in-the-fight-against-cancer",
-        "faqs": []
+        "faqs": [
+            {
+                "question": "What is cancer and how does it start?",
+                "answer": "Cancer is a disease where abnormal cells in the body grow uncontrollably and spread to other parts. It starts when genetic mutations damage cellular DNA, overriding normal cell division controls."
+            },
+            {
+                "question": "What are the main risk factors for cancer?",
+                "answer": "Key risk factors include tobacco use, poor diet, physical inactivity, obesity, heavy alcohol intake, excessive sun exposure, and genetic factors."
+            },
+            {
+                "question": "Can cancer be prevented?",
+                "answer": "Up to 30-50% of cancer cases can be prevented by adopting healthy habits, avoiding tobacco and excessive alcohol, exercising, eating well, getting vaccinated (HPV, Hep B), and getting screened regularly."
+            },
+            {
+                "question": "Why is early detection of cancer crucial?",
+                "answer": "Early detection significantly increases the chances of successful treatment. When cancers are found before they spread (metastasize), therapies are more effective, and cure rates are much higher."
+            },
+            {
+                "question": "What are the most common cancer treatments?",
+                "answer": "The main treatments are surgery, chemotherapy, radiation therapy, immunotherapy, and targeted therapies. Doctors often use a combination of these treatments."
+            },
+            {
+                "question": "What support is available for managing cancer treatment side effects?",
+                "answer": "Palliative and supportive care teams provide medications to prevent nausea and pain, nutritional guidance, physical therapy, and psychological counseling to help patients stay comfortable during treatment."
+            }
+        ]
     },
     {
         "id": "9585",
@@ -1143,7 +1993,32 @@
             "https://drvijayanandreddy.com/wp-content/uploads/2025/01/Understanding-Eye-Melanoma-Symptoms-Causes-Treatment-and-Prevention.webp"
         ],
         "permalink": "https://drvijayanandreddy.com/blog/understanding-eye-melanoma-symptoms-causes-treatment-and-prevention",
-        "faqs": []
+        "faqs": [
+            {
+                "question": "What is eye cancer?",
+                "answer": "Eye cancer refers to tumors that originate in the eye structure. The most common primary eye cancers are intraocular melanoma in adults and retinoblastoma in children."
+            },
+            {
+                "question": "Can eye cancer be cured?",
+                "answer": "Yes. With early detection and advanced treatments (like plaque brachytherapy or proton therapy), eye cancers have a high cure rate and can often be treated successfully."
+            },
+            {
+                "question": "What are the common symptoms of eye cancer?",
+                "answer": "Symptoms can include blurred vision, flashes of light, dark spots on the iris, floaters (spots in the vision), or a growing dark shadow in the visual field."
+            },
+            {
+                "question": "Is removal of the eye always necessary for eye cancer?",
+                "answer": "No. Modern eye preservation treatments like plaque brachytherapy and proton therapy can treat the tumor effectively while preserving the eye and vision in many cases."
+            },
+            {
+                "question": "What is ocular melanoma?",
+                "answer": "Ocular melanoma is the most common type of primary eye cancer in adults. It develops in the pigment-producing cells of the uvea (the middle layer of the eye)."
+            },
+            {
+                "question": "How is eye cancer diagnosed?",
+                "answer": "Eye cancer is diagnosed during a detailed ophthalmic exam by an ocular oncologist using specialized techniques like ultrasound, optical coherence tomography (OCT), and angiography."
+            }
+        ]
     },
     {
         "id": "9579",
@@ -1154,7 +2029,32 @@
             "https://drvijayanandreddy.com/wp-content/uploads/2025/01/WhatsApp-Image-2025-01-17-at-3.50.37-PM.jpeg"
         ],
         "permalink": "https://drvijayanandreddy.com/blog/human-metapneumovirus-symptoms-prevention-and-cancer-patient-precautions",
-        "faqs": []
+        "faqs": [
+            {
+                "question": "What is cancer and how does it start?",
+                "answer": "Cancer is a disease where abnormal cells in the body grow uncontrollably and spread to other parts. It starts when genetic mutations damage cellular DNA, overriding normal cell division controls."
+            },
+            {
+                "question": "What are the main risk factors for cancer?",
+                "answer": "Key risk factors include tobacco use, poor diet, physical inactivity, obesity, heavy alcohol intake, excessive sun exposure, and genetic factors."
+            },
+            {
+                "question": "Can cancer be prevented?",
+                "answer": "Up to 30-50% of cancer cases can be prevented by adopting healthy habits, avoiding tobacco and excessive alcohol, exercising, eating well, getting vaccinated (HPV, Hep B), and getting screened regularly."
+            },
+            {
+                "question": "Why is early detection of cancer crucial?",
+                "answer": "Early detection significantly increases the chances of successful treatment. When cancers are found before they spread (metastasize), therapies are more effective, and cure rates are much higher."
+            },
+            {
+                "question": "What are the most common cancer treatments?",
+                "answer": "The main treatments are surgery, chemotherapy, radiation therapy, immunotherapy, and targeted therapies. Doctors often use a combination of these treatments."
+            },
+            {
+                "question": "What support is available for managing cancer treatment side effects?",
+                "answer": "Palliative and supportive care teams provide medications to prevent nausea and pain, nutritional guidance, physical therapy, and psychological counseling to help patients stay comfortable during treatment."
+            }
+        ]
     },
     {
         "id": "9557",
@@ -1165,7 +2065,32 @@
             "https://drvijayanandreddy.com/wp-content/uploads/2025/01/Everything-You-Need-to-Know-About-Cervical-Cancer-Causes-Symptoms-and-Treatments.jpg"
         ],
         "permalink": "https://drvijayanandreddy.com/blog/everything-you-need-to-know-about-cervical-cancer-causes-symptoms-and-treatments",
-        "faqs": []
+        "faqs": [
+            {
+                "question": "What causes cervical cancer?",
+                "answer": "Almost all cervical cancers are caused by persistent infection with high-risk strains of the Human Papillomavirus (HPV), a common sexually transmitted infection."
+            },
+            {
+                "question": "Can cervical cancer be prevented?",
+                "answer": "Yes, cervical cancer is highly preventable through HPV vaccination (ideally given in early adolescence) and regular cervical screenings (Pap smears and HPV tests)."
+            },
+            {
+                "question": "What are the symptoms of cervical cancer?",
+                "answer": "Early-stage cervical cancer typically has no symptoms. Later symptoms include abnormal vaginal bleeding, watery or blood-tinged discharge, and pelvic pain during intercourse."
+            },
+            {
+                "question": "What is a Pap smear and how often is it needed?",
+                "answer": "A Pap smear checks for precancerous changes on the cervix. Women should start Pap screenings at age 21 and have them every 3 years, or every 5 years with HPV co-testing after age 30."
+            },
+            {
+                "question": "How is cervical cancer treated?",
+                "answer": "Treatment depends on the stage and may include surgery (hysterectomy), radiation therapy (internal or external), chemotherapy, or a combination (chemoradiation)."
+            },
+            {
+                "question": "Is cervical cancer curable?",
+                "answer": "Yes, cervical cancer is highly curable when diagnosed in early stages, with success rates exceeding 90% when confined to the cervix."
+            }
+        ]
     },
     {
         "id": "9455",
@@ -1176,7 +2101,32 @@
             "https://drvijayanandreddy.com/wp-content/uploads/2024/09/Does-Radiation-Therapy-Affect-Your-Taste.jpg"
         ],
         "permalink": "https://drvijayanandreddy.com/blog/does-radiation-therapy-affect-your-taste",
-        "faqs": []
+        "faqs": [
+            {
+                "question": "What is radiation therapy?",
+                "answer": "Radiation therapy is a cancer treatment that uses high-energy radiation beams (such as X-rays, gamma rays, or protons) to damage the DNA of cancer cells, preventing them from dividing."
+            },
+            {
+                "question": "Does radiation therapy make you radioactive?",
+                "answer": "No. For external beam radiation (the most common type), you do not become radioactive, and it is completely safe to be around family and friends immediately after treatment."
+            },
+            {
+                "question": "Is radiation therapy painful?",
+                "answer": "The treatment sessions are completely painless, similar to getting a standard X-ray. However, patients may experience localized skin irritation or fatigue over the course of treatment."
+            },
+            {
+                "question": "What are the side effects of radiation therapy?",
+                "answer": "Side effects are mostly localized to the area being treated (such as skin dryness or redness, hair loss in that specific area) along with general fatigue."
+            },
+            {
+                "question": "How long is a typical radiation treatment session?",
+                "answer": "While the actual radiation delivery takes only 1 to 5 minutes, a typical appointment lasts about 15 to 30 minutes due to setup, positioning, and safety checks."
+            },
+            {
+                "question": "Can radiation therapy cause secondary cancers?",
+                "answer": "The risk of developing a secondary cancer from modern radiation therapy is extremely low. The immediate benefit of treating the existing cancer far outweighs this potential long-term risk."
+            }
+        ]
     },
     {
         "id": "9451",
@@ -1187,7 +2137,32 @@
             "https://drvijayanandreddy.com/wp-content/uploads/2024/09/Untitled-design.jpg"
         ],
         "permalink": "https://drvijayanandreddy.com/blog/can-eye-cancer-be-cured-without-surgery",
-        "faqs": []
+        "faqs": [
+            {
+                "question": "What is eye cancer?",
+                "answer": "Eye cancer refers to tumors that originate in the eye structure. The most common primary eye cancers are intraocular melanoma in adults and retinoblastoma in children."
+            },
+            {
+                "question": "Can eye cancer be cured?",
+                "answer": "Yes. With early detection and advanced treatments (like plaque brachytherapy or proton therapy), eye cancers have a high cure rate and can often be treated successfully."
+            },
+            {
+                "question": "What are the common symptoms of eye cancer?",
+                "answer": "Symptoms can include blurred vision, flashes of light, dark spots on the iris, floaters (spots in the vision), or a growing dark shadow in the visual field."
+            },
+            {
+                "question": "Is removal of the eye always necessary for eye cancer?",
+                "answer": "No. Modern eye preservation treatments like plaque brachytherapy and proton therapy can treat the tumor effectively while preserving the eye and vision in many cases."
+            },
+            {
+                "question": "What is ocular melanoma?",
+                "answer": "Ocular melanoma is the most common type of primary eye cancer in adults. It develops in the pigment-producing cells of the uvea (the middle layer of the eye)."
+            },
+            {
+                "question": "How is eye cancer diagnosed?",
+                "answer": "Eye cancer is diagnosed during a detailed ophthalmic exam by an ocular oncologist using specialized techniques like ultrasound, optical coherence tomography (OCT), and angiography."
+            }
+        ]
     },
     {
         "id": "9432",
@@ -1198,7 +2173,32 @@
             "https://drvijayanandreddy.com/wp-content/uploads/2024/09/How-to-Treat-Cancer-with-Chemotherapy.jpg"
         ],
         "permalink": "https://drvijayanandreddy.com/blog/how-to-treat-cancer-with-chemotherapy",
-        "faqs": []
+        "faqs": [
+            {
+                "question": "What is chemotherapy and how does it work?",
+                "answer": "Chemotherapy is a systemic cancer treatment that uses powerful drugs to destroy cancer cells or stop them from growing and dividing throughout the body."
+            },
+            {
+                "question": "Is chemotherapy painful?",
+                "answer": "The administration of chemotherapy (typically through an IV infusion or pills) is not painful itself. However, side effects like muscle aches or neuropathy can cause discomfort."
+            },
+            {
+                "question": "What are the most common side effects of chemotherapy?",
+                "answer": "Common side effects include fatigue, nausea, vomiting, hair loss, loss of appetite, and an increased susceptibility to infections due to lower blood counts."
+            },
+            {
+                "question": "How long does chemotherapy treatment typically last?",
+                "answer": "Chemotherapy is usually given in cycles over a period of 3 to 6 months. Each cycle consists of a treatment period followed by a rest period to allow the body to recover."
+            },
+            {
+                "question": "Can I work or maintain my normal routine during chemotherapy?",
+                "answer": "It depends on your overall health and how you respond to the drugs. Many patients can continue light activities or part-time work, while others require rest."
+            },
+            {
+                "question": "How is the effectiveness of chemotherapy monitored?",
+                "answer": "Oncologists monitor effectiveness using blood tests (including tumor markers), imaging scans (like CT, MRI, or PET scans), and physical examinations throughout the treatment course."
+            }
+        ]
     },
     {
         "id": "9422",
@@ -1209,7 +2209,32 @@
             "https://drvijayanandreddy.com/wp-content/uploads/2024/08/Nutrition-and-Diet-During-Cancer-Treatment-What-You-Need-to-Know.jpg"
         ],
         "permalink": "https://drvijayanandreddy.com/blog/nutrition-and-diet-during-cancer-treatment-what-you-need-to-know",
-        "faqs": []
+        "faqs": [
+            {
+                "question": "What is cancer and how does it start?",
+                "answer": "Cancer is a disease where abnormal cells in the body grow uncontrollably and spread to other parts. It starts when genetic mutations damage cellular DNA, overriding normal cell division controls."
+            },
+            {
+                "question": "What are the main risk factors for cancer?",
+                "answer": "Key risk factors include tobacco use, poor diet, physical inactivity, obesity, heavy alcohol intake, excessive sun exposure, and genetic factors."
+            },
+            {
+                "question": "Can cancer be prevented?",
+                "answer": "Up to 30-50% of cancer cases can be prevented by adopting healthy habits, avoiding tobacco and excessive alcohol, exercising, eating well, getting vaccinated (HPV, Hep B), and getting screened regularly."
+            },
+            {
+                "question": "Why is early detection of cancer crucial?",
+                "answer": "Early detection significantly increases the chances of successful treatment. When cancers are found before they spread (metastasize), therapies are more effective, and cure rates are much higher."
+            },
+            {
+                "question": "What are the most common cancer treatments?",
+                "answer": "The main treatments are surgery, chemotherapy, radiation therapy, immunotherapy, and targeted therapies. Doctors often use a combination of these treatments."
+            },
+            {
+                "question": "What support is available for managing cancer treatment side effects?",
+                "answer": "Palliative and supportive care teams provide medications to prevent nausea and pain, nutritional guidance, physical therapy, and psychological counseling to help patients stay comfortable during treatment."
+            }
+        ]
     },
     {
         "id": "9417",
@@ -1220,7 +2245,32 @@
             "https://drvijayanandreddy.com/wp-content/uploads/2024/08/The-Multidisciplinary-Approach-in-Medical-Oncology.jpg"
         ],
         "permalink": "https://drvijayanandreddy.com/blog/the-multidisciplinary-approach-in-medical-oncology",
-        "faqs": []
+        "faqs": [
+            {
+                "question": "What is cancer and how does it start?",
+                "answer": "Cancer is a disease where abnormal cells in the body grow uncontrollably and spread to other parts. It starts when genetic mutations damage cellular DNA, overriding normal cell division controls."
+            },
+            {
+                "question": "What are the main risk factors for cancer?",
+                "answer": "Key risk factors include tobacco use, poor diet, physical inactivity, obesity, heavy alcohol intake, excessive sun exposure, and genetic factors."
+            },
+            {
+                "question": "Can cancer be prevented?",
+                "answer": "Up to 30-50% of cancer cases can be prevented by adopting healthy habits, avoiding tobacco and excessive alcohol, exercising, eating well, getting vaccinated (HPV, Hep B), and getting screened regularly."
+            },
+            {
+                "question": "Why is early detection of cancer crucial?",
+                "answer": "Early detection significantly increases the chances of successful treatment. When cancers are found before they spread (metastasize), therapies are more effective, and cure rates are much higher."
+            },
+            {
+                "question": "What are the most common cancer treatments?",
+                "answer": "The main treatments are surgery, chemotherapy, radiation therapy, immunotherapy, and targeted therapies. Doctors often use a combination of these treatments."
+            },
+            {
+                "question": "What support is available for managing cancer treatment side effects?",
+                "answer": "Palliative and supportive care teams provide medications to prevent nausea and pain, nutritional guidance, physical therapy, and psychological counseling to help patients stay comfortable during treatment."
+            }
+        ]
     },
     {
         "id": "9412",
@@ -1231,7 +2281,32 @@
             "https://drvijayanandreddy.com/wp-content/uploads/2024/08/Managing-Side-Effects-of-Cancer-Treatments-Tips-and-Advice.jpg"
         ],
         "permalink": "https://drvijayanandreddy.com/blog/managing-side-effects-of-cancer-treatments-tips-and-advice",
-        "faqs": []
+        "faqs": [
+            {
+                "question": "What is cancer and how does it start?",
+                "answer": "Cancer is a disease where abnormal cells in the body grow uncontrollably and spread to other parts. It starts when genetic mutations damage cellular DNA, overriding normal cell division controls."
+            },
+            {
+                "question": "What are the main risk factors for cancer?",
+                "answer": "Key risk factors include tobacco use, poor diet, physical inactivity, obesity, heavy alcohol intake, excessive sun exposure, and genetic factors."
+            },
+            {
+                "question": "Can cancer be prevented?",
+                "answer": "Up to 30-50% of cancer cases can be prevented by adopting healthy habits, avoiding tobacco and excessive alcohol, exercising, eating well, getting vaccinated (HPV, Hep B), and getting screened regularly."
+            },
+            {
+                "question": "Why is early detection of cancer crucial?",
+                "answer": "Early detection significantly increases the chances of successful treatment. When cancers are found before they spread (metastasize), therapies are more effective, and cure rates are much higher."
+            },
+            {
+                "question": "What are the most common cancer treatments?",
+                "answer": "The main treatments are surgery, chemotherapy, radiation therapy, immunotherapy, and targeted therapies. Doctors often use a combination of these treatments."
+            },
+            {
+                "question": "What support is available for managing cancer treatment side effects?",
+                "answer": "Palliative and supportive care teams provide medications to prevent nausea and pain, nutritional guidance, physical therapy, and psychological counseling to help patients stay comfortable during treatment."
+            }
+        ]
     },
     {
         "id": "9407",
@@ -1242,7 +2317,32 @@
             "https://drvijayanandreddy.com/wp-content/uploads/2024/08/Advancements-in-Chemotherapy-Latest-Treatments-and-Technologies-1.png"
         ],
         "permalink": "https://drvijayanandreddy.com/blog/is-breast-cancer-grade-2-curable",
-        "faqs": []
+        "faqs": [
+            {
+                "question": "What are the early warning signs of breast cancer?",
+                "answer": "Common warning signs include a new lump or thickening in the breast or underarm, breast skin dimpling or redness, nipple retraction, or spontaneous nipple discharge."
+            },
+            {
+                "question": "Is breast cancer curable?",
+                "answer": "Yes, breast cancer is highly curable, especially when detected early (stages 0, 1, or 2). Early diagnosis leads to survival rates exceeding 90-95%."
+            },
+            {
+                "question": "What are the primary treatment options for breast cancer?",
+                "answer": "Treatment typically involves a combination of surgery (lumpectomy or mastectomy), radiation therapy, chemotherapy, hormone therapy, and targeted therapies."
+            },
+            {
+                "question": "Does breast cancer affect men too?",
+                "answer": "Yes. Although much less common, men have breast tissue and can develop breast cancer. It accounts for about 1% of all breast cancer cases."
+            },
+            {
+                "question": "What is the difference between a breast cyst and a tumor?",
+                "answer": "A breast cyst is a fluid-filled sac that is almost always benign (non-cancerous), whereas a tumor is a solid mass of tissue that can be benign or malignant and requires biopsy."
+            },
+            {
+                "question": "How often should women screen for breast cancer?",
+                "answer": "Women should perform monthly breast self-exams and begin annual or biennial mammograms at age 40, or earlier if they have a strong family history."
+            }
+        ]
     },
     {
         "id": "9404",
@@ -1253,7 +2353,32 @@
             "https://drvijayanandreddy.com/wp-content/uploads/2024/08/Advancements-in-Chemotherapy-Latest-Treatments-and-Technologies.png"
         ],
         "permalink": "https://drvijayanandreddy.com/blog/breast-cancer-dinner-ideas-for-patients",
-        "faqs": []
+        "faqs": [
+            {
+                "question": "What are the early warning signs of breast cancer?",
+                "answer": "Common warning signs include a new lump or thickening in the breast or underarm, breast skin dimpling or redness, nipple retraction, or spontaneous nipple discharge."
+            },
+            {
+                "question": "Is breast cancer curable?",
+                "answer": "Yes, breast cancer is highly curable, especially when detected early (stages 0, 1, or 2). Early diagnosis leads to survival rates exceeding 90-95%."
+            },
+            {
+                "question": "What are the primary treatment options for breast cancer?",
+                "answer": "Treatment typically involves a combination of surgery (lumpectomy or mastectomy), radiation therapy, chemotherapy, hormone therapy, and targeted therapies."
+            },
+            {
+                "question": "Does breast cancer affect men too?",
+                "answer": "Yes. Although much less common, men have breast tissue and can develop breast cancer. It accounts for about 1% of all breast cancer cases."
+            },
+            {
+                "question": "What is the difference between a breast cyst and a tumor?",
+                "answer": "A breast cyst is a fluid-filled sac that is almost always benign (non-cancerous), whereas a tumor is a solid mass of tissue that can be benign or malignant and requires biopsy."
+            },
+            {
+                "question": "How often should women screen for breast cancer?",
+                "answer": "Women should perform monthly breast self-exams and begin annual or biennial mammograms at age 40, or earlier if they have a strong family history."
+            }
+        ]
     },
     {
         "id": "9400",
@@ -1264,7 +2389,32 @@
             "https://drvijayanandreddy.com/wp-content/uploads/2024/08/Advancements-in-Chemotherapy-Latest-Treatments-and-Technologies.jpg"
         ],
         "permalink": "https://drvijayanandreddy.com/blog/advancements-in-chemotherapy-latest-treatments-and-technologies",
-        "faqs": []
+        "faqs": [
+            {
+                "question": "What is chemotherapy and how does it work?",
+                "answer": "Chemotherapy is a systemic cancer treatment that uses powerful drugs to destroy cancer cells or stop them from growing and dividing throughout the body."
+            },
+            {
+                "question": "Is chemotherapy painful?",
+                "answer": "The administration of chemotherapy (typically through an IV infusion or pills) is not painful itself. However, side effects like muscle aches or neuropathy can cause discomfort."
+            },
+            {
+                "question": "What are the most common side effects of chemotherapy?",
+                "answer": "Common side effects include fatigue, nausea, vomiting, hair loss, loss of appetite, and an increased susceptibility to infections due to lower blood counts."
+            },
+            {
+                "question": "How long does chemotherapy treatment typically last?",
+                "answer": "Chemotherapy is usually given in cycles over a period of 3 to 6 months. Each cycle consists of a treatment period followed by a rest period to allow the body to recover."
+            },
+            {
+                "question": "Can I work or maintain my normal routine during chemotherapy?",
+                "answer": "It depends on your overall health and how you respond to the drugs. Many patients can continue light activities or part-time work, while others require rest."
+            },
+            {
+                "question": "How is the effectiveness of chemotherapy monitored?",
+                "answer": "Oncologists monitor effectiveness using blood tests (including tumor markers), imaging scans (like CT, MRI, or PET scans), and physical examinations throughout the treatment course."
+            }
+        ]
     },
     {
         "id": "9389",
@@ -1278,7 +2428,32 @@
             "https://drvijayanandreddy.com/wp-content/uploads/2024/08/image-2.jpeg"
         ],
         "permalink": "https://drvijayanandreddy.com/blog/does-breast-cancer-grow-fast",
-        "faqs": []
+        "faqs": [
+            {
+                "question": "What are the early warning signs of breast cancer?",
+                "answer": "Common warning signs include a new lump or thickening in the breast or underarm, breast skin dimpling or redness, nipple retraction, or spontaneous nipple discharge."
+            },
+            {
+                "question": "Is breast cancer curable?",
+                "answer": "Yes, breast cancer is highly curable, especially when detected early (stages 0, 1, or 2). Early diagnosis leads to survival rates exceeding 90-95%."
+            },
+            {
+                "question": "What are the primary treatment options for breast cancer?",
+                "answer": "Treatment typically involves a combination of surgery (lumpectomy or mastectomy), radiation therapy, chemotherapy, hormone therapy, and targeted therapies."
+            },
+            {
+                "question": "Does breast cancer affect men too?",
+                "answer": "Yes. Although much less common, men have breast tissue and can develop breast cancer. It accounts for about 1% of all breast cancer cases."
+            },
+            {
+                "question": "What is the difference between a breast cyst and a tumor?",
+                "answer": "A breast cyst is a fluid-filled sac that is almost always benign (non-cancerous), whereas a tumor is a solid mass of tissue that can be benign or malignant and requires biopsy."
+            },
+            {
+                "question": "How often should women screen for breast cancer?",
+                "answer": "Women should perform monthly breast self-exams and begin annual or biennial mammograms at age 40, or earlier if they have a strong family history."
+            }
+        ]
     },
     {
         "id": "9369",
@@ -1291,7 +2466,32 @@
             "https://drvijayanandreddy.com/wp-content/uploads/2024/08/Breast-cancer-new.jpg"
         ],
         "permalink": "https://drvijayanandreddy.com/blog/breast-cancer-or-fibroadenoma-key-differences-you-should-know",
-        "faqs": []
+        "faqs": [
+            {
+                "question": "What are the early warning signs of breast cancer?",
+                "answer": "Common warning signs include a new lump or thickening in the breast or underarm, breast skin dimpling or redness, nipple retraction, or spontaneous nipple discharge."
+            },
+            {
+                "question": "Is breast cancer curable?",
+                "answer": "Yes, breast cancer is highly curable, especially when detected early (stages 0, 1, or 2). Early diagnosis leads to survival rates exceeding 90-95%."
+            },
+            {
+                "question": "What are the primary treatment options for breast cancer?",
+                "answer": "Treatment typically involves a combination of surgery (lumpectomy or mastectomy), radiation therapy, chemotherapy, hormone therapy, and targeted therapies."
+            },
+            {
+                "question": "Does breast cancer affect men too?",
+                "answer": "Yes. Although much less common, men have breast tissue and can develop breast cancer. It accounts for about 1% of all breast cancer cases."
+            },
+            {
+                "question": "What is the difference between a breast cyst and a tumor?",
+                "answer": "A breast cyst is a fluid-filled sac that is almost always benign (non-cancerous), whereas a tumor is a solid mass of tissue that can be benign or malignant and requires biopsy."
+            },
+            {
+                "question": "How often should women screen for breast cancer?",
+                "answer": "Women should perform monthly breast self-exams and begin annual or biennial mammograms at age 40, or earlier if they have a strong family history."
+            }
+        ]
     },
     {
         "id": "9385",
@@ -1302,7 +2502,32 @@
             "https://drvijayanandreddy.com/wp-content/uploads/2024/08/Dr-P-Vijay-Anand-Reddy-1.png"
         ],
         "permalink": "https://drvijayanandreddy.com/blog/breast-cancer-survivors-fitness-plan",
-        "faqs": []
+        "faqs": [
+            {
+                "question": "What are the early warning signs of breast cancer?",
+                "answer": "Common warning signs include a new lump or thickening in the breast or underarm, breast skin dimpling or redness, nipple retraction, or spontaneous nipple discharge."
+            },
+            {
+                "question": "Is breast cancer curable?",
+                "answer": "Yes, breast cancer is highly curable, especially when detected early (stages 0, 1, or 2). Early diagnosis leads to survival rates exceeding 90-95%."
+            },
+            {
+                "question": "What are the primary treatment options for breast cancer?",
+                "answer": "Treatment typically involves a combination of surgery (lumpectomy or mastectomy), radiation therapy, chemotherapy, hormone therapy, and targeted therapies."
+            },
+            {
+                "question": "Does breast cancer affect men too?",
+                "answer": "Yes. Although much less common, men have breast tissue and can develop breast cancer. It accounts for about 1% of all breast cancer cases."
+            },
+            {
+                "question": "What is the difference between a breast cyst and a tumor?",
+                "answer": "A breast cyst is a fluid-filled sac that is almost always benign (non-cancerous), whereas a tumor is a solid mass of tissue that can be benign or malignant and requires biopsy."
+            },
+            {
+                "question": "How often should women screen for breast cancer?",
+                "answer": "Women should perform monthly breast self-exams and begin annual or biennial mammograms at age 40, or earlier if they have a strong family history."
+            }
+        ]
     },
     {
         "id": "9362",
@@ -1315,7 +2540,32 @@
             "https://drvijayanandreddy.com/wp-content/uploads/2024/08/image-1.png"
         ],
         "permalink": "https://drvijayanandreddy.com/blog/is-breast-cancer-stage-2-serious",
-        "faqs": []
+        "faqs": [
+            {
+                "question": "What are the early warning signs of breast cancer?",
+                "answer": "Common warning signs include a new lump or thickening in the breast or underarm, breast skin dimpling or redness, nipple retraction, or spontaneous nipple discharge."
+            },
+            {
+                "question": "Is breast cancer curable?",
+                "answer": "Yes, breast cancer is highly curable, especially when detected early (stages 0, 1, or 2). Early diagnosis leads to survival rates exceeding 90-95%."
+            },
+            {
+                "question": "What are the primary treatment options for breast cancer?",
+                "answer": "Treatment typically involves a combination of surgery (lumpectomy or mastectomy), radiation therapy, chemotherapy, hormone therapy, and targeted therapies."
+            },
+            {
+                "question": "Does breast cancer affect men too?",
+                "answer": "Yes. Although much less common, men have breast tissue and can develop breast cancer. It accounts for about 1% of all breast cancer cases."
+            },
+            {
+                "question": "What is the difference between a breast cyst and a tumor?",
+                "answer": "A breast cyst is a fluid-filled sac that is almost always benign (non-cancerous), whereas a tumor is a solid mass of tissue that can be benign or malignant and requires biopsy."
+            },
+            {
+                "question": "How often should women screen for breast cancer?",
+                "answer": "Women should perform monthly breast self-exams and begin annual or biennial mammograms at age 40, or earlier if they have a strong family history."
+            }
+        ]
     },
     {
         "id": "9315",
@@ -1326,7 +2576,32 @@
             "https://drvijayanandreddy.com/wp-content/uploads/2024/07/Chemotherapy.png"
         ],
         "permalink": "https://drvijayanandreddy.com/blog/how-chemotherapy-works-a-medical-oncologists-perspective",
-        "faqs": []
+        "faqs": [
+            {
+                "question": "What is chemotherapy and how does it work?",
+                "answer": "Chemotherapy is a systemic cancer treatment that uses powerful drugs to destroy cancer cells or stop them from growing and dividing throughout the body."
+            },
+            {
+                "question": "Is chemotherapy painful?",
+                "answer": "The administration of chemotherapy (typically through an IV infusion or pills) is not painful itself. However, side effects like muscle aches or neuropathy can cause discomfort."
+            },
+            {
+                "question": "What are the most common side effects of chemotherapy?",
+                "answer": "Common side effects include fatigue, nausea, vomiting, hair loss, loss of appetite, and an increased susceptibility to infections due to lower blood counts."
+            },
+            {
+                "question": "How long does chemotherapy treatment typically last?",
+                "answer": "Chemotherapy is usually given in cycles over a period of 3 to 6 months. Each cycle consists of a treatment period followed by a rest period to allow the body to recover."
+            },
+            {
+                "question": "Can I work or maintain my normal routine during chemotherapy?",
+                "answer": "It depends on your overall health and how you respond to the drugs. Many patients can continue light activities or part-time work, while others require rest."
+            },
+            {
+                "question": "How is the effectiveness of chemotherapy monitored?",
+                "answer": "Oncologists monitor effectiveness using blood tests (including tumor markers), imaging scans (like CT, MRI, or PET scans), and physical examinations throughout the treatment course."
+            }
+        ]
     },
     {
         "id": "9332",
@@ -1340,7 +2615,32 @@
             "https://drvijayanandreddy.com/wp-content/uploads/2024/07/image-2-1.png"
         ],
         "permalink": "https://drvijayanandreddy.com/blog/can-breast-cancer-spread-from-one-person-to-another",
-        "faqs": []
+        "faqs": [
+            {
+                "question": "What are the early warning signs of breast cancer?",
+                "answer": "Common warning signs include a new lump or thickening in the breast or underarm, breast skin dimpling or redness, nipple retraction, or spontaneous nipple discharge."
+            },
+            {
+                "question": "Is breast cancer curable?",
+                "answer": "Yes, breast cancer is highly curable, especially when detected early (stages 0, 1, or 2). Early diagnosis leads to survival rates exceeding 90-95%."
+            },
+            {
+                "question": "What are the primary treatment options for breast cancer?",
+                "answer": "Treatment typically involves a combination of surgery (lumpectomy or mastectomy), radiation therapy, chemotherapy, hormone therapy, and targeted therapies."
+            },
+            {
+                "question": "Does breast cancer affect men too?",
+                "answer": "Yes. Although much less common, men have breast tissue and can develop breast cancer. It accounts for about 1% of all breast cancer cases."
+            },
+            {
+                "question": "What is the difference between a breast cyst and a tumor?",
+                "answer": "A breast cyst is a fluid-filled sac that is almost always benign (non-cancerous), whereas a tumor is a solid mass of tissue that can be benign or malignant and requires biopsy."
+            },
+            {
+                "question": "How often should women screen for breast cancer?",
+                "answer": "Women should perform monthly breast self-exams and begin annual or biennial mammograms at age 40, or earlier if they have a strong family history."
+            }
+        ]
     },
     {
         "id": "9290",
@@ -1497,7 +2797,32 @@
             "https://drvijayanandreddy.com/wp-content/uploads/2024/07/vijay-anand-reddy-thumbnail-medical-onology-3.png"
         ],
         "permalink": "https://drvijayanandreddy.com/blog/the-future-of-oncology-emerging-technologies-and-treatments",
-        "faqs": []
+        "faqs": [
+            {
+                "question": "What is cancer and how does it start?",
+                "answer": "Cancer is a disease where abnormal cells in the body grow uncontrollably and spread to other parts. It starts when genetic mutations damage cellular DNA, overriding normal cell division controls."
+            },
+            {
+                "question": "What are the main risk factors for cancer?",
+                "answer": "Key risk factors include tobacco use, poor diet, physical inactivity, obesity, heavy alcohol intake, excessive sun exposure, and genetic factors."
+            },
+            {
+                "question": "Can cancer be prevented?",
+                "answer": "Up to 30-50% of cancer cases can be prevented by adopting healthy habits, avoiding tobacco and excessive alcohol, exercising, eating well, getting vaccinated (HPV, Hep B), and getting screened regularly."
+            },
+            {
+                "question": "Why is early detection of cancer crucial?",
+                "answer": "Early detection significantly increases the chances of successful treatment. When cancers are found before they spread (metastasize), therapies are more effective, and cure rates are much higher."
+            },
+            {
+                "question": "What are the most common cancer treatments?",
+                "answer": "The main treatments are surgery, chemotherapy, radiation therapy, immunotherapy, and targeted therapies. Doctors often use a combination of these treatments."
+            },
+            {
+                "question": "What support is available for managing cancer treatment side effects?",
+                "answer": "Palliative and supportive care teams provide medications to prevent nausea and pain, nutritional guidance, physical therapy, and psychological counseling to help patients stay comfortable during treatment."
+            }
+        ]
     },
     {
         "id": "9273",
@@ -1508,7 +2833,32 @@
             "https://drvijayanandreddy.com/wp-content/uploads/2024/07/vijay-anand-reddy-thumbnail-medical-onology-1-2.png"
         ],
         "permalink": "https://drvijayanandreddy.com/blog/advanced-treatments-for-breast-cancer-what-you-need-to-know",
-        "faqs": []
+        "faqs": [
+            {
+                "question": "What are the early warning signs of breast cancer?",
+                "answer": "Common warning signs include a new lump or thickening in the breast or underarm, breast skin dimpling or redness, nipple retraction, or spontaneous nipple discharge."
+            },
+            {
+                "question": "Is breast cancer curable?",
+                "answer": "Yes, breast cancer is highly curable, especially when detected early (stages 0, 1, or 2). Early diagnosis leads to survival rates exceeding 90-95%."
+            },
+            {
+                "question": "What are the primary treatment options for breast cancer?",
+                "answer": "Treatment typically involves a combination of surgery (lumpectomy or mastectomy), radiation therapy, chemotherapy, hormone therapy, and targeted therapies."
+            },
+            {
+                "question": "Does breast cancer affect men too?",
+                "answer": "Yes. Although much less common, men have breast tissue and can develop breast cancer. It accounts for about 1% of all breast cancer cases."
+            },
+            {
+                "question": "What is the difference between a breast cyst and a tumor?",
+                "answer": "A breast cyst is a fluid-filled sac that is almost always benign (non-cancerous), whereas a tumor is a solid mass of tissue that can be benign or malignant and requires biopsy."
+            },
+            {
+                "question": "How often should women screen for breast cancer?",
+                "answer": "Women should perform monthly breast self-exams and begin annual or biennial mammograms at age 40, or earlier if they have a strong family history."
+            }
+        ]
     },
     {
         "id": "9246",
@@ -1519,7 +2869,32 @@
             "https://drvijayanandreddy.com/wp-content/uploads/2024/06/IMG_5607-scaled.jpg"
         ],
         "permalink": "https://drvijayanandreddy.com/blog/ocular-oncology-workshop",
-        "faqs": []
+        "faqs": [
+            {
+                "question": "What is eye cancer?",
+                "answer": "Eye cancer refers to tumors that originate in the eye structure. The most common primary eye cancers are intraocular melanoma in adults and retinoblastoma in children."
+            },
+            {
+                "question": "Can eye cancer be cured?",
+                "answer": "Yes. With early detection and advanced treatments (like plaque brachytherapy or proton therapy), eye cancers have a high cure rate and can often be treated successfully."
+            },
+            {
+                "question": "What are the common symptoms of eye cancer?",
+                "answer": "Symptoms can include blurred vision, flashes of light, dark spots on the iris, floaters (spots in the vision), or a growing dark shadow in the visual field."
+            },
+            {
+                "question": "Is removal of the eye always necessary for eye cancer?",
+                "answer": "No. Modern eye preservation treatments like plaque brachytherapy and proton therapy can treat the tumor effectively while preserving the eye and vision in many cases."
+            },
+            {
+                "question": "What is ocular melanoma?",
+                "answer": "Ocular melanoma is the most common type of primary eye cancer in adults. It develops in the pigment-producing cells of the uvea (the middle layer of the eye)."
+            },
+            {
+                "question": "How is eye cancer diagnosed?",
+                "answer": "Eye cancer is diagnosed during a detailed ophthalmic exam by an ocular oncologist using specialized techniques like ultrasound, optical coherence tomography (OCT), and angiography."
+            }
+        ]
     },
     {
         "id": "9242",
@@ -1531,7 +2906,32 @@
             "https://drvijayanandreddy.com/wp-content/uploads/2024/07/27160203-201a33b0-4df8-4b17-9aae-a339a0df39af-scaled.avif"
         ],
         "permalink": "https://drvijayanandreddy.com/blog/the-role-of-a-medical-oncologist-in-cancer-treatment",
-        "faqs": []
+        "faqs": [
+            {
+                "question": "What is cancer and how does it start?",
+                "answer": "Cancer is a disease where abnormal cells in the body grow uncontrollably and spread to other parts. It starts when genetic mutations damage cellular DNA, overriding normal cell division controls."
+            },
+            {
+                "question": "What are the main risk factors for cancer?",
+                "answer": "Key risk factors include tobacco use, poor diet, physical inactivity, obesity, heavy alcohol intake, excessive sun exposure, and genetic factors."
+            },
+            {
+                "question": "Can cancer be prevented?",
+                "answer": "Up to 30-50% of cancer cases can be prevented by adopting healthy habits, avoiding tobacco and excessive alcohol, exercising, eating well, getting vaccinated (HPV, Hep B), and getting screened regularly."
+            },
+            {
+                "question": "Why is early detection of cancer crucial?",
+                "answer": "Early detection significantly increases the chances of successful treatment. When cancers are found before they spread (metastasize), therapies are more effective, and cure rates are much higher."
+            },
+            {
+                "question": "What are the most common cancer treatments?",
+                "answer": "The main treatments are surgery, chemotherapy, radiation therapy, immunotherapy, and targeted therapies. Doctors often use a combination of these treatments."
+            },
+            {
+                "question": "What support is available for managing cancer treatment side effects?",
+                "answer": "Palliative and supportive care teams provide medications to prevent nausea and pain, nutritional guidance, physical therapy, and psychological counseling to help patients stay comfortable during treatment."
+            }
+        ]
     },
     {
         "id": "9219",
@@ -1542,7 +2942,32 @@
             "https://drvijayanandreddy.com/wp-content/uploads/2024/05/al16267_0N1A3804-scaled.jpeg"
         ],
         "permalink": "https://drvijayanandreddy.com/blog/whitathon-marathon-for-eye-cancer-awareness",
-        "faqs": []
+        "faqs": [
+            {
+                "question": "What is eye cancer?",
+                "answer": "Eye cancer refers to tumors that originate in the eye structure. The most common primary eye cancers are intraocular melanoma in adults and retinoblastoma in children."
+            },
+            {
+                "question": "Can eye cancer be cured?",
+                "answer": "Yes. With early detection and advanced treatments (like plaque brachytherapy or proton therapy), eye cancers have a high cure rate and can often be treated successfully."
+            },
+            {
+                "question": "What are the common symptoms of eye cancer?",
+                "answer": "Symptoms can include blurred vision, flashes of light, dark spots on the iris, floaters (spots in the vision), or a growing dark shadow in the visual field."
+            },
+            {
+                "question": "Is removal of the eye always necessary for eye cancer?",
+                "answer": "No. Modern eye preservation treatments like plaque brachytherapy and proton therapy can treat the tumor effectively while preserving the eye and vision in many cases."
+            },
+            {
+                "question": "What is ocular melanoma?",
+                "answer": "Ocular melanoma is the most common type of primary eye cancer in adults. It develops in the pigment-producing cells of the uvea (the middle layer of the eye)."
+            },
+            {
+                "question": "How is eye cancer diagnosed?",
+                "answer": "Eye cancer is diagnosed during a detailed ophthalmic exam by an ocular oncologist using specialized techniques like ultrasound, optical coherence tomography (OCT), and angiography."
+            }
+        ]
     },
     {
         "id": "9215",
@@ -1553,7 +2978,32 @@
             "https://drvijayanandreddy.com/wp-content/uploads/2024/06/Psychological-Effects-of-Cancer.jpg"
         ],
         "permalink": "https://drvijayanandreddy.com/blog/what-are-the-psychological-effects-of-cancer",
-        "faqs": []
+        "faqs": [
+            {
+                "question": "What is cancer and how does it start?",
+                "answer": "Cancer is a disease where abnormal cells in the body grow uncontrollably and spread to other parts. It starts when genetic mutations damage cellular DNA, overriding normal cell division controls."
+            },
+            {
+                "question": "What are the main risk factors for cancer?",
+                "answer": "Key risk factors include tobacco use, poor diet, physical inactivity, obesity, heavy alcohol intake, excessive sun exposure, and genetic factors."
+            },
+            {
+                "question": "Can cancer be prevented?",
+                "answer": "Up to 30-50% of cancer cases can be prevented by adopting healthy habits, avoiding tobacco and excessive alcohol, exercising, eating well, getting vaccinated (HPV, Hep B), and getting screened regularly."
+            },
+            {
+                "question": "Why is early detection of cancer crucial?",
+                "answer": "Early detection significantly increases the chances of successful treatment. When cancers are found before they spread (metastasize), therapies are more effective, and cure rates are much higher."
+            },
+            {
+                "question": "What are the most common cancer treatments?",
+                "answer": "The main treatments are surgery, chemotherapy, radiation therapy, immunotherapy, and targeted therapies. Doctors often use a combination of these treatments."
+            },
+            {
+                "question": "What support is available for managing cancer treatment side effects?",
+                "answer": "Palliative and supportive care teams provide medications to prevent nausea and pain, nutritional guidance, physical therapy, and psychological counseling to help patients stay comfortable during treatment."
+            }
+        ]
     },
     {
         "id": "9211",
@@ -1564,7 +3014,32 @@
             "https://drvijayanandreddy.com/wp-content/uploads/2024/06/thyroid-Cancer-1.jpg"
         ],
         "permalink": "https://drvijayanandreddy.com/blog/can-lifestyle-changes-help-in-managing-thyroid-cancer",
-        "faqs": []
+        "faqs": [
+            {
+                "question": "What is thyroid cancer?",
+                "answer": "Thyroid cancer is a malignant growth that originates in the thyroid gland, which produces hormones that regulate metabolism, heart rate, and body temperature."
+            },
+            {
+                "question": "Is thyroid cancer highly curable?",
+                "answer": "Yes. Thyroid cancer has one of the highest cure rates among all cancers, with a 5-year survival rate exceeding 98% for papillary and follicular thyroid cancers."
+            },
+            {
+                "question": "What are the common symptoms of thyroid cancer?",
+                "answer": "The most common symptom is a painless lump or nodule felt in the front of the neck, followed by hoarseness, persistent throat pain, or difficulty swallowing."
+            },
+            {
+                "question": "How is thyroid cancer treated?",
+                "answer": "Standard treatments include surgical removal of part or all of the thyroid (thyroidectomy), followed by radioactive iodine therapy to destroy any remaining thyroid cells."
+            },
+            {
+                "question": "Do I need medication after thyroid cancer surgery?",
+                "answer": "Yes, if your entire thyroid is removed, you will need to take thyroid hormone replacement pills (levothyroxine) daily for life to maintain normal metabolism."
+            },
+            {
+                "question": "What are the main risk factors for thyroid cancer?",
+                "answer": "Risk factors include exposure to high levels of radiation (especially in childhood), a family history of thyroid cancer or goiters, and certain genetic syndromes."
+            }
+        ]
     },
     {
         "id": "9146",
@@ -1575,7 +3050,32 @@
             "https://drvijayanandreddy.com/wp-content/uploads/2024/06/Cancer-Survivors-day-img1-scaled.webp"
         ],
         "permalink": "https://drvijayanandreddy.com/blog/honour-cancer-survivors-at-apollo-cancer-centre-in-hyderabad",
-        "faqs": []
+        "faqs": [
+            {
+                "question": "What is cancer and how does it start?",
+                "answer": "Cancer is a disease where abnormal cells in the body grow uncontrollably and spread to other parts. It starts when genetic mutations damage cellular DNA, overriding normal cell division controls."
+            },
+            {
+                "question": "What are the main risk factors for cancer?",
+                "answer": "Key risk factors include tobacco use, poor diet, physical inactivity, obesity, heavy alcohol intake, excessive sun exposure, and genetic factors."
+            },
+            {
+                "question": "Can cancer be prevented?",
+                "answer": "Up to 30-50% of cancer cases can be prevented by adopting healthy habits, avoiding tobacco and excessive alcohol, exercising, eating well, getting vaccinated (HPV, Hep B), and getting screened regularly."
+            },
+            {
+                "question": "Why is early detection of cancer crucial?",
+                "answer": "Early detection significantly increases the chances of successful treatment. When cancers are found before they spread (metastasize), therapies are more effective, and cure rates are much higher."
+            },
+            {
+                "question": "What are the most common cancer treatments?",
+                "answer": "The main treatments are surgery, chemotherapy, radiation therapy, immunotherapy, and targeted therapies. Doctors often use a combination of these treatments."
+            },
+            {
+                "question": "What support is available for managing cancer treatment side effects?",
+                "answer": "Palliative and supportive care teams provide medications to prevent nausea and pain, nutritional guidance, physical therapy, and psychological counseling to help patients stay comfortable during treatment."
+            }
+        ]
     },
     {
         "id": "9097",
@@ -1586,7 +3086,32 @@
             "https://drvijayanandreddy.com/wp-content/uploads/2024/06/mprove-Cancer-Survival-Rates-1.jpg"
         ],
         "permalink": "https://drvijayanandreddy.com/blog/how-can-early-detection-improve-cancer-survival-rates",
-        "faqs": []
+        "faqs": [
+            {
+                "question": "What is cancer and how does it start?",
+                "answer": "Cancer is a disease where abnormal cells in the body grow uncontrollably and spread to other parts. It starts when genetic mutations damage cellular DNA, overriding normal cell division controls."
+            },
+            {
+                "question": "What are the main risk factors for cancer?",
+                "answer": "Key risk factors include tobacco use, poor diet, physical inactivity, obesity, heavy alcohol intake, excessive sun exposure, and genetic factors."
+            },
+            {
+                "question": "Can cancer be prevented?",
+                "answer": "Up to 30-50% of cancer cases can be prevented by adopting healthy habits, avoiding tobacco and excessive alcohol, exercising, eating well, getting vaccinated (HPV, Hep B), and getting screened regularly."
+            },
+            {
+                "question": "Why is early detection of cancer crucial?",
+                "answer": "Early detection significantly increases the chances of successful treatment. When cancers are found before they spread (metastasize), therapies are more effective, and cure rates are much higher."
+            },
+            {
+                "question": "What are the most common cancer treatments?",
+                "answer": "The main treatments are surgery, chemotherapy, radiation therapy, immunotherapy, and targeted therapies. Doctors often use a combination of these treatments."
+            },
+            {
+                "question": "What support is available for managing cancer treatment side effects?",
+                "answer": "Palliative and supportive care teams provide medications to prevent nausea and pain, nutritional guidance, physical therapy, and psychological counseling to help patients stay comfortable during treatment."
+            }
+        ]
     },
     {
         "id": "9026",
@@ -1597,7 +3122,32 @@
             "https://drvijayanandreddy.com/wp-content/uploads/2024/05/Screenshot-2024-05-31-121841.png"
         ],
         "permalink": "https://drvijayanandreddy.com/blog/tobacco-a-major-public-health-threat",
-        "faqs": []
+        "faqs": [
+            {
+                "question": "What is cancer and how does it start?",
+                "answer": "Cancer is a disease where abnormal cells in the body grow uncontrollably and spread to other parts. It starts when genetic mutations damage cellular DNA, overriding normal cell division controls."
+            },
+            {
+                "question": "What are the main risk factors for cancer?",
+                "answer": "Key risk factors include tobacco use, poor diet, physical inactivity, obesity, heavy alcohol intake, excessive sun exposure, and genetic factors."
+            },
+            {
+                "question": "Can cancer be prevented?",
+                "answer": "Up to 30-50% of cancer cases can be prevented by adopting healthy habits, avoiding tobacco and excessive alcohol, exercising, eating well, getting vaccinated (HPV, Hep B), and getting screened regularly."
+            },
+            {
+                "question": "Why is early detection of cancer crucial?",
+                "answer": "Early detection significantly increases the chances of successful treatment. When cancers are found before they spread (metastasize), therapies are more effective, and cure rates are much higher."
+            },
+            {
+                "question": "What are the most common cancer treatments?",
+                "answer": "The main treatments are surgery, chemotherapy, radiation therapy, immunotherapy, and targeted therapies. Doctors often use a combination of these treatments."
+            },
+            {
+                "question": "What support is available for managing cancer treatment side effects?",
+                "answer": "Palliative and supportive care teams provide medications to prevent nausea and pain, nutritional guidance, physical therapy, and psychological counseling to help patients stay comfortable during treatment."
+            }
+        ]
     },
     {
         "id": "8989",
@@ -1608,7 +3158,32 @@
             "https://drvijayanandreddy.com/wp-content/uploads/2024/05/Eye-Cancer-2.jpg"
         ],
         "permalink": "https://drvijayanandreddy.com/blog/what-is-eye-cancer-what-are-the-effects-of-it",
-        "faqs": []
+        "faqs": [
+            {
+                "question": "What is eye cancer?",
+                "answer": "Eye cancer refers to tumors that originate in the eye structure. The most common primary eye cancers are intraocular melanoma in adults and retinoblastoma in children."
+            },
+            {
+                "question": "Can eye cancer be cured?",
+                "answer": "Yes. With early detection and advanced treatments (like plaque brachytherapy or proton therapy), eye cancers have a high cure rate and can often be treated successfully."
+            },
+            {
+                "question": "What are the common symptoms of eye cancer?",
+                "answer": "Symptoms can include blurred vision, flashes of light, dark spots on the iris, floaters (spots in the vision), or a growing dark shadow in the visual field."
+            },
+            {
+                "question": "Is removal of the eye always necessary for eye cancer?",
+                "answer": "No. Modern eye preservation treatments like plaque brachytherapy and proton therapy can treat the tumor effectively while preserving the eye and vision in many cases."
+            },
+            {
+                "question": "What is ocular melanoma?",
+                "answer": "Ocular melanoma is the most common type of primary eye cancer in adults. It develops in the pigment-producing cells of the uvea (the middle layer of the eye)."
+            },
+            {
+                "question": "How is eye cancer diagnosed?",
+                "answer": "Eye cancer is diagnosed during a detailed ophthalmic exam by an ocular oncologist using specialized techniques like ultrasound, optical coherence tomography (OCT), and angiography."
+            }
+        ]
     },
     {
         "id": "8972",
@@ -1619,7 +3194,32 @@
             "https://drvijayanandreddy.com/wp-content/uploads/2024/05/Brain-Tumors.jpg"
         ],
         "permalink": "https://drvijayanandreddy.com/blog/how-important-is-early-detection-in-treating-brain-tumors",
-        "faqs": []
+        "faqs": [
+            {
+                "question": "What is the difference between benign and malignant brain tumors?",
+                "answer": "Benign brain tumors are non-cancerous, grow slowly, and do not invade surrounding tissue (though they can still cause pressure). Malignant tumors are cancerous, grow rapidly, and spread into adjacent brain tissue."
+            },
+            {
+                "question": "What are the early signs of a brain tumor?",
+                "answer": "Common early signs include new or changing patterns of headaches, seizures, unexplained nausea or vomiting, vision or speech difficulties, and loss of balance."
+            },
+            {
+                "question": "Can a brain tumor be cured completely?",
+                "answer": "Many brain tumors, especially benign ones and certain early-stage malignant ones, can be completely cured or managed for many years through surgery, radiation, and chemotherapy."
+            },
+            {
+                "question": "What are the main treatment methods for brain tumors?",
+                "answer": "The main treatments are surgical removal (craniotomy), radiation therapy (including precise proton therapy), and chemotherapy (such as temozolomide)."
+            },
+            {
+                "question": "How are brain tumors diagnosed?",
+                "answer": "They are primarily diagnosed via neurological exams and high-resolution imaging scans like MRI or CT. A biopsy is then performed to confirm the exact cell type."
+            },
+            {
+                "question": "Is there any link between mobile phones and brain tumors?",
+                "answer": "Extensive epidemiological studies conducted worldwide by major health organizations have found no scientific evidence linking radiofrequency energy from mobile phones to brain tumors."
+            }
+        ]
     },
     {
         "id": "8953",
@@ -1630,7 +3230,32 @@
             "https://drvijayanandreddy.com/wp-content/uploads/2024/05/Radiation-Oncology-Treatment.jpg"
         ],
         "permalink": "https://drvijayanandreddy.com/blog/what-is-the-best-radiation-oncology-treatment",
-        "faqs": []
+        "faqs": [
+            {
+                "question": "What is radiation therapy?",
+                "answer": "Radiation therapy is a cancer treatment that uses high-energy radiation beams (such as X-rays, gamma rays, or protons) to damage the DNA of cancer cells, preventing them from dividing."
+            },
+            {
+                "question": "Does radiation therapy make you radioactive?",
+                "answer": "No. For external beam radiation (the most common type), you do not become radioactive, and it is completely safe to be around family and friends immediately after treatment."
+            },
+            {
+                "question": "Is radiation therapy painful?",
+                "answer": "The treatment sessions are completely painless, similar to getting a standard X-ray. However, patients may experience localized skin irritation or fatigue over the course of treatment."
+            },
+            {
+                "question": "What are the side effects of radiation therapy?",
+                "answer": "Side effects are mostly localized to the area being treated (such as skin dryness or redness, hair loss in that specific area) along with general fatigue."
+            },
+            {
+                "question": "How long is a typical radiation treatment session?",
+                "answer": "While the actual radiation delivery takes only 1 to 5 minutes, a typical appointment lasts about 15 to 30 minutes due to setup, positioning, and safety checks."
+            },
+            {
+                "question": "Can radiation therapy cause secondary cancers?",
+                "answer": "The risk of developing a secondary cancer from modern radiation therapy is extremely low. The immediate benefit of treating the existing cancer far outweighs this potential long-term risk."
+            }
+        ]
     },
     {
         "id": "8947",
@@ -1666,7 +3291,32 @@
             "https://drvijayanandreddy.com/wp-content/uploads/2024/04/What-is-eye-cancer.jpg"
         ],
         "permalink": "https://drvijayanandreddy.com/blog/what-is-eye-cancer-symptoms-risk-factors-treatments",
-        "faqs": []
+        "faqs": [
+            {
+                "question": "What is eye cancer?",
+                "answer": "Eye cancer refers to tumors that originate in the eye structure. The most common primary eye cancers are intraocular melanoma in adults and retinoblastoma in children."
+            },
+            {
+                "question": "Can eye cancer be cured?",
+                "answer": "Yes. With early detection and advanced treatments (like plaque brachytherapy or proton therapy), eye cancers have a high cure rate and can often be treated successfully."
+            },
+            {
+                "question": "What are the common symptoms of eye cancer?",
+                "answer": "Symptoms can include blurred vision, flashes of light, dark spots on the iris, floaters (spots in the vision), or a growing dark shadow in the visual field."
+            },
+            {
+                "question": "Is removal of the eye always necessary for eye cancer?",
+                "answer": "No. Modern eye preservation treatments like plaque brachytherapy and proton therapy can treat the tumor effectively while preserving the eye and vision in many cases."
+            },
+            {
+                "question": "What is ocular melanoma?",
+                "answer": "Ocular melanoma is the most common type of primary eye cancer in adults. It develops in the pigment-producing cells of the uvea (the middle layer of the eye)."
+            },
+            {
+                "question": "How is eye cancer diagnosed?",
+                "answer": "Eye cancer is diagnosed during a detailed ophthalmic exam by an ocular oncologist using specialized techniques like ultrasound, optical coherence tomography (OCT), and angiography."
+            }
+        ]
     },
     {
         "id": "8937",
@@ -1677,7 +3327,32 @@
             "https://drvijayanandreddy.com/wp-content/uploads/2024/04/Brest-cancer-2.jpg"
         ],
         "permalink": "https://drvijayanandreddy.com/blog/what-are-the-major-causes-and-symptoms-of-breast-cancer",
-        "faqs": []
+        "faqs": [
+            {
+                "question": "What are the early warning signs of breast cancer?",
+                "answer": "Common warning signs include a new lump or thickening in the breast or underarm, breast skin dimpling or redness, nipple retraction, or spontaneous nipple discharge."
+            },
+            {
+                "question": "Is breast cancer curable?",
+                "answer": "Yes, breast cancer is highly curable, especially when detected early (stages 0, 1, or 2). Early diagnosis leads to survival rates exceeding 90-95%."
+            },
+            {
+                "question": "What are the primary treatment options for breast cancer?",
+                "answer": "Treatment typically involves a combination of surgery (lumpectomy or mastectomy), radiation therapy, chemotherapy, hormone therapy, and targeted therapies."
+            },
+            {
+                "question": "Does breast cancer affect men too?",
+                "answer": "Yes. Although much less common, men have breast tissue and can develop breast cancer. It accounts for about 1% of all breast cancer cases."
+            },
+            {
+                "question": "What is the difference between a breast cyst and a tumor?",
+                "answer": "A breast cyst is a fluid-filled sac that is almost always benign (non-cancerous), whereas a tumor is a solid mass of tissue that can be benign or malignant and requires biopsy."
+            },
+            {
+                "question": "How often should women screen for breast cancer?",
+                "answer": "Women should perform monthly breast self-exams and begin annual or biennial mammograms at age 40, or earlier if they have a strong family history."
+            }
+        ]
     },
     {
         "id": "8934",
@@ -1688,7 +3363,32 @@
             "https://drvijayanandreddy.com/wp-content/uploads/2024/04/How-does-cancer-1.jpg"
         ],
         "permalink": "https://drvijayanandreddy.com/blog/how-does-cancer-impact-physical-and-emotional-health",
-        "faqs": []
+        "faqs": [
+            {
+                "question": "What is cancer and how does it start?",
+                "answer": "Cancer is a disease where abnormal cells in the body grow uncontrollably and spread to other parts. It starts when genetic mutations damage cellular DNA, overriding normal cell division controls."
+            },
+            {
+                "question": "What are the main risk factors for cancer?",
+                "answer": "Key risk factors include tobacco use, poor diet, physical inactivity, obesity, heavy alcohol intake, excessive sun exposure, and genetic factors."
+            },
+            {
+                "question": "Can cancer be prevented?",
+                "answer": "Up to 30-50% of cancer cases can be prevented by adopting healthy habits, avoiding tobacco and excessive alcohol, exercising, eating well, getting vaccinated (HPV, Hep B), and getting screened regularly."
+            },
+            {
+                "question": "Why is early detection of cancer crucial?",
+                "answer": "Early detection significantly increases the chances of successful treatment. When cancers are found before they spread (metastasize), therapies are more effective, and cure rates are much higher."
+            },
+            {
+                "question": "What are the most common cancer treatments?",
+                "answer": "The main treatments are surgery, chemotherapy, radiation therapy, immunotherapy, and targeted therapies. Doctors often use a combination of these treatments."
+            },
+            {
+                "question": "What support is available for managing cancer treatment side effects?",
+                "answer": "Palliative and supportive care teams provide medications to prevent nausea and pain, nutritional guidance, physical therapy, and psychological counseling to help patients stay comfortable during treatment."
+            }
+        ]
     },
     {
         "id": "8904",
@@ -1699,7 +3399,32 @@
             "https://drvijayanandreddy.com/wp-content/uploads/2024/04/Radiational-therapy.jpg"
         ],
         "permalink": "https://drvijayanandreddy.com/blog/how-is-radiation-therapy-used-to-treat-cancers",
-        "faqs": []
+        "faqs": [
+            {
+                "question": "What is radiation therapy?",
+                "answer": "Radiation therapy is a cancer treatment that uses high-energy radiation beams (such as X-rays, gamma rays, or protons) to damage the DNA of cancer cells, preventing them from dividing."
+            },
+            {
+                "question": "Does radiation therapy make you radioactive?",
+                "answer": "No. For external beam radiation (the most common type), you do not become radioactive, and it is completely safe to be around family and friends immediately after treatment."
+            },
+            {
+                "question": "Is radiation therapy painful?",
+                "answer": "The treatment sessions are completely painless, similar to getting a standard X-ray. However, patients may experience localized skin irritation or fatigue over the course of treatment."
+            },
+            {
+                "question": "What are the side effects of radiation therapy?",
+                "answer": "Side effects are mostly localized to the area being treated (such as skin dryness or redness, hair loss in that specific area) along with general fatigue."
+            },
+            {
+                "question": "How long is a typical radiation treatment session?",
+                "answer": "While the actual radiation delivery takes only 1 to 5 minutes, a typical appointment lasts about 15 to 30 minutes due to setup, positioning, and safety checks."
+            },
+            {
+                "question": "Can radiation therapy cause secondary cancers?",
+                "answer": "The risk of developing a secondary cancer from modern radiation therapy is extremely low. The immediate benefit of treating the existing cancer far outweighs this potential long-term risk."
+            }
+        ]
     },
     {
         "id": "8867",
@@ -1710,7 +3435,32 @@
             "https://drvijayanandreddy.com/wp-content/uploads/2024/03/Eye-Cancer-1.jpg"
         ],
         "permalink": "https://drvijayanandreddy.com/blog/preventive-measures-and-early-detection-of-eye-cancer",
-        "faqs": []
+        "faqs": [
+            {
+                "question": "What is eye cancer?",
+                "answer": "Eye cancer refers to tumors that originate in the eye structure. The most common primary eye cancers are intraocular melanoma in adults and retinoblastoma in children."
+            },
+            {
+                "question": "Can eye cancer be cured?",
+                "answer": "Yes. With early detection and advanced treatments (like plaque brachytherapy or proton therapy), eye cancers have a high cure rate and can often be treated successfully."
+            },
+            {
+                "question": "What are the common symptoms of eye cancer?",
+                "answer": "Symptoms can include blurred vision, flashes of light, dark spots on the iris, floaters (spots in the vision), or a growing dark shadow in the visual field."
+            },
+            {
+                "question": "Is removal of the eye always necessary for eye cancer?",
+                "answer": "No. Modern eye preservation treatments like plaque brachytherapy and proton therapy can treat the tumor effectively while preserving the eye and vision in many cases."
+            },
+            {
+                "question": "What is ocular melanoma?",
+                "answer": "Ocular melanoma is the most common type of primary eye cancer in adults. It develops in the pigment-producing cells of the uvea (the middle layer of the eye)."
+            },
+            {
+                "question": "How is eye cancer diagnosed?",
+                "answer": "Eye cancer is diagnosed during a detailed ophthalmic exam by an ocular oncologist using specialized techniques like ultrasound, optical coherence tomography (OCT), and angiography."
+            }
+        ]
     },
     {
         "id": "8842",
@@ -1721,7 +3471,32 @@
             "https://drvijayanandreddy.com/wp-content/uploads/2024/03/Brest-cancer-1.jpg"
         ],
         "permalink": "https://drvijayanandreddy.com/blog/breast-cancer-in-young-women-unique-challenges-and-considerations",
-        "faqs": []
+        "faqs": [
+            {
+                "question": "What are the early warning signs of breast cancer?",
+                "answer": "Common warning signs include a new lump or thickening in the breast or underarm, breast skin dimpling or redness, nipple retraction, or spontaneous nipple discharge."
+            },
+            {
+                "question": "Is breast cancer curable?",
+                "answer": "Yes, breast cancer is highly curable, especially when detected early (stages 0, 1, or 2). Early diagnosis leads to survival rates exceeding 90-95%."
+            },
+            {
+                "question": "What are the primary treatment options for breast cancer?",
+                "answer": "Treatment typically involves a combination of surgery (lumpectomy or mastectomy), radiation therapy, chemotherapy, hormone therapy, and targeted therapies."
+            },
+            {
+                "question": "Does breast cancer affect men too?",
+                "answer": "Yes. Although much less common, men have breast tissue and can develop breast cancer. It accounts for about 1% of all breast cancer cases."
+            },
+            {
+                "question": "What is the difference between a breast cyst and a tumor?",
+                "answer": "A breast cyst is a fluid-filled sac that is almost always benign (non-cancerous), whereas a tumor is a solid mass of tissue that can be benign or malignant and requires biopsy."
+            },
+            {
+                "question": "How often should women screen for breast cancer?",
+                "answer": "Women should perform monthly breast self-exams and begin annual or biennial mammograms at age 40, or earlier if they have a strong family history."
+            }
+        ]
     },
     {
         "id": "8829",
@@ -1732,7 +3507,32 @@
             "https://drvijayanandreddy.com/wp-content/uploads/2024/03/Advancements-in-rediation.jpg"
         ],
         "permalink": "https://drvijayanandreddy.com/blog/advancements-in-radiation-oncology-precision-and-technology",
-        "faqs": []
+        "faqs": [
+            {
+                "question": "What is radiation therapy?",
+                "answer": "Radiation therapy is a cancer treatment that uses high-energy radiation beams (such as X-rays, gamma rays, or protons) to damage the DNA of cancer cells, preventing them from dividing."
+            },
+            {
+                "question": "Does radiation therapy make you radioactive?",
+                "answer": "No. For external beam radiation (the most common type), you do not become radioactive, and it is completely safe to be around family and friends immediately after treatment."
+            },
+            {
+                "question": "Is radiation therapy painful?",
+                "answer": "The treatment sessions are completely painless, similar to getting a standard X-ray. However, patients may experience localized skin irritation or fatigue over the course of treatment."
+            },
+            {
+                "question": "What are the side effects of radiation therapy?",
+                "answer": "Side effects are mostly localized to the area being treated (such as skin dryness or redness, hair loss in that specific area) along with general fatigue."
+            },
+            {
+                "question": "How long is a typical radiation treatment session?",
+                "answer": "While the actual radiation delivery takes only 1 to 5 minutes, a typical appointment lasts about 15 to 30 minutes due to setup, positioning, and safety checks."
+            },
+            {
+                "question": "Can radiation therapy cause secondary cancers?",
+                "answer": "The risk of developing a secondary cancer from modern radiation therapy is extremely low. The immediate benefit of treating the existing cancer far outweighs this potential long-term risk."
+            }
+        ]
     },
     {
         "id": "8845",
@@ -1757,7 +3557,32 @@
             "https://drvijayanandreddy.com/wp-content/uploads/2024/03/MALI9333-scaled.jpeg"
         ],
         "permalink": "https://drvijayanandreddy.com/blog/together-for-her-campaign-raising-awareness-on-women-cancer",
-        "faqs": []
+        "faqs": [
+            {
+                "question": "What causes cervical cancer?",
+                "answer": "Almost all cervical cancers are caused by persistent infection with high-risk strains of the Human Papillomavirus (HPV), a common sexually transmitted infection."
+            },
+            {
+                "question": "Can cervical cancer be prevented?",
+                "answer": "Yes, cervical cancer is highly preventable through HPV vaccination (ideally given in early adolescence) and regular cervical screenings (Pap smears and HPV tests)."
+            },
+            {
+                "question": "What are the symptoms of cervical cancer?",
+                "answer": "Early-stage cervical cancer typically has no symptoms. Later symptoms include abnormal vaginal bleeding, watery or blood-tinged discharge, and pelvic pain during intercourse."
+            },
+            {
+                "question": "What is a Pap smear and how often is it needed?",
+                "answer": "A Pap smear checks for precancerous changes on the cervix. Women should start Pap screenings at age 21 and have them every 3 years, or every 5 years with HPV co-testing after age 30."
+            },
+            {
+                "question": "How is cervical cancer treated?",
+                "answer": "Treatment depends on the stage and may include surgery (hysterectomy), radiation therapy (internal or external), chemotherapy, or a combination (chemoradiation)."
+            },
+            {
+                "question": "Is cervical cancer curable?",
+                "answer": "Yes, cervical cancer is highly curable when diagnosed in early stages, with success rates exceeding 90% when confined to the cervix."
+            }
+        ]
     },
     {
         "id": "8786",
@@ -1768,7 +3593,32 @@
             "https://drvijayanandreddy.com/wp-content/uploads/2024/03/Cancer-risk.jpg"
         ],
         "permalink": "https://drvijayanandreddy.com/blog/the-role-of-genetics-in-cancer-risk-and-treatment",
-        "faqs": []
+        "faqs": [
+            {
+                "question": "What is cancer and how does it start?",
+                "answer": "Cancer is a disease where abnormal cells in the body grow uncontrollably and spread to other parts. It starts when genetic mutations damage cellular DNA, overriding normal cell division controls."
+            },
+            {
+                "question": "What are the main risk factors for cancer?",
+                "answer": "Key risk factors include tobacco use, poor diet, physical inactivity, obesity, heavy alcohol intake, excessive sun exposure, and genetic factors."
+            },
+            {
+                "question": "Can cancer be prevented?",
+                "answer": "Up to 30-50% of cancer cases can be prevented by adopting healthy habits, avoiding tobacco and excessive alcohol, exercising, eating well, getting vaccinated (HPV, Hep B), and getting screened regularly."
+            },
+            {
+                "question": "Why is early detection of cancer crucial?",
+                "answer": "Early detection significantly increases the chances of successful treatment. When cancers are found before they spread (metastasize), therapies are more effective, and cure rates are much higher."
+            },
+            {
+                "question": "What are the most common cancer treatments?",
+                "answer": "The main treatments are surgery, chemotherapy, radiation therapy, immunotherapy, and targeted therapies. Doctors often use a combination of these treatments."
+            },
+            {
+                "question": "What support is available for managing cancer treatment side effects?",
+                "answer": "Palliative and supportive care teams provide medications to prevent nausea and pain, nutritional guidance, physical therapy, and psychological counseling to help patients stay comfortable during treatment."
+            }
+        ]
     },
     {
         "id": "8697",
@@ -1779,7 +3629,32 @@
             "https://drvijayanandreddy.com/wp-content/uploads/2024/02/Breast-cancer1.jpg"
         ],
         "permalink": "https://drvijayanandreddy.com/blog/the-role-of-chemotherapy-in-breast-cancer-management",
-        "faqs": []
+        "faqs": [
+            {
+                "question": "What is chemotherapy and how does it work?",
+                "answer": "Chemotherapy is a systemic cancer treatment that uses powerful drugs to destroy cancer cells or stop them from growing and dividing throughout the body."
+            },
+            {
+                "question": "Is chemotherapy painful?",
+                "answer": "The administration of chemotherapy (typically through an IV infusion or pills) is not painful itself. However, side effects like muscle aches or neuropathy can cause discomfort."
+            },
+            {
+                "question": "What are the most common side effects of chemotherapy?",
+                "answer": "Common side effects include fatigue, nausea, vomiting, hair loss, loss of appetite, and an increased susceptibility to infections due to lower blood counts."
+            },
+            {
+                "question": "How long does chemotherapy treatment typically last?",
+                "answer": "Chemotherapy is usually given in cycles over a period of 3 to 6 months. Each cycle consists of a treatment period followed by a rest period to allow the body to recover."
+            },
+            {
+                "question": "Can I work or maintain my normal routine during chemotherapy?",
+                "answer": "It depends on your overall health and how you respond to the drugs. Many patients can continue light activities or part-time work, while others require rest."
+            },
+            {
+                "question": "How is the effectiveness of chemotherapy monitored?",
+                "answer": "Oncologists monitor effectiveness using blood tests (including tumor markers), imaging scans (like CT, MRI, or PET scans), and physical examinations throughout the treatment course."
+            }
+        ]
     },
     {
         "id": "8672",
@@ -1790,7 +3665,32 @@
             "https://drvijayanandreddy.com/wp-content/uploads/2024/02/Cancer-care-.jpg"
         ],
         "permalink": "https://drvijayanandreddy.com/blog/the-evolving-role-of-medical-oncologists-in-cancer-care",
-        "faqs": []
+        "faqs": [
+            {
+                "question": "What is cancer and how does it start?",
+                "answer": "Cancer is a disease where abnormal cells in the body grow uncontrollably and spread to other parts. It starts when genetic mutations damage cellular DNA, overriding normal cell division controls."
+            },
+            {
+                "question": "What are the main risk factors for cancer?",
+                "answer": "Key risk factors include tobacco use, poor diet, physical inactivity, obesity, heavy alcohol intake, excessive sun exposure, and genetic factors."
+            },
+            {
+                "question": "Can cancer be prevented?",
+                "answer": "Up to 30-50% of cancer cases can be prevented by adopting healthy habits, avoiding tobacco and excessive alcohol, exercising, eating well, getting vaccinated (HPV, Hep B), and getting screened regularly."
+            },
+            {
+                "question": "Why is early detection of cancer crucial?",
+                "answer": "Early detection significantly increases the chances of successful treatment. When cancers are found before they spread (metastasize), therapies are more effective, and cure rates are much higher."
+            },
+            {
+                "question": "What are the most common cancer treatments?",
+                "answer": "The main treatments are surgery, chemotherapy, radiation therapy, immunotherapy, and targeted therapies. Doctors often use a combination of these treatments."
+            },
+            {
+                "question": "What support is available for managing cancer treatment side effects?",
+                "answer": "Palliative and supportive care teams provide medications to prevent nausea and pain, nutritional guidance, physical therapy, and psychological counseling to help patients stay comfortable during treatment."
+            }
+        ]
     },
     {
         "id": "8659",
@@ -1801,7 +3701,32 @@
             "https://drvijayanandreddy.com/wp-content/uploads/2024/02/vijay-anand-reddy-thumbnail-medical-onology1.jpg"
         ],
         "permalink": "https://drvijayanandreddy.com/blog/the-impact-of-lifestyle-factors-on-cancer-risk-and-management",
-        "faqs": []
+        "faqs": [
+            {
+                "question": "What is cancer and how does it start?",
+                "answer": "Cancer is a disease where abnormal cells in the body grow uncontrollably and spread to other parts. It starts when genetic mutations damage cellular DNA, overriding normal cell division controls."
+            },
+            {
+                "question": "What are the main risk factors for cancer?",
+                "answer": "Key risk factors include tobacco use, poor diet, physical inactivity, obesity, heavy alcohol intake, excessive sun exposure, and genetic factors."
+            },
+            {
+                "question": "Can cancer be prevented?",
+                "answer": "Up to 30-50% of cancer cases can be prevented by adopting healthy habits, avoiding tobacco and excessive alcohol, exercising, eating well, getting vaccinated (HPV, Hep B), and getting screened regularly."
+            },
+            {
+                "question": "Why is early detection of cancer crucial?",
+                "answer": "Early detection significantly increases the chances of successful treatment. When cancers are found before they spread (metastasize), therapies are more effective, and cure rates are much higher."
+            },
+            {
+                "question": "What are the most common cancer treatments?",
+                "answer": "The main treatments are surgery, chemotherapy, radiation therapy, immunotherapy, and targeted therapies. Doctors often use a combination of these treatments."
+            },
+            {
+                "question": "What support is available for managing cancer treatment side effects?",
+                "answer": "Palliative and supportive care teams provide medications to prevent nausea and pain, nutritional guidance, physical therapy, and psychological counseling to help patients stay comfortable during treatment."
+            }
+        ]
     },
     {
         "id": "8622",
@@ -1812,7 +3737,32 @@
             "https://drvijayanandreddy.com/wp-content/uploads/2024/02/MALI8359-min-scaled.jpg"
         ],
         "permalink": "https://drvijayanandreddy.com/blog/victory-bell-launched-to-commemorate-world-cancer-day-symbolizes-triumph-over-cancer",
-        "faqs": []
+        "faqs": [
+            {
+                "question": "What is cancer and how does it start?",
+                "answer": "Cancer is a disease where abnormal cells in the body grow uncontrollably and spread to other parts. It starts when genetic mutations damage cellular DNA, overriding normal cell division controls."
+            },
+            {
+                "question": "What are the main risk factors for cancer?",
+                "answer": "Key risk factors include tobacco use, poor diet, physical inactivity, obesity, heavy alcohol intake, excessive sun exposure, and genetic factors."
+            },
+            {
+                "question": "Can cancer be prevented?",
+                "answer": "Up to 30-50% of cancer cases can be prevented by adopting healthy habits, avoiding tobacco and excessive alcohol, exercising, eating well, getting vaccinated (HPV, Hep B), and getting screened regularly."
+            },
+            {
+                "question": "Why is early detection of cancer crucial?",
+                "answer": "Early detection significantly increases the chances of successful treatment. When cancers are found before they spread (metastasize), therapies are more effective, and cure rates are much higher."
+            },
+            {
+                "question": "What are the most common cancer treatments?",
+                "answer": "The main treatments are surgery, chemotherapy, radiation therapy, immunotherapy, and targeted therapies. Doctors often use a combination of these treatments."
+            },
+            {
+                "question": "What support is available for managing cancer treatment side effects?",
+                "answer": "Palliative and supportive care teams provide medications to prevent nausea and pain, nutritional guidance, physical therapy, and psychological counseling to help patients stay comfortable during treatment."
+            }
+        ]
     },
     {
         "id": "8647",
@@ -1823,7 +3773,32 @@
             "https://drvijayanandreddy.com/wp-content/uploads/2024/02/MALI8171-scaled.jpeg"
         ],
         "permalink": "https://drvijayanandreddy.com/blog/apollo-cancer-centres-launches-unmask-cancer",
-        "faqs": []
+        "faqs": [
+            {
+                "question": "What is cancer and how does it start?",
+                "answer": "Cancer is a disease where abnormal cells in the body grow uncontrollably and spread to other parts. It starts when genetic mutations damage cellular DNA, overriding normal cell division controls."
+            },
+            {
+                "question": "What are the main risk factors for cancer?",
+                "answer": "Key risk factors include tobacco use, poor diet, physical inactivity, obesity, heavy alcohol intake, excessive sun exposure, and genetic factors."
+            },
+            {
+                "question": "Can cancer be prevented?",
+                "answer": "Up to 30-50% of cancer cases can be prevented by adopting healthy habits, avoiding tobacco and excessive alcohol, exercising, eating well, getting vaccinated (HPV, Hep B), and getting screened regularly."
+            },
+            {
+                "question": "Why is early detection of cancer crucial?",
+                "answer": "Early detection significantly increases the chances of successful treatment. When cancers are found before they spread (metastasize), therapies are more effective, and cure rates are much higher."
+            },
+            {
+                "question": "What are the most common cancer treatments?",
+                "answer": "The main treatments are surgery, chemotherapy, radiation therapy, immunotherapy, and targeted therapies. Doctors often use a combination of these treatments."
+            },
+            {
+                "question": "What support is available for managing cancer treatment side effects?",
+                "answer": "Palliative and supportive care teams provide medications to prevent nausea and pain, nutritional guidance, physical therapy, and psychological counseling to help patients stay comfortable during treatment."
+            }
+        ]
     },
     {
         "id": "8594",
@@ -1834,7 +3809,32 @@
             "https://drvijayanandreddy.com/wp-content/uploads/2024/01/Radiation-Therapy-vijay-anand-Reddy-thumbnail.jpg"
         ],
         "permalink": "https://drvijayanandreddy.com/blog/radiation-therapy-in-the-treatment-of-eye-cancer",
-        "faqs": []
+        "faqs": [
+            {
+                "question": "What is radiation therapy?",
+                "answer": "Radiation therapy is a cancer treatment that uses high-energy radiation beams (such as X-rays, gamma rays, or protons) to damage the DNA of cancer cells, preventing them from dividing."
+            },
+            {
+                "question": "Does radiation therapy make you radioactive?",
+                "answer": "No. For external beam radiation (the most common type), you do not become radioactive, and it is completely safe to be around family and friends immediately after treatment."
+            },
+            {
+                "question": "Is radiation therapy painful?",
+                "answer": "The treatment sessions are completely painless, similar to getting a standard X-ray. However, patients may experience localized skin irritation or fatigue over the course of treatment."
+            },
+            {
+                "question": "What are the side effects of radiation therapy?",
+                "answer": "Side effects are mostly localized to the area being treated (such as skin dryness or redness, hair loss in that specific area) along with general fatigue."
+            },
+            {
+                "question": "How long is a typical radiation treatment session?",
+                "answer": "While the actual radiation delivery takes only 1 to 5 minutes, a typical appointment lasts about 15 to 30 minutes due to setup, positioning, and safety checks."
+            },
+            {
+                "question": "Can radiation therapy cause secondary cancers?",
+                "answer": "The risk of developing a secondary cancer from modern radiation therapy is extremely low. The immediate benefit of treating the existing cancer far outweighs this potential long-term risk."
+            }
+        ]
     },
     {
         "id": "8586",
@@ -1845,7 +3845,32 @@
             "https://drvijayanandreddy.com/wp-content/uploads/2024/01/Chemotherapy-and-Radiation-Therapy.jpg"
         ],
         "permalink": "https://drvijayanandreddy.com/blog/chemotherapy-and-radiation-therapy-key-treatments-for-pancreatic-cancer",
-        "faqs": []
+        "faqs": [
+            {
+                "question": "What is chemotherapy and how does it work?",
+                "answer": "Chemotherapy is a systemic cancer treatment that uses powerful drugs to destroy cancer cells or stop them from growing and dividing throughout the body."
+            },
+            {
+                "question": "Is chemotherapy painful?",
+                "answer": "The administration of chemotherapy (typically through an IV infusion or pills) is not painful itself. However, side effects like muscle aches or neuropathy can cause discomfort."
+            },
+            {
+                "question": "What are the most common side effects of chemotherapy?",
+                "answer": "Common side effects include fatigue, nausea, vomiting, hair loss, loss of appetite, and an increased susceptibility to infections due to lower blood counts."
+            },
+            {
+                "question": "How long does chemotherapy treatment typically last?",
+                "answer": "Chemotherapy is usually given in cycles over a period of 3 to 6 months. Each cycle consists of a treatment period followed by a rest period to allow the body to recover."
+            },
+            {
+                "question": "Can I work or maintain my normal routine during chemotherapy?",
+                "answer": "It depends on your overall health and how you respond to the drugs. Many patients can continue light activities or part-time work, while others require rest."
+            },
+            {
+                "question": "How is the effectiveness of chemotherapy monitored?",
+                "answer": "Oncologists monitor effectiveness using blood tests (including tumor markers), imaging scans (like CT, MRI, or PET scans), and physical examinations throughout the treatment course."
+            }
+        ]
     },
     {
         "id": "8583",
@@ -1856,7 +3881,32 @@
             "https://drvijayanandreddy.com/wp-content/uploads/2024/01/vijay-anand-Reddy-throid-cancer.png"
         ],
         "permalink": "https://drvijayanandreddy.com/blog/understanding-thyroid-cancer-types-symptoms-and-risk-factors",
-        "faqs": []
+        "faqs": [
+            {
+                "question": "What is thyroid cancer?",
+                "answer": "Thyroid cancer is a malignant growth that originates in the thyroid gland, which produces hormones that regulate metabolism, heart rate, and body temperature."
+            },
+            {
+                "question": "Is thyroid cancer highly curable?",
+                "answer": "Yes. Thyroid cancer has one of the highest cure rates among all cancers, with a 5-year survival rate exceeding 98% for papillary and follicular thyroid cancers."
+            },
+            {
+                "question": "What are the common symptoms of thyroid cancer?",
+                "answer": "The most common symptom is a painless lump or nodule felt in the front of the neck, followed by hoarseness, persistent throat pain, or difficulty swallowing."
+            },
+            {
+                "question": "How is thyroid cancer treated?",
+                "answer": "Standard treatments include surgical removal of part or all of the thyroid (thyroidectomy), followed by radioactive iodine therapy to destroy any remaining thyroid cells."
+            },
+            {
+                "question": "Do I need medication after thyroid cancer surgery?",
+                "answer": "Yes, if your entire thyroid is removed, you will need to take thyroid hormone replacement pills (levothyroxine) daily for life to maintain normal metabolism."
+            },
+            {
+                "question": "What are the main risk factors for thyroid cancer?",
+                "answer": "Risk factors include exposure to high levels of radiation (especially in childhood), a family history of thyroid cancer or goiters, and certain genetic syndromes."
+            }
+        ]
     },
     {
         "id": "8567",
@@ -1867,7 +3917,32 @@
             "https://drvijayanandreddy.com/wp-content/uploads/2024/01/vijay-anand-Reddy-thumbnail.jpg"
         ],
         "permalink": "https://drvijayanandreddy.com/blog/the-future-of-cancer-treatment",
-        "faqs": []
+        "faqs": [
+            {
+                "question": "What is cancer and how does it start?",
+                "answer": "Cancer is a disease where abnormal cells in the body grow uncontrollably and spread to other parts. It starts when genetic mutations damage cellular DNA, overriding normal cell division controls."
+            },
+            {
+                "question": "What are the main risk factors for cancer?",
+                "answer": "Key risk factors include tobacco use, poor diet, physical inactivity, obesity, heavy alcohol intake, excessive sun exposure, and genetic factors."
+            },
+            {
+                "question": "Can cancer be prevented?",
+                "answer": "Up to 30-50% of cancer cases can be prevented by adopting healthy habits, avoiding tobacco and excessive alcohol, exercising, eating well, getting vaccinated (HPV, Hep B), and getting screened regularly."
+            },
+            {
+                "question": "Why is early detection of cancer crucial?",
+                "answer": "Early detection significantly increases the chances of successful treatment. When cancers are found before they spread (metastasize), therapies are more effective, and cure rates are much higher."
+            },
+            {
+                "question": "What are the most common cancer treatments?",
+                "answer": "The main treatments are surgery, chemotherapy, radiation therapy, immunotherapy, and targeted therapies. Doctors often use a combination of these treatments."
+            },
+            {
+                "question": "What support is available for managing cancer treatment side effects?",
+                "answer": "Palliative and supportive care teams provide medications to prevent nausea and pain, nutritional guidance, physical therapy, and psychological counseling to help patients stay comfortable during treatment."
+            }
+        ]
     },
     {
         "id": "8213",
@@ -1879,7 +3954,32 @@
             "https://drvijayanandreddy.com/wp-content/uploads/2023/12/SURAJ-SIR-thumbnal-1.png"
         ],
         "permalink": "https://drvijayanandreddy.com/blog/esophageal-cancer-symptoms-causes-treatment",
-        "faqs": []
+        "faqs": [
+            {
+                "question": "What is colon cancer?",
+                "answer": "Colon cancer is a malignancy that starts in the large intestine (colon) or rectum, often beginning as small, non-cancerous clumps of cells called polyps."
+            },
+            {
+                "question": "How can colon cancer be prevented?",
+                "answer": "Colon cancer can be prevented by undergoing regular screenings (like a colonoscopy) starting at age 45, which allow doctors to find and remove precancerous polyps before they turn into cancer."
+            },
+            {
+                "question": "What are the common symptoms of colon cancer?",
+                "answer": "Symptoms include persistent changes in bowel habits (diarrhea or constipation), blood in the stool, rectal bleeding, persistent abdominal discomfort, and unexplained fatigue."
+            },
+            {
+                "question": "What is a colonoscopy?",
+                "answer": "A colonoscopy is a diagnostic procedure where a gastroenterologist uses a long, flexible tube with a camera to examine the entire lining of the colon and rectum, removing any polyps on the spot."
+            },
+            {
+                "question": "How is colon cancer treated?",
+                "answer": "Primary treatments include surgery to remove the section of the colon containing the tumor, often accompanied by chemotherapy or radiation therapy depending on the stage."
+            },
+            {
+                "question": "Is colon cancer hereditary?",
+                "answer": "Most colon cancers are sporadic, but about 5% to 10% are hereditary, caused by gene mutations passed down in families (such as Lynch syndrome or FAP)."
+            }
+        ]
     },
     {
         "id": "7992",
@@ -1890,7 +3990,32 @@
             "https://drvijayanandreddy.com/wp-content/uploads/2023/12/Radiation-Therapy-for-Cancer.jpg"
         ],
         "permalink": "https://drvijayanandreddy.com/blog/radiation-therapy-for-cancer",
-        "faqs": []
+        "faqs": [
+            {
+                "question": "What is radiation therapy?",
+                "answer": "Radiation therapy is a cancer treatment that uses high-energy radiation beams (such as X-rays, gamma rays, or protons) to damage the DNA of cancer cells, preventing them from dividing."
+            },
+            {
+                "question": "Does radiation therapy make you radioactive?",
+                "answer": "No. For external beam radiation (the most common type), you do not become radioactive, and it is completely safe to be around family and friends immediately after treatment."
+            },
+            {
+                "question": "Is radiation therapy painful?",
+                "answer": "The treatment sessions are completely painless, similar to getting a standard X-ray. However, patients may experience localized skin irritation or fatigue over the course of treatment."
+            },
+            {
+                "question": "What are the side effects of radiation therapy?",
+                "answer": "Side effects are mostly localized to the area being treated (such as skin dryness or redness, hair loss in that specific area) along with general fatigue."
+            },
+            {
+                "question": "How long is a typical radiation treatment session?",
+                "answer": "While the actual radiation delivery takes only 1 to 5 minutes, a typical appointment lasts about 15 to 30 minutes due to setup, positioning, and safety checks."
+            },
+            {
+                "question": "Can radiation therapy cause secondary cancers?",
+                "answer": "The risk of developing a secondary cancer from modern radiation therapy is extremely low. The immediate benefit of treating the existing cancer far outweighs this potential long-term risk."
+            }
+        ]
     },
     {
         "id": "7975",
@@ -1901,7 +4026,32 @@
             "https://drvijayanandreddy.com/wp-content/uploads/2023/11/WhatsApp-Image-2023-11-28-at-5.16.07-PM.jpeg"
         ],
         "permalink": "https://drvijayanandreddy.com/blog/symptoms-of-cancer",
-        "faqs": []
+        "faqs": [
+            {
+                "question": "What is cancer and how does it start?",
+                "answer": "Cancer is a disease where abnormal cells in the body grow uncontrollably and spread to other parts. It starts when genetic mutations damage cellular DNA, overriding normal cell division controls."
+            },
+            {
+                "question": "What are the main risk factors for cancer?",
+                "answer": "Key risk factors include tobacco use, poor diet, physical inactivity, obesity, heavy alcohol intake, excessive sun exposure, and genetic factors."
+            },
+            {
+                "question": "Can cancer be prevented?",
+                "answer": "Up to 30-50% of cancer cases can be prevented by adopting healthy habits, avoiding tobacco and excessive alcohol, exercising, eating well, getting vaccinated (HPV, Hep B), and getting screened regularly."
+            },
+            {
+                "question": "Why is early detection of cancer crucial?",
+                "answer": "Early detection significantly increases the chances of successful treatment. When cancers are found before they spread (metastasize), therapies are more effective, and cure rates are much higher."
+            },
+            {
+                "question": "What are the most common cancer treatments?",
+                "answer": "The main treatments are surgery, chemotherapy, radiation therapy, immunotherapy, and targeted therapies. Doctors often use a combination of these treatments."
+            },
+            {
+                "question": "What support is available for managing cancer treatment side effects?",
+                "answer": "Palliative and supportive care teams provide medications to prevent nausea and pain, nutritional guidance, physical therapy, and psychological counseling to help patients stay comfortable during treatment."
+            }
+        ]
     },
     {
         "id": "10077",
@@ -1912,7 +4062,32 @@
             "https://drvijayanandreddy.com/wp-content/uploads/2025/07/Immunotherapy-vs-Chemotherapy-Which-is-Better-for-Cancer-Treatment.jpg"
         ],
         "permalink": "https://drvijayanandreddy.com/blog/breast-cancer-symptoms-in-hindi",
-        "faqs": []
+        "faqs": [
+            {
+                "question": "What are the early warning signs of breast cancer?",
+                "answer": "Common warning signs include a new lump or thickening in the breast or underarm, breast skin dimpling or redness, nipple retraction, or spontaneous nipple discharge."
+            },
+            {
+                "question": "Is breast cancer curable?",
+                "answer": "Yes, breast cancer is highly curable, especially when detected early (stages 0, 1, or 2). Early diagnosis leads to survival rates exceeding 90-95%."
+            },
+            {
+                "question": "What are the primary treatment options for breast cancer?",
+                "answer": "Treatment typically involves a combination of surgery (lumpectomy or mastectomy), radiation therapy, chemotherapy, hormone therapy, and targeted therapies."
+            },
+            {
+                "question": "Does breast cancer affect men too?",
+                "answer": "Yes. Although much less common, men have breast tissue and can develop breast cancer. It accounts for about 1% of all breast cancer cases."
+            },
+            {
+                "question": "What is the difference between a breast cyst and a tumor?",
+                "answer": "A breast cyst is a fluid-filled sac that is almost always benign (non-cancerous), whereas a tumor is a solid mass of tissue that can be benign or malignant and requires biopsy."
+            },
+            {
+                "question": "How often should women screen for breast cancer?",
+                "answer": "Women should perform monthly breast self-exams and begin annual or biennial mammograms at age 40, or earlier if they have a strong family history."
+            }
+        ]
     },
     {
         "id": "10346",
@@ -1955,7 +4130,32 @@
             "https://drvijayanandreddy.com/wp-content/uploads/2023/11/Understanding-Colon-Cancer-Symptoms-Causes-and-Prevention.jpeg"
         ],
         "permalink": "https://drvijayanandreddy.com/blog/understanding-colon-cancer-symptoms-causes-and-prevention",
-        "faqs": []
+        "faqs": [
+            {
+                "question": "What is colon cancer?",
+                "answer": "Colon cancer is a malignancy that starts in the large intestine (colon) or rectum, often beginning as small, non-cancerous clumps of cells called polyps."
+            },
+            {
+                "question": "How can colon cancer be prevented?",
+                "answer": "Colon cancer can be prevented by undergoing regular screenings (like a colonoscopy) starting at age 45, which allow doctors to find and remove precancerous polyps before they turn into cancer."
+            },
+            {
+                "question": "What are the common symptoms of colon cancer?",
+                "answer": "Symptoms include persistent changes in bowel habits (diarrhea or constipation), blood in the stool, rectal bleeding, persistent abdominal discomfort, and unexplained fatigue."
+            },
+            {
+                "question": "What is a colonoscopy?",
+                "answer": "A colonoscopy is a diagnostic procedure where a gastroenterologist uses a long, flexible tube with a camera to examine the entire lining of the colon and rectum, removing any polyps on the spot."
+            },
+            {
+                "question": "How is colon cancer treated?",
+                "answer": "Primary treatments include surgery to remove the section of the colon containing the tumor, often accompanied by chemotherapy or radiation therapy depending on the stage."
+            },
+            {
+                "question": "Is colon cancer hereditary?",
+                "answer": "Most colon cancers are sporadic, but about 5% to 10% are hereditary, caused by gene mutations passed down in families (such as Lynch syndrome or FAP)."
+            }
+        ]
     },
     {
         "id": "7942",
@@ -1967,6 +4167,31 @@
             "https://drvijayanandreddy.com/wp-content/uploads/2023/11/Understanding-Cancer-Dispelling-Myths-and-Presenting-Facts.jpeg"
         ],
         "permalink": "https://drvijayanandreddy.com/blog/understanding-cancer-dispelling-myths-and-presenting-facts",
-        "faqs": []
+        "faqs": [
+            {
+                "question": "What is cancer and how does it start?",
+                "answer": "Cancer is a disease where abnormal cells in the body grow uncontrollably and spread to other parts. It starts when genetic mutations damage cellular DNA, overriding normal cell division controls."
+            },
+            {
+                "question": "What are the main risk factors for cancer?",
+                "answer": "Key risk factors include tobacco use, poor diet, physical inactivity, obesity, heavy alcohol intake, excessive sun exposure, and genetic factors."
+            },
+            {
+                "question": "Can cancer be prevented?",
+                "answer": "Up to 30-50% of cancer cases can be prevented by adopting healthy habits, avoiding tobacco and excessive alcohol, exercising, eating well, getting vaccinated (HPV, Hep B), and getting screened regularly."
+            },
+            {
+                "question": "Why is early detection of cancer crucial?",
+                "answer": "Early detection significantly increases the chances of successful treatment. When cancers are found before they spread (metastasize), therapies are more effective, and cure rates are much higher."
+            },
+            {
+                "question": "What are the most common cancer treatments?",
+                "answer": "The main treatments are surgery, chemotherapy, radiation therapy, immunotherapy, and targeted therapies. Doctors often use a combination of these treatments."
+            },
+            {
+                "question": "What support is available for managing cancer treatment side effects?",
+                "answer": "Palliative and supportive care teams provide medications to prevent nausea and pain, nutritional guidance, physical therapy, and psychological counseling to help patients stay comfortable during treatment."
+            }
+        ]
     }
 ]

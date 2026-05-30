@@ -29,6 +29,12 @@ $excludeFiles = [
     'blog-post.php',
     'blog-listing.php',
     'build.php',
+    'contact-section.php',
+    'download_blog_images.php',
+    'fix_remaining_urls.php',
+    'update_content_urls.php',
+    'update_pipe_urls.php',
+    'update_posts.php',
 ];
 
 // Clean and create dist directory
