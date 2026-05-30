@@ -115,7 +115,7 @@ $navItems = [
         'name' => 'Media',
         'href' => '#',
         'dropdown' => [
-            ['name' => 'Blog & Newsletter', 'href' => 'blog-listing.php'],
+            ['name' => 'Blog & Newsletter', 'href' => '/blog/'],
             ['name' => 'Print & Digital Gallery', 'href' => 'print-gallery.php'],
             ['name' => 'Video Gallery', 'href' => 'video-gallery.php'],
         ],

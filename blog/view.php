@@ -13,32 +13,25 @@ foreach ($posts as $p) {
 }
 
 if (!$post) {
-    header('Location: ../blog-listing.php');
+    header('Location: index.php');
     exit;
 }
 
-// Find local image first, then fallback to external URL
+// Find local featured image in assets/blog-images-all/ first, then fallback to external URL
 $featuredImage = null;
-$imagesDir = 'assets/images/';
-if (is_dir($imagesDir)) {
-    $dirs = scandir($imagesDir);
-    foreach ($dirs as $dir) {
-        if ($dir !== '.' && $dir !== '..' && is_dir($imagesDir . $dir) && strpos($dir, $post['id']) === 0) {
-            $files = scandir($imagesDir . $dir);
-            foreach ($files as $file) {
-                if (in_array(strtolower(pathinfo($file, PATHINFO_EXTENSION)), ['jpg', 'jpeg', 'png', 'webp'])) {
-                    $featuredImage = $imagesDir . $dir . '/' . $file;
-                    break;
-                }
-            }
-            break;
+if (!empty($post['images'])) {
+    $firstImage = $post['images'][0];
+    if (strpos($firstImage, 'assets/') === 0 || strpos($firstImage, '/assets/') === 0) {
+        $featuredImage = (strpos($firstImage, '/') === 0) ? $firstImage : '/' . $firstImage;
+    } else {
+        $filename = basename(parse_url($firstImage, PHP_URL_PATH));
+        $localPath = 'assets/blog-images-all/' . $filename;
+        if (file_exists(dirname(__DIR__) . '/' . $localPath)) {
+            $featuredImage = '/' . $localPath;
+        } else {
+            $featuredImage = $firstImage; // fallback to external
         }
     }
-}
-
-// Fallback to external URL
-if (!$featuredImage && !empty($post['images'])) {
-    $featuredImage = $post['images'][0];
 }
 
 // Related posts
@@ -107,7 +100,7 @@ $related = array_slice(array_filter($posts, fn($p) => intval($p['id']) !== $post
             <div class="container mx-auto px-4 relative z-10">
                 <!-- Breadcrumb -->
                 <nav class="flex items-center justify-center mb-6 text-sm">
-                    <a href="../blog-listing.php" class="text-blue-100 hover:text-white flex items-center transition">
+                    <a href="index.php" class="text-blue-100 hover:text-white flex items-center transition">
                         <i data-feather="arrow-left" class="w-4 h-4 mr-2"></i>
                         Back to Blog
                     </a>
@@ -206,7 +199,12 @@ $related = array_slice(array_filter($posts, fn($p) => intval($p['id']) !== $post
 
                         <!-- Article Content -->
                         <div class="blog-content text-gray-700 text-lg">
-                            <?= $post['content'] ?>
+                            <?php 
+                            // Rewrite external WordPress upload URLs to local assets directory
+                            $postContent = $post['content'];
+                            $postContent = preg_replace('/https?:\/\/drvijayanandreddy\.com\/wp-content\/uploads\/\d{4}\/\d{2}\//', '/assets/blog-images-all/', $postContent);
+                            echo $postContent;
+                            ?>
                         </div>
 
                         <!-- Article Footer -->
@@ -263,7 +261,7 @@ $related = array_slice(array_filter($posts, fn($p) => intval($p['id']) !== $post
                             $relSlug = trim(substr($relSlug, 0, 50), "-");
                             $relImage = !empty($relPost['images'][0]) ? $relPost['images'][0] : '';
                         ?>
-                            <a href="../blog-post.php?id=<?= $relPost['id'] ?>&slug=<?= urlencode($relSlug) ?>"
+                            <a href="view.php?id=<?= $relPost['id'] ?>&slug=<?= urlencode($relSlug) ?>"
                                class="group bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-1">
                                 <div class="relative h-44 bg-gradient-to-br from-medical-blue/20 to-purple-100 overflow-hidden">
                                     <?php if ($relImage): ?>
@@ -295,7 +293,7 @@ $related = array_slice(array_filter($posts, fn($p) => intval($p['id']) !== $post
 
                     <!-- View All Button -->
                     <div class="text-center mt-12">
-                        <a href="../blog-listing.php"
+                        <a href="index.php"
                            class="inline-flex items-center gap-2 bg-medical-blue text-white px-8 py-4 rounded-xl font-bold hover:bg-medical-dark transition-all shadow-lg hover:shadow-xl">
                             <i data-feather="grid" class="w-5 h-5"></i>
                             View All Articles

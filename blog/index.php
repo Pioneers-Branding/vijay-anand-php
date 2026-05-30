@@ -16,23 +16,7 @@ $currentPage = isset($_GET['page']) ? max(1, min(intval($_GET['page']), $totalPa
 $offset = ($currentPage - 1) * $postsPerPage;
 $paginatedPosts = array_slice($posts, $offset, $postsPerPage);
 
-// Get local images
-$availableImages = [];
-$imagesDir = __DIR__ . '/assets/images/';
-if (is_dir($imagesDir)) {
-    $dirs = scandir($imagesDir);
-    foreach ($dirs as $dir) {
-        if ($dir !== '.' && $dir !== '..' && is_dir($imagesDir . $dir)) {
-            $files = scandir($imagesDir . $dir);
-            foreach ($files as $file) {
-                if (in_array(strtolower(pathinfo($file, PATHINFO_EXTENSION)), ['jpg', 'jpeg', 'png', 'webp'])) {
-                    $availableImages[$dir] = $imagesDir . $dir . '/' . $file;
-                    break;
-                }
-            }
-        }
-    }
-}
+// Local images are resolved dynamically per post from the assets/blog-images-all/ folder.
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -132,12 +116,20 @@ if (is_dir($imagesDir)) {
                         $slug = trim($slug, "-");
                         $slug = substr($slug, 0, 50);
 
-                        // Find local image
+                        // Find local image in assets/blog-images-all/
                         $localImage = null;
-                        foreach ($availableImages as $dirName => $imgPath) {
-                            if (strpos($dirName, $post['id']) === 0) {
-                                $localImage = $imgPath;
-                                break;
+                        if (!empty($post['images'])) {
+                            $firstImage = $post['images'][0];
+                            if (strpos($firstImage, 'assets/') === 0 || strpos($firstImage, '/assets/') === 0) {
+                                $localImage = (strpos($firstImage, '/') === 0) ? $firstImage : '/' . $firstImage;
+                            } else {
+                                $filename = basename(parse_url($firstImage, PHP_URL_PATH));
+                                $localPath = 'assets/blog-images-all/' . $filename;
+                                if (file_exists(dirname(__DIR__) . '/' . $localPath)) {
+                                    $localImage = '/' . $localPath;
+                                } else {
+                                    $localImage = $firstImage; // fallback to external
+                                }
                             }
                         }
 
@@ -152,7 +144,7 @@ if (is_dir($imagesDir)) {
                         ?>
 
                         <article class="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 group">
-                            <a href="../blog-post.php?id=<?= $post['id'] ?>&slug=<?= urlencode($slug) ?>" class="block">
+                            <a href="view.php?id=<?= $post['id'] ?>&slug=<?= urlencode($slug) ?>" class="block">
                                 <!-- Image Container -->
                                 <div class="relative h-52 bg-gradient-to-br from-medical-blue/20 to-purple-100 overflow-hidden">
                                     <?php if ($localImage): ?>

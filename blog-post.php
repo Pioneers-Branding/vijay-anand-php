@@ -17,28 +17,21 @@ if (!$post) {
     exit;
 }
 
-// Find local image first, then fallback to external URL
+// Find local featured image in assets/blog-images-all/ first, then fallback to external URL
 $featuredImage = null;
-$imagesDir = 'assets/blog-images/';
-if (is_dir($imagesDir)) {
-    $dirs = scandir($imagesDir);
-    foreach ($dirs as $dir) {
-        if ($dir !== '.' && $dir !== '..' && is_dir($imagesDir . $dir) && strpos($dir, $post['id']) === 0) {
-            $files = scandir($imagesDir . $dir);
-            foreach ($files as $file) {
-                if (in_array(strtolower(pathinfo($file, PATHINFO_EXTENSION)), ['jpg', 'jpeg', 'png', 'webp'])) {
-                    $featuredImage = $imagesDir . $dir . '/' . $file;
-                    break;
-                }
-            }
-            break;
+if (!empty($post['images'])) {
+    $firstImage = $post['images'][0];
+    if (strpos($firstImage, 'assets/') === 0 || strpos($firstImage, '/assets/') === 0) {
+        $featuredImage = (strpos($firstImage, '/') === 0) ? $firstImage : '/' . $firstImage;
+    } else {
+        $filename = basename(parse_url($firstImage, PHP_URL_PATH));
+        $localPath = 'assets/blog-images-all/' . $filename;
+        if (file_exists(__DIR__ . '/' . $localPath)) {
+            $featuredImage = '/' . $localPath;
+        } else {
+            $featuredImage = $firstImage; // fallback to external
         }
     }
-}
-
-// Fallback to external URL
-if (!$featuredImage && !empty($post['images'])) {
-    $featuredImage = $post['images'][0];
 }
 
 // Related posts
@@ -308,7 +301,12 @@ $related = array_slice(array_filter($posts, fn($p) => intval($p['id']) !== $post
 
                         <!-- Article Content -->
                         <div class="blog-content text-gray-700 text-lg">
-                            <?= $post['content'] ?>
+                            <?php 
+                            // Rewrite external WordPress upload URLs to local assets directory
+                            $postContent = $post['content'];
+                            $postContent = preg_replace('/https?:\/\/drvijayanandreddy\.com\/wp-content\/uploads\/\d{4}\/\d{2}\//', '/assets/blog-images-all/', $postContent);
+                            echo $postContent;
+                            ?>
                         </div>
 
                         <?php if (!empty($post['faqs'])): ?>

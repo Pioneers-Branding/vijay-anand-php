@@ -195,11 +195,13 @@ foreach ($eventsData as $event) {
     $eventHtmlName = "event-$eventId.html";
 
     // Create temp file to render with proper $_GET
-    $tempFile = $sourceDir . DIRECTORY_SEPARATOR . '_temp_render.php';
+    $tempFile = $sourceDir . DIRECTORY_SEPARATOR . "_temp_render_event_$eventId.php";
     file_put_contents($tempFile, "<?php \$_GET['id']='$eventId';include '" . addslashes($sourceDir) . "/events.php';");
     $cmd = "php " . escapeshellarg($tempFile) . " 2>&1";
     $html = shell_exec($cmd);
-    unlink($tempFile);
+    if (file_exists($tempFile)) {
+        unlink($tempFile);
+    }
 
     if ($html && strlen($html) > 1000) {
         $html = preg_replace('/href="([^"]*?)\.php(["#])/', 'href="$1.html$2', $html);
@@ -221,11 +223,13 @@ foreach ($survivorsData as $survivor) {
     $survivorHtmlName = "survivor-$survivorId.html";
 
     // Create temp file to render with proper $_GET
-    $tempFile = $sourceDir . DIRECTORY_SEPARATOR . '_temp_render.php';
+    $tempFile = $sourceDir . DIRECTORY_SEPARATOR . "_temp_render_survivor_$survivorId.php";
     file_put_contents($tempFile, "<?php \$_GET['id']='$survivorId';include '" . addslashes($sourceDir) . "/survivors.php';");
     $cmd = "php " . escapeshellarg($tempFile) . " 2>&1";
     $html = shell_exec($cmd);
-    unlink($tempFile);
+    if (file_exists($tempFile)) {
+        unlink($tempFile);
+    }
 
     if ($html && strlen($html) > 1000) {
         $html = preg_replace('/href="([^"]*?)\.php(["#])/', 'href="$1.html$2', $html);
@@ -257,11 +261,13 @@ foreach ($blogData as $post) {
     $blogHtmlName = "$friendlySlug.html";
 
     // Create temp file to render with proper $_GET
-    $tempFile = $sourceDir . DIRECTORY_SEPARATOR . '_temp_render.php';
+    $tempFile = $sourceDir . DIRECTORY_SEPARATOR . "_temp_render_blog_$postId.php";
     file_put_contents($tempFile, "<?php \$_GET['id']='$postId';include '" . addslashes($sourceDir) . "/blog-post.php';");
     $cmd = "php " . escapeshellarg($tempFile) . " 2>&1";
     $html = shell_exec($cmd);
-    unlink($tempFile);
+    if (file_exists($tempFile)) {
+        unlink($tempFile);
+    }
 
     if ($html && strlen($html) > 1000) {
         $html = preg_replace('/href="([^"]*?)\.php(["#])/', 'href="$1.html$2', $html);
@@ -281,11 +287,13 @@ foreach ($blogData as $post) {
 
 // Generate static blog listing page at /blog/
 echo "\nGenerating blog listing page...\n";
-$tempFile = $sourceDir . DIRECTORY_SEPARATOR . '_temp_render.php';
+$tempFile = $sourceDir . DIRECTORY_SEPARATOR . '_temp_render_blog_listing.php';
 file_put_contents($tempFile, "<?php include '" . addslashes($sourceDir) . "/blog-listing.php';");
 $cmd = "php " . escapeshellarg($tempFile) . " 2>&1";
 $html = shell_exec($cmd);
-unlink($tempFile);
+if (file_exists($tempFile)) {
+    unlink($tempFile);
+}
 
 if ($html && strlen($html) > 1000) {
     $html = preg_replace('/href="([^"]*?)\.php(["#])/', 'href="$1.html$2', $html);
