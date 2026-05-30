@@ -78,22 +78,6 @@ $paginatedPosts = array_slice($posts, $offset, $postsPerPage);
                 <p class="text-blue-100 text-lg md:text-xl max-w-2xl mx-auto leading-relaxed">
                     Expert insights, patient stories, and cancer awareness articles from Dr. Vijay Anand Reddy
                 </p>
-
-                <!-- Stats -->
-                <div class="flex flex-wrap justify-center gap-8 mt-12">
-                    <div class="text-center">
-                        <div class="text-3xl font-bold text-white"><?= count($posts) ?></div>
-                        <div class="text-blue-200 text-sm">Articles</div>
-                    </div>
-                    <div class="text-center">
-                        <div class="text-3xl font-bold text-white">34+</div>
-                        <div class="text-blue-200 text-sm">Years Experience</div>
-                    </div>
-                    <div class="text-center">
-                        <div class="text-3xl font-bold text-white">2700+</div>
-                        <div class="text-blue-200 text-sm">Reviews</div>
-                    </div>
-                </div>
             </div>
         </div>
     </section>
