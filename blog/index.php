@@ -21,7 +21,7 @@ $paginatedPosts = array_slice($posts, $offset, $postsPerPage);
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="icon" href="assets/logo/var-favicon.png" type="image/png">
+    <link rel="icon" href="/assets/logo/var-favicon.png" type="image/png">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Health Blog - Dr. Vijay Anand Reddy</title>
