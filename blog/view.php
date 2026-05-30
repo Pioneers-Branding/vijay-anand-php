@@ -4,11 +4,20 @@ $postsJson = file_get_contents('posts_data.json');
 $posts = json_decode($postsJson, true);
 
 $postId = intval($_GET['id'] ?? 0);
+$slug = $_GET['slug'] ?? '';
 $post = null;
 foreach ($posts as $p) {
-    if (intval($p['id']) === $postId) {
+    if ($postId > 0 && intval($p['id']) === $postId) {
         $post = $p;
         break;
+    }
+    if (!empty($slug)) {
+        $postUrlPath = !empty($p['permalink']) ? parse_url($p['permalink'], PHP_URL_PATH) : '';
+        $postSlug = basename($postUrlPath);
+        if ($postSlug === $slug) {
+            $post = $p;
+            break;
+        }
     }
 }
 
@@ -257,11 +266,19 @@ $related = array_slice(array_filter($posts, fn($p) => intval($p['id']) !== $post
 
                     <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
                         <?php foreach ($related as $relPost):
-                            $relSlug = preg_replace("/[^a-z0-9]+/", "-", strtolower($relPost['title']));
-                            $relSlug = trim(substr($relSlug, 0, 50), "-");
+                            $relUrlPath = !empty($relPost['permalink']) ? parse_url($relPost['permalink'], PHP_URL_PATH) : '';
+                            $relFriendlySlug = trim((string)$relUrlPath, '/');
+                            if (empty($relFriendlySlug) || strpos($relFriendlySlug, '?p=') !== false) {
+                                $relFriendlySlug = preg_replace("/[^a-z0-9]+/", "-", strtolower($relPost['title']));
+                                $relFriendlySlug = trim($relFriendlySlug, "-");
+                                $relFriendlySlug = substr($relFriendlySlug, 0, 50);
+                                $relFriendlySlug = trim($relFriendlySlug, "-");
+                                $relFriendlySlug = 'blog/' . $relFriendlySlug;
+                            }
+                            $relCleanUrl = '/' . $relFriendlySlug;
                             $relImage = !empty($relPost['images'][0]) ? $relPost['images'][0] : '';
                         ?>
-                            <a href="view.php?id=<?= $relPost['id'] ?>&slug=<?= urlencode($relSlug) ?>"
+                            <a href="<?= $relCleanUrl ?>"
                                class="group bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-1">
                                 <div class="relative h-44 bg-gradient-to-br from-medical-blue/20 to-purple-100 overflow-hidden">
                                     <?php if ($relImage): ?>

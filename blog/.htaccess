@@ -1,0 +1,9 @@
+RewriteEngine On
+RewriteBase /blog/
+
+# Skip rewriting for real files and directories
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# Rewrite clean blog URL to view.php with slug parameter
+RewriteRule ^([a-zA-Z0-9_-]+)/?$ view.php?slug=$1 [QSA,L]

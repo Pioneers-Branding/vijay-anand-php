@@ -584,5 +584,10 @@
 /understanding-cancer-dispelling-myths-and-presenting-facts    /blog/understanding-cancer-dispelling-myths-and-presenting-facts    301
 /understanding-cancer-dispelling-myths-and-presenting-facts/    /blog/understanding-cancer-dispelling-myths-and-presenting-facts    301
 
+# 4.5. Netlify clean URL rewrites for blog posts
+/blog      /blog/index.html      200
+/blog/     /blog/index.html      200
+/blog/*    /blog/:splat.html     200
+
 # 5. SPA-style fallback for index
 /    /index.html    200

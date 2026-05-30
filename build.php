@@ -397,6 +397,11 @@ if ($baseJsonContent) {
     }
 }
 
+$redirects .= "\n# 4.5. Netlify clean URL rewrites for blog posts\n";
+$redirects .= "/blog      /blog/index.html      200\n";
+$redirects .= "/blog/     /blog/index.html      200\n";
+$redirects .= "/blog/*    /blog/:splat.html     200\n";
+
 // SPA-style fallback for index
 $redirects .= "\n# 5. SPA-style fallback for index\n";
 $redirects .= "/    /index.html    200\n";

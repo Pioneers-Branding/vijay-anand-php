@@ -116,6 +116,17 @@ $paginatedPosts = array_slice($posts, $offset, $postsPerPage);
                         $slug = trim($slug, "-");
                         $slug = substr($slug, 0, 50);
 
+                        $urlPath = !empty($post['permalink']) ? parse_url($post['permalink'], PHP_URL_PATH) : '';
+                        $friendlySlug = trim((string)$urlPath, '/');
+                        if (empty($friendlySlug) || strpos($friendlySlug, '?p=') !== false) {
+                            $friendlySlug = preg_replace("/[^a-z0-9]+/", "-", strtolower($post['title']));
+                            $friendlySlug = trim($friendlySlug, "-");
+                            $friendlySlug = substr($friendlySlug, 0, 50);
+                            $friendlySlug = trim($friendlySlug, "-");
+                            $friendlySlug = 'blog/' . $friendlySlug;
+                        }
+                        $cleanUrl = '/' . $friendlySlug;
+
                         // Find local image in assets/blog-images-all/
                         $localImage = null;
                         if (!empty($post['images'])) {
@@ -144,7 +155,7 @@ $paginatedPosts = array_slice($posts, $offset, $postsPerPage);
                         ?>
 
                         <article class="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 group">
-                            <a href="view.php?id=<?= $post['id'] ?>&slug=<?= urlencode($slug) ?>" class="block">
+                            <a href="<?= $cleanUrl ?>" class="block">
                                 <!-- Image Container -->
                                 <div class="relative h-52 bg-gradient-to-br from-medical-blue/20 to-purple-100 overflow-hidden">
                                     <?php if ($localImage): ?>
